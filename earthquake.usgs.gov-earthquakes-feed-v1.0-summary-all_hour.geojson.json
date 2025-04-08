@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744008179000,
+    "generated": 1744094554000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,13 +12,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "2 km ENE of Meadow Lakes, Alaska",
-        "time": 1744007620112,
-        "updated": 1744007760706,
+        "mag": 0.5,
+        "place": "12 km SSE of Anza, CA",
+        "time": 1744093407560,
+        "updated": 1744093652682,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254giwf97",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254giwf97.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40919167",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40919167.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "40919167",
+        "ids": ",ci40919167,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.03088,
+        "rms": 0.11,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 12 km SSE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.607,
+          33.464,
+          10.09
+        ]
+      },
+      "id": "ci40919167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "14 km SSW of Tyonek, Alaska",
+        "time": 1744092941358,
+        "updated": 1744093081566,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254i6bwyf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254i6bwyf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,195 +67,155 @@
         "tsunami": 0,
         "sig": 35,
         "net": "ak",
-        "code": "0254giwf97",
-        "ids": ",ak0254giwf97,",
+        "code": "0254i6bwyf",
+        "ids": ",ak0254i6bwyf,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.3,
+        "rms": 0.38,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 2 km ENE of Meadow Lakes, Alaska"
+        "title": "M 1.5 - 14 km SSW of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.5481,
-          61.6329,
-          37
+          -151.2839,
+          60.9566,
+          71.9
         ]
       },
-      "id": "ak0254giwf97"
+      "id": "ak0254i6bwyf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1744007192040,
-        "updated": 1744008140600,
+        "mag": 2.13,
+        "place": "15 km NNW of Pinnacles, CA",
+        "time": 1744091576790,
+        "updated": 1744092442048,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75161777",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75161777.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75162282",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75162282.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
+        "sig": 70,
         "net": "nc",
-        "code": "75161777",
-        "ids": ",nc75161777,",
+        "code": "75162282",
+        "ids": ",nc75162282,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.009469,
-        "rms": 0.02,
-        "gap": 42,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.05251,
+        "rms": 0.14,
+        "gap": 76,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
+        "title": "M 2.1 - 15 km NNW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.798164367676,
-          38.8251647949219,
-          1.75
+          -121.25666809082,
+          36.6349983215332,
+          6.48000001907349
         ]
       },
-      "id": "nc75161777"
+      "id": "nc75162282"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.63,
-        "place": "9 km ESE of Valle Vista, CA",
-        "time": 1744006397300,
-        "updated": 1744006677467,
+        "mag": 2.3,
+        "place": "18 km ESE of Clam Gulch, Alaska",
+        "time": 1744091028261,
+        "updated": 1744091107783,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40918479",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40918479.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254i5whxm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254i5whxm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
+        "sig": 81,
+        "net": "ak",
+        "code": "0254i5whxm",
+        "ids": ",ak0254i5whxm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.32,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 18 km ESE of Clam Gulch, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.0888,
+          60.1564,
+          35.2
+        ]
+      },
+      "id": "ak0254i5whxm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.62,
+        "place": "24 km NNW of Searles Valley, CA",
+        "time": 1744091005930,
+        "updated": 1744091217435,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40919159",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40919159.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
         "net": "ci",
-        "code": "40918479",
-        "ids": ",ci40918479,",
+        "code": "40919159",
+        "ids": ",ci40919159,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.08389,
-        "rms": 0.17,
-        "gap": 45,
+        "nst": 29,
+        "dmin": 0.1107,
+        "rms": 0.19,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 9 km ESE of Valle Vista, CA"
+        "title": "M 1.6 - 24 km NNW of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.8121667,
-          33.7068333,
-          14.6
+          -117.516,
+          35.9671667,
+          3.79
         ]
       },
-      "id": "ci40918479"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "36 km N of Valdez, Alaska",
-        "time": 1744006107114,
-        "updated": 1744006274758,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254gir1cn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254gir1cn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "0254gir1cn",
-        "ids": ",ak0254gir1cn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.77,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 36 km N of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.4421,
-          61.4583,
-          24.2
-        ]
-      },
-      "id": "ak0254gir1cn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "72 km SSW of Harding-Birch Lakes, Alaska",
-        "time": 1744005697569,
-        "updated": 1744005784331,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254gipk58",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254gipk58.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "0254gipk58",
-        "ids": ",ak0254gipk58,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 72 km SSW of Harding-Birch Lakes, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.3115,
-          63.7979,
-          8.4
-        ]
-      },
-      "id": "ak0254gipk58"
+      "id": "ci40919159"
     }
   ],
   "bbox": [
-    -149.5481,
-    33.7068333,
-    1.75,
-    -116.8121667,
-    63.7979,
-    37
+    -151.2839,
+    33.464,
+    3.79,
+    -116.607,
+    60.9566,
+    71.9
   ]
 }
