@@ -1,341 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744353760000,
+    "generated": 1744439892000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 1
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.51,
-        "place": "17 km W of Johannesburg, CA",
-        "time": 1744353574640,
-        "updated": 1744353700064,
+        "mag": 1.6,
+        "place": "48 km WNW of Nanwalek, Alaska",
+        "time": 1744438608625,
+        "updated": 1744438725223,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40922247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40922247.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254oshj7i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254oshj7i.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ci",
-        "code": "40922247",
-        "ids": ",ci40922247,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.08252,
-        "rms": 0.15,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 17 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8143311,
-          35.3460007,
-          7.67
-        ]
-      },
-      "id": "ci40922247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.77,
-        "place": "18 km ENE of Thousand Palms, CA",
-        "time": 1744353454100,
-        "updated": 1744353675268,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40922239",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40922239.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "ci",
-        "code": "40922239",
-        "ids": ",ci40922239,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 67,
-        "dmin": 0.04279,
-        "rms": 0.16,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 18 km ENE of Thousand Palms, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2146667,
-          33.8998333,
-          7.08
-        ]
-      },
-      "id": "ci40922239"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.52,
-        "place": "16 km W of Johannesburg, CA",
-        "time": 1744351772740,
-        "updated": 1744352023114,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40922231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40922231.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "ci",
-        "code": "40922231",
-        "ids": ",ci40922231,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.09456,
-        "rms": 0.21,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 16 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8063333,
-          35.3565,
-          6.23
-        ]
-      },
-      "id": "ci40922231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1744350633850,
-        "updated": 1744352535961,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75163451",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75163451.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75163451",
-        "ids": ",nc75163451,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.01677,
-        "rms": 0.01,
-        "gap": 42,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 8 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.809501647949,
-          38.8308334350586,
-          1.82000005245209
-        ]
-      },
-      "id": "nc75163451"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.38,
-        "place": "21 km NNW of Borrego Springs, CA",
-        "time": 1744350548290,
-        "updated": 1744350750970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40922223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40922223.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "40922223",
-        "ids": ",ci40922223,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.174,
-        "rms": 0.13,
-        "gap": 240,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 21 km NNW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4651667,
-          33.429,
-          6.7
-        ]
-      },
-      "id": "ci40922223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.23,
-        "place": "16 km W of Johannesburg, CA",
-        "time": 1744350458600,
-        "updated": 1744350675961,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40922215",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40922215.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "40922215",
-        "ids": ",ci40922215,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.1523,
-        "rms": 0.17,
-        "gap": 113,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 16 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8063333,
-          35.3466667,
-          7.32
-        ]
-      },
-      "id": "ci40922215"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.54,
-        "place": "17 km W of Johannesburg, CA",
-        "time": 1744350431110,
-        "updated": 1744350654960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40922207",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40922207.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "ci",
-        "code": "40922207",
-        "ids": ",ci40922207,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.2396,
-        "rms": 0.23,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 17 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8163333,
-          35.3485,
-          0.5
-        ]
-      },
-      "id": "ci40922207"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "108 km S of Yudomari, Japan",
-        "time": 1744350405713,
-        "updated": 1744353094040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q5bn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q5bn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000q5bn",
-        "ids": ",us6000q5bn,",
-        "sources": ",us,",
+        "sig": 39,
+        "net": "ak",
+        "code": "0254oshj7i",
+        "ids": ",ak0254oshj7i,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 2.249,
-        "rms": 0.72,
-        "gap": 136,
-        "magType": "mb",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.31,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - 108 km S of Yudomari, Japan"
+        "title": "M 1.6 - 48 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.4722,
-          29.253,
-          48.999
+          -152.6452,
+          59.5814,
+          80.2
         ]
       },
-      "id": "us6000q5bn"
+      "id": "ak0254oshj7i"
     }
-  ],
-  "bbox": [
-    -122.80950164795,
-    29.253,
-    0.5,
-    130.4722,
-    38.830833435059,
-    48.999
   ]
 }
