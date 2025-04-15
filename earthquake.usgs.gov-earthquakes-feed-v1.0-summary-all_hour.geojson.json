@@ -1,12 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744613046000,
+    "generated": 1744699338000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 0
+    "count": 6
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "41 km N of Skwentna, Alaska",
+        "time": 1744698865118,
+        "updated": 1744699002953,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254tr7drj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254tr7drj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "0254tr7drj",
+        "ids": ",ak0254tr7drj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.52,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 41 km N of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5522,
+          62.3571,
+          81.5
+        ]
+      },
+      "id": "ak0254tr7drj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.01,
+        "place": "4 km SSE of Julian, CA",
+        "time": 1744698464780,
+        "updated": 1744698686950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40927943",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40927943.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "ci",
+        "code": "40927943",
+        "ids": ",ci40927943,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.09122,
+        "rms": 0.19,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 4 km SSE of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5838333,
+          33.05,
+          14.15
+        ]
+      },
+      "id": "ci40927943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.21,
+        "place": "10 km SSW of Idyllwild, CA",
+        "time": 1744698083910,
+        "updated": 1744698757870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40927935",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40927935.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 23,
+        "net": "ci",
+        "code": "40927935",
+        "ids": ",ci40927935,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.07244,
+        "rms": 0.17,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 10 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7581667,
+          33.6516667,
+          14.6
+        ]
+      },
+      "id": "ci40927935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "5 km SSE of Julian, CA",
+        "time": 1744697954780,
+        "updated": 1744698214475,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40927927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40927927.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "40927927",
+        "ids": ",ci40927927,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.04772,
+        "rms": 0.18,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 5 km SSE of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5818333,
+          33.035,
+          13.26
+        ]
+      },
+      "id": "ci40927927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.83,
+        "place": "10 km SSW of Idyllwild, CA",
+        "time": 1744697088340,
+        "updated": 1744697945686,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40927919",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40927919.geojson",
+        "felt": 2,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "40927919",
+        "ids": ",ci40927919,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.0657,
+        "rms": 0.18,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 10 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7506667,
+          33.6545,
+          13.86
+        ]
+      },
+      "id": "ci40927919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.11,
+        "place": "16 km WSW of Johannesburg, CA",
+        "time": 1744696255160,
+        "updated": 1744696467797,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40927911",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40927911.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "40927911",
+        "ids": ",ci40927911,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.07209,
+        "rms": 0.19,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 16 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8101667,
+          35.3335,
+          7
+        ]
+      },
+      "id": "ci40927911"
+    }
+  ],
+  "bbox": [
+    -151.5522,
+    33.035,
+    7,
+    -116.5818333,
+    62.3571,
+    81.5
+  ]
 }
