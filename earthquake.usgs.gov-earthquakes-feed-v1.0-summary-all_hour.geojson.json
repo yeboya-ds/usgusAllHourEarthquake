@@ -1,104 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746945657000,
+    "generated": 1747032302000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.87,
-        "place": "12 km S of Fern Forest, Hawaii",
-        "time": 1746944854190,
-        "updated": 1746945060130,
+        "mag": 0.77,
+        "place": "3 km NW of The Geysers, CA",
+        "time": 1747031026830,
+        "updated": 1747031124534,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74670442",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74670442.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75180116",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75180116.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 54,
-        "net": "hv",
-        "code": "74670442",
-        "ids": ",hv74670442,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.03485,
-        "rms": 0.270000011,
-        "gap": 112,
-        "magType": "ml",
+        "sig": 9,
+        "net": "nc",
+        "code": "75180116",
+        "ids": ",nc75180116,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.007359,
+        "rms": 0.02,
+        "gap": 93,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 12 km S of Fern Forest, Hawaii"
+        "title": "M 0.8 - 3 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.120330810547,
-          19.3501663208008,
-          3.38000011444092
+          -122.778503417969,
+          38.7929992675781,
+          1.48000001907349
         ]
       },
-      "id": "hv74670442"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "10 km NE of Aguanga, CA",
-        "time": 1746944837900,
-        "updated": 1746945045849,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41150712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41150712.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41150712",
-        "ids": ",ci41150712,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.02761,
-        "rms": 0.21,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 10 km NE of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7761667,
-          33.4971667,
-          9.29
-        ]
-      },
-      "id": "ci41150712"
+      "id": "nc75180116"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "25 km SSW of Westbrook, Texas",
-        "time": 1746944714449,
-        "updated": 1746945456589,
+        "place": "44 km WNW of Nanwalek, Alaska",
+        "time": 1747030841037,
+        "updated": 1747030912935,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025jeas",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025jeas.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02562emsav",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02562emsav.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,156 +66,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "tx",
-        "code": "2025jeas",
-        "ids": ",tx2025jeas,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 117,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 1.9 - 25 km SSW of Westbrook, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.075,
-          32.127,
-          2.4257
-        ]
-      },
-      "id": "tx2025jeas"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.91,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1746944637560,
-        "updated": 1746944863146,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41150704",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41150704.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41150704",
-        "ids": ",ci41150704,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.06973,
-        "rms": 0.21,
-        "gap": 95,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 17 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8113333,
-          35.3313333,
-          5.65
-        ]
-      },
-      "id": "ci41150704"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "58 km NNW of Glacier View, Alaska",
-        "time": 1746944533655,
-        "updated": 1746944672613,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02560r3t4l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02560r3t4l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
         "net": "ak",
-        "code": "02560r3t4l",
-        "ids": ",ak02560r3t4l,",
+        "code": "02562emsav",
+        "ids": ",ak02562emsav,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.91,
+        "rms": 0.15,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 58 km NNW of Glacier View, Alaska"
+        "title": "M 1.9 - 44 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.0721,
-          62.2952,
-          33.1
+          -152.6823,
+          59.4375,
+          77
         ]
       },
-      "id": "ak02560r3t4l"
+      "id": "ak02562emsav"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "42 km WNW of Ninilchik, Alaska",
-        "time": 1746944174945,
-        "updated": 1746944294822,
+        "mag": 4.9,
+        "place": "South Georgia Island region",
+        "time": 1747030838815,
+        "updated": 1747032064040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02560r2ixi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02560r2ixi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pys2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pys2.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "02560r2ixi",
-        "ids": ",ak02560r2ixi,",
-        "sources": ",ak,",
+        "sig": 369,
+        "net": "us",
+        "code": "7000pys2",
+        "ids": ",us7000pys2,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.39,
-        "gap": null,
-        "magType": "ml",
+        "nst": 44,
+        "dmin": 2.359,
+        "rms": 0.6,
+        "gap": 178,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.2 - 42 km WNW of Ninilchik, Alaska"
+        "title": "M 4.9 - South Georgia Island region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.3282,
-          60.2506,
-          75.7
+          -32.6304,
+          -55.017,
+          10
         ]
       },
-      "id": "ak02560r2ixi"
+      "id": "us7000pys2"
     }
   ],
   "bbox": [
-    -155.12033081055,
-    19.350166320801,
-    2.4257,
-    -101.075,
-    62.2952,
-    75.7
+    -152.6823,
+    -55.017,
+    1.4800000190735,
+    -32.6304,
+    59.4375,
+    77
   ]
 }
