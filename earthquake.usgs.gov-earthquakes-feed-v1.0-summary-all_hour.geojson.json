@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747032302000,
+    "generated": 1747118622000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.77,
+        "mag": 0.75,
         "place": "3 km NW of The Geysers, CA",
-        "time": 1747031026830,
-        "updated": 1747031124534,
+        "time": 1747118245800,
+        "updated": 1747118340834,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75180116",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75180116.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75181397",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75181397.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,14 +27,14 @@
         "tsunami": 0,
         "sig": 9,
         "net": "nc",
-        "code": "75180116",
-        "ids": ",nc75180116,",
+        "code": "75181397",
+        "ids": ",nc75181397,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.007359,
-        "rms": 0.02,
-        "gap": 93,
+        "nst": 8,
+        "dmin": 0.006045,
+        "rms": 0.01,
+        "gap": 74,
         "magType": "md",
         "type": "earthquake",
         "title": "M 0.8 - 3 km NW of The Geysers, CA"
@@ -42,100 +42,220 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.778503417969,
-          38.7929992675781,
-          1.48000001907349
+          -122.782501220703,
+          38.7975006103516,
+          3.32999992370605
         ]
       },
-      "id": "nc75180116"
+      "id": "nc75181397"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "44 km WNW of Nanwalek, Alaska",
-        "time": 1747030841037,
-        "updated": 1747030912935,
+        "mag": 0.7,
+        "place": "28 km S of Chickaloon, Alaska",
+        "time": 1747118170766,
+        "updated": 1747118253124,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02562emsav",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02562emsav.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256429hx0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256429hx0.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 8,
         "net": "ak",
-        "code": "02562emsav",
-        "ids": ",ak02562emsav,",
+        "code": "0256429hx0",
+        "ids": ",ak0256429hx0,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.15,
+        "rms": 0.25,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 44 km WNW of Nanwalek, Alaska"
+        "title": "M 0.7 - 28 km S of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.6823,
-          59.4375,
-          77
+          -148.378,
+          61.5406,
+          23.2
         ]
       },
-      "id": "ak02562emsav"
+      "id": "ak0256429hx0"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "South Georgia Island region",
-        "time": 1747030838815,
-        "updated": 1747032064040,
+        "mag": 2.43,
+        "place": "4 km E of La Parguera, Puerto Rico",
+        "time": 1747117878380,
+        "updated": 1747118463530,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pys2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pys2.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71482278",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71482278.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pys2",
-        "ids": ",us7000pys2,",
-        "sources": ",us,",
+        "sig": 91,
+        "net": "pr",
+        "code": "71482278",
+        "ids": ",pr71482278,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 2.359,
-        "rms": 0.6,
-        "gap": 178,
-        "magType": "mb",
+        "nst": 16,
+        "dmin": 0.04285,
+        "rms": 0.2,
+        "gap": 161,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.9 - South Georgia Island region"
+        "title": "M 2.4 - 4 km E of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.6304,
-          -55.017,
-          10
+          -67.0006666666667,
+          17.9803333333333,
+          6.49
         ]
       },
-      "id": "us7000pys2"
+      "id": "pr71482278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "32 km W of Tatitlek, Alaska",
+        "time": 1747117621101,
+        "updated": 1747117739001,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256427jq6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256427jq6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "0256427jq6",
+        "ids": ",ak0256427jq6,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 32 km W of Tatitlek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.2692,
+          60.8951,
+          19.1
+        ]
+      },
+      "id": "ak0256427jq6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "47 km NW of Beatty, Nevada",
+        "time": 1747116803818,
+        "updated": 1747117341040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897526",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897526.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nn",
+        "code": "00897526",
+        "ids": ",us7000pyy5,nn00897526,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.134,
+        "rms": 0.2819,
+        "gap": 96.35999999999996,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 47 km NW of Beatty, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1215,
+          37.2247,
+          0.7
+        ]
+      },
+      "id": "nn00897526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.79,
+        "place": "2 km NW of The Geysers, CA",
+        "time": 1747116252310,
+        "updated": 1747118236450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75181392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75181392.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "nc",
+        "code": "75181392",
+        "ids": ",nc75181392,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.009985,
+        "rms": 0.05,
+        "gap": 78,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 2 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.775497436523,
+          38.7908325195312,
+          1.8400000333786
+        ]
+      },
+      "id": "nc75181392"
     }
   ],
   "bbox": [
-    -152.6823,
-    -55.017,
-    1.4800000190735,
-    -32.6304,
-    59.4375,
-    77
+    -148.378,
+    17.980333333333,
+    0.7,
+    -67.000666666667,
+    61.5406,
+    23.2
   ]
 }
