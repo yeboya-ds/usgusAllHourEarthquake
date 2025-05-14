@@ -1,64 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747118622000,
+    "generated": 1747205090000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1747118245800,
-        "updated": 1747118340834,
+        "mag": 2.43,
+        "place": "3 km NNW of Dover, Oklahoma",
+        "time": 1747204756535,
+        "updated": 1747205166614,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75181397",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75181397.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025jjnc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025jjnc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75181397",
-        "ids": ",nc75181397,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.006045,
-        "rms": 0.01,
-        "gap": 74,
-        "magType": "md",
+        "sig": 91,
+        "net": "ok",
+        "code": "2025jjnc",
+        "ids": ",ok2025jjnc,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.07236786187,
+        "rms": 0.5676525568,
+        "gap": 50.11000061,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 3 km NW of The Geysers, CA"
+        "title": "M 2.4 - 3 km NNW of Dover, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.782501220703,
-          38.7975006103516,
-          3.32999992370605
+          -97.93428802,
+          36.01213074,
+          4.05050993
         ]
       },
-      "id": "nc75181397"
+      "id": "ok2025jjnc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "18 km ESE of Anza, CA",
+        "time": 1747203625220,
+        "updated": 1747203839563,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41152496",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41152496.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ci",
+        "code": "41152496",
+        "ids": ",ci41152496,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.09495,
+        "rms": 0.19,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 18 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4886667,
+          33.4985,
+          12.16
+        ]
+      },
+      "id": "ci41152496"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.7,
-        "place": "28 km S of Chickaloon, Alaska",
-        "time": 1747118170766,
-        "updated": 1747118253124,
+        "place": "87 km W of Tyonek, Alaska",
+        "time": 1747203099841,
+        "updated": 1747203219510,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256429hx0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256429hx0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02565pnjr4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02565pnjr4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,195 +107,275 @@
         "tsunami": 0,
         "sig": 8,
         "net": "ak",
-        "code": "0256429hx0",
-        "ids": ",ak0256429hx0,",
+        "code": "02565pnjr4",
+        "ids": ",ak02565pnjr4,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.25,
+        "rms": 0.1,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 28 km S of Chickaloon, Alaska"
+        "title": "M 0.7 - 87 km W of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.378,
-          61.5406,
-          23.2
+          -152.7562,
+          61.0744,
+          12.9
         ]
       },
-      "id": "ak0256429hx0"
+      "id": "ak02565pnjr4"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.43,
-        "place": "4 km E of La Parguera, Puerto Rico",
-        "time": 1747117878380,
-        "updated": 1747118463530,
+        "mag": 2.5,
+        "place": "5 km NNW of Dover, Oklahoma",
+        "time": 1747203042050,
+        "updated": 1747203517174,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71482278",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71482278.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 91,
-        "net": "pr",
-        "code": "71482278",
-        "ids": ",pr71482278,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.04285,
-        "rms": 0.2,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 4 km E of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0006666666667,
-          17.9803333333333,
-          6.49
-        ]
-      },
-      "id": "pr71482278"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "32 km W of Tatitlek, Alaska",
-        "time": 1747117621101,
-        "updated": 1747117739001,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256427jq6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256427jq6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025jjmd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025jjmd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 96,
+        "net": "ok",
+        "code": "2025jjmd",
+        "ids": ",ok2025jjmd,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 75,
+        "dmin": 0.0906221047,
+        "rms": 0.7038395948,
+        "gap": 37.98608398,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km NNW of Dover, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.92501831,
+          36.02924728,
+          1.124936461
+        ]
+      },
+      "id": "ok2025jjmd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "25 km NW of Eureka Roadhouse, Alaska",
+        "time": 1747203022564,
+        "updated": 1747203154005,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02565pnapc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02565pnapc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
         "net": "ak",
-        "code": "0256427jq6",
-        "ids": ",ak0256427jq6,",
+        "code": "02565pnapc",
+        "ids": ",ak02565pnapc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.35,
+        "rms": 0.51,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 32 km W of Tatitlek, Alaska"
+        "title": "M 1.0 - 25 km NW of Eureka Roadhouse, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.2692,
-          60.8951,
-          19.1
+          -147.5557,
+          62.0822,
+          36.3
         ]
       },
-      "id": "ak0256427jq6"
+      "id": "ak02565pnapc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "47 km NW of Beatty, Nevada",
-        "time": 1747116803818,
-        "updated": 1747117341040,
+        "mag": 1.54,
+        "place": "16 km NNW of Tehachapi, CA",
+        "time": 1747202881170,
+        "updated": 1747203097779,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897526",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897526.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41152488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41152488.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
-        "net": "nn",
-        "code": "00897526",
-        "ids": ",us7000pyy5,nn00897526,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.134,
-        "rms": 0.2819,
-        "gap": 96.35999999999996,
+        "sig": 36,
+        "net": "ci",
+        "code": "41152488",
+        "ids": ",ci41152488,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 27,
+        "dmin": 0.09754,
+        "rms": 0.13,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 47 km NW of Beatty, Nevada"
+        "title": "M 1.5 - 16 km NNW of Tehachapi, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1215,
-          37.2247,
-          0.7
+          -118.5331667,
+          35.2586667,
+          6.2
         ]
       },
-      "id": "nn00897526"
+      "id": "ci41152488"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.79,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1747116252310,
-        "updated": 1747118236450,
+        "mag": 2.29,
+        "place": "3 km NNW of Dover, Oklahoma",
+        "time": 1747202620857,
+        "updated": 1747203016276,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75181392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75181392.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025jjlx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025jjlx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
+        "sig": 81,
+        "net": "ok",
+        "code": "2025jjlx",
+        "ids": ",ok2025jjlx,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.0773736909,
+        "rms": 0.3925909023,
+        "gap": 47.90267944,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 3 km NNW of Dover, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.92787933,
+          36.01441574,
+          3.936074734
+        ]
+      },
+      "id": "ok2025jjlx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "64 km W of Petersville, Alaska",
+        "time": 1747202526947,
+        "updated": 1747202671900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02565pljrq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02565pljrq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "02565pljrq",
+        "ids": ",ak02565pljrq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 64 km W of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.0087,
+          62.5188,
+          0
+        ]
+      },
+      "id": "ak02565pljrq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1747202267760,
+        "updated": 1747204339032,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75181807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75181807.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
         "net": "nc",
-        "code": "75181392",
-        "ids": ",nc75181392,",
+        "code": "75181807",
+        "ids": ",nc75181807,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.009985,
-        "rms": 0.05,
-        "gap": 78,
+        "nst": 11,
+        "dmin": 0.009068,
+        "rms": 0.01,
+        "gap": 77,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 2 km NW of The Geysers, CA"
+        "title": "M 0.8 - 4 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.775497436523,
-          38.7908325195312,
-          1.8400000333786
+          -122.78466796875,
+          38.8043327331543,
+          3.29999995231628
         ]
       },
-      "id": "nc75181392"
+      "id": "nc75181807"
     }
   ],
   "bbox": [
-    -148.378,
-    17.980333333333,
-    0.7,
-    -67.000666666667,
-    61.5406,
-    23.2
+    -152.7562,
+    33.4985,
+    0,
+    -97.92501831,
+    62.5188,
+    36.3
   ]
 }
