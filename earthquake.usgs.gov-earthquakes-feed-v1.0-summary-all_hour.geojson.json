@@ -1,301 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749969726000,
+    "generated": 1750056435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.16,
-        "place": "1 km NNW of Pinole, CA",
-        "time": 1749969460410,
-        "updated": 1749969554919,
+        "mag": 5,
+        "place": "125 km S of Hihifo, Tonga",
+        "time": 1750054636562,
+        "updated": 1750055888040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195941",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195941.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "nc",
-        "code": "75195941",
-        "ids": ",nc75195941,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.07357,
-        "rms": 0.02,
-        "gap": 110,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 1 km NNW of Pinole, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.308502197266,
-          38.0138320922852,
-          5.51999998092651
-        ]
-      },
-      "id": "nc75195941"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "37 km NNW of Valdez, Alaska",
-        "time": 1749969375711,
-        "updated": 1749969676091,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257mmzyl2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257mmzyl2.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "0257mmzyl2",
-        "ids": ",ak0257mmzyl2,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.79,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 37 km NNW of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.5044,
-          61.4559,
-          16.6
-        ]
-      },
-      "id": "ak0257mmzyl2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": -0.4,
-        "place": "46 km SE of Beatty, Nevada",
-        "time": 1749967955269,
-        "updated": 1749968079990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898957",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898957.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 0,
-        "net": "nn",
-        "code": "00898957",
-        "ids": ",nn00898957,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.015,
-        "rms": 0.1102,
-        "gap": 215.64000000000001,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M -0.4 - 46 km SE of Beatty, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3576,
-          36.6463,
-          5.5
-        ]
-      },
-      "id": "nn00898957"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "6 km E of Borrego Springs, CA",
-        "time": 1749966553750,
-        "updated": 1749966762875,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40994847",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40994847.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "40994847",
-        "ids": ",ci40994847,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.07788,
-        "rms": 0.23,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km E of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3058333,
-          33.2575,
-          11.53
-        ]
-      },
-      "id": "ci40994847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1749966370060,
-        "updated": 1749966578569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40994839",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40994839.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "40994839",
-        "ids": ",ci40994839,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.07673,
-        "rms": 0.13,
-        "gap": 100,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 14 km SW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5151667,
-          35.6836667,
-          10.32
-        ]
-      },
-      "id": "ci40994839"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.98,
-        "place": "14 km SE of Pinnacles, CA",
-        "time": 1749966171490,
-        "updated": 1749966264436,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195926",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195926.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "nc",
-        "code": "75195926",
-        "ids": ",nc75195926,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.1298,
-        "rms": 0.1,
-        "gap": 159,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 14 km SE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.027000427246,
-          36.4488334655762,
-          11.3000001907349
-        ]
-      },
-      "id": "nc75195926"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "48 km SSE of Uyuni, Bolivia",
-        "time": 1749966159041,
-        "updated": 1749968193040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qke5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qke5.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkj7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkj7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 385,
         "net": "us",
-        "code": "6000qke5",
-        "ids": ",us6000qke5,",
+        "code": "6000qkj7",
+        "ids": ",us6000qkj7,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 2.397,
-        "rms": 1.04,
-        "gap": 95,
+        "nst": 67,
+        "dmin": 3.791,
+        "rms": 1.28,
+        "gap": 50,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 48 km SSE of Uyuni, Bolivia"
+        "title": "M 5.0 - 125 km S of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.7215,
-          -20.8872,
-          218.352
+          -173.9689,
+          -17.0779,
+          116.641
         ]
       },
-      "id": "us6000qke5"
+      "id": "us6000qkj7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.27,
+        "place": "7 km NNW of The Geysers, CA",
+        "time": 1750053774510,
+        "updated": 1750053870129,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196236",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196236.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75196236",
+        "ids": ",nc75196236,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.002375,
+        "rms": 0.01,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 7 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.811836242676,
+          38.8253326416016,
+          3.16000008583069
+        ]
+      },
+      "id": "nc75196236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "42 km SE of Emajagua, Puerto Rico",
+        "time": 1750053571950,
+        "updated": 1750054664740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71485903",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71485903.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "pr",
+        "code": "71485903",
+        "ids": ",pr71485903,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.3983,
+        "rms": 0.19,
+        "gap": 241,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 42 km SE of Emajagua, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.657,
+          17.6801666666667,
+          25.99
+        ]
+      },
+      "id": "pr71485903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.44,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1750053158700,
+        "updated": 1750053255829,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196231",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196231.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "nc",
+        "code": "75196231",
+        "ids": ",nc75196231,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.01166,
+        "rms": 0.01,
+        "gap": 99,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.774002075195,
+          38.8040008544922,
+          3.4300000667572
+        ]
+      },
+      "id": "nc75196231"
     }
   ],
   "bbox": [
-    -146.5044,
-    -20.8872,
-    5.5,
-    -66.7215,
-    61.4559,
-    218.352
+    -173.9689,
+    -17.0779,
+    3.1600000858307,
+    -65.657,
+    38.825332641602,
+    116.641
   ]
 }
