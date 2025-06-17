@@ -1,181 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750056435000,
+    "generated": 1750142716000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "125 km S of Hihifo, Tonga",
-        "time": 1750054636562,
-        "updated": 1750055888040,
+        "mag": 0.52,
+        "place": "15 km SSE of Big Bear Lake, CA",
+        "time": 1750142049800,
+        "updated": 1750142291098,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkj7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkj7.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40996479",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40996479.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "40996479",
+        "ids": ",ci40996479,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.06121,
+        "rms": 0.13,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 15 km SSE of Big Bear Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8663333,
+          34.114,
+          2.65
+        ]
+      },
+      "id": "ci40996479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.36,
+        "place": "15 km W of Johannesburg, CA",
+        "time": 1750141557030,
+        "updated": 1750141768059,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40996471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40996471.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "ci",
+        "code": "40996471",
+        "ids": ",ci40996471,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.09705,
+        "rms": 0.15,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 15 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8041667,
+          35.3585,
+          6.91
+        ]
+      },
+      "id": "ci40996471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "168 km WNW of Tobelo, Indonesia",
+        "time": 1750141533587,
+        "updated": 1750142686040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkrl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkrl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 400,
         "net": "us",
-        "code": "6000qkj7",
-        "ids": ",us6000qkj7,",
+        "code": "6000qkrl",
+        "ids": ",us6000qkrl,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 3.791,
-        "rms": 1.28,
-        "gap": 50,
+        "nst": 103,
+        "dmin": 1.621,
+        "rms": 1.22,
+        "gap": 44,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 125 km S of Hihifo, Tonga"
+        "title": "M 5.1 - 168 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.9689,
-          -17.0779,
-          116.641
+          126.5703,
+          2.1928,
+          51.95
         ]
       },
-      "id": "us6000qkj7"
+      "id": "us6000qkrl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.27,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1750053774510,
-        "updated": 1750053870129,
+        "mag": 1.7,
+        "place": "49 km N of Chase, Alaska",
+        "time": 1750140752159,
+        "updated": 1750140877512,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196236",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196236.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257pxxjnz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257pxxjnz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75196236",
-        "ids": ",nc75196236,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.002375,
-        "rms": 0.01,
-        "gap": 192,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.811836242676,
-          38.8253326416016,
-          3.16000008583069
-        ]
-      },
-      "id": "nc75196236"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "42 km SE of Emajagua, Puerto Rico",
-        "time": 1750053571950,
-        "updated": 1750054664740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71485903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71485903.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "71485903",
-        "ids": ",pr71485903,",
-        "sources": ",pr,",
+        "sig": 44,
+        "net": "ak",
+        "code": "0257pxxjnz",
+        "ids": ",ak0257pxxjnz,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.3983,
-        "rms": 0.19,
-        "gap": 241,
-        "magType": "md",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 42 km SE of Emajagua, Puerto Rico"
+        "title": "M 1.7 - 49 km N of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.657,
-          17.6801666666667,
-          25.99
+          -150.1062,
+          62.8914,
+          65.9
         ]
       },
-      "id": "pr71485903"
+      "id": "ak0257pxxjnz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.44,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1750053158700,
-        "updated": 1750053255829,
+        "mag": 1.4,
+        "place": "18 km NW of Midland, Texas",
+        "time": 1750140219080,
+        "updated": 1750140425144,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196231.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lvaidx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lvaidx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
-        "net": "nc",
-        "code": "75196231",
-        "ids": ",nc75196231,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01166,
-        "rms": 0.01,
-        "gap": 99,
-        "magType": "md",
+        "sig": 30,
+        "net": "tx",
+        "code": "2025lvaidx",
+        "ids": ",tx2025lvaidx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 75,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 3 km NNW of The Geysers, CA"
+        "title": "M 1.4 - 18 km NW of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.774002075195,
-          38.8040008544922,
-          3.4300000667572
+          -102.204,
+          32.125,
+          4.4183
         ]
       },
-      "id": "nc75196231"
+      "id": "tx2025lvaidx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "18 km NW of Midland, Texas",
+        "time": 1750140069124,
+        "updated": 1750140367880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lvagfd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lvagfd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2025lvagfd",
+        "ids": ",tx2025lvagfd,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 84,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 18 km NW of Midland, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.203,
+          32.128,
+          4.8168
+        ]
+      },
+      "id": "tx2025lvagfd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "34 km E of Noatak, Alaska",
+        "time": 1750139956758,
+        "updated": 1750141188040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257pxm5hy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257pxm5hy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "0257pxm5hy",
+        "ids": ",us6000qkrg,ak0257pxm5hy,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.93,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 34 km E of Noatak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.1536,
+          67.5651,
+          31
+        ]
+      },
+      "id": "ak0257pxm5hy"
     }
   ],
   "bbox": [
-    -173.9689,
-    -17.0779,
-    3.1600000858307,
-    -65.657,
-    38.825332641602,
-    116.641
+    -162.1536,
+    2.1928,
+    2.65,
+    126.5703,
+    67.5651,
+    65.9
   ]
 }
