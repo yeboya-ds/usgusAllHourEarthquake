@@ -1,301 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751092968000,
+    "generated": 1751179441000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0,
-        "place": "56 km E of Beatty, Nevada",
-        "time": 1751092476682,
-        "updated": 1751092573105,
+        "mag": 2.87,
+        "place": "64 km SSW of Santa Isabel, Puerto Rico",
+        "time": 1751176922870,
+        "updated": 1751178799060,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899622.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 0,
-        "net": "nn",
-        "code": "00899622",
-        "ids": ",nn00899622,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.058,
-        "rms": 0.1256,
-        "gap": 107.54000000000002,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.0 - 56 km E of Beatty, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1273,
-          36.9417,
-          8.1
-        ]
-      },
-      "id": "nn00899622"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": -0.5,
-        "place": "35 km WNW of Indian Springs, Nevada",
-        "time": 1751091792289,
-        "updated": 1751091903757,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899621",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899621.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 0,
-        "net": "nn",
-        "code": "00899621",
-        "ids": ",nn00899621,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.02,
-        "rms": 0.15,
-        "gap": 95.35000000000002,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M -0.5 - 35 km WNW of Indian Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0108,
-          36.7285,
-          4.5
-        ]
-      },
-      "id": "nn00899621"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1751091351610,
-        "updated": 1751092338842,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75201616",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75201616.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75201616",
-        "ids": ",nc75201616,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.01052,
-        "rms": 0.02,
-        "gap": 66,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 8 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81916809082,
-          38.8311653137207,
-          1.6599999666214
-        ]
-      },
-      "id": "nc75201616"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "170 km S of Nikolski, Alaska",
-        "time": 1751090899335,
-        "updated": 1751092105472,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9an",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9an.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.574,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000q9an",
-        "ids": ",us7000q9an,ak025884tia1,",
-        "sources": ",us,ak,",
-        "types": ",oaf,origin,phase-data,shakemap,",
-        "nst": 153,
-        "dmin": 1.546,
-        "rms": 0.96,
-        "gap": 98,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 170 km S of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.5588,
-          51.4196,
-          10
-        ]
-      },
-      "id": "us7000q9an"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1751090647690,
-        "updated": 1751091736760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75201611",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75201611.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75201611",
-        "ids": ",nc75201611,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.01338,
-        "rms": 0.02,
-        "gap": 125,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.806663513184,
-          38.8424987792969,
-          1.27999997138977
-        ]
-      },
-      "id": "nc75201611"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.95,
-        "place": "14 km SE of Pāhala, Hawaii",
-        "time": 1751090334830,
-        "updated": 1751090533850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74710722",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74710722.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 58,
-        "net": "hv",
-        "code": "74710722",
-        "ids": ",hv74710722,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.09359,
-        "rms": 0.119999997,
-        "gap": 187,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 14 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.366500854492,
-          19.1310005187988,
-          28.6499996185303
-        ]
-      },
-      "id": "hv74710722"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "140 km SW of El Palmarcito, Mexico",
-        "time": 1751089669920,
-        "updated": 1751090908040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9aj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9aj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71487513",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71487513.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 127,
+        "net": "pr",
+        "code": "71487513",
+        "ids": ",pr71487513,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.6457,
+        "rms": 0.32,
+        "gap": 265,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 64 km SSW of Santa Isabel, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5328333333333,
+          17.3973333333333,
+          24.39
+        ]
+      },
+      "id": "pr71487513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "96 km N of Tatsugō, Japan",
+        "time": 1751176369913,
+        "updated": 1751178402040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9h6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9h6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
         "net": "us",
-        "code": "7000q9aj",
-        "ids": ",us7000q9aj,",
+        "code": "7000q9h6",
+        "ids": ",us7000q9h6,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 141,
-        "dmin": 2.558,
-        "rms": 1.56,
-        "gap": 165,
+        "nst": 40,
+        "dmin": 2.336,
+        "rms": 0.74,
+        "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 140 km SW of El Palmarcito, Mexico"
+        "title": "M 4.5 - 96 km N of Tatsugō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.1992,
-          14.663,
+          129.505,
+          29.3144,
           10
         ]
       },
-      "id": "us7000q9aj"
+      "id": "us7000q9h6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "35 km NNE of Trona, CA",
+        "time": 1751176126530,
+        "updated": 1751176334590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41008231",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41008231.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41008231",
+        "ids": ",ci41008231,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.2006,
+        "rms": 0.25,
+        "gap": 227,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 35 km NNE of Trona, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1661667,
+          36.028,
+          18.07
+        ]
+      },
+      "id": "ci41008231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "south of Panama",
+        "time": 1751175995305,
+        "updated": 1751177015040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9h4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9h4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000q9h4",
+        "ids": ",us7000q9h4,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 72,
+        "dmin": 4.637,
+        "rms": 0.9,
+        "gap": 144,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - south of Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6878,
+          3.9148,
+          10
+        ]
+      },
+      "id": "us7000q9h4"
     }
   ],
   "bbox": [
-    -168.5588,
-    14.663,
-    1.2799999713898,
-    -94.1992,
-    51.4196,
-    28.64999961853
+    -117.1661667,
+    3.9148,
+    10,
+    129.505,
+    36.028,
+    24.39
   ]
 }
