@@ -1,224 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751438776000,
+    "generated": 1751525164000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.24,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1751438672350,
-        "updated": 1751438768620,
+        "mag": 1.97,
+        "place": "7 km NNW of Warner Springs, CA",
+        "time": 1751524919500,
+        "updated": 1751525159738,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75203406",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75203406.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013239",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013239.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75203406",
-        "ids": ",nc75203406,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01143,
-        "rms": 0.02,
-        "gap": 60,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.2 - 8 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.809669494629,
-          38.8348350524902,
-          1.80999994277954
-        ]
-      },
-      "id": "nc75203406"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.66,
-        "place": "5 km SW of Anza, CA",
-        "time": 1751438316600,
-        "updated": 1751438528190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41012039",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41012039.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
+        "sig": 60,
         "net": "ci",
-        "code": "41012039",
-        "ids": ",ci41012039,",
+        "code": "41013239",
+        "ids": ",ci41013239,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.0511,
+        "nst": 23,
+        "dmin": 0.0902,
         "rms": 0.12,
-        "gap": 29,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 5 km SW of Anza, CA"
+        "title": "M 2.0 - 7 km NNW of Warner Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7041667,
-          33.5223333,
-          15.13
+          -116.668,
+          33.3378333,
+          11.81
         ]
       },
-      "id": "ci41012039"
+      "id": "ci41013239"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "94 km NNW of Tatsugō, Japan",
-        "time": 1751437609347,
-        "updated": 1751438693040,
+        "mag": 1.57,
+        "place": "2 km SW of Yorba Linda, CA",
+        "time": 1751524860190,
+        "updated": 1751525069405,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa5e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa5e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000qa5e",
-        "ids": ",us7000qa5e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 101,
-        "dmin": 2.488,
-        "rms": 1.17,
-        "gap": 49,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 94 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.2443,
-          29.2436,
-          10
-        ]
-      },
-      "id": "us7000qa5e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1751437481470,
-        "updated": 1751437578347,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75203401",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75203401.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013223",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013223.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75203401",
-        "ids": ",nc75203401,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.008406,
-        "rms": 0.01,
-        "gap": 82,
-        "magType": "md",
+        "sig": 38,
+        "net": "ci",
+        "code": "41013223",
+        "ids": ",ci41013223,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 78,
+        "dmin": 0.03093,
+        "rms": 0.21,
+        "gap": 31,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km NNW of The Geysers, CA"
+        "title": "M 1.6 - 2 km SW of Yorba Linda, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815498352051,
-          38.8306655883789,
-          1.71000003814697
+          -117.8286667,
+          33.8726667,
+          7.84
         ]
       },
-      "id": "nc75203401"
+      "id": "ci41013223"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "44 km E of Anderson, Alaska",
-        "time": 1751436854184,
-        "updated": 1751436964929,
+        "mag": 0.76,
+        "place": "8 km SSW of Idyllwild, CA",
+        "time": 1751523709240,
+        "updated": 1751523916120,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258er054a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258er054a.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013215",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013215.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 9,
+        "net": "ci",
+        "code": "41013215",
+        "ids": ",ci41013215,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.0544,
+        "rms": 0.14,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 8 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.748,
+          33.6686667,
+          14.97
+        ]
+      },
+      "id": "ci41013215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "59 km WSW of Cantwell, Alaska",
+        "time": 1751523633745,
+        "updated": 1751523767781,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258gektf2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258gektf2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
         "net": "ak",
-        "code": "0258er054a",
-        "ids": ",ak0258er054a,",
+        "code": "0258gektf2",
+        "ids": ",ak0258gektf2,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.41,
+        "rms": 0.49,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 44 km E of Anderson, Alaska"
+        "title": "M 2.0 - 59 km WSW of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.2624,
-          64.3035,
-          15.3
+          -149.963,
+          63.1187,
+          74.9
         ]
       },
-      "id": "ak0258er054a"
+      "id": "ak0258gektf2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "4 km SW of Healy, Alaska",
+        "time": 1751523604810,
+        "updated": 1751523700849,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258gekr6p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258gekr6p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "0258gekr6p",
+        "ids": ",ak0258gekr6p,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 4 km SW of Healy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.0344,
+          63.8286,
+          12.7
+        ]
+      },
+      "id": "ak0258gekr6p"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "78 km N of Tatsugō, Japan",
-        "time": 1751436442218,
-        "updated": 1751437611040,
+        "place": "96 km N of Tatsugō, Japan",
+        "time": 1751523491951,
+        "updated": 1751524636040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa5c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa5c.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qadj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qadj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,275 +227,195 @@
         "tsunami": 0,
         "sig": 400,
         "net": "us",
-        "code": "7000qa5c",
-        "ids": ",us7000qa5c,",
+        "code": "7000qadj",
+        "ids": ",us7000qadj,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 89,
-        "dmin": 2.5,
-        "rms": 1.15,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 78 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4776,
-          29.1475,
-          10
-        ]
-      },
-      "id": "us7000qa5c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "51 km SSE of Denali National Park, Alaska",
-        "time": 1751436214081,
-        "updated": 1751436375273,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258eqxrfn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258eqxrfn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "0258eqxrfn",
-        "ids": ",ak0258eqxrfn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.96,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 51 km SSE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.3514,
-          63.1138,
-          0
-        ]
-      },
-      "id": "ak0258eqxrfn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "94 km NNW of Tatsugō, Japan",
-        "time": 1751435941972,
-        "updated": 1751437150040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa56",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa56.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000qa56",
-        "ids": ",us7000qa56,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 2.509,
-        "rms": 0.89,
+        "nst": 68,
+        "dmin": 2.297,
+        "rms": 1.12,
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 94 km NNW of Tatsugō, Japan"
+        "title": "M 5.1 - 96 km N of Tatsugō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.2174,
-          29.2307,
+          129.6298,
+          29.3181,
           10
         ]
       },
-      "id": "us7000qa56"
+      "id": "us7000qadj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.56,
-        "place": "4 km WSW of Anza, CA",
-        "time": 1751435760320,
-        "updated": 1751435965069,
+        "mag": 4.9,
+        "place": "29 km SSW of El Hoyo, Argentina",
+        "time": 1751523237991,
+        "updated": 1751524183040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41012023",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41012023.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41012023",
-        "ids": ",ci41012023,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.03501,
-        "rms": 0.11,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 4 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.716,
-          33.5351667,
-          5.62
-        ]
-      },
-      "id": "ci41012023"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "103 km NNW of Tatsugō, Japan",
-        "time": 1751435606784,
-        "updated": 1751436902040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa57",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa57.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qade",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qade.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 369,
         "net": "us",
-        "code": "7000qa57",
-        "ids": ",us7000qa57,",
+        "code": "7000qade",
+        "ids": ",us7000qade,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 2.477,
-        "rms": 1.31,
-        "gap": 64,
+        "nst": 81,
+        "dmin": 5.137,
+        "rms": 0.8,
+        "gap": 45,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 103 km NNW of Tatsugō, Japan"
+        "title": "M 4.9 - 29 km SSW of El Hoyo, Argentina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.1529,
-          29.2944,
-          10
+          -63.368,
+          -27.2641,
+          564.254
         ]
       },
-      "id": "us7000qa57"
+      "id": "us7000qade"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "90 km NNW of Tatsugō, Japan",
-        "time": 1751435508555,
-        "updated": 1751436501040,
+        "mag": 1.2,
+        "place": "35 km ENE of Big Pine, California",
+        "time": 1751523128096,
+        "updated": 1751523290144,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa55",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa55.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000qa55",
-        "ids": ",us7000qa55,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 2.512,
-        "rms": 1.14,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 90 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.2578,
-          29.2113,
-          10
-        ]
-      },
-      "id": "us7000qa55"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.51,
-        "place": "14 km N of Borrego Springs, CA",
-        "time": 1751435468520,
-        "updated": 1751435676035,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41012015",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41012015.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900040",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900040.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41012015",
-        "ids": ",ci41012015,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.0649,
-        "rms": 0.18,
-        "gap": 68,
+        "sig": 22,
+        "net": "nn",
+        "code": "00900040",
+        "ids": ",nn00900040,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.069,
+        "rms": 0.206,
+        "gap": 165.3,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 14 km N of Borrego Springs, CA"
+        "title": "M 1.2 - 35 km ENE of Big Pine, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4043333,
-          33.3838333,
-          12.58
+          -117.9294,
+          37.3079,
+          4
         ]
       },
-      "id": "ci41012015"
+      "id": "nn00900040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "101 km N of Tatsugō, Japan",
+        "time": 1751523108179,
+        "updated": 1751524987040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qadd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qadd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000qadd",
+        "ids": ",us7000qadd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 2.311,
+        "rms": 1.02,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 101 km N of Tatsugō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.4598,
+          29.3563,
+          10
+        ]
+      },
+      "id": "us7000qadd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "5 km NW of The Geysers, CA",
+        "time": 1751522281000,
+        "updated": 1751522377399,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75203881",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75203881.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75203881",
+        "ids": ",nc75203881,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.009974,
+        "rms": 0.02,
+        "gap": 92,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.812164306641,
+          38.7953338623047,
+          3.08999991416931
+        ]
+      },
+      "id": "nc75203881"
     }
   ],
   "bbox": [
-    -151.3514,
-    29.1475,
-    0,
-    129.4776,
-    64.3035,
-    15.3
+    -149.963,
+    -27.2641,
+    3.0899999141693,
+    129.6298,
+    63.8286,
+    564.254
   ]
 }
