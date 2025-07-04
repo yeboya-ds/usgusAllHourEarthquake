@@ -1,421 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751525164000,
+    "generated": 1751611625000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.97,
-        "place": "7 km NNW of Warner Springs, CA",
-        "time": 1751524919500,
-        "updated": 1751525159738,
+        "mag": 1.99,
+        "place": "4 km W of Magalia, CA",
+        "time": 1751611287620,
+        "updated": 1751611382702,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013239",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013239.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75204316",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75204316.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 60,
-        "net": "ci",
-        "code": "41013239",
-        "ids": ",ci41013239,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.0902,
-        "rms": 0.12,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 7 km NNW of Warner Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.668,
-          33.3378333,
-          11.81
-        ]
-      },
-      "id": "ci41013239"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.57,
-        "place": "2 km SW of Yorba Linda, CA",
-        "time": 1751524860190,
-        "updated": 1751525069405,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013223.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 38,
-        "net": "ci",
-        "code": "41013223",
-        "ids": ",ci41013223,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 78,
-        "dmin": 0.03093,
-        "rms": 0.21,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 2 km SW of Yorba Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8286667,
-          33.8726667,
-          7.84
-        ]
-      },
-      "id": "ci41013223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "8 km SSW of Idyllwild, CA",
-        "time": 1751523709240,
-        "updated": 1751523916120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013215",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013215.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "41013215",
-        "ids": ",ci41013215,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.0544,
-        "rms": 0.14,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 8 km SSW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.748,
-          33.6686667,
-          14.97
-        ]
-      },
-      "id": "ci41013215"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "59 km WSW of Cantwell, Alaska",
-        "time": 1751523633745,
-        "updated": 1751523767781,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258gektf2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258gektf2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "0258gektf2",
-        "ids": ",ak0258gektf2,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.49,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 59 km WSW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.963,
-          63.1187,
-          74.9
-        ]
-      },
-      "id": "ak0258gektf2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "4 km SW of Healy, Alaska",
-        "time": 1751523604810,
-        "updated": 1751523700849,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258gekr6p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258gekr6p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "0258gekr6p",
-        "ids": ",ak0258gekr6p,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 4 km SW of Healy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.0344,
-          63.8286,
-          12.7
-        ]
-      },
-      "id": "ak0258gekr6p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "96 km N of Tatsugō, Japan",
-        "time": 1751523491951,
-        "updated": 1751524636040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qadj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qadj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qadj",
-        "ids": ",us7000qadj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 2.297,
-        "rms": 1.12,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 96 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.6298,
-          29.3181,
-          10
-        ]
-      },
-      "id": "us7000qadj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "29 km SSW of El Hoyo, Argentina",
-        "time": 1751523237991,
-        "updated": 1751524183040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qade",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qade.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qade",
-        "ids": ",us7000qade,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 81,
-        "dmin": 5.137,
-        "rms": 0.8,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 29 km SSW of El Hoyo, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.368,
-          -27.2641,
-          564.254
-        ]
-      },
-      "id": "us7000qade"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "35 km ENE of Big Pine, California",
-        "time": 1751523128096,
-        "updated": 1751523290144,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900040",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900040.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "nn",
-        "code": "00900040",
-        "ids": ",nn00900040,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.069,
-        "rms": 0.206,
-        "gap": 165.3,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 35 km ENE of Big Pine, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9294,
-          37.3079,
-          4
-        ]
-      },
-      "id": "nn00900040"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "101 km N of Tatsugō, Japan",
-        "time": 1751523108179,
-        "updated": 1751524987040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qadd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qadd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qadd",
-        "ids": ",us7000qadd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 2.311,
-        "rms": 1.02,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 101 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4598,
-          29.3563,
-          10
-        ]
-      },
-      "id": "us7000qadd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1751522281000,
-        "updated": 1751522377399,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75203881",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75203881.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 61,
         "net": "nc",
-        "code": "75203881",
-        "ids": ",nc75203881,",
+        "code": "75204316",
+        "ids": ",nc75204316,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.009974,
-        "rms": 0.02,
-        "gap": 92,
+        "nst": 10,
+        "dmin": 0.08328,
+        "rms": 0.24,
+        "gap": 143,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 5 km NW of The Geysers, CA"
+        "title": "M 2.0 - 4 km W of Magalia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.812164306641,
-          38.7953338623047,
-          3.08999991416931
+          -121.626998901367,
+          39.8074989318848,
+          9.47000026702881
         ]
       },
-      "id": "nc75203881"
+      "id": "nc75204316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.56,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1751610793670,
+        "updated": 1751611003278,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013975",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013975.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 37,
+        "net": "ci",
+        "code": "41013975",
+        "ids": ",ci41013975,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.05245,
+        "rms": 0.2,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8115,
+          35.3118333,
+          6.74
+        ]
+      },
+      "id": "ci41013975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "37 km SSE of Dyer, Nevada",
+        "time": 1751610375630,
+        "updated": 1751610534984,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900100",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900100.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nn",
+        "code": "00900100",
+        "ids": ",nn00900100,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.069,
+        "rms": 0.2274,
+        "gap": 188.26999999999998,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 37 km SSE of Dyer, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8851,
+          37.3657,
+          5
+        ]
+      },
+      "id": "nn00900100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.32,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1751609731010,
+        "updated": 1751610737066,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75204301",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75204301.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "nc",
+        "code": "75204301",
+        "ids": ",nc75204301,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.01053,
+        "rms": 0.02,
+        "gap": 31,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.803169250488,
+          38.8351669311523,
+          2.08999991416931
+        ]
+      },
+      "id": "nc75204301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.43,
+        "place": "0 km ENE of Borrego Springs, CA",
+        "time": 1751609051970,
+        "updated": 1751609273615,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013967",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013967.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41013967",
+        "ids": ",ci41013967,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.03963,
+        "rms": 0.18,
+        "gap": 91,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 0 km ENE of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3716667,
+          33.2573333,
+          3.11
+        ]
+      },
+      "id": "ci41013967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.65,
+        "place": "10 km NE of Indio, CA",
+        "time": 1751608658060,
+        "updated": 1751608869509,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013959",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013959.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41013959",
+        "ids": ",ci41013959,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.07993,
+        "rms": 0.17,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 10 km NE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1293333,
+          33.7745,
+          5.17
+        ]
+      },
+      "id": "ci41013959"
     }
   ],
   "bbox": [
-    -149.963,
-    -27.2641,
-    3.0899999141693,
-    129.6298,
-    63.8286,
-    564.254
+    -122.80316925049,
+    33.2573333,
+    2.0899999141693,
+    -116.1293333,
+    39.807498931885,
+    9.4700002670288
   ]
 }
