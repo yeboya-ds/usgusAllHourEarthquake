@@ -1,261 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751870828000,
+    "generated": 1751957169000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.39,
-        "place": "10 km  of Pinnacles, CA",
-        "time": 1751870377050,
-        "updated": 1751870472252,
+        "mag": 1.6,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1751956891723,
+        "updated": 1751957037275,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206537",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206537.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nhpvlz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nhpvlz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "nc",
-        "code": "75206537",
-        "ids": ",nc75206537,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04642,
-        "rms": 0.12,
-        "gap": 107,
-        "magType": "md",
+        "sig": 39,
+        "net": "tx",
+        "code": "2025nhpvlz",
+        "ids": ",tx2025nhpvlz,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 104,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 10 km  of Pinnacles, CA"
+        "title": "M 1.6 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.182998657227,
-          36.6181678771973,
-          8.81999969482422
+          -104.456,
+          31.634,
+          2.3287
         ]
       },
-      "id": "nc75206537"
+      "id": "tx2025nhpvlz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.11,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1751870272550,
-        "updated": 1751870367208,
+        "mag": 0.75,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1751956754490,
+        "updated": 1751956849771,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206532",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206532.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206932",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206932.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
+        "sig": 9,
         "net": "nc",
-        "code": "75206532",
-        "ids": ",nc75206532,",
+        "code": "75206932",
+        "ids": ",nc75206932,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.009897,
+        "nst": 10,
+        "dmin": 0.007416,
+        "rms": 0.03,
+        "gap": 110,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 9 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.844497680664,
+          38.8236656188965,
+          2.05999994277954
+        ]
+      },
+      "id": "nc75206932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "17 km NNW of Meadow Lakes, Alaska",
+        "time": 1751956694624,
+        "updated": 1751956829501,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258ooddau",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258ooddau.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ak",
+        "code": "0258ooddau",
+        "ids": ",ak0258ooddau,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 17 km NNW of Meadow Lakes, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6719,
+          61.7773,
+          40.5
+        ]
+      },
+      "id": "ak0258ooddau"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1751955674002,
+        "updated": 1751955855137,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nhpdxw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nhpdxw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2025nhpdxw",
+        "ids": ",tx2025nhpdxw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 58 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.326,
+          31.652,
+          4.1647
+        ]
+      },
+      "id": "tx2025nhpdxw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.52,
+        "place": "15 km SSE of Pinnacles, CA",
+        "time": 1751955287080,
+        "updated": 1751956636294,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206927.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75206927",
+        "ids": ",nc75206927,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.0331,
+        "rms": 0.15,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 15 km SSE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.028335571289,
+          36.4323348999023,
+          7.80999994277954
+        ]
+      },
+      "id": "nc75206927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1751954554650,
+        "updated": 1751954649493,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206922.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75206922",
+        "ids": ",nc75206922,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01396,
+        "rms": 0.04,
+        "gap": 75,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.812164306641,
+          38.8033332824707,
+          2.53999996185303
+        ]
+      },
+      "id": "nc75206922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.69,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1751953817210,
+        "updated": 1751953914293,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206917",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206917.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "nc",
+        "code": "75206917",
+        "ids": ",nc75206917,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.005834,
         "rms": 0.01,
         "gap": 87,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+        "title": "M 0.7 - 9 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.8125,
-          38.8136672973633,
-          2.74000000953674
+          -122.842498779297,
+          38.8231658935547,
+          2.07999992370605
         ]
       },
-      "id": "nc75206532"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "15 km NW of Lake Pillsbury, CA",
-        "time": 1751869263030,
-        "updated": 1751870537862,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206527",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206527.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "nc",
-        "code": "75206527",
-        "ids": ",nc75206527,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.1001,
-        "rms": 0.09,
-        "gap": 39,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 15 km NW of Lake Pillsbury, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.110496520996,
-          39.4804992675781,
-          3.65000009536743
-        ]
-      },
-      "id": "nc75206527"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.01,
-        "place": "10 km NE of Indio, CA",
-        "time": 1751868421530,
-        "updated": 1751868621837,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41015847",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41015847.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41015847",
-        "ids": ",ci41015847,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.07903,
-        "rms": 0.17,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 10 km NE of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1293333,
-          33.778,
-          5.26
-        ]
-      },
-      "id": "ci41015847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.73,
-        "place": "6 km WSW of Anza, CA",
-        "time": 1751868090010,
-        "updated": 1751868300788,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41015831",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41015831.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "ci",
-        "code": "41015831",
-        "ids": ",ci41015831,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.03815,
-        "rms": 0.12,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 6 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7311667,
-          33.5275,
-          5.66
-        ]
-      },
-      "id": "ci41015831"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1751867825370,
-        "updated": 1751867922300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206522",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206522.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75206522",
-        "ids": ",nc75206522,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.005447,
-        "rms": 0.01,
-        "gap": 41,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 8 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.814666748047,
-          38.8274993896484,
-          2.16000008583069
-        ]
-      },
-      "id": "nc75206522"
+      "id": "nc75206917"
     }
   ],
   "bbox": [
-    -123.110496521,
-    33.5275,
-    2.1600000858307,
-    -116.1293333,
-    39.480499267578,
-    8.8199996948242
+    -149.6719,
+    31.634,
+    2.0599999427795,
+    -104.326,
+    61.7773,
+    40.5
   ]
 }
