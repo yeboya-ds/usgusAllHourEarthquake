@@ -1,261 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753944616000,
+    "generated": 1754031124000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "13 km W of Stanton, Texas",
-        "time": 1753943972386,
-        "updated": 1753944314145,
+        "mag": 1.4,
+        "place": "12 km WSW of Stanton, Texas",
+        "time": 1754030167395,
+        "updated": 1754030449186,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025oxvlzs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025oxvlzs.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ozrbws",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ozrbws.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
+        "sig": 30,
         "net": "tx",
-        "code": "2025oxvlzs",
-        "ids": ",tx2025oxvlzs,",
+        "code": "2025ozrbws",
+        "ids": ",tx2025ozrbws,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 24,
+        "nst": 23,
         "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 49,
+        "rms": 0.5,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 13 km W of Stanton, Texas"
+        "title": "M 1.4 - 12 km WSW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.928,
-          32.109,
-          2.5226
+          -101.915,
+          32.105,
+          3.2359
         ]
       },
-      "id": "tx2025oxvlzs"
+      "id": "tx2025ozrbws"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "24 km SSW of Cooper Landing, Alaska",
-        "time": 1753943724829,
-        "updated": 1753944416043,
+        "mag": 2.4,
+        "place": "19 km NW of Midland, Texas",
+        "time": 1754029957473,
+        "updated": 1754030312113,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259qppq1m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259qppq1m.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ozqyrq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ozqyrq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "0259qppq1m",
-        "ids": ",ak0259qppq1m,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.96,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 24 km SSW of Cooper Landing, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.9427,
-          60.2741,
-          74.2
-        ]
-      },
-      "id": "ak0259qppq1m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "46 km NW of Egegik, Alaska",
-        "time": 1753942850725,
-        "updated": 1753942969779,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259qpmkk0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259qpmkk0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "0259qpmkk0",
-        "ids": ",ak0259qpmkk0,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.92,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 46 km NW of Egegik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.9807,
-          58.4872,
-          39.4
-        ]
-      },
-      "id": "ak0259qpmkk0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "14 km SE of Pearsall, Texas",
-        "time": 1753942648218,
-        "updated": 1753942803399,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025oxutan",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025oxutan.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
+        "sig": 89,
         "net": "tx",
-        "code": "2025oxutan",
-        "ids": ",tx2025oxutan,",
+        "code": "2025ozqyrq",
+        "ids": ",tx2025ozqyrq,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 218,
+        "nst": 71,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 14 km SE of Pearsall, Texas"
+        "title": "M 2.4 - 19 km NW of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.977,
-          28.817,
-          5
+          -102.213,
+          32.129,
+          4.158
         ]
       },
-      "id": "tx2025oxutan"
+      "id": "tx2025ozqyrq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "8 km NNW of Midland, Texas",
-        "time": 1753942270144,
-        "updated": 1753942490131,
+        "mag": 0.54,
+        "place": "20 km ESE of Little Lake, CA",
+        "time": 1754029799070,
+        "updated": 1754030006620,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025oxunpa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025oxunpa.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41250296",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41250296.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2025oxunpa",
-        "ids": ",tx2025oxunpa,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 132,
+        "sig": 4,
+        "net": "ci",
+        "code": "41250296",
+        "ids": ",ci41250296,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.05679,
+        "rms": 0.09,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km NNW of Midland, Texas"
+        "title": "M 0.5 - 20 km ESE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.1,
-          32.071,
-          10.3358
+          -117.6861667,
+          35.899,
+          4.1
         ]
       },
-      "id": "tx2025oxunpa"
+      "id": "ci41250296"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "163 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1753941617854,
-        "updated": 1753942602040,
+        "mag": 2.6,
+        "place": "161 km S of False Pass, Alaska",
+        "time": 1754029169528,
+        "updated": 1754029838040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwul",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qwul.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qx7r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qx7r.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 104,
         "net": "us",
-        "code": "6000qwul",
-        "ids": ",us6000qwul,",
+        "code": "6000qx7r",
+        "ids": ",us6000qx7r,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 92,
-        "dmin": 1.458,
-        "rms": 1.14,
-        "gap": 117,
-        "magType": "mb",
+        "nst": 10,
+        "dmin": 1.295,
+        "rms": 0.13,
+        "gap": 207,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.0 - 163 km E of Petropavlovsk-Kamchatsky, Russia"
+        "title": "M 2.6 - 161 km S of False Pass, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          161.0502,
-          52.8909,
+          -163.5357,
+          53.4062,
           10
         ]
       },
-      "id": "us6000qwul"
+      "id": "us6000qx7r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.59,
+        "place": "10 km NNW of The Geysers, CA",
+        "time": 1754028393720,
+        "updated": 1754028490262,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75217777",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75217777.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "nc",
+        "code": "75217777",
+        "ids": ",nc75217777,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.001627,
+        "rms": 0.01,
+        "gap": 151,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 10 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.835998535156,
+          38.8401679992676,
+          1.64999997615814
+        ]
+      },
+      "id": "nc75217777"
     }
   ],
   "bbox": [
-    -157.9807,
-    28.817,
-    2.5226,
-    161.0502,
-    60.2741,
-    74.2
+    -163.5357,
+    32.105,
+    1.6499999761581,
+    -101.915,
+    53.4062,
+    10
   ]
 }
