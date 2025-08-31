@@ -1,104 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756535975000,
+    "generated": 1756622475000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.26,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1756535720420,
-        "updated": 1756535817699,
+        "mag": 1.73,
+        "place": "6 km S of Devore, CA",
+        "time": 1756622314300,
+        "updated": 1756622440501,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75230682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75230682.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279856.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75230682",
-        "ids": ",nc75230682,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01631,
-        "rms": 0.01,
-        "gap": 113,
-        "magType": "md",
+        "sig": 46,
+        "net": "ci",
+        "code": "41279856",
+        "ids": ",ci41279856,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 78,
+        "dmin": 0.02587,
+        "rms": 0.19,
+        "gap": 19,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 8 km WNW of Cobb, CA"
+        "title": "M 1.7 - 6 km S of Devore, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.813331604004,
-          38.84033203125,
-          2.23000001907349
+          -117.4101639,
+          34.1710014,
+          6.91
         ]
       },
-      "id": "nc75230682"
+      "id": "ci41279856"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "41 km N of Petersville, Alaska",
-        "time": 1756535590734,
-        "updated": 1756535713864,
+        "mag": 0.76,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1756622010190,
+        "updated": 1756622106960,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b4btold",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b4btold.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75231092",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75231092.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 9,
+        "net": "nc",
+        "code": "75231092",
+        "ids": ",nc75231092,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.0123,
+        "rms": 0.01,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.794334411621,
+          38.8238334655762,
+          2.90000009536743
+        ]
+      },
+      "id": "nc75231092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "40 km NNE of Petersville, Alaska",
+        "time": 1756622005746,
+        "updated": 1756622131378,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b5zd28u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b5zd28u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
         "net": "ak",
-        "code": "025b4btold",
-        "ids": ",ak025b4btold,",
+        "code": "025b5zd28u",
+        "ids": ",ak025b5zd28u,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.47,
+        "rms": 0.53,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 41 km N of Petersville, Alaska"
+        "title": "M 1.5 - 40 km NNE of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.8617,
-          62.8704,
-          93.7
+          -150.5975,
+          62.8522,
+          81.6
         ]
       },
-      "id": "ak025b4btold"
+      "id": "ak025b5zd28u"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.57,
-        "place": "8 km S of Idyllwild, CA",
-        "time": 1756535077360,
-        "updated": 1756535338060,
+        "mag": 0.63,
+        "place": "0 km N of The Geysers, CA",
+        "time": 1756621837750,
+        "updated": 1756621931897,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279176",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279176.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75231087",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75231087.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "nc",
+        "code": "75231087",
+        "ids": ",nc75231087,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.01585,
+        "rms": 0.03,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 0 km N of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.75666809082,
+          38.7803344726562,
+          1.19000005722046
+        ]
+      },
+      "id": "nc75231087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.59,
+        "place": "12 km NNE of Ocotillo Wells, CA",
+        "time": 1756621531160,
+        "updated": 1756621785390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279840",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279840.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -107,38 +187,238 @@
         "tsunami": 0,
         "sig": 5,
         "net": "ci",
-        "code": "41279176",
-        "ids": ",ci41279176,",
+        "code": "41279840",
+        "ids": ",ci41279840,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.08056,
-        "rms": 0.12,
-        "gap": 61,
+        "nst": 40,
+        "dmin": 0.08206,
+        "rms": 0.23,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 8 km S of Idyllwild, CA"
+        "title": "M 0.6 - 12 km NNE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7028333,
-          33.6663333,
-          16.04
+          -116.0675,
+          33.2346667,
+          9.75
         ]
       },
-      "id": "ci41279176"
+      "id": "ci41279840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "50 km E of Ugashik, Alaska",
+        "time": 1756621293282,
+        "updated": 1756621422518,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b5zai8g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b5zai8g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "025b5zai8g",
+        "ids": ",ak025b5zai8g,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 50 km E of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.5502,
+          57.5068,
+          12.9
+        ]
+      },
+      "id": "ak025b5zai8g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "12 km WSW of El Centro, CA",
+        "time": 1756620720530,
+        "updated": 1756621359260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279832.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ci",
+        "code": "41279832",
+        "ids": ",ci41279832,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.05521,
+        "rms": 0.24,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 12 km WSW of El Centro, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6723333,
+          32.731,
+          7.22
+        ]
+      },
+      "id": "ci41279832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "13 km N of Arecibo, Puerto Rico",
+        "time": 1756620711140,
+        "updated": 1756622234800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494048",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494048.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "pr",
+        "code": "71494048",
+        "ids": ",pr71494048,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.2045,
+        "rms": 0.21,
+        "gap": 254,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 13 km N of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7083333333333,
+          18.5918333333333,
+          15.92
+        ]
+      },
+      "id": "pr71494048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.77,
+        "place": "104 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1756620545120,
+        "updated": 1756622079238,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025243000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025243000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 219,
+        "net": "pr",
+        "code": "2025243000",
+        "ids": ",pr2025243000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.989,
+        "rms": 0.44,
+        "gap": 250,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 104 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1243,
+          19.265,
+          71
+        ]
+      },
+      "id": "pr2025243000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "7 km ESE of Nelchina, Alaska",
+        "time": 1756619403539,
+        "updated": 1756619530643,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b5yv83l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b5yv83l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "025b5yv83l",
+        "ids": ",ak025b5yv83l,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.07,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 7 km ESE of Nelchina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.6354,
+          61.9685,
+          0
+        ]
+      },
+      "id": "ak025b5yv83l"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.1,
-        "place": "3 km ESE of Colton, CA",
-        "time": 1756534223740,
-        "updated": 1756534868590,
+        "place": "35 km NW of Stanton, Texas",
+        "time": 1756619391883,
+        "updated": 1756619608111,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279168",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279168.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rcrimn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rcrimn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,36 +426,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 19,
-        "net": "ci",
-        "code": "41279168",
-        "ids": ",ci41279168,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.03882,
-        "rms": 0.19,
-        "gap": 29,
+        "net": "tx",
+        "code": "2025rcrimn",
+        "ids": ",tx2025rcrimn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 3 km ESE of Colton, CA"
+        "title": "M 1.1 - 35 km NW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.2846667,
-          34.0665,
-          6.9
+          -102.077,
+          32.341,
+          2.683
         ]
       },
-      "id": "ci41279168"
+      "id": "tx2025rcrimn"
     }
   ],
   "bbox": [
-    -150.8617,
-    33.6663333,
-    2.2300000190735,
-    -116.7028333,
-    62.8704,
-    93.7
+    -156.5502,
+    18.591833333333,
+    0,
+    -65.1243,
+    62.8522,
+    81.6
   ]
 }
