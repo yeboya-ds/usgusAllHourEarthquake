@@ -1,421 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756709236000,
+    "generated": 1756795486000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "1 km W of Lemmon Valley, Nevada",
-        "time": 1756708388218,
-        "updated": 1756708511762,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903609",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903609.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "nn",
-        "code": "00903609",
-        "ids": ",nn00903609,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.068,
-        "rms": 0.2109,
-        "gap": 131.76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 1 km W of Lemmon Valley, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.8636,
-          39.638,
-          0.1
-        ]
-      },
-      "id": "nn00903609"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.88,
-        "place": "10 km NE of Coso Junction, CA",
-        "time": 1756708044200,
-        "updated": 1756708255728,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280520",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280520.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41280520",
-        "ids": ",ci41280520,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.01251,
-        "rms": 0.1,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 10 km NE of Coso Junction, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.859,
-          36.1055,
-          3.23
-        ]
-      },
-      "id": "ci41280520"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.23,
-        "place": "10 km NE of Coso Junction, CA",
-        "time": 1756707968620,
-        "updated": 1756708598910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280512.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "ci",
-        "code": "41280512",
-        "ids": ",ci41280512,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.01244,
-        "rms": 0.15,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 10 km NE of Coso Junction, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.86,
-          36.1058333,
-          2.66
-        ]
-      },
-      "id": "ci41280512"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.42,
-        "place": "23 km SW of Ocotillo Wells, CA",
-        "time": 1756707421910,
-        "updated": 1756708053750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280504",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280504.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "ci",
-        "code": "41280504",
-        "ids": ",ci41280504,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 62,
-        "dmin": 0.02827,
-        "rms": 0.19,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 23 km SW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2798333,
-          32.9748333,
-          9.21
-        ]
-      },
-      "id": "ci41280504"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
-        "place": "9 km N of Acton, CA",
-        "time": 1756707183290,
-        "updated": 1756707808980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280496",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280496.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "41280496",
-        "ids": ",ci41280496,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.05159,
-        "rms": 0.18,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 9 km N of Acton, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.2008333,
-          34.5521667,
-          11.81
-        ]
-      },
-      "id": "ci41280496"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "14 km ENE of Lucerne Valley, CA",
-        "time": 1756706258430,
-        "updated": 1756706467758,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280488",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280488.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41280488",
-        "ids": ",ci41280488,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1157,
-        "rms": 0.16,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 14 km ENE of Lucerne Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.8381667,
-          34.5068333,
-          7.82
-        ]
-      },
-      "id": "ci41280488"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.79,
-        "place": "11 km S of Idyllwild, CA",
-        "time": 1756706181420,
-        "updated": 1756706388484,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280472.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41280472",
-        "ids": ",ci41280472,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.05371,
-        "rms": 0.16,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 11 km S of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7315,
-          33.645,
-          14.62
-        ]
-      },
-      "id": "ci41280472"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.4,
-        "place": "159 km NNW of Neiafu, Tonga",
-        "time": 1756706079625,
-        "updated": 1756707858040,
+        "place": "58 km ENE of San Vicente, Mexico",
+        "time": 1756795316000,
+        "updated": 1756795343000,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qsyj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qsyj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1756795340",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1756795340.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "ew",
+        "code": "1756795340",
+        "ids": ",ew1756795340,",
+        "sources": ",ew,",
+        "types": ",origin,",
+        "nst": 13,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.4 - 58 km ENE of San Vicente, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6467,
+          31.4564,
+          8
+        ]
+      },
+      "id": "ew1756795340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "69 km SW of Cordova, Alaska",
+        "time": 1756794895846,
+        "updated": 1756795060249,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b9ag19s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b9ag19s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "025b9ag19s",
+        "ids": ",ak025b9ag19s,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.94,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 69 km SW of Cordova, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.6013,
+          60.0751,
+          250
+        ]
+      },
+      "id": "ak025b9ag19s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "9 km NNW of Puerto Real, Puerto Rico",
+        "time": 1756794745330,
+        "updated": 1756795433440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494358",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494358.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000qsyj",
-        "ids": ",us7000qsyj,",
-        "sources": ",us,",
+        "sig": 102,
+        "net": "pr",
+        "code": "71494358",
+        "ids": ",pr71494358,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 4.46,
-        "rms": 0.79,
-        "gap": 73,
-        "magType": "mb",
+        "nst": 6,
+        "dmin": 0.1402,
+        "rms": 0.19,
+        "gap": 239,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.4 - 159 km NNW of Neiafu, Tonga"
+        "title": "M 2.6 - 9 km NNW of Puerto Real, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -174.7098,
-          -17.3838,
-          210.845
+          -67.2315,
+          18.1536666666667,
+          23.38
         ]
       },
-      "id": "us7000qsyj"
+      "id": "pr71494358"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "49 km SSW of Goldfield, Nevada",
-        "time": 1756705788734,
-        "updated": 1756705951851,
+        "mag": 1,
+        "place": "54 km E of Egegik, Alaska",
+        "time": 1756794551645,
+        "updated": 1756794696178,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903605",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903605.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b9aeva4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b9aeva4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "nn",
-        "code": "00903605",
-        "ids": ",nn00903605,",
-        "sources": ",nn,",
+        "sig": 15,
+        "net": "ak",
+        "code": "025b9aeva4",
+        "ids": ",ak025b9aeva4,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.181,
-        "rms": 0.4394,
-        "gap": 147.2,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 49 km SSW of Goldfield, Nevada"
+        "title": "M 1.0 - 54 km E of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.4875,
-          37.3113,
-          5.3
+          -156.4659,
+          58.147,
+          17.6
         ]
       },
-      "id": "nn00903605"
+      "id": "ak025b9aeva4"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "40 km SSE of Silver Peak, Nevada",
-        "time": 1756705664441,
-        "updated": 1756705831679,
+        "mag": 1.1,
+        "place": "21 km SSW of Mentone, Texas",
+        "time": 1756793627944,
+        "updated": 1756793908125,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903603",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903603.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rgjouf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rgjouf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "nn",
-        "code": "00903603",
-        "ids": ",nn00903603,",
-        "sources": ",nn,",
+        "sig": 19,
+        "net": "tx",
+        "code": "2025rgjouf",
+        "ids": ",tx2025rgjouf,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.36,
-        "rms": 0.2664,
-        "gap": 196.60000000000002,
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 126,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 40 km SSE of Silver Peak, Nevada"
+        "title": "M 1.1 - 21 km SSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5208,
-          37.4032,
-          16
+          -103.71,
+          31.54,
+          5.3527
         ]
       },
-      "id": "nn00903603"
+      "id": "tx2025rgjouf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "38 km WNW of Skwentna, Alaska",
+        "time": 1756792997383,
+        "updated": 1756794593689,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b9a9b3u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b9a9b3u.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "025b9a9b3u",
+        "ids": ",ak025b9a9b3u,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 38 km WNW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.026,
+          62.1761,
+          16.9
+        ]
+      },
+      "id": "ak025b9a9b3u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.36,
+        "place": "6 km N of Julian, CA",
+        "time": 1756792802840,
+        "updated": 1756793047952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41281160",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41281160.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "ci",
+        "code": "41281160",
+        "ids": ",ci41281160,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.1663,
+        "rms": 0.07,
+        "gap": 168,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 6 km N of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6,
+          33.136,
+          3.32
+        ]
+      },
+      "id": "ci41281160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.34,
+        "place": "10 km SSE of Tallaboa, Puerto Rico",
+        "time": 1756791904410,
+        "updated": 1756792829990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494343.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 84,
+        "net": "pr",
+        "code": "71494343",
+        "ids": ",pr71494343,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1341,
+        "rms": 0.14,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 10 km SSE of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.665,
+          17.9115,
+          8.49
+        ]
+      },
+      "id": "pr71494343"
     }
   ],
   "bbox": [
-    -174.7098,
-    -17.3838,
-    0.1,
-    -116.2798333,
-    39.638,
-    210.845
+    -156.4659,
+    17.9115,
+    3.32,
+    -66.665,
+    62.1761,
+    250
   ]
 }
