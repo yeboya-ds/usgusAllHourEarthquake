@@ -1,224 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758782641000,
+    "generated": 1758868991000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 7
+    "api": "2.2.0",
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "41 km NE of Chenega, Alaska",
-        "time": 1758782344864,
-        "updated": 1758782472873,
+        "mag": 2.6,
+        "place": "17 km NNW of Toyah, Texas",
+        "time": 1758868743210,
+        "updated": 1758868963649,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cbbtz9y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cbbtz9y.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025syltpk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025syltpk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "025cbbtz9y",
-        "ids": ",ak025cbbtz9y,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.04,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 41 km NE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.4871,
-          60.3271,
-          35.2
-        ]
-      },
-      "id": "ak025cbbtz9y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "16 km WSW of Fowlerton, Texas",
-        "time": 1758782154839,
-        "updated": 1758782377386,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025swqadp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025swqadp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
+        "sig": 104,
         "net": "tx",
-        "code": "2025swqadp",
-        "ids": ",tx2025swqadp,",
+        "code": "2025syltpk",
+        "ids": ",tx2025syltpk,",
         "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.5,
-        "rms": 0.3,
-        "gap": 219,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 16 km WSW of Fowlerton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.974,
-          28.415,
-          14.1235
-        ]
-      },
-      "id": "tx2025swqadp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "12 km WSW of Stanton, Texas",
-        "time": 1758781140865,
-        "updated": 1758781366698,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025swplno",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025swplno.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "tx",
-        "code": "2025swplno",
-        "ids": ",tx2025swplno,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
+        "types": ",origin,",
+        "nst": 32,
         "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 42,
+        "rms": 0.4,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 12 km WSW of Stanton, Texas"
+        "title": "M 2.6 - 17 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.92,
-          32.105,
-          3.9985
+          -103.831,
+          31.469,
+          7.1062
         ]
       },
-      "id": "tx2025swplno"
+      "id": "tx2025syltpk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.59,
-        "place": "22 km NNW of Borrego Springs, CA",
-        "time": 1758780467250,
-        "updated": 1758780712218,
+        "mag": 2,
+        "place": "49 km NW of Toyah, Texas",
+        "time": 1758868716809,
+        "updated": 1758868914639,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41097231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41097231.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sylvjj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sylvjj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41097231",
-        "ids": ",ci41097231,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.1327,
-        "rms": 0.12,
-        "gap": 74,
+        "sig": 62,
+        "net": "tx",
+        "code": "2025sylvjj",
+        "ids": ",tx2025sylvjj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 184,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 22 km NNW of Borrego Springs, CA"
+        "title": "M 2.0 - 49 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4355,
-          33.4433333,
-          14.24
+          -104.211,
+          31.576,
+          2.8656
         ]
       },
-      "id": "ci41097231"
+      "id": "tx2025sylvjj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1758780303453,
-        "updated": 1758781333040,
+        "mag": 1.6,
+        "place": "18 km ENE of Walker Lake, Nevada",
+        "time": 1758868280655,
+        "updated": 1758868440294,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcre",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcre.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905036",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905036.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rcre",
-        "ids": ",us6000rcre,",
-        "sources": ",us,",
+        "sig": 39,
+        "net": "nn",
+        "code": "00905036",
+        "ids": ",nn00905036,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 5.237,
-        "rms": 0.66,
-        "gap": 192,
-        "magType": "mb",
+        "nst": 14,
+        "dmin": 0.469,
+        "rms": 0.187,
+        "gap": 85.92999999999999,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
+        "title": "M 1.6 - 18 km ENE of Walker Lake, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.2001,
-          -22.8963,
-          580.996
+          -118.5562,
+          38.7182,
+          0
         ]
       },
-      "id": "us6000rcre"
+      "id": "nn00905036"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "31 km NW of Toyah, Texas",
-        "time": 1758779806295,
-        "updated": 1758779995357,
+        "place": "3 km NNE of Houston, Alaska",
+        "time": 1758868172780,
+        "updated": 1758868270149,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025swosla",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025swosla.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cczb8ri",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cczb8ri.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,39 +146,39 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "tx",
-        "code": "2025swosla",
-        "ids": ",tx2025swosla,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "025cczb8ri",
+        "ids": ",ak025cczb8ri,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0,
+        "nst": null,
+        "dmin": null,
         "rms": 0.4,
-        "gap": 61,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 31 km NW of Toyah, Texas"
+        "title": "M 1.5 - 3 km NNE of Houston, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.024,
-          31.521,
-          4.3799
+          -149.7836,
+          61.6574,
+          48.5
         ]
       },
-      "id": "tx2025swosla"
+      "id": "ak025cczb8ri"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.1,
-        "place": "10 km NW of Susitna North, Alaska",
-        "time": 1758779343842,
-        "updated": 1758779457617,
+        "place": "17 km NNW of Toyah, Texas",
+        "time": 1758867125008,
+        "updated": 1758867387477,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cbbaor4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cbbaor4.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sykyma",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sykyma.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,36 +186,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 68,
-        "net": "ak",
-        "code": "025cbbaor4",
-        "ids": ",ak025cbbaor4,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2025sykyma",
+        "ids": ",tx2025sykyma,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.37,
-        "gap": null,
+        "nst": 35,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 10 km NW of Susitna North, Alaska"
+        "title": "M 2.1 - 17 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.0136,
-          62.2237,
-          47.1
+          -103.83,
+          31.471,
+          7.7559
         ]
       },
-      "id": "ak025cbbaor4"
+      "id": "tx2025sykyma"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "18 km ENE of Walker Lake, Nevada",
+        "time": 1758866702057,
+        "updated": 1758868407347,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd1k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd1k.geojson",
+        "felt": 5,
+        "cdi": 3.5,
+        "mmi": 3.905,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 224,
+        "net": "us",
+        "code": "6000rd1k",
+        "ids": ",us6000rd1k,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 0.339,
+        "rms": 0.86,
+        "gap": 27,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 3.8 - 18 km ENE of Walker Lake, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.551,
+          38.7075,
+          10
+        ]
+      },
+      "id": "us6000rd1k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "7 km WNW of Point MacKenzie, Alaska",
+        "time": 1758866282597,
+        "updated": 1758866364193,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ccyvylf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ccyvylf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "025ccyvylf",
+        "ids": ",ak025ccyvylf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.32,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 7 km WNW of Point MacKenzie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1005,
+          61.3891,
+          34.5
+        ]
+      },
+      "id": "ak025ccyvylf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.58,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1758866206050,
+        "updated": 1758867738011,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242192.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "nc",
+        "code": "75242192",
+        "ids": ",nc75242192,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 27,
+        "dmin": 0.005318,
+        "rms": 0.03,
+        "gap": 47,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.828498840332,
+          38.8141670227051,
+          1.04999995231628
+        ]
+      },
+      "id": "nc75242192"
     }
   ],
   "bbox": [
-    -150.0136,
-    -22.8963,
-    3.9985,
-    179.2001,
-    62.2237,
-    580.996
+    -150.1005,
+    31.469,
+    0,
+    -103.83,
+    61.6574,
+    48.5
   ]
 }
