@@ -1,12 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759128333000,
+    "generated": 1759214703000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.2.0",
-    "count": 0
+    "api": "1.14.1",
+    "count": 4
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "47 km SE of Ugashik, Alaska",
+        "time": 1759214309437,
+        "updated": 1759214543904,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cjlijuc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cjlijuc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "025cjlijuc",
+        "ids": ",ak025cjlijuc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 47 km SE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.9035,
+          57.1819,
+          7.1
+        ]
+      },
+      "id": "ak025cjlijuc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.64,
+        "place": "9 km NNE of Coso Junction, CA",
+        "time": 1759213294670,
+        "updated": 1759213506512,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100839",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41100839.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 41,
+        "net": "ci",
+        "code": "41100839",
+        "ids": ",ci41100839,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.03522,
+        "rms": 0.16,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 9 km NNE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9143333,
+          36.1181667,
+          5.46
+        ]
+      },
+      "id": "ci41100839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.31,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1759212659000,
+        "updated": 1759212757262,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242801",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242801.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75242801",
+        "ids": ",nc75242801,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0151,
+        "rms": 0.05,
+        "gap": 121,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.770668029785,
+          38.7999992370605,
+          1.17999994754791
+        ]
+      },
+      "id": "nc75242801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "36 km SE of Ugashik, Alaska",
+        "time": 1759211659141,
+        "updated": 1759211752163,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cjl0ize",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cjl0ize.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "025cjl0ize",
+        "ids": ",ak025cjl0ize,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 36 km SE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.0579,
+          57.2439,
+          14.6
+        ]
+      },
+      "id": "ak025cjl0ize"
+    }
+  ],
+  "bbox": [
+    -157.0579,
+    36.1181667,
+    1.1799999475479,
+    -117.9143333,
+    57.2439,
+    14.6
+  ]
 }
