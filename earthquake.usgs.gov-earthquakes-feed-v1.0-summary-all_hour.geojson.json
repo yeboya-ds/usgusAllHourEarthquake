@@ -1,341 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759733037000,
+    "generated": 1759819371000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": -0.4,
-        "place": "51 km WNW of Indian Springs, Nevada",
-        "time": 1759732659340,
-        "updated": 1759732772133,
+        "mag": 1.7,
+        "place": "4 km SSE of Christine, Texas",
+        "time": 1759818755483,
+        "updated": 1759818898548,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905487",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905487.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025tsqpwa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025tsqpwa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2025tsqpwa",
+        "ids": ",tx2025tsqpwa,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 101,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 4 km SSE of Christine, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.485,
+          28.747,
+          9.3128
+        ]
+      },
+      "id": "tx2025tsqpwa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "73 km WNW of Happy Valley, Alaska",
+        "time": 1759818245648,
+        "updated": 1759819030540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cv66xid",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cv66xid.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "ak",
+        "code": "025cv66xid",
+        "ids": ",ak025cv66xid,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 73 km WNW of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.971,
+          60.1843,
+          126.2
+        ]
+      },
+      "id": "ak025cv66xid"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "57 km NNE of Beatty, Nevada",
+        "time": 1759815849189,
+        "updated": 1759815997242,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905533",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905533.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
         "net": "nn",
-        "code": "00905487",
-        "ids": ",nn00905487,",
+        "code": "00905533",
+        "ids": ",nn00905533,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.009,
-        "rms": 0.1912,
-        "gap": 73.17000000000002,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M -0.4 - 51 km WNW of Indian Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2103,
-          36.7363,
-          6
-        ]
-      },
-      "id": "nn00905487"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.12,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1759730667770,
-        "updated": 1759730766169,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75245441",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75245441.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75245441",
-        "ids": ",nc75245441,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.01192,
-        "rms": 0.02,
-        "gap": 74,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 3 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.773330688477,
-          38.7966651916504,
-          2.98000001907349
-        ]
-      },
-      "id": "nc75245441"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.87,
-        "place": "13 km NE of Honaunau-Napoopoo, Hawaii",
-        "time": 1759730453350,
-        "updated": 1759730700890,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74794437",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74794437.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "hv",
-        "code": "74794437",
-        "ids": ",hv74794437,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.06187,
-        "rms": 0.310000002,
-        "gap": 119,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 13 km NE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.761993408203,
-          19.5310001373291,
-          8.64999961853027
-        ]
-      },
-      "id": "hv74794437"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "south of the Kermadec Islands",
-        "time": 1759730322141,
-        "updated": 1759731821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rf17",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rf17.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rf17",
-        "ids": ",us6000rf17,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 7.554,
-        "rms": 0.41,
-        "gap": 204,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.0337,
-          -32.3341,
-          10
-        ]
-      },
-      "id": "us6000rf17"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "5 km WNW of The Geysers, CA",
-        "time": 1759730193700,
-        "updated": 1759732039254,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75245431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75245431.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75245431",
-        "ids": ",nc75245431,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.01332,
-        "rms": 0.01,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 5 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813003540039,
-          38.7991676330566,
-          3.09999990463257
-        ]
-      },
-      "id": "nc75245431"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "58 km WSW of Palimbang, Philippines",
-        "time": 1759730162268,
-        "updated": 1759732734040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rf15",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rf15.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000rf15",
-        "ids": ",us6000rf15,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 2.136,
-        "rms": 0.62,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 58 km WSW of Palimbang, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.6911,
-          6.0411,
-          564.993
-        ]
-      },
-      "id": "us6000rf15"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1759730088070,
-        "updated": 1759731441126,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75245426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75245426.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75245426",
-        "ids": ",nc75245426,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 9,
-        "dmin": 0.006495,
-        "rms": 0.01,
-        "gap": 120,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.780166625977,
-          38.7908325195312,
-          2.08999991416931
-        ]
-      },
-      "id": "nc75245426"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.85,
-        "place": "19 km ESE of Little Lake, CA",
-        "time": 1759729614080,
-        "updated": 1759729815906,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41103439",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41103439.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41103439",
-        "ids": ",ci41103439,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.09747,
-        "rms": 0.15,
-        "gap": 36,
+        "dmin": 0.342,
+        "rms": 0.4367,
+        "gap": 236.64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 19 km ESE of Little Lake, CA"
+        "title": "M 0.5 - 57 km NNE of Beatty, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.7115,
-          35.8638333,
-          3.83
+          -116.5621,
+          37.4003,
+          0
         ]
       },
-      "id": "ci41103439"
+      "id": "nn00905533"
     }
   ],
   "bbox": [
-    -175.0337,
-    -32.3341,
-    2.0899999141693,
-    123.6911,
-    38.799167633057,
-    564.993
+    -152.971,
+    28.747,
+    0,
+    -98.485,
+    60.1843,
+    126.2
   ]
 }
