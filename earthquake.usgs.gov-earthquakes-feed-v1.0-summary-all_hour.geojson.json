@@ -1,261 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760942721000,
+    "generated": 1761029055000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "13 km SSE of Salton City, CA",
-        "time": 1760942580320,
-        "updated": 1760942713216,
+        "mag": 1.2,
+        "place": "15 km NNW of Sand Springs, Texas",
+        "time": 1761028718355,
+        "updated": 1761028882412,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41111575",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41111575.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025usizjf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025usizjf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 22,
+        "net": "tx",
+        "code": "2025usizjf",
+        "ids": ",tx2025usizjf,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 15 km NNW of Sand Springs, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.398,
+          32.416,
+          3.7723
+        ]
+      },
+      "id": "tx2025usizjf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.84,
+        "place": "18 km N of Borrego Springs, CA",
+        "time": 1761028713200,
+        "updated": 1761028922192,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112111",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112111.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
         "net": "ci",
-        "code": "41111575",
-        "ids": ",ci41111575,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,scitech-link,",
-        "nst": 18,
-        "dmin": 0.05352,
-        "rms": 0.18,
-        "gap": 84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 13 km SSE of Salton City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.9158325,
-          33.1865005,
-          6.23
-        ]
-      },
-      "id": "ci41111575"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.27,
-        "place": "8 km ENE of Calumet, Oklahoma",
-        "time": 1760941858695,
-        "updated": 1760942033903,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025unzu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025unzu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "ok",
-        "code": "2025unzu",
-        "ids": ",ok2025unzu,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.1609160304,
-        "rms": 0.3552412105,
-        "gap": 36.35081482,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 8 km ENE of Calumet, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.03076935,
-          35.62014389,
-          5.038031578
-        ]
-      },
-      "id": "ok2025unzu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "29 km WNW of Valdez, Alaska",
-        "time": 1760941426173,
-        "updated": 1760941555254,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgo6bcp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgo6bcp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "025dgo6bcp",
-        "ids": ",ak025dgo6bcp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.53,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 29 km WNW of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.8037,
-          61.2755,
-          20.3
-        ]
-      },
-      "id": "ak025dgo6bcp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "31 km NW of Valdez, Alaska",
-        "time": 1760940764311,
-        "updated": 1760940895024,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgo3xfg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgo3xfg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "025dgo3xfg",
-        "ids": ",ak025dgo3xfg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 31 km NW of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.7874,
-          61.3207,
-          24.5
-        ]
-      },
-      "id": "ak025dgo3xfg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16,
-        "place": "8 km SSW of Lytle Creek, CA",
-        "time": 1760940663320,
-        "updated": 1760940873396,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41111567",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41111567.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41111567",
-        "ids": ",ci41111567,",
+        "code": "41112111",
+        "ids": ",ci41112111,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.02524,
-        "rms": 0.23,
-        "gap": 35,
+        "nst": 52,
+        "dmin": 0.07402,
+        "rms": 0.18,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 8 km SSW of Lytle Creek, CA"
+        "title": "M 0.8 - 18 km N of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5185,
-          34.1878333,
-          15.67
+          -116.3688333,
+          33.4175,
+          12.2
         ]
       },
-      "id": "ci41111567"
+      "id": "ci41112111"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "29 km WNW of Valdez, Alaska",
-        "time": 1760940410775,
-        "updated": 1760941027676,
+        "mag": 0.79,
+        "place": "17 km ESE of Anza, CA",
+        "time": 1761027967450,
+        "updated": 1761028180253,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgo2oj4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgo2oj4.geojson",
-        "felt": 2,
-        "cdi": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112103",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112103.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 113,
-        "net": "ak",
-        "code": "025dgo2oj4",
-        "ids": ",ak025dgo2oj4,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.79,
-        "gap": null,
+        "sig": 10,
+        "net": "ci",
+        "code": "41112103",
+        "ids": ",ci41112103,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 45,
+        "dmin": 0.07395,
+        "rms": 0.16,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 29 km WNW of Valdez, Alaska"
+        "title": "M 0.8 - 17 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.8311,
-          61.2575,
-          12.6
+          -116.5178333,
+          33.4723333,
+          13.9
         ]
       },
-      "id": "ak025dgo2oj4"
+      "id": "ci41112103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "63 km ESE of Khandūd, Afghanistan",
+        "time": 1761026370441,
+        "updated": 1761027934040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000riej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000riej.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000riej",
+        "ids": ",us6000riej,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 1.59,
+        "rms": 0.92,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 63 km ESE of Khandūd, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9977,
+          36.7734,
+          10
+        ]
+      },
+      "id": "us6000riej"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.56,
+        "place": "21 km W of Mina, Nevada",
+        "time": 1761026047305,
+        "updated": 1761026226094,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906178",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906178.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 37,
+        "net": "nn",
+        "code": "00906178",
+        "ids": ",nn00906178,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.662,
+        "rms": 0.3041,
+        "gap": 125,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 21 km W of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3487,
+          38.4148,
+          0.0011
+        ]
+      },
+      "id": "nn00906178"
     }
   ],
   "bbox": [
-    -146.8311,
-    33.1865005,
-    5.038031578,
-    -98.03076935,
-    61.3207,
-    24.5
+    -118.3487,
+    32.416,
+    0.0011,
+    72.9977,
+    38.4148,
+    13.9
   ]
 }
