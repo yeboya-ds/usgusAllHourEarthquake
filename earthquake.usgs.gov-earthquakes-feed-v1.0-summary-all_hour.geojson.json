@@ -1,221 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761029055000,
+    "generated": 1761115499000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "15 km NNW of Sand Springs, Texas",
-        "time": 1761028718355,
-        "updated": 1761028882412,
+        "mag": 1.8,
+        "place": "22 km SSE of Kokhanok, Alaska",
+        "time": 1761114968780,
+        "updated": 1761115043443,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025usizjf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025usizjf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025djzbpri",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025djzbpri.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "tx",
-        "code": "2025usizjf",
-        "ids": ",tx2025usizjf,",
-        "sources": ",tx,",
+        "sig": 50,
+        "net": "ak",
+        "code": "025djzbpri",
+        "ids": ",ak025djzbpri,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 73,
+        "nst": null,
+        "dmin": null,
+        "rms": 1.08,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 15 km NNW of Sand Springs, Texas"
+        "title": "M 1.8 - 22 km SSE of Kokhanok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.398,
-          32.416,
-          3.7723
+          -154.6173,
+          59.2542,
+          39.1
         ]
       },
-      "id": "tx2025usizjf"
+      "id": "ak025djzbpri"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.84,
-        "place": "18 km N of Borrego Springs, CA",
-        "time": 1761028713200,
-        "updated": 1761028922192,
+        "mag": 1.6,
+        "place": "4 km NNE of Crescent, Oklahoma",
+        "time": 1761113956692,
+        "updated": 1761114036798,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112111",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112111.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025urqk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025urqk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41112111",
-        "ids": ",ci41112111,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 52,
-        "dmin": 0.07402,
-        "rms": 0.18,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 18 km N of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3688333,
-          33.4175,
-          12.2
-        ]
-      },
-      "id": "ci41112111"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.79,
-        "place": "17 km ESE of Anza, CA",
-        "time": 1761027967450,
-        "updated": 1761028180253,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112103.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41112103",
-        "ids": ",ci41112103,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.07395,
-        "rms": 0.16,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 17 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5178333,
-          33.4723333,
-          13.9
-        ]
-      },
-      "id": "ci41112103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "63 km ESE of Khandūd, Afghanistan",
-        "time": 1761026370441,
-        "updated": 1761027934040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000riej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000riej.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000riej",
-        "ids": ",us6000riej,",
-        "sources": ",us,",
+        "sig": 39,
+        "net": "ok",
+        "code": "2025urqk",
+        "ids": ",ok2025urqk,",
+        "sources": ",ok,",
         "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 1.59,
-        "rms": 0.92,
-        "gap": 79,
-        "magType": "mb",
+        "nst": 12,
+        "dmin": 0.06049057096,
+        "rms": 0.1204117309,
+        "gap": 124.6301727,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.9 - 63 km ESE of Khandūd, Afghanistan"
+        "title": "M 1.6 - 4 km NNE of Crescent, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.9977,
-          36.7734,
-          10
+          -97.57460022,
+          35.98601532,
+          4.650943756
         ]
       },
-      "id": "us6000riej"
+      "id": "ok2025urqk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.56,
-        "place": "21 km W of Mina, Nevada",
-        "time": 1761026047305,
-        "updated": 1761026226094,
+        "mag": 1.91,
+        "place": "64 km ENE of Tonopah, Nevada",
+        "time": 1761112539681,
+        "updated": 1761112721965,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906178.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906223",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906223.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 37,
+        "sig": 56,
         "net": "nn",
-        "code": "00906178",
-        "ids": ",nn00906178,",
+        "code": "00906223",
+        "ids": ",nn00906223,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.662,
-        "rms": 0.3041,
-        "gap": 125,
+        "nst": 21,
+        "dmin": 0.403,
+        "rms": 0.2302,
+        "gap": 138,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 21 km W of Mina, Nevada"
+        "title": "M 1.9 - 64 km ENE of Tonopah, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.3487,
-          38.4148,
-          0.0011
+          -116.571,
+          38.3294,
+          3.2096
         ]
       },
-      "id": "nn00906178"
+      "id": "nn00906223"
     }
   ],
   "bbox": [
-    -118.3487,
-    32.416,
-    0.0011,
-    72.9977,
-    38.4148,
-    13.9
+    -154.6173,
+    35.98601532,
+    3.2096,
+    -97.57460022,
+    59.2542,
+    39.1
   ]
 }
