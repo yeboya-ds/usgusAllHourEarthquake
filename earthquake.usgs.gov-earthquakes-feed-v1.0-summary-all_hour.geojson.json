@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762325101000,
+    "generated": 1762411598000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "61 km SE of Kokhanok, Alaska",
-        "time": 1762323189773,
-        "updated": 1762323292657,
+        "mag": 2.5,
+        "place": "32 km ENE of Pedro Bay, Alaska",
+        "time": 1762411012842,
+        "updated": 1762411254722,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e74pna9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e74pna9.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e8se0jt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e8se0jt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "025e8se0jt",
+        "ids": ",ak025e8se0jt,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 32 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.5585,
+          59.8874,
+          135.1
+        ]
+      },
+      "id": "ak025e8se0jt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "20 km W of Point MacKenzie, Alaska",
+        "time": 1762410938346,
+        "updated": 1762411050669,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e8sdrqi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e8sdrqi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,155 +67,75 @@
         "tsunami": 0,
         "sig": 50,
         "net": "ak",
-        "code": "025e74pna9",
-        "ids": ",ak025e74pna9,",
+        "code": "025e8sdrqi",
+        "ids": ",ak025e8sdrqi,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.23,
+        "rms": 0.39,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 61 km SE of Kokhanok, Alaska"
+        "title": "M 1.8 - 20 km W of Point MacKenzie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.0236,
-          59.0427,
-          116.2
+          -150.3642,
+          61.3484,
+          34
         ]
       },
-      "id": "ak025e74pna9"
+      "id": "ak025e8sdrqi"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.22,
-        "place": "14 km NE of Nice, CA",
-        "time": 1762323072340,
-        "updated": 1762323443124,
+        "mag": 2.55,
+        "place": "4 km SW of Pāhala, Hawaii",
+        "time": 1762408387640,
+        "updated": 1762408614200,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75259356",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75259356.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74824206",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74824206.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 76,
-        "net": "nc",
-        "code": "75259356",
-        "ids": ",nc75259356,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.3866,
-        "rms": 0.2,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 14 km NE of Nice, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.716499328613,
-          39.1988334655762,
-          4.26999998092651
-        ]
-      },
-      "id": "nc75259356"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.05,
-        "place": "21 km SSW of Gabbs, Nevada",
-        "time": 1762321886418,
-        "updated": 1762322104056,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906912.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "nn",
-        "code": "00906912",
-        "ids": ",nn00906912,",
-        "sources": ",nn,",
+        "sig": 100,
+        "net": "hv",
+        "code": "74824206",
+        "ids": ",hv74824206,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 1.144,
-        "rms": 0.3904,
-        "gap": 194,
+        "nst": 56,
+        "dmin": 0.0442,
+        "rms": 0.150000006,
+        "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 21 km SSW of Gabbs, Nevada"
+        "title": "M 2.6 - 4 km SW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9922,
-          38.6798,
-          15.9981
+          -155.503997802734,
+          19.1751670837402,
+          31.9400005340576
         ]
       },
-      "id": "nn00906912"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.39,
-        "place": "36 km ENE of Gabbs, Nevada",
-        "time": 1762321879869,
-        "updated": 1762322062650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906910",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906910.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 88,
-        "net": "nn",
-        "code": "00906910",
-        "ids": ",nn00906910,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.191,
-        "rms": 0.2966,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 36 km ENE of Gabbs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5426,
-          39.001,
-          2.993
-        ]
-      },
-      "id": "nn00906910"
+      "id": "hv74824206"
     }
   ],
   "bbox": [
-    -154.0236,
-    38.6798,
-    2.993,
-    -117.5426,
-    59.0427,
-    116.2
+    -155.50399780273,
+    19.17516708374,
+    31.940000534058,
+    -150.3642,
+    61.3484,
+    135.1
   ]
 }
