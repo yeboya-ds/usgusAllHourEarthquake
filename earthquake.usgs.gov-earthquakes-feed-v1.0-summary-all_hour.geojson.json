@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763448348000,
+    "generated": 1763534740000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.95,
-        "place": "20 km SSW of Pa‘auilo, Hawaii",
-        "time": 1763447565670,
-        "updated": 1763447820410,
+        "mag": 1.948940492471994,
+        "place": "37 km SW of Nanwalek, Alaska",
+        "time": 1763533379399,
+        "updated": 1763533517369,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74833197",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74833197.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wtonks",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wtonks.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,236 +26,396 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 58,
-        "net": "hv",
-        "code": "74833197",
-        "ids": ",hv74833197,",
-        "sources": ",hv,",
+        "net": "ak",
+        "code": "2025wtonks",
+        "ids": ",ak2025wtonks,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.1079,
-        "rms": 0.150000006,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 20 km SSW of Pa‘auilo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.477005004883,
-          19.8824996948242,
-          27.4200000762939
-        ]
-      },
-      "id": "hv74833197"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.19,
-        "place": "16 km E of Coso Junction, CA",
-        "time": 1763445658000,
-        "updated": 1763445872397,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41123343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41123343.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ci",
-        "code": "41123343",
-        "ids": ",ci41123343,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.006154,
-        "rms": 0.0900000036,
-        "gap": 186,
+        "nst": 33,
+        "dmin": 0.4784045815467834,
+        "rms": 0.6906758249673648,
+        "gap": 130.7373161315918,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 16 km E of Coso Junction, CA"
+        "title": "M 1.9 - 37 km SW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.769165039062,
-          36.0304985046387,
-          1.26999998092651
+          -152.32247924804688,
+          59.08517074584961,
+          30.004037857055664
         ]
       },
-      "id": "ci41123343"
+      "id": "ak2025wtonks"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.91,
-        "place": "16 km NE of Little Lake, CA",
-        "time": 1763445654630,
-        "updated": 1763445888046,
+        "mag": 1.5,
+        "place": "30 km NW of Toyah, Texas",
+        "time": 1763533306048,
+        "updated": 1763533846188,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41123335",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41123335.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025wtomdr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025wtomdr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41123335",
-        "ids": ",ci41123335,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.005329,
-        "rms": 0.1,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 16 km NE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.771333333333,
-          36.0231666666667,
-          1.49
-        ]
-      },
-      "id": "ci41123335"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "26 km NE of Crane, Texas",
-        "time": 1763445429884,
-        "updated": 1763445729311,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025wrryhd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025wrryhd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 35,
         "net": "tx",
-        "code": "2025wrryhd",
-        "ids": ",tx2025wrryhd,",
+        "code": "2025wtomdr",
+        "ids": ",tx2025wtomdr,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 26 km NE of Crane, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.165,
-          31.582,
-          2.5837
-        ]
-      },
-      "id": "tx2025wrryhd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.34,
-        "place": "23 km NNW of Borrego Springs, CA",
-        "time": 1763445141980,
-        "updated": 1763445359056,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41123327",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41123327.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41123327",
-        "ids": ",ci41123327,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.141,
+        "nst": 28,
+        "dmin": 0,
         "rms": 0.2,
-        "gap": 23,
+        "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 23 km NNW of Borrego Springs, CA"
+        "title": "M 1.5 - 30 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.431833333333,
-          33.4596666666667,
-          10.74
+          -104.003,
+          31.517,
+          4.2575
         ]
       },
-      "id": "ci41123327"
+      "id": "tx2025wtomdr"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.14,
-        "place": "24 km NNW of Borrego Springs, CA",
-        "time": 1763445111430,
-        "updated": 1763445328404,
+        "mag": 1.2296265482072,
+        "place": "6 km S of Idyllwild, CA",
+        "time": 1763533173110,
+        "updated": 1763533299134,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41123319",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41123319.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41123911",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41123911.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
+        "sig": 23,
         "net": "ci",
-        "code": "41123319",
-        "ids": ",ci41123319,",
+        "code": "41123911",
+        "ids": ",ci41123911,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.1428,
-        "rms": 0.18,
-        "gap": 33,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.02553,
+        "rms": 0.150000006,
+        "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 24 km NNW of Borrego Springs, CA"
+        "title": "M 1.2 - 6 km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4315,
-          33.4626666666667,
-          10.47
+          -116.711669921875,
+          33.6884994506836,
+          15.5500001907349
         ]
       },
-      "id": "ci41123319"
+      "id": "ci41123911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "29 km NW of Toyah, Texas",
+        "time": 1763533134567,
+        "updated": 1763533841191,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025wtojih",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025wtojih.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025wtojih",
+        "ids": ",tx2025wtojih,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 29 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.002,
+          31.517,
+          4.5194
+        ]
+      },
+      "id": "tx2025wtojih"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.12,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1763533118690,
+        "updated": 1763534236450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75265626",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75265626.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75265626",
+        "ids": ",nc75265626,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.008261,
+        "rms": 0.01,
+        "gap": 53,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81583404541,
+          38.8303337097168,
+          1.91999995708466
+        ]
+      },
+      "id": "nc75265626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.955696316587178,
+        "place": "16 km WSW of Mojave, CA",
+        "time": 1763533013140,
+        "updated": 1763533139122,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41123903",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41123903.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41123903",
+        "ids": ",ci41123903,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.02342,
+        "rms": 0.159999996,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 16 km WSW of Mojave, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.339332580566,
+          35.0139999389648,
+          9.81999969482422
+        ]
+      },
+      "id": "ci41123903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1104814312360882,
+        "place": "24 km N of Fox River, Alaska",
+        "time": 1763531555909,
+        "updated": 1763531768714,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wtnnic",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wtnnic.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "ak",
+        "code": "2025wtnnic",
+        "ids": ",ak2025wtnnic,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.32796478271484375,
+        "rms": 0.586514912435049,
+        "gap": 80.50460815429688,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 24 km N of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.01670837402344,
+          60.07323837280273,
+          58.66199493408203
+        ]
+      },
+      "id": "ak2025wtnnic"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "15 km NW of Midland, Texas",
+        "time": 1763531487041,
+        "updated": 1763532020031,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025wtnmgb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025wtnmgb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "tx",
+        "code": "2025wtnmgb",
+        "ids": ",tx2025wtnmgb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 15 km NW of Midland, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.208,
+          32.088,
+          4.9826
+        ]
+      },
+      "id": "tx2025wtnmgb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7810952969708136,
+        "place": "28 km N of Chase, Alaska",
+        "time": 1763531422032,
+        "updated": 1763531551713,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wtnlif",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wtnlif.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "ak",
+        "code": "2025wtnlif",
+        "ids": ",ak2025wtnlif,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.3000168204307556,
+        "rms": 0.7254179977422013,
+        "gap": 86.48695373535156,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 28 km N of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.19918823242188,
+          62.70320129394531,
+          72.4425277709961
+        ]
+      },
+      "id": "ak2025wtnlif"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.970914209154386,
+        "place": "6 km N of Moreno Valley, CA",
+        "time": 1763531335730,
+        "updated": 1763531461733,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41123895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41123895.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ci",
+        "code": "41123895",
+        "ids": ",ci41123895,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.0525,
+        "rms": 0.140000001,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km N of Moreno Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.224998474121,
+          33.9770011901855,
+          12.1700000762939
+        ]
+      },
+      "id": "ci41123895"
     }
   ],
   "bbox": [
-    -155.47700500488,
-    19.882499694824,
-    1.2699999809265,
-    -102.165,
-    36.030498504639,
-    27.420000076294
+    -152.32247924805,
+    31.517,
+    1.9199999570847,
+    -102.208,
+    62.703201293945,
+    72.442527770996
   ]
 }
