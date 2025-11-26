@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764053267000,
+    "generated": 1764139676000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,290 +12,290 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.81,
-        "place": "4 km SW of Redlands, CA",
-        "time": 1764052697300,
-        "updated": 1764052917810,
+        "mag": 1.5545850978447555,
+        "place": "52 km NW of Tatitlek, Alaska",
+        "time": 1764139529511,
+        "updated": 1764139644822,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338792.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xglize",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xglize.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41338792",
-        "ids": ",ci41338792,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
-        "dmin": 0.0803,
-        "rms": 0.16,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 4 km SW of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.208166666667,
-          34.0243333333333,
-          12.51
-        ]
-      },
-      "id": "ci41338792"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "24 km WSW of Westmorland, CA",
-        "time": 1764052248730,
-        "updated": 1764052476934,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338784",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338784.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41338784",
-        "ids": ",ci41338784,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.06773,
-        "rms": 0.159999996,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 24 km WSW of Westmorland, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.872001647949,
-          32.9753341674805,
-          11.3199996948242
-        ]
-      },
-      "id": "ci41338784"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.15,
-        "place": "25 km N of Tehachapi, CA",
-        "time": 1764051952370,
-        "updated": 1764052174251,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338776.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "41338776",
-        "ids": ",ci41338776,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.09333,
-        "rms": 0.15,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 25 km N of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.501833333333,
-          35.3571666666667,
-          3.7
-        ]
-      },
-      "id": "ci41338776"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8278860287149463,
-        "place": "90 km ESE of Ugashik, Alaska",
-        "time": 1764051395344,
-        "updated": 1764051682799,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xeorfk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xeorfk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 51,
+        "sig": 37,
         "net": "ak",
-        "code": "2025xeorfk",
-        "ids": ",ak2025xeorfk,",
+        "code": "2025xglize",
+        "ids": ",ak2025xglize,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.4547370970249176,
-        "rms": 0.4486248290297871,
-        "gap": 262.13892364501953,
+        "nst": 16,
+        "dmin": 0.31989187002182007,
+        "rms": 1.037456654209681,
+        "gap": 88.77566528320312,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 90 km ESE of Ugashik, Alaska"
+        "title": "M 1.6 - 52 km NW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.98635864257812,
-          57.22505950927734,
-          13.93136215209961
+          -147.464599609375,
+          61.14456558227539,
+          5
         ]
       },
-      "id": "ak2025xeorfk"
+      "id": "ak2025xglize"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.84,
-        "place": "0 km NE of Indios, Puerto Rico",
-        "time": 1764051019330,
-        "updated": 1764051985120,
+        "mag": 0.99,
+        "place": "3 km WSW of Anderson Springs, CA",
+        "time": 1764139431620,
+        "updated": 1764139528783,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500838",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500838.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269461",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269461.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 52,
-        "net": "pr",
-        "code": "71500838",
-        "ids": ",pr71500838,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.06281,
-        "rms": 0.21,
-        "gap": 175,
+        "sig": 15,
+        "net": "nc",
+        "code": "75269461",
+        "ids": ",nc75269461,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.001281,
+        "rms": 0.03,
+        "gap": 111,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 0 km NE of Indios, Puerto Rico"
+        "title": "M 1.0 - 3 km WSW of Anderson Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.817,
-          17.996,
-          15.96
+          -122.723999023438,
+          38.7605018615723,
+          1.23000001907349
         ]
       },
-      "id": "pr71500838"
+      "id": "nc75269461"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.28,
-        "place": "11 km E of Pāhala, Hawaii",
-        "time": 1764050185020,
-        "updated": 1764050507480,
+        "mag": 1.5,
+        "place": "54 km W of Mentone, Texas",
+        "time": 1764138814298,
+        "updated": 1764139080254,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74836757",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74836757.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025xgkysd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025xgkysd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 80,
-        "net": "hv",
-        "code": "74836757",
-        "ids": ",hv74836757,",
-        "sources": ",hv,",
+        "sig": 35,
+        "net": "tx",
+        "code": "2025xgkysd",
+        "ids": ",tx2025xgkysd,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.04593,
-        "rms": 0.140000001,
-        "gap": 169,
+        "nst": 28,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 11 km E of Pāhala, Hawaii"
+        "title": "M 1.5 - 54 km W of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.373840332031,
-          19.1971664428711,
-          29.9099998474121
+          -104.171,
+          31.7,
+          4.4172
         ]
       },
-      "id": "hv74836757"
+      "id": "tx2025xgkysd"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.0983833114773476,
-        "place": "20 km W of Chenega, Alaska",
-        "time": 1764049874408,
-        "updated": 1764049964811,
+        "mag": 2.6816478813935283,
+        "place": "18 km WNW of Petersville, Alaska",
+        "time": 1764138738703,
+        "updated": 1764138825793,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xenolk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xenolk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xgkxqc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xgkxqc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 111,
         "net": "ak",
-        "code": "2025xenolk",
-        "ids": ",ak2025xenolk,",
+        "code": "2025xgkxqc",
+        "ids": ",ak2025xgkxqc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.4992697536945343,
-        "rms": 1.2148919460345162,
-        "gap": 152.34774780273438,
+        "nst": 69,
+        "dmin": 0.1541779637336731,
+        "rms": 0.6358733576515084,
+        "gap": 43.808868408203125,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 20 km W of Chenega, Alaska"
+        "title": "M 2.7 - 18 km WNW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.3756866455078,
-          60.1028823852539,
-          14.755128860473633
+          -151.09994506835938,
+          62.54583740234375,
+          88.97406005859375
         ]
       },
-      "id": "ak2025xenolk"
+      "id": "ak2025xgkxqc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.38,
+        "place": "6 km NNE of Corralitos, CA",
+        "time": 1764137222170,
+        "updated": 1764137393687,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269451",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269451.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "nc",
+        "code": "75269451",
+        "ids": ",nc75269451,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.07658,
+        "rms": 0.04,
+        "gap": 68,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 6 km NNE of Corralitos, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.792167663574,
+          37.0434989929199,
+          7.46000003814697
+        ]
+      },
+      "id": "nc75269451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.87,
+        "place": "15 km W of Johannesburg, CA",
+        "time": 1764137000800,
+        "updated": 1764137224178,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41127303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41127303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41127303",
+        "ids": ",ci41127303,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.08649,
+        "rms": 0.15,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 15 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8025,
+          35.3465,
+          7.89
+        ]
+      },
+      "id": "ci41127303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.77,
+        "place": "6 km E of Day Valley, CA",
+        "time": 1764136537250,
+        "updated": 1764138739851,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269441",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269441.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "nc",
+        "code": "75269441",
+        "ids": ",nc75269441,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.07761,
+        "rms": 0.06,
+        "gap": 62,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 6 km E of Day Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.793502807617,
+          37.0436668395996,
+          8.60000038146973
+        ]
+      },
+      "id": "nc75269441"
     }
   ],
   "bbox": [
-    -155.98635864258,
-    17.996,
-    3.7,
-    -66.817,
-    60.102882385254,
-    29.909999847412
+    -151.09994506836,
+    31.7,
+    1.2300000190735,
+    -104.171,
+    62.545837402344,
+    88.974060058594
   ]
 }
