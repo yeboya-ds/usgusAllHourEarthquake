@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765089836000,
+    "generated": 1765176666000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,330 +12,330 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.22,
-        "place": "1 km NNW of The Geysers, CA",
-        "time": 1765089708010,
-        "updated": 1765089804078,
+        "mag": 2.4404577950148836,
+        "place": "86 km SW of Karluk, Alaska",
+        "time": 1765176088589,
+        "updated": 1765176232797,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75275581",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75275581.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yclybw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yclybw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
-        "net": "nc",
-        "code": "75275581",
-        "ids": ",nc75275581,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.01047,
-        "rms": 0.03,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 1 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.760665893555,
-          38.7901649475098,
-          0.389999985694885
-        ]
-      },
-      "id": "nc75275581"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.073960526569591,
-        "place": "86 km NNW of Karluk, Alaska",
-        "time": 1765089654323,
-        "updated": 1765089823811,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yaqesl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yaqesl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 66,
+        "sig": 92,
         "net": "ak",
-        "code": "2025yaqesl",
-        "ids": ",ak2025yaqesl,",
+        "code": "2025yclybw",
+        "ids": ",ak2025yclybw,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.06428530812263489,
-        "rms": 0.4772532733398198,
-        "gap": 92.7889175415039,
+        "nst": 28,
+        "dmin": 0.658994734287262,
+        "rms": 0.4407350445836534,
+        "gap": 188.21820831298828,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 86 km NNW of Karluk, Alaska"
+        "title": "M 2.4 - 86 km SW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.8003387451172,
-          58.31890869140625,
-          11.962894439697266
+          -155.61273193359375,
+          57.11271286010742,
+          73.496826171875
         ]
       },
-      "id": "ak2025yaqesl"
+      "id": "ak2025yclybw"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.281651505885595,
-        "place": "93 km NNE of Yakutat, Alaska",
-        "time": 1765089203912,
-        "updated": 1765089815594,
+        "mag": 2.6,
+        "place": "14 km NE of Milford, Utah",
+        "time": 1765175505970,
+        "updated": 1765176557800,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yapykm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yapykm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80124551",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80124551.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.82,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 166,
-        "net": "ak",
-        "code": "2025yapykm",
-        "ids": ",ak2025yapykm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.5048571825027466,
-        "rms": 1.6605389641600217,
-        "gap": 60.56582641601562,
+        "sig": 104,
+        "net": "uu",
+        "code": "80124551",
+        "ids": ",uu80124551,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 36,
+        "dmin": 0.006593,
+        "rms": 0.19,
+        "gap": 43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 93 km NNE of Yakutat, Alaska"
+        "title": "M 2.6 - 14 km NE of Milford, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -139.39837646484375,
-          60.36557006835938,
-          1.0173054933547974
+          -112.906,
+          38.502,
+          2.71
         ]
       },
-      "id": "ak2025yapykm"
+      "id": "uu80124551"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4438272529873166,
-        "place": "91 km NNE of Yakutat, Alaska",
-        "time": 1765088729580,
-        "updated": 1765089499879,
+        "mag": 2.799752948918232,
+        "place": "60 km WSW of Karluk, Alaska",
+        "time": 1765174898182,
+        "updated": 1765175095050,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yaprkc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yaprkc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 182,
-        "net": "ak",
-        "code": "2025yaprkc",
-        "ids": ",ak2025yaprkc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.5090821385383606,
-        "rms": 1.6392110991218443,
-        "gap": 59.4642333984375,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 91 km NNE of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.3629150390625,
-          60.34400177001953,
-          1.8908114433288574
-        ]
-      },
-      "id": "ak2025yaprkc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.266147897157819,
-        "place": "89 km NNE of Yakutat, Alaska",
-        "time": 1765088026480,
-        "updated": 1765088153808,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yaphid",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yaphid.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yclgzn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yclgzn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 164,
+        "sig": 121,
         "net": "ak",
-        "code": "2025yaphid",
-        "ids": ",ak2025yaphid,",
+        "code": "2025yclgzn",
+        "ids": ",ak2025yclgzn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.5528572201728821,
+        "rms": 0.3196031902797256,
+        "gap": 209.263032913208,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 60 km WSW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.40509033203125,
+          57.39159774780273,
+          81.03083038330078
+        ]
+      },
+      "id": "ak2025yclgzn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4287543689536184,
+        "place": "29 km WNW of Petersville, Alaska",
+        "time": 1765174858384,
+        "updated": 1765175020859,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yclgkq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yclgkq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "ak",
+        "code": "2025yclgkq",
+        "ids": ",ak2025yclgkq,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 43,
-        "dmin": 0.4914976358413696,
-        "rms": 0.8877066632936378,
-        "gap": 70.27424716949463,
+        "dmin": 0.2532283365726471,
+        "rms": 0.6390976962585354,
+        "gap": 42.463104248046875,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 89 km NNE of Yakutat, Alaska"
+        "title": "M 2.4 - 29 km WNW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -139.39437866210938,
-          60.33599090576172,
-          5
+          -151.3009033203125,
+          62.58618545532227,
+          92.34626770019531
         ]
       },
-      "id": "ak2025yaphid"
+      "id": "ak2025yclgkq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.51,
-        "place": "8 km W of Cobb, CA",
-        "time": 1765087828840,
-        "updated": 1765087922883,
+        "mag": 1.05,
+        "place": "4 km ENE of Pinnacles, CA",
+        "time": 1765174364440,
+        "updated": 1765174462575,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75275566",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75275566.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75276196",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75276196.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
+        "sig": 17,
         "net": "nc",
-        "code": "75275566",
-        "ids": ",nc75275566,",
+        "code": "75276196",
+        "ids": ",nc75276196,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.009796,
-        "rms": 0.02,
-        "gap": 60,
+        "nst": 7,
+        "dmin": 0.06028,
+        "rms": 0.04,
+        "gap": 100,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 8 km W of Cobb, CA"
+        "title": "M 1.1 - 4 km ENE of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.811164855957,
-          38.8331680297852,
-          2.02999997138977
+          -121.103332519531,
+          36.5468330383301,
+          7.80000019073486
         ]
       },
-      "id": "nc75275566"
+      "id": "nc75276196"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "118 km N of Yakutat, Alaska",
-        "time": 1765086953059,
-        "updated": 1765088713408,
+        "mag": 0.92,
+        "place": "23 km SW of Ocotillo Wells, CA",
+        "time": 1765173863370,
+        "updated": 1765174088021,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rt2i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rt2i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.318,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000rt2i",
-        "ids": ",us6000rt2i,ak2025yaoqgn,",
-        "sources": ",us,ak,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 39,
-        "dmin": 0.489,
-        "rms": 0.74,
-        "gap": 68,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 118 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.131,
-          60.5918,
-          10
-        ]
-      },
-      "id": "us6000rt2i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.526084029108035,
-        "place": "116 km N of Yakutat, Alaska",
-        "time": 1765086946959,
-        "updated": 1765088594252,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yaoruo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yaoruo.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135071",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135071.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 191,
-        "net": "ak",
-        "code": "2025yaoruo",
-        "ids": ",ak2025yaoruo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.5071712136268616,
-        "rms": 1.7783009959278697,
-        "gap": 52.9835205078125,
+        "sig": 13,
+        "net": "ci",
+        "code": "41135071",
+        "ids": ",ci41135071,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.03428,
+        "rms": 0.15,
+        "gap": 202,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 116 km N of Yakutat, Alaska"
+        "title": "M 0.9 - 23 km SW of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.00299072265625,
-          60.58598327636719,
-          5
+          -116.273333333333,
+          32.9778333333333,
+          8.56
         ]
       },
-      "id": "ak2025yaoruo"
+      "id": "ci41135071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.61,
+        "place": "22 km N of Borrego Springs, CA",
+        "time": 1765173619580,
+        "updated": 1765173835113,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135063",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135063.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41135063",
+        "ids": ",ci41135063,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.1231,
+        "rms": 0.18,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 22 km N of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.413,
+          33.4501666666667,
+          11.75
+        ]
+      },
+      "id": "ci41135063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.289952998181489,
+        "place": "65 km NW of Yakutat, Alaska",
+        "time": 1765173180023,
+        "updated": 1765173300780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yckihg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yckihg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "ak",
+        "code": "2025yckihg",
+        "ids": ",ak2025yckihg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.17372927069664,
+        "rms": 0.8344395799025576,
+        "gap": 171.14178466796875,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 65 km NW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.50875854492188,
+          59.9795150756836,
+          7.115609169006348
+        ]
+      },
+      "id": "ak2025yckihg"
     }
   ],
   "bbox": [
-    -154.80033874512,
-    38.79016494751,
-    0.38999998569488,
-    -122.76066589356,
-    60.5918,
-    11.962894439697
+    -155.61273193359,
+    32.977833333333,
+    2.71,
+    -112.906,
+    62.586185455322,
+    92.346267700195
   ]
 }
