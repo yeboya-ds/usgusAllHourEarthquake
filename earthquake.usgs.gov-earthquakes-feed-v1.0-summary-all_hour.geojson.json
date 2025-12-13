@@ -1,144 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765522205000,
+    "generated": 1765608347000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "18 km NW of Parkfield, CA",
-        "time": 1765522073920,
-        "updated": 1765522168896,
+        "mag": 2.5,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1765607637519,
+        "updated": 1765608068834,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75278611",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75278611.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ylqhyi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ylqhyi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75278611",
-        "ids": ",nc75278611,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.02697,
-        "rms": 0.04,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.6 - 18 km NW of Parkfield, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.569831848145,
-          36.0108337402344,
-          0.310000002384186
-        ]
-      },
-      "id": "nc75278611"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "8 km W of Templeton, CA",
-        "time": 1765521702010,
-        "updated": 1765521799023,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75278601",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75278601.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "nc",
-        "code": "75278601",
-        "ids": ",nc75278601,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1075,
-        "rms": 0.04,
-        "gap": 108,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 8 km W of Templeton, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.791831970215,
-          35.5558319091797,
-          5.69000005722046
-        ]
-      },
-      "id": "nc75278601"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "88 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1765520189730,
-        "updated": 1765521907320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502073",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502073.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71502073",
-        "ids": ",pr71502073,",
-        "sources": ",pr,",
+        "sig": 96,
+        "net": "tx",
+        "code": "2025ylqhyi",
+        "ids": ",tx2025ylqhyi,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.6447,
-        "rms": 0.16,
-        "gap": 281,
-        "magType": "md",
+        "nst": 40,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 72,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 88 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 2.5 - 59 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.6071666666667,
-          19.1083333333333,
-          18.9
+          -104.392,
+          31.642,
+          4.3486
         ]
       },
-      "id": "pr71502073"
+      "id": "tx2025ylqhyi"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.74,
-        "place": "9 km WNW of The Geysers, CA",
-        "time": 1765519519590,
-        "updated": 1765519617687,
+        "mag": 0.72,
+        "place": "10 km WNW of The Geysers, CA",
+        "time": 1765607325270,
+        "updated": 1765607423862,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75278591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75278591.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75279006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75279006.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -147,75 +67,195 @@
         "tsunami": 0,
         "sig": 8,
         "net": "nc",
-        "code": "75278591",
-        "ids": ",nc75278591,",
+        "code": "75279006",
+        "ids": ",nc75279006,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.009448,
-        "rms": 0.06,
-        "gap": 101,
+        "nst": 14,
+        "dmin": 0.006815,
+        "rms": 0.02,
+        "gap": 128,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 9 km WNW of The Geysers, CA"
+        "title": "M 0.7 - 10 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.845336914062,
-          38.8181648254395,
-          2.48000001907349
+          -122.851501464844,
+          38.8221664428711,
+          2.46000003814697
         ]
       },
-      "id": "nc75278591"
+      "id": "nc75279006"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "94 km NW of Yakutat, Alaska",
-        "time": 1765519233562,
-        "updated": 1765519416754,
+        "mag": 0.74,
+        "place": "2 km NNE of The Geysers, CA",
+        "time": 1765607080480,
+        "updated": 1765607179337,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yjtmit",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yjtmit.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75279001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75279001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2025yjtmit",
-        "ids": ",ak2025yjtmit,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "sig": 8,
+        "net": "nc",
+        "code": "75279001",
+        "ids": ",nc75279001,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 9,
-        "dmin": 0.3,
-        "rms": 1.2,
-        "gap": 148,
-        "magType": "ml",
+        "dmin": 0.01052,
+        "rms": 0.02,
+        "gap": 99,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 94 km NW of Yakutat, Alaska"
+        "title": "M 0.7 - 2 km NNE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.886,
-          60.167,
-          31.5
+          -122.747001647949,
+          38.7971649169922,
+          1.51999998092651
         ]
       },
-      "id": "ak2025yjtmit"
+      "id": "nc75279001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "81 km ENE of Misawa, Japan",
+        "time": 1765605583810,
+        "updated": 1765606708040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rulk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rulk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rulk",
+        "ids": ",us6000rulk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.924,
+        "rms": 0.71,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 81 km ENE of Misawa, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.242,
+          41.0284,
+          64.334
+        ]
+      },
+      "id": "us6000rulk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "5 km W of Glen Ellen, CA",
+        "time": 1765605239350,
+        "updated": 1765606169973,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75278996",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75278996.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 51,
+        "net": "nc",
+        "code": "75278996",
+        "ids": ",nc75278996,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01592,
+        "rms": 0.04,
+        "gap": 91,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km W of Glen Ellen, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.592163085938,
+          38.3601684570312,
+          0.0900000035762787
+        ]
+      },
+      "id": "nc75278996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "55 km SSW of Whites City, New Mexico",
+        "time": 1765605184075,
+        "updated": 1765605442294,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yloyrv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yloyrv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "tx",
+        "code": "2025yloyrv",
+        "ids": ",tx2025yloyrv,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 102,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 55 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.584,
+          31.711,
+          3.8184
+        ]
+      },
+      "id": "tx2025yloyrv"
     }
   ],
   "bbox": [
-    -140.886,
-    19.108333333333,
-    0.31000000238419,
-    -64.607166666667,
-    60.167,
-    31.5
+    -122.85150146484,
+    31.642,
+    0.090000003576279,
+    142.242,
+    41.0284,
+    64.334
   ]
 }
