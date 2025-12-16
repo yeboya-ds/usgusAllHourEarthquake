@@ -1,224 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765781523000,
+    "generated": 1765867896000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 13
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
-        "place": "4 km SE of San Ramon, CA",
-        "time": 1765781236070,
-        "updated": 1765781404950,
+        "mag": 1.7,
+        "place": "9 km ENE of Balmorhea, Texas",
+        "time": 1765867052908,
+        "updated": 1765867286342,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75280156",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75280156.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "nc",
-        "code": "75280156",
-        "ids": ",nc75280156,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.09858,
-        "rms": 0.07,
-        "gap": 44,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.942665100098,
-          37.7561683654785,
-          7.80999994277954
-        ]
-      },
-      "id": "nc75280156"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "4 km ESE of San Ramon, CA",
-        "time": 1765781213800,
-        "updated": 1765781464860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75280151",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75280151.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yrdptc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yrdptc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
-        "net": "nc",
-        "code": "75280151",
-        "ids": ",nc75280151,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.1052,
-        "rms": 0.08,
-        "gap": 40,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km ESE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.934829711914,
-          37.7588348388672,
-          7.78000020980835
-        ]
-      },
-      "id": "nc75280151"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.76,
-        "place": "20 km SSW of Leilani Estates, Hawaii",
-        "time": 1765780986150,
-        "updated": 1765781195670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74854057",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74854057.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "hv",
-        "code": "74854057",
-        "ids": ",hv74854057,",
-        "sources": ",hv,",
+        "sig": 44,
+        "net": "tx",
+        "code": "2025yrdptc",
+        "ids": ",tx2025yrdptc,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1164,
-        "rms": 0.0500000007,
-        "gap": 303,
-        "magType": "md",
+        "nst": 14,
+        "dmin": 0.1,
+        "rms": 0.8,
+        "gap": 73,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 20 km SSW of Leilani Estates, Hawaii"
+        "title": "M 1.7 - 9 km ENE of Balmorhea, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.022994995117,
-          19.3096675872803,
-          33.9000015258789
+          -103.649,
+          31.001,
+          4.0999
         ]
       },
-      "id": "hv74854057"
+      "id": "tx2025yrdptc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.45,
-        "place": "10 km NE of Julian, CA",
-        "time": 1765780349120,
-        "updated": 1765780576880,
+        "mag": 1.86,
+        "place": "32 km ENE of San Clemente Is. (SE tip), CA",
+        "time": 1765866566410,
+        "updated": 1765866794914,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41352040",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41352040.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41352736",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41352736.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
+        "sig": 53,
         "net": "ci",
-        "code": "41352040",
-        "ids": ",ci41352040,",
+        "code": "41352736",
+        "ids": ",ci41352736,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.08385,
-        "rms": 0.22,
-        "gap": 88,
+        "nst": 18,
+        "dmin": 0.4611,
+        "rms": 0.31,
+        "gap": 156,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 10 km NE of Julian, CA"
+        "title": "M 1.9 - 32 km ENE of San Clemente Is. (SE tip), CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5405,
-          33.15,
-          12.39
+          -118.008666666667,
+          32.8921666666667,
+          4.29
         ]
       },
-      "id": "ci41352040"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "94 km SSE of Kokhanok, Alaska",
-        "time": 1765779705818,
-        "updated": 1765779833463,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yphjgp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yphjgp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "2025yphjgp",
-        "ids": ",ak2025yphjgp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0,
-        "rms": 0.8,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 94 km SSE of Kokhanok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.333,
-          58.618,
-          7.6
-        ]
-      },
-      "id": "ak2025yphjgp"
+      "id": "ci41352736"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.1,
-        "place": "8 km S of Volcano, Hawaii",
-        "time": 1765779140550,
-        "updated": 1765779393520,
+        "place": "29 km ENE of Knik River, Alaska",
+        "time": 1765866511291,
+        "updated": 1765866611227,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74854027",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74854027.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yrdhyx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yrdhyx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,316 +106,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 68,
-        "net": "hv",
-        "code": "74854027",
-        "ids": ",hv74854027,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.01149,
-        "rms": 0.129999995,
-        "gap": 97,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 8 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.229507446289,
-          19.3688335418701,
-          30.2800006866455
-        ]
-      },
-      "id": "hv74854027"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.95,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1765778810200,
-        "updated": 1765778905079,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75280141",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75280141.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75280141",
-        "ids": ",nc75280141,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.008261,
-        "rms": 0.02,
-        "gap": 48,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81583404541,
-          38.8303337097168,
-          1.74000000953674
-        ]
-      },
-      "id": "nc75280141"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "13 km SSE of Volcano, Hawaii",
-        "time": 1765778694470,
-        "updated": 1765778972730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74854022",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74854022.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "hv",
-        "code": "74854022",
-        "ids": ",hv74854022,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.0507,
-        "rms": 0.209999993,
-        "gap": 90,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 13 km SSE of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.179992675781,
-          19.3295001983643,
-          0.990000009536743
-        ]
-      },
-      "id": "hv74854022"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "66 km SW of Kaktovik, Alaska",
-        "time": 1765778666644,
-        "updated": 1765778996405,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ypgvcg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ypgvcg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
         "net": "ak",
-        "code": "2025ypgvcg",
-        "ids": ",ak2025ypgvcg,",
+        "code": "2025yrdhyx",
+        "ids": ",ak2025yrdhyx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 23,
+        "nst": 44,
         "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 111,
+        "rms": 1,
+        "gap": 31,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 66 km SW of Kaktovik, Alaska"
+        "title": "M 2.1 - 29 km ENE of Knik River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -144.672,
-          69.653,
-          12
+          -148.368,
+          61.526,
+          1.4
         ]
       },
-      "id": "ak2025ypgvcg"
+      "id": "ak2025yrdhyx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.02,
-        "place": "26 km N of Yucca Valley, CA",
-        "time": 1765778500510,
-        "updated": 1765778722801,
+        "mag": 2.4,
+        "place": "49 km NNW of Valdez, Alaska",
+        "time": 1765865746609,
+        "updated": 1765866010151,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41352032",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41352032.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yrcwzc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yrcwzc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41352032",
-        "ids": ",ci41352032,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.08522,
-        "rms": 0.19,
+        "sig": 89,
+        "net": "ak",
+        "code": "2025yrcwzc",
+        "ids": ",ak2025yrcwzc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.4,
+        "rms": 0.9,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 49 km NNW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.742,
+          61.534,
+          20.5
+        ]
+      },
+      "id": "ak2025yrcwzc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "26 km SE of Copiapó, Chile",
+        "time": 1765865410581,
+        "updated": 1765866406040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rv8a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rv8a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000rv8a",
+        "ids": ",us6000rv8a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.257,
+        "rms": 0.67,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 26 km SE of Copiapó, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1629,
+          -27.5501,
+          92.208
+        ]
+      },
+      "id": "us6000rv8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1765865287196,
+        "updated": 1765865472757,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yrcqcs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yrcqcs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2025yrcqcs",
+        "ids": ",tx2025yrcqcs,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.4,
         "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 26 km N of Yucca Valley, CA"
+        "title": "M 1.5 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.461833333333,
-          34.346,
-          3.98
+          -104.424,
+          31.672,
+          6.3001
         ]
       },
-      "id": "ci41352032"
+      "id": "tx2025yrcqcs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.58,
-        "place": "3 km SSE of The Geysers, CA",
-        "time": 1765778457720,
-        "updated": 1765778554901,
+        "mag": 1.8,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1765864609567,
+        "updated": 1765864773202,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75280131",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75280131.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yrcgqc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yrcgqc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
-        "net": "nc",
-        "code": "75280131",
-        "ids": ",nc75280131,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.003412,
-        "rms": 0.02,
-        "gap": 135,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.6 - 3 km SSE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.744003295898,
-          38.7493324279785,
-          1.6599999666214
-        ]
-      },
-      "id": "nc75280131"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.49,
-        "place": "5 km SE of San Ramon, CA",
-        "time": 1765778094970,
-        "updated": 1765778190347,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75280126",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75280126.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 34,
-        "net": "nc",
-        "code": "75280126",
-        "ids": ",nc75280126,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1085,
-        "rms": 0.07,
-        "gap": 169,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 5 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.929168701172,
-          37.7518348693848,
-          1.69000005722046
-        ]
-      },
-      "id": "nc75280126"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "50 km SSE of Whites City, New Mexico",
-        "time": 1765778072643,
-        "updated": 1765778308098,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ypglsf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ypglsf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 50,
         "net": "tx",
-        "code": "2025ypglsf",
-        "ids": ",tx2025ypglsf,",
+        "code": "2025yrcgqc",
+        "ids": ",tx2025yrcgqc,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 27,
+        "nst": 24,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 40,
+        "rms": 0.4,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 50 km SSE of Whites City, New Mexico"
+        "title": "M 1.8 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.249,
-          31.733,
-          4.0247
+          -104.433,
+          31.681,
+          7.0752
         ]
       },
-      "id": "tx2025ypglsf"
+      "id": "tx2025yrcgqc"
     }
   ],
   "bbox": [
-    -155.22950744629,
-    19.30966758728,
-    0.99000000953674,
-    -104.249,
-    69.653,
-    33.900001525879
+    -148.368,
+    -27.5501,
+    1.4,
+    -70.1629,
+    61.534,
+    92.208
   ]
 }
