@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766040544000,
+    "generated": 1766126882000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,13 +12,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "4 km NW of The Geysers, CA",
-        "time": 1766038871000,
-        "updated": 1766038965388,
+        "mag": 0.3,
+        "place": "61 km ENE of Pedro Bay, Alaska",
+        "time": 1766125923350,
+        "updated": 1766126140182,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75281901",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75281901.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ywqpqq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ywqpqq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ak",
+        "code": "2025ywqpqq",
+        "ids": ",ak2025ywqpqq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 136,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.3 - 61 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.11,
+          60.019,
+          5
+        ]
+      },
+      "id": "ak2025ywqpqq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "10 km SSW of Idyllwild, CA",
+        "time": 1766125664770,
+        "updated": 1766125882270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142631.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,196 +66,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 9,
-        "net": "nc",
-        "code": "75281901",
-        "ids": ",nc75281901,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.008247,
-        "rms": 0.02,
-        "gap": 86,
-        "magType": "md",
+        "net": "ci",
+        "code": "41142631",
+        "ids": ",ci41142631,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.06447,
+        "rms": 0.16,
+        "gap": 61,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 4 km NW of The Geysers, CA"
+        "title": "M 0.8 - 10 km SSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.780670166016,
-          38.8050003051758,
-          3.55999994277954
+          -116.751333333333,
+          33.6585,
+          13.16
         ]
       },
-      "id": "nc75281901"
+      "id": "ci41142631"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.96,
-        "place": "20 km ESE of Naalehu, Hawaii",
-        "time": 1766038662400,
-        "updated": 1766038925410,
+        "mag": 1.1,
+        "place": "29 km NE of McKinney Acres, Texas",
+        "time": 1766124748415,
+        "updated": 1766124906572,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74856362",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74856362.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ywpytu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ywpytu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 59,
-        "net": "hv",
-        "code": "74856362",
-        "ids": ",hv74856362,",
-        "sources": ",hv,",
+        "sig": 19,
+        "net": "tx",
+        "code": "2025ywpytu",
+        "ids": ",tx2025ywpytu,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.1574,
-        "rms": 0.170000002,
-        "gap": 249,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 20 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.389495849609,
-          19.0130004882812,
-          31.1499996185303
-        ]
-      },
-      "id": "hv74856362"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "20 km ESE of Anza, CA",
-        "time": 1766038619560,
-        "updated": 1766038840999,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41141911",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41141911.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41141911",
-        "ids": ",ci41141911,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.1095,
-        "rms": 0.14,
-        "gap": 66,
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 236,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 20 km ESE of Anza, CA"
+        "title": "M 1.1 - 29 km NE of McKinney Acres, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.471666666667,
-          33.5038333333333,
-          12.76
+          -102.271,
+          32.454,
+          0.6907
         ]
       },
-      "id": "ci41141911"
+      "id": "tx2025ywpytu"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.71,
-        "place": "15 km SSE of Anza, CA",
-        "time": 1766037713630,
-        "updated": 1766037936732,
+        "mag": 1.7,
+        "place": "49 km NW of Tatitlek, Alaska",
+        "time": 1766124071258,
+        "updated": 1766124202783,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41141903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41141903.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ywppas",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ywppas.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41141903",
-        "ids": ",ci41141903,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.06557,
-        "rms": 0.15,
-        "gap": 45,
+        "sig": 44,
+        "net": "ak",
+        "code": "2025ywppas",
+        "ids": ",ak2025ywppas,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 93,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 15 km SSE of Anza, CA"
+        "title": "M 1.7 - 49 km NW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.617166666667,
-          33.4301666666667,
-          9.32
+          -147.418,
+          61.12,
+          5
         ]
       },
-      "id": "ci41141903"
+      "id": "ak2025ywppas"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.17,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1766037339830,
-        "updated": 1766037434723,
+        "mag": 2.1,
+        "place": "24 km WNW of Susitna, Alaska",
+        "time": 1766123654576,
+        "updated": 1766123780732,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75281896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75281896.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ywpjbo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ywpjbo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 21,
-        "net": "nc",
-        "code": "75281896",
-        "ids": ",nc75281896,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.005704,
-        "rms": 0.03,
-        "gap": 109,
-        "magType": "md",
+        "sig": 68,
+        "net": "ak",
+        "code": "2025ywpjbo",
+        "ids": ",ak2025ywpjbo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 56,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 10 km WNW of The Geysers, CA"
+        "title": "M 2.1 - 24 km WNW of Susitna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.85033416748,
-          38.8250007629395,
-          2.19000005722046
+          -150.963,
+          61.604,
+          62.6
         ]
       },
-      "id": "nc75281896"
+      "id": "ak2025ywpjbo"
     }
   ],
   "bbox": [
-    -155.38949584961,
-    19.013000488281,
-    2.1900000572205,
-    -116.47166666667,
-    38.82500076294,
-    31.14999961853
+    -153.11,
+    32.454,
+    0.6907,
+    -102.271,
+    61.604,
+    62.6
   ]
 }
