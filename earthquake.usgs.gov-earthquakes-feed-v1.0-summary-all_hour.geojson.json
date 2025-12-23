@@ -1,341 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766386304000,
+    "generated": 1766472645000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.69,
-        "place": "3 km WNW of Cotati, CA",
-        "time": 1766386002340,
-        "updated": 1766386099641,
+        "mag": 1.88,
+        "place": "2 km NNE of Malibu, CA",
+        "time": 1766472393530,
+        "updated": 1766472628438,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75284601",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75284601.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145983.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "nc",
-        "code": "75284601",
-        "ids": ",nc75284601,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.02335,
-        "rms": 0.04,
-        "gap": 133,
-        "magType": "md",
+        "sig": 54,
+        "net": "ci",
+        "code": "41145983",
+        "ids": ",ci41145983,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 80,
+        "dmin": 0.0152,
+        "rms": 0.29,
+        "gap": 109,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 3 km WNW of Cotati, CA"
+        "title": "M 1.9 - 2 km NNE of Malibu, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.736831665039,
-          38.3413314819336,
-          3.79999995231628
+          -118.8065,
+          34.0196666666667,
+          8.11
         ]
       },
-      "id": "nc75284601"
+      "id": "ci41145983"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.11,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1766385651750,
-        "updated": 1766385750981,
+        "mag": 0.32,
+        "place": "9 km SW of Idyllwild, CA",
+        "time": 1766471192190,
+        "updated": 1766471408138,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75284596",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75284596.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145975",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145975.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
+        "sig": 2,
+        "net": "ci",
+        "code": "41145975",
+        "ids": ",ci41145975,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.07075,
+        "rms": 0.11,
+        "gap": 126,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.3 - 9 km SW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.788833333333,
+          33.6841666666667,
+          14.82
+        ]
+      },
+      "id": "ci41145975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1766470812580,
+        "updated": 1766470910038,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75285116",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75285116.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
         "net": "nc",
-        "code": "75284596",
-        "ids": ",nc75284596,",
+        "code": "75285116",
+        "ids": ",nc75285116,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 18,
-        "dmin": 0.01152,
-        "rms": 0.03,
-        "gap": 90,
+        "dmin": 0.007062,
+        "rms": 0.01,
+        "gap": 44,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.795333862305,
-          38.8231658935547,
-          2.21000003814697
+          -122.801170349121,
+          38.8221664428711,
+          2.82999992370605
         ]
       },
-      "id": "nc75284596"
+      "id": "nc75285116"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "3 km S of Pecos, Texas",
-        "time": 1766385083833,
-        "updated": 1766385332748,
+        "mag": 0.64,
+        "place": "7 km S of Idyllwild, CA",
+        "time": 1766470234420,
+        "updated": 1766470456821,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zcdtsv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zcdtsv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145959",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145959.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025zcdtsv",
-        "ids": ",tx2025zcdtsv,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0,
-        "rms": 0.7,
-        "gap": 42,
+        "sig": 6,
+        "net": "ci",
+        "code": "41145959",
+        "ids": ",ci41145959,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.03896,
+        "rms": 0.18,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 3 km S of Pecos, Texas"
+        "title": "M 0.6 - 7 km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.497,
-          31.389,
-          4.5431
+          -116.723833333333,
+          33.6763333333333,
+          15.73
         ]
       },
-      "id": "tx2025zcdtsv"
+      "id": "ci41145959"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.07,
-        "place": "13 km SSW of Benton, California",
-        "time": 1766384769008,
-        "updated": 1766384971404,
+        "mag": 0.56,
+        "place": "17 km W of Johannesburg, CA",
+        "time": 1766469581570,
+        "updated": 1766469803647,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00908826",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00908826.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145951.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 66,
-        "net": "nn",
-        "code": "00908826",
-        "ids": ",nn00908826,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.077,
-        "rms": 0.3254,
-        "gap": 185,
+        "sig": 5,
+        "net": "ci",
+        "code": "41145951",
+        "ids": ",ci41145951,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.1356,
+        "rms": 0.11,
+        "gap": 92,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 13 km SSW of Benton, California"
+        "title": "M 0.6 - 17 km W of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.522,
-          37.6988,
-          15.9266
+          -117.824166666667,
+          35.4021666666667,
+          7.95
         ]
       },
-      "id": "nn00908826"
+      "id": "ci41145951"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "6 km WNW of Westbrook, Texas",
-        "time": 1766384357657,
-        "updated": 1766384583233,
+        "mag": 0.62,
+        "place": "11 km SW of Anza, CA",
+        "time": 1766469454140,
+        "updated": 1766469673544,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zcdjfu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zcdjfu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145943",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145943.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2025zcdjfu",
-        "ids": ",tx2025zcdjfu,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 70,
+        "sig": 6,
+        "net": "ci",
+        "code": "41145943",
+        "ids": ",ci41145943,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.04589,
+        "rms": 0.17,
+        "gap": 22,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 6 km WNW of Westbrook, Texas"
+        "title": "M 0.6 - 11 km SW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.08,
-          32.378,
-          2.3434
+          -116.757333333333,
+          33.4863333333333,
+          14.93
         ]
       },
-      "id": "tx2025zcdjfu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "55 km NW of Toyah, Texas",
-        "time": 1766384190416,
-        "updated": 1766384452733,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zcdgfz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zcdgfz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2025zcdgfz",
-        "ids": ",tx2025zcdgfz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 55 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.245,
-          31.632,
-          4.5884
-        ]
-      },
-      "id": "tx2025zcdgfz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.35,
-        "place": "5 km SW of Ridgemark, CA",
-        "time": 1766383070520,
-        "updated": 1766383164082,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75284581",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75284581.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "nc",
-        "code": "75284581",
-        "ids": ",nc75284581,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.04115,
-        "rms": 0.03,
-        "gap": 102,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 5 km SW of Ridgemark, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.403335571289,
-          36.7853317260742,
-          4.01999998092651
-        ]
-      },
-      "id": "nc75284581"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "32 km NW of Toyah, Texas",
-        "time": 1766382888169,
-        "updated": 1766383125402,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zccoes",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zccoes.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2025zccoes",
-        "ids": ",tx2025zccoes,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 131,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 32 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.015,
-          31.538,
-          6.5029
-        ]
-      },
-      "id": "tx2025zccoes"
+      "id": "ci41145943"
     }
   ],
   "bbox": [
-    -122.79533386231,
-    31.389,
-    2.210000038147,
-    -101.08,
-    38.823165893555,
-    15.9266
+    -122.80117034912,
+    33.486333333333,
+    2.829999923706,
+    -116.72383333333,
+    38.822166442871,
+    15.73
   ]
 }
