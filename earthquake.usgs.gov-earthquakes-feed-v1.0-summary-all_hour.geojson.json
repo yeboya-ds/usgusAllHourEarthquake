@@ -1,421 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766904446000,
+    "generated": 1766991222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.32,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1766904320360,
-        "updated": 1766904416569,
+        "mag": 1.6,
+        "place": "34 km E of Barstow, CA",
+        "time": 1766990611850,
+        "updated": 1766990894161,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287431.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148671.geojson",
+        "felt": 7,
+        "cdi": 0,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 27,
-        "net": "nc",
-        "code": "75287431",
-        "ids": ",nc75287431,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.02184,
-        "rms": 0.02,
-        "gap": 100,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.816497802734,
-          38.8306655883789,
-          1.82000005245209
-        ]
-      },
-      "id": "nc75287431"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16373124847049,
-        "place": "17 km NE of Pine Valley, CA",
-        "time": 1766904266550,
-        "updated": 1766904392635,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148055",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148055.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
+        "sig": 39,
         "net": "ci",
-        "code": "41148055",
-        "ids": ",ci41148055,",
+        "code": "41148671",
+        "ids": ",ci41148671,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.03609,
-        "rms": 0.109999999,
-        "gap": 114,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.1387,
+        "rms": 0.16,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 17 km NE of Pine Valley, CA"
+        "title": "M 1.6 - 34 km E of Barstow, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.41283416748,
-          32.9356651306152,
-          4.15999984741211
+          -116.647,
+          34.929,
+          6.49
         ]
       },
-      "id": "ci41148055"
+      "id": "ci41148671"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.94,
-        "place": "7 km N of Fontana, CA",
-        "time": 1766903915700,
-        "updated": 1766904132177,
+        "mag": 1.51,
+        "place": "3 km SSW of Baldwin Hills, CA",
+        "time": 1766990553960,
+        "updated": 1766991158355,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148047",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148047.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148663.geojson",
+        "felt": 6,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
+        "sig": 36,
         "net": "ci",
-        "code": "41148047",
-        "ids": ",ci41148047,",
+        "code": "41148663",
+        "ids": ",ci41148663,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.04299,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.01884,
         "rms": 0.17,
-        "gap": 65,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 7 km N of Fontana, CA"
+        "title": "M 1.5 - 3 km SSW of Baldwin Hills, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.463333333333,
-          34.1615,
-          6.99
+          -118.384166666667,
+          33.9821666666667,
+          3.7
         ]
       },
-      "id": "ci41148047"
+      "id": "ci41148663"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.84,
-        "place": "11 km NE of Pāhala, Hawaii",
-        "time": 1766903667300,
-        "updated": 1766903900840,
+        "mag": 2,
+        "place": "16 km WNW of Nikiski, Alaska",
+        "time": 1766990334144,
+        "updated": 1766990466137,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74862262",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74862262.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zpacix",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zpacix.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 52,
-        "net": "hv",
-        "code": "74862262",
-        "ids": ",hv74862262,",
-        "sources": ",hv,",
+        "sig": 62,
+        "net": "ak",
+        "code": "2025zpacix",
+        "ids": ",ak2025zpacix,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.03244,
-        "rms": 0.119999997,
-        "gap": 89,
-        "magType": "md",
+        "nst": 39,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 62,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 11 km NE of Pāhala, Hawaii"
+        "title": "M 2.0 - 16 km WNW of Nikiski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.400329589844,
-          19.2700004577637,
-          29.7399997711182
+          -151.588,
+          60.724,
+          80.9
         ]
       },
-      "id": "hv74862262"
+      "id": "ak2025zpacix"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.73,
-        "place": "11 km SSE of Pāhala, Hawaii",
-        "time": 1766903285210,
-        "updated": 1766903525150,
+        "mag": 1.61,
+        "place": "3 km SSW of Baldwin Hills, CA",
+        "time": 1766990117540,
+        "updated": 1766991038009,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74862257",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74862257.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148655",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148655.geojson",
+        "felt": 20,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 46,
-        "net": "hv",
-        "code": "74862257",
-        "ids": ",hv74862257,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.05701,
-        "rms": 0.119999997,
-        "gap": 187,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 11 km SSE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.441665649414,
-          19.1014995574951,
-          27.5599994659424
-        ]
-      },
-      "id": "hv74862257"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.19,
-        "place": "11 km WSW of Pine Valley, CA",
-        "time": 1766902033840,
-        "updated": 1766902250689,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148039",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148039.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
+        "sig": 44,
         "net": "ci",
-        "code": "41148039",
-        "ids": ",ci41148039,",
+        "code": "41148655",
+        "ids": ",ci41148655,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 65,
+        "dmin": 0.02094,
+        "rms": 0.25,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 3 km SSW of Baldwin Hills, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.381333333333,
+          33.9773333333333,
+          5.66
+        ]
+      },
+      "id": "ci41148655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.77,
+        "place": "19 km SE of Pāhala, Hawaii",
+        "time": 1766989414900,
+        "updated": 1766989652490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74863537",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74863537.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "hv",
+        "code": "74863537",
+        "ids": ",hv74863537,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.1326,
+        "rms": 0.129999995,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 19 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.365493774414,
+          19.0588340759277,
+          30.5699996948242
+        ]
+      },
+      "id": "hv74863537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.06,
+        "place": "4 km SSW of Indios, Puerto Rico",
+        "time": 1766989073610,
+        "updated": 1766990343010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503328.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "pr",
+        "code": "71503328",
+        "ids": ",pr71503328,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.039,
+        "rms": 0.11,
+        "gap": 169,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8405,
+          17.9623333333333,
+          13.11
+        ]
+      },
+      "id": "pr71503328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "15 km NNW of Susanville, CA",
+        "time": 1766988528960,
+        "updated": 1766989042051,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288016",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288016.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "nc",
+        "code": "75288016",
+        "ids": ",nc75288016,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.08643,
+        "rms": 0.11,
+        "gap": 68,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 15 km NNW of Susanville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.692169189453,
+          40.5429992675781,
+          5.80999994277954
+        ]
+      },
+      "id": "nc75288016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "2 km NW of Loma Linda, CA",
+        "time": 1766988445960,
+        "updated": 1766988666165,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148647.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41148647",
+        "ids": ",ci41148647,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.09712,
-        "rms": 0.18,
-        "gap": 52,
+        "nst": 26,
+        "dmin": 0.1095,
+        "rms": 0.14,
+        "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 11 km WSW of Pine Valley, CA"
+        "title": "M 0.8 - 2 km NW of Loma Linda, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.642,
-          32.8021666666667,
-          16.77
+          -117.276833333333,
+          34.0663333333333,
+          13.39
         ]
       },
-      "id": "ci41148039"
+      "id": "ci41148647"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1766901981830,
-        "updated": 1766902076127,
+        "mag": 2,
+        "place": "23 km SSE of Pāhala, Hawaii",
+        "time": 1766988433140,
+        "updated": 1766988796100,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287411",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287411.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74863522",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74863522.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75287411",
-        "ids": ",nc75287411,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.01486,
-        "rms": 0.02,
-        "gap": 120,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 3 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.770164489746,
-          38.7985000610352,
-          3.14000010490417
-        ]
-      },
-      "id": "nc75287411"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.65,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1766901835910,
-        "updated": 1766901931149,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287406",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287406.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75287406",
-        "ids": ",nc75287406,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.003874,
-        "rms": 0.01,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.786834716797,
-          38.8356666564941,
-          1.96000003814697
-        ]
-      },
-      "id": "nc75287406"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1766901390460,
-        "updated": 1766903840210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287401",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287401.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75287401",
-        "ids": ",nc75287401,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.01124,
-        "rms": 0.04,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.803665161133,
-          38.8426666259766,
-          3.94000005722046
-        ]
-      },
-      "id": "nc75287401"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.75,
-        "place": "3 km SSE of Pāhala, Hawaii",
-        "time": 1766901351640,
-        "updated": 1766901558120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74862237",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74862237.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
+        "sig": 62,
         "net": "hv",
-        "code": "74862237",
-        "ids": ",hv74862237,",
+        "code": "74863522",
+        "ids": ",hv74863522,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.09663,
-        "rms": 0.100000001,
-        "gap": 244,
+        "nst": 46,
+        "dmin": 0.1615,
+        "rms": 0.310000002,
+        "gap": 215,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 3 km SSE of Pāhala, Hawaii"
+        "title": "M 2.0 - 23 km SSE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.470169067383,
-          19.1691665649414,
-          46.6399993896484
+          -155.355834960938,
+          19.0283336639404,
+          14.0100002288818
         ]
       },
-      "id": "hv74862237"
+      "id": "hv74863522"
     }
   ],
   "bbox": [
-    -155.47016906738,
-    19.101499557495,
-    1.8200000524521,
-    -116.41283416748,
-    38.842666625977,
-    46.639999389648
+    -155.36549377441,
+    17.962333333333,
+    3.7,
+    -66.8405,
+    60.724,
+    80.9
   ]
 }
