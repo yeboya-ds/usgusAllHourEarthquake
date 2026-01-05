@@ -1,184 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767509302000,
+    "generated": 1767596232000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.88,
-        "place": "10 km SE of Willits, CA",
-        "time": 1767509073700,
-        "updated": 1767509171308,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75290636",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75290636.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "nc",
-        "code": "75290636",
-        "ids": ",nc75290636,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.07356,
-        "rms": 0.16,
-        "gap": 101,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 10 km SE of Willits, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.271835327148,
-          39.3504981994629,
-          -0.479999989271164
-        ]
-      },
-      "id": "nc75290636"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "85 km NNW of Karluk, Alaska",
-        "time": 1767507991749,
-        "updated": 1767508148909,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026afzzss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026afzzss.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "2026afzzss",
-        "ids": ",ak2026afzzss,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 138,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 85 km NNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.955,
-          58.287,
-          2.8
-        ]
-      },
-      "id": "ak2026afzzss"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "65 km WNW of Nanwalek, Alaska",
-        "time": 1767507901999,
-        "updated": 1767507973896,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026afzynp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026afzynp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "2026afzynp",
-        "ids": ",ak2026afzynp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.3,
-        "rms": 0.4,
-        "gap": 93,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 65 km WNW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.007,
-          59.559,
-          106.6
-        ]
-      },
-      "id": "ak2026afzynp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "2 km WSW of Ponce, Puerto Rico",
-        "time": 1767507837340,
-        "updated": 1767508776530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503828",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503828.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "71503828",
-        "ids": ",pr71503828,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.09224,
-        "rms": 0.23,
-        "gap": 127,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km WSW of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6423333333333,
-          18.0045,
-          14.01
-        ]
-      },
-      "id": "pr71503828"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2,
-        "place": "17 km NNW of Toyah, Texas",
-        "time": 1767507772435,
-        "updated": 1767508006565,
+        "place": "91 km WNW of Yakutat, Alaska",
+        "time": 1767595795843,
+        "updated": 1767595920120,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026afzwpd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026afzwpd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ahwmty",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ahwmty.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,76 +26,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 62,
-        "net": "tx",
-        "code": "2026afzwpd",
-        "ids": ",tx2026afzwpd,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "2026ahwmty",
+        "ids": ",ak2026ahwmty,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 66,
+        "nst": 11,
+        "dmin": 0.5,
+        "rms": 0.9,
+        "gap": 211,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 17 km NNW of Toyah, Texas"
+        "title": "M 2.0 - 91 km WNW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.892,
-          31.452,
-          6.3692
+          -141.29,
+          59.764,
+          5.3
         ]
       },
-      "id": "tx2026afzwpd"
+      "id": "ak2026ahwmty"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.24,
-        "place": "1 km WNW of Indios, Puerto Rico",
-        "time": 1767506505550,
-        "updated": 1767507244120,
+        "mag": 1.3,
+        "place": "4 km NW of The Geysers, CA",
+        "time": 1767594940660,
+        "updated": 1767595938246,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503823",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503823.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75291066",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75291066.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71503823",
-        "ids": ",pr71503823,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.0488,
-        "rms": 0.1,
-        "gap": 171,
+        "sig": 26,
+        "net": "nc",
+        "code": "75291066",
+        "ids": ",nc75291066,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.004925,
+        "rms": 0.03,
+        "gap": 54,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 1 km WNW of Indios, Puerto Rico"
+        "title": "M 1.3 - 4 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8336666666667,
-          17.9975,
-          14.57
+          -122.785003662109,
+          38.8096656799316,
+          1.12999999523163
         ]
       },
-      "id": "pr71503823"
+      "id": "nc75291066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "18 km E of Julian, CA",
+        "time": 1767593281240,
+        "updated": 1767593499984,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41152223",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41152223.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41152223",
+        "ids": ",ci41152223,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.0344,
+        "rms": 0.19,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 18 km E of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.412166666667,
+          33.0506666666667,
+          6.3
+        ]
+      },
+      "id": "ci41152223"
     }
   ],
   "bbox": [
-    -154.955,
-    17.9975,
-    -0.47999998927116,
-    -66.642333333333,
-    59.559,
-    106.6
+    -141.29,
+    33.050666666667,
+    1.1299999952316,
+    -116.41216666667,
+    59.764,
+    6.3
   ]
 }
