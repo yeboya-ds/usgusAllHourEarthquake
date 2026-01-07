@@ -1,261 +1,621 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767682358000,
+    "generated": 1767768667000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 15
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.06,
-        "place": "70 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1767680908170,
-        "updated": 1767681917440,
+        "mag": 2.4,
+        "place": "4 km E of Coahoma, Texas",
+        "time": 1767767711597,
+        "updated": 1767768172509,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504113",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504113.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026alnixc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026alnixc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "tx",
+        "code": "2026alnixc",
+        "ids": ",tx2026alnixc,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 70,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 4 km E of Coahoma, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.254,
+          32.294,
+          0.6861
+        ]
+      },
+      "id": "tx2026alnixc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "11 km NE of Kodiak, Alaska",
+        "time": 1767767535940,
+        "updated": 1767768628548,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026alnjid",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026alnjid.geojson",
+        "felt": 23,
+        "cdi": 3.8,
+        "mmi": 2.773,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 197,
+        "net": "ak",
+        "code": "2026alnjid",
+        "ids": ",ak2026alnjid,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 87,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 161,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 11 km NE of Kodiak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.288,
+          57.873,
+          27.2
+        ]
+      },
+      "id": "ak2026alnjid"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.95,
+        "place": "12 km SW of Salton City, CA",
+        "time": 1767767408230,
+        "updated": 1767767630670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41153407",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41153407.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41153407",
+        "ids": ",ci41153407,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.07523,
+        "rms": 0.23,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 12 km SW of Salton City, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.058833333333,
+          33.2361666666667,
+          3.31
+        ]
+      },
+      "id": "ci41153407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "9 km E of Alum Rock, CA",
+        "time": 1767767406660,
+        "updated": 1767768440727,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75291901",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75291901.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "nc",
+        "code": "75291901",
+        "ids": ",nc75291901,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.1003,
+        "rms": 0.06,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.2 - 9 km E of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.728164672852,
+          37.3680000305176,
+          3.77999997138977
+        ]
+      },
+      "id": "nc75291901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "20 km NNE of Fishhook, Alaska",
+        "time": 1767767401487,
+        "updated": 1767767543414,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026alnhjq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026alnhjq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "2026alnhjq",
+        "ids": ",ak2026alnhjq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.2,
+        "rms": 1.2,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 20 km NNE of Fishhook, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.146,
+          61.922,
+          20.1
+        ]
+      },
+      "id": "ak2026alnhjq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.81,
+        "place": "5 km S of Magas Arriba, Puerto Rico",
+        "time": 1767767221570,
+        "updated": 1767768533440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504413",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504413.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 121,
         "net": "pr",
-        "code": "71504113",
-        "ids": ",pr71504113,",
+        "code": "71504413",
+        "ids": ",pr71504413,",
         "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.6226,
-        "rms": 0.11,
-        "gap": 253,
+        "nst": 19,
+        "dmin": 0.1005,
+        "rms": 0.14,
+        "gap": 180,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 70 km N of Tierras Nuevas Poniente, Puerto Rico"
+        "title": "M 2.8 - 5 km S of Magas Arriba, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.5066666666667,
-          19.1026666666667,
-          22.91
+          -66.7738333333333,
+          17.97,
+          9.97
         ]
       },
-      "id": "pr71504113"
+      "id": "pr71504413"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.38,
-        "place": "8 km NNW of Ventura, CA",
-        "time": 1767680875880,
-        "updated": 1767681098731,
+        "mag": 4.6,
+        "place": "68 km E of Baculin, Philippines",
+        "time": 1767766579939,
+        "updated": 1767768077040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41152751",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41152751.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rn4x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rn4x.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "41152751",
-        "ids": ",ci41152751,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.06432,
-        "rms": 0.28,
-        "gap": 166,
-        "magType": "ml",
+        "sig": 326,
+        "net": "us",
+        "code": "7000rn4x",
+        "ids": ",us7000rn4x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 1.627,
+        "rms": 0.9,
+        "gap": 62,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.4 - 8 km NNW of Ventura, CA"
+        "title": "M 4.6 - 68 km E of Baculin, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.262333333333,
-          34.34,
-          13.23
+          127.1945,
+          7.351,
+          35
         ]
       },
-      "id": "ci41152751"
+      "id": "us7000rn4x"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1767680696410,
-        "updated": 1767680791719,
+        "mag": 0.77,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1767766531980,
+        "updated": 1767766631113,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75291416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75291416.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75291891",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75291891.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
+        "sig": 9,
         "net": "nc",
-        "code": "75291416",
-        "ids": ",nc75291416,",
+        "code": "75291891",
+        "ids": ",nc75291891,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.01189,
-        "rms": 0.02,
-        "gap": 52,
+        "nst": 7,
+        "dmin": 0.007673,
+        "rms": 0.01,
+        "gap": 97,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+        "title": "M 0.8 - 4 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.821998596191,
-          38.8160018920898,
-          2.09999990463257
+          -122.778167724609,
+          38.8058319091797,
+          2.38000011444092
         ]
       },
-      "id": "nc75291416"
+      "id": "nc75291891"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "38 km WSW of Nanwalek, Alaska",
-        "time": 1767680262516,
-        "updated": 1767680334091,
+        "mag": 0.84,
+        "place": "9 km NNE of Running Springs, CA",
+        "time": 1767766329600,
+        "updated": 1767766547826,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ajrdws",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ajrdws.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41153399",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41153399.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "2026ajrdws",
-        "ids": ",ak2026ajrdws,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.5,
-        "rms": 0.5,
-        "gap": 117,
+        "sig": 11,
+        "net": "ci",
+        "code": "41153399",
+        "ids": ",ci41153399,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.07208,
+        "rms": 0.18,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 38 km WSW of Nanwalek, Alaska"
+        "title": "M 0.8 - 9 km NNE of Running Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.502,
-          59.182,
-          63.6
+          -117.086,
+          34.2841666666667,
+          1.61
         ]
       },
-      "id": "ak2026ajrdws"
+      "id": "ci41153399"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.63,
-        "place": "24 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1767680209700,
-        "updated": 1767680437950,
+        "mag": 0.41,
+        "place": "18 km E of Julian, CA",
+        "time": 1767765721590,
+        "updated": 1767765942567,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74869502",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74869502.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41153391",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41153391.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "74869502",
-        "ids": ",hv74869502,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.009199,
-        "rms": 0.239999995,
-        "gap": 56,
+        "sig": 3,
+        "net": "ci",
+        "code": "41153391",
+        "ids": ",ci41153391,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.03378,
+        "rms": 0.16,
+        "gap": 91,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 24 km ENE of Honaunau-Napoopoo, Hawaii"
+        "title": "M 0.4 - 18 km E of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.649993896484,
-          19.5485000610352,
-          12.0299997329712
+          -116.410166666667,
+          33.053,
+          6.11
         ]
       },
-      "id": "hv74869502"
+      "id": "ci41153391"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "69 km W of Tyonek, Alaska",
-        "time": 1767679627440,
-        "updated": 1767679795588,
+        "mag": 1.75,
+        "place": "4 km ESE of Mossyrock, Washington",
+        "time": 1767765590940,
+        "updated": 1767766208220,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ajqutj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ajqutj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62221986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62221986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "uw",
+        "code": "62221986",
+        "ids": ",uw62221986,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 0.1069,
+        "rms": 0.09,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 4 km ESE of Mossyrock, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42166666666667,
+          46.52016666666667,
+          19.8
+        ]
+      },
+      "id": "uw62221986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "24 km NNE of Four Mile Road, Alaska",
+        "time": 1767765482467,
+        "updated": 1767765606425,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026almfvi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026almfvi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
+        "sig": 26,
         "net": "ak",
-        "code": "2026ajqutj",
-        "ids": ",ak2026ajqutj,",
+        "code": "2026almfvi",
+        "ids": ",ak2026almfvi,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0,
+        "nst": 13,
+        "dmin": 0.2,
         "rms": 0.7,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 24 km NNE of Four Mile Road, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.014,
+          64.82,
+          4.6
+        ]
+      },
+      "id": "ak2026almfvi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7801337242126465,
+        "place": "5 km E of Mossyrock, Washington",
+        "time": 1767765440440,
+        "updated": 1767765608560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62221981",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62221981.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "uw",
+        "code": "62221981",
+        "ids": ",uw62221981,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": null,
+        "rms": 0.109999999,
         "gap": 92,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 69 km W of Tyonek, Alaska"
+        "title": "M 1.8 - 5 km E of Mossyrock, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.395,
-          61.183,
-          140.6
+          -122.41716766357422,
+          46.52166748046875,
+          17
         ]
       },
-      "id": "ak2026ajqutj"
+      "id": "uw62221981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.46,
+        "place": "11 km ENE of Coalinga, CA",
+        "time": 1767765224280,
+        "updated": 1767767539628,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75291886",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75291886.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 33,
+        "net": "nc",
+        "code": "75291886",
+        "ids": ",nc75291886,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.1103,
+        "rms": 0.08,
+        "gap": 115,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 11 km ENE of Coalinga, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.241996765137,
+          36.175666809082,
+          11.6400003433228
+        ]
+      },
+      "id": "nc75291886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "1 km ESE of Guánica, Puerto Rico",
+        "time": 1767765109530,
+        "updated": 1767766312280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504398",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504398.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "pr",
+        "code": "71504398",
+        "ids": ",pr71504398,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.01764,
+        "rms": 0.17,
+        "gap": 169,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km ESE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8963333333333,
+          17.9681666666667,
+          9.45
+        ]
+      },
+      "id": "pr71504398"
     }
   ],
   "bbox": [
-    -155.64999389648,
-    19.102666666667,
-    2.0999999046326,
-    -66.506666666667,
-    61.183,
-    140.6
+    -152.288,
+    7.351,
+    0.6861,
+    127.1945,
+    64.82,
+    35
   ]
 }
