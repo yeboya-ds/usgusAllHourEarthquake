@@ -1,104 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768546272000,
+    "generated": 1768632462000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "9 km SSW of Borrego Springs, CA",
-        "time": 1768545795980,
-        "updated": 1768546018365,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41159527",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41159527.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ci",
-        "code": "41159527",
-        "ids": ",ci41159527,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 73,
-        "dmin": 0.08896,
-        "rms": 0.29,
-        "gap": 22,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 9 km SSW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4175,
-          33.179,
-          6.03
-        ]
-      },
-      "id": "ci41159527"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.89,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1768544939120,
-        "updated": 1768545037999,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75296426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75296426.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "nc",
-        "code": "75296426",
-        "ids": ",nc75296426,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.003292,
-        "rms": 0.01,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.83699798584,
-          38.841667175293,
-          1.57000005245209
-        ]
-      },
-      "id": "nc75296426"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.05,
-        "place": "8 km NE of Grapevine, CA",
-        "time": 1768544445890,
-        "updated": 1768544666548,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1768632282490,
+        "updated": 1768632377706,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41159519",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41159519.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75296871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75296871.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,39 +26,159 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 17,
-        "net": "ci",
-        "code": "41159519",
-        "ids": ",ci41159519,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.09428,
-        "rms": 0.16,
-        "gap": 89,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75296871",
+        "ids": ",nc75296871,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.009125,
+        "rms": 0.02,
+        "gap": 46,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km NE of Grapevine, CA"
+        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.8685,
-          34.9966666666667,
-          13.67
+          -122.788330078125,
+          38.8201675415039,
+          1.87000000476837
         ]
       },
-      "id": "ci41159519"
+      "id": "nc75296871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "31 km NW of Toyah, Texas",
+        "time": 1768632121420,
+        "updated": 1768632450871,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bdwynm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bdwynm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "tx",
+        "code": "2026bdwynm",
+        "ids": ",tx2026bdwynm,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 31 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.034,
+          31.515,
+          6.927
+        ]
+      },
+      "id": "tx2026bdwynm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "9 km NE of Coso Junction, CA",
+        "time": 1768631715620,
+        "updated": 1768631934009,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41160247",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41160247.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "41160247",
+        "ids": ",ci41160247,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.02753,
+        "rms": 0.13,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 9 km NE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.884333333333,
+          36.1038333333333,
+          4.01
+        ]
+      },
+      "id": "ci41160247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.04,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1768630557200,
+        "updated": 1768630651352,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75296866",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75296866.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75296866",
+        "ids": ",nc75296866,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01632,
+        "rms": 0.02,
+        "gap": 52,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816497802734,
+          38.8306655883789,
+          1.42999994754791
+        ]
+      },
+      "id": "nc75296866"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.3,
-        "place": "15 km W of Forsan, Texas",
-        "time": 1768544033898,
-        "updated": 1768544198416,
+        "place": "16 km ESE of Ocotillo, CA",
+        "time": 1768630148250,
+        "updated": 1768630784950,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bcahkg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bcahkg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41160239",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41160239.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,156 +186,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 26,
-        "net": "tx",
-        "code": "2026bcahkg",
-        "ids": ",tx2026bcahkg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 165,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 15 km W of Forsan, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.534,
-          32.11,
-          3.0111
-        ]
-      },
-      "id": "tx2026bcahkg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.68,
-        "place": "9 km NE of Julian, CA",
-        "time": 1768543956680,
-        "updated": 1768544179039,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41159511",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41159511.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
         "net": "ci",
-        "code": "41159511",
-        "ids": ",ci41159511,",
+        "code": "41160239",
+        "ids": ",ci41160239,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.08092,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.0695,
         "rms": 0.19,
-        "gap": 50,
+        "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 9 km NE of Julian, CA"
+        "title": "M 1.3 - 16 km ESE of Ocotillo, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.539333333333,
-          33.1456666666667,
-          5.77
+          -115.843,
+          32.6665,
+          7.14
         ]
       },
-      "id": "ci41159511"
+      "id": "ci41160239"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "14 km NNE of Willow, Alaska",
-        "time": 1768543942206,
-        "updated": 1768544033133,
+        "mag": 1.9,
+        "place": "34 km W of Nikiski, Alaska",
+        "time": 1768629771980,
+        "updated": 1768629885773,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bcagce",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bcagce.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bdvqtx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bdvqtx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 56,
         "net": "ak",
-        "code": "2026bcagce",
-        "ids": ",ak2026bcagce,",
+        "code": "2026bdvqtx",
+        "ids": ",ak2026bdvqtx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.5,
-        "rms": 0.1,
-        "gap": 157,
+        "nst": 24,
+        "dmin": 0.3,
+        "rms": 0.4,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 14 km NNE of Willow, Alaska"
+        "title": "M 1.9 - 34 km W of Nikiski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.923,
-          61.866,
-          20
+          -151.914,
+          60.721,
+          84.8
         ]
       },
-      "id": "ak2026bcagce"
+      "id": "ak2026bdvqtx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "12 km N of Cuyamel, Honduras",
-        "time": 1768543725198,
-        "updated": 1768546228085,
+        "mag": 1.29,
+        "place": "16 km SW of Willits, CA",
+        "time": 1768629449940,
+        "updated": 1768629547149,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rq11",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rq11.geojson",
-        "felt": 41,
-        "cdi": 5.4,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75296861",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75296861.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 438,
-        "net": "us",
-        "code": "7000rq11",
-        "ids": ",us7000rq11,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 76,
-        "dmin": 2.179,
-        "rms": 1.14,
-        "gap": 58,
-        "magType": "mww",
+        "sig": 26,
+        "net": "nc",
+        "code": "75296861",
+        "ids": ",nc75296861,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.03167,
+        "rms": 0.03,
+        "gap": 112,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 5.2 - 12 km N of Cuyamel, Honduras"
+        "title": "M 1.3 - 16 km SW of Willits, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.1941,
-          15.7817,
-          6.867
+          -123.468002319336,
+          39.2900009155273,
+          1.27999997138977
         ]
       },
-      "id": "us7000rq11"
+      "id": "nc75296861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "10 km NNW of Kermit, Texas",
+        "time": 1768629125440,
+        "updated": 1768629432687,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bdvhnn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bdvhnn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026bdvhnn",
+        "ids": ",tx2026bdvhnn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 190,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 10 km NNW of Kermit, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.129,
+          31.947,
+          1.7133
+        ]
+      },
+      "id": "tx2026bdvhnn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "31 km NW of Toyah, Texas",
+        "time": 1768629099712,
+        "updated": 1768629630717,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bdvhcx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bdvhcx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "tx",
+        "code": "2026bdvhcx",
+        "ids": ",tx2026bdvhcx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 31 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.023,
+          31.525,
+          4.5474
+        ]
+      },
+      "id": "tx2026bdvhcx"
     }
   ],
   "bbox": [
-    -149.923,
-    15.7817,
-    1.5700000524521,
-    -88.1941,
-    61.866,
-    20
+    -151.914,
+    31.515,
+    1.2799999713898,
+    -103.129,
+    60.721,
+    84.8
   ]
 }
