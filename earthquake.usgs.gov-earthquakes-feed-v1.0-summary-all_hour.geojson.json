@@ -1,101 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769496865000,
+    "generated": 1769583298000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 2
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.46,
-        "place": "9 km SSW of Idyllwild, CA",
-        "time": 1769494482000,
-        "updated": 1769494697080,
+        "mag": 1.8,
+        "place": "7 km SE of Pāhala, Hawaii",
+        "time": 1769581963680,
+        "updated": 1769582171040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41173471",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41173471.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74886882",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74886882.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41173471",
-        "ids": ",ci41173471,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.05909,
-        "rms": 0.14,
-        "gap": 66,
-        "magType": "ml",
+        "sig": 50,
+        "net": "hv",
+        "code": "74886882",
+        "ids": ",hv74886882,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.02802,
+        "rms": 0.119999997,
+        "gap": 175,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.5 - 9 km SSW of Idyllwild, CA"
+        "title": "M 1.8 - 7 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.753,
-          33.6658333333333,
-          15.89
+          -155.432495117188,
+          19.156665802002,
+          30.4799995422363
         ]
       },
-      "id": "ci41173471"
+      "id": "hv74886882"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "55 km ESE of Whittier, Alaska",
-        "time": 1769493986816,
-        "updated": 1769494047378,
+        "mag": 5.1,
+        "place": "24 km WSW of Sangay, Philippines",
+        "time": 1769581879868,
+        "updated": 1769583058845,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bwfarb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bwfarb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4xy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s4xy.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000s4xy",
+        "ids": ",us6000s4xy,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 55,
+        "dmin": 1.863,
+        "rms": 1.49,
+        "gap": 40,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 24 km WSW of Sangay, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.8277,
+          6.3984,
+          10
+        ]
+      },
+      "id": "us6000s4xy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "91 km ESE of Maneadero, B.C., MX",
+        "time": 1769581853110,
+        "updated": 1769582079733,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41174623",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41174623.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "2026bwfarb",
-        "ids": ",ak2026bwfarb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 102,
+        "sig": 100,
+        "net": "ci",
+        "code": "41174623",
+        "ids": ",ci41174623,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.5083,
+        "rms": 0.21,
+        "gap": 131,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 55 km ESE of Whittier, Alaska"
+        "title": "M 2.6 - 91 km ESE of Maneadero, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.734,
-          60.608,
-          18.6
+          -115.646833333333,
+          31.487,
+          7.39
         ]
       },
-      "id": "ak2026bwfarb"
+      "id": "ci41174623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "56 km SSE of Denali National Park, Alaska",
+        "time": 1769581490531,
+        "updated": 1769581704561,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bybjkb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bybjkb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "2026bybjkb",
+        "ids": ",ak2026bybjkb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.5,
+        "rms": 0.8,
+        "gap": 103,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 56 km SSE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.288,
+          63.078,
+          5
+        ]
+      },
+      "id": "ak2026bybjkb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.42,
+        "place": "2 km NNE of The Geysers, CA",
+        "time": 1769581209610,
+        "updated": 1769581306146,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75302976",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75302976.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "nc",
+        "code": "75302976",
+        "ids": ",nc75302976,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.02287,
+        "rms": 0.05,
+        "gap": 85,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 2 km NNE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.750999450684,
+          38.7905006408691,
+          -0.180000007152557
+        ]
+      },
+      "id": "nc75302976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.61,
+        "place": "9 km NW of Morongo Valley, CA",
+        "time": 1769580977000,
+        "updated": 1769581200381,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41174615",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41174615.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41174615",
+        "ids": ",ci41174615,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.06057,
+        "rms": 0.12,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 9 km NW of Morongo Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.651666666667,
+          34.0991666666667,
+          8.37
+        ]
+      },
+      "id": "ci41174615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "10 km WSW of Pine Valley, CA",
+        "time": 1769580902320,
+        "updated": 1769581124493,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41174607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41174607.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41174607",
+        "ids": ",ci41174607,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.0904,
+        "rms": 0.09,
+        "gap": 175,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 10 km WSW of Pine Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.633333333333,
+          32.8005,
+          18.14
+        ]
+      },
+      "id": "ci41174607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "55 km WNW of Happy Valley, Alaska",
+        "time": 1769580708437,
+        "updated": 1769580824766,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026byaydw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026byaydw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "2026byaydw",
+        "ids": ",ak2026byaydw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 55 km WNW of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.689,
+          60.08,
+          97.6
+        ]
+      },
+      "id": "ak2026byaydw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.37,
+        "place": "11 km NW of Anza, CA",
+        "time": 1769580177470,
+        "updated": 1769580400856,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41174599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41174599.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "41174599",
+        "ids": ",ci41174599,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.05868,
+        "rms": 0.16,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 11 km NW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7735,
+          33.6158333333333,
+          13.7
+        ]
+      },
+      "id": "ci41174599"
     }
   ],
   "bbox": [
-    -147.734,
-    33.665833333333,
-    15.89,
-    -116.753,
-    60.608,
-    18.6
+    -155.43249511719,
+    6.3984,
+    -0.18000000715256,
+    123.8277,
+    63.078,
+    97.6
   ]
 }
