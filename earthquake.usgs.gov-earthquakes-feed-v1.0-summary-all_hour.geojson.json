@@ -1,104 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769670438000,
+    "generated": 1769756935000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.27,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1769669832840,
-        "updated": 1769669931715,
+        "mag": 2.28,
+        "place": "30 km ENE of Honaunau-Napoopoo, Hawaii",
+        "time": 1769754446040,
+        "updated": 1769754661610,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75303601",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75303601.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74889192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74889192.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75303601",
-        "ids": ",nc75303601,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.01542,
-        "rms": 0.01,
-        "gap": 81,
-        "magType": "md",
+        "sig": 80,
+        "net": "hv",
+        "code": "74889192",
+        "ids": ",hv74889192,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.05108,
+        "rms": 0.239999995,
+        "gap": 170,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 8 km NW of The Geysers, CA"
+        "title": "M 2.3 - 30 km ENE of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.817832946777,
-          38.8316650390625,
-          1.73000001907349
+          -155.591827392578,
+          19.5548324584961,
+          6.15999984741211
         ]
       },
-      "id": "nc75303601"
+      "id": "hv74889192"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.94,
-        "place": "2 km N of Yauco, Puerto Rico",
-        "time": 1769669233720,
-        "updated": 1769670022250,
+        "mag": 0.93,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1769754082020,
+        "updated": 1769754297379,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506138",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506138.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176151",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176151.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 58,
-        "net": "pr",
-        "code": "71506138",
-        "ids": ",pr71506138,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.03656,
-        "rms": 0.18,
-        "gap": 63,
-        "magType": "md",
+        "sig": 13,
+        "net": "ci",
+        "code": "41176151",
+        "ids": ",ci41176151,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.04134,
+        "rms": 0.16,
+        "gap": 60,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 2 km N of Yauco, Puerto Rico"
+        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8538333333333,
-          18.0593333333333,
-          18.42
+          -117.813333333333,
+          35.2991666666667,
+          8.37
         ]
       },
-      "id": "pr71506138"
+      "id": "ci41176151"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.81,
-        "place": "0 km NE of Redlands, CA",
-        "time": 1769668983870,
-        "updated": 1769669603790,
+        "mag": 1.8,
+        "place": "56 km NW of Eureka Roadhouse, Alaska",
+        "time": 1769753700505,
+        "updated": 1769753869942,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41175423",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41175423.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cbsmrg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cbsmrg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,156 +106,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 50,
-        "net": "ci",
-        "code": "41175423",
-        "ids": ",ci41175423,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 96,
-        "dmin": 0.06081,
-        "rms": 0.17,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 0 km NE of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.181,
-          34.0568333333333,
-          10.9
-        ]
-      },
-      "id": "ci41175423"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.85,
-        "place": "4 km SSW of Yountville, CA",
-        "time": 1769668503520,
-        "updated": 1769668600964,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75303591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75303591.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "nc",
-        "code": "75303591",
-        "ids": ",nc75303591,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.04217,
-        "rms": 0.15,
-        "gap": 78,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 4 km SSW of Yountville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.382164001465,
-          38.3709983825684,
-          3.75
-        ]
-      },
-      "id": "nc75303591"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1769668068950,
-        "updated": 1769668165686,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75303586",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75303586.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75303586",
-        "ids": ",nc75303586,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.005575,
-        "rms": 0.02,
-        "gap": 77,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 5 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.78099822998,
-          38.8383331298828,
-          1.73000001907349
-        ]
-      },
-      "id": "nc75303586"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "75 km NNE of Petersville, Alaska",
-        "time": 1769667438558,
-        "updated": 1769667524565,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bzwvtu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bzwvtu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
         "net": "ak",
-        "code": "2026bzwvtu",
-        "ids": ",ak2026bzwvtu,",
+        "code": "2026cbsmrg",
+        "ids": ",ak2026cbsmrg,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.6,
-        "rms": 0.4,
-        "gap": 49,
+        "nst": 13,
+        "dmin": 0.3,
+        "rms": 0.9,
+        "gap": 98,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 75 km NNE of Petersville, Alaska"
+        "title": "M 1.8 - 56 km NW of Eureka Roadhouse, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.472,
-          63.158,
-          113.8
+          -147.902,
+          62.308,
+          27.6
         ]
       },
-      "id": "ak2026bzwvtu"
+      "id": "ak2026cbsmrg"
     }
   ],
   "bbox": [
-    -150.472,
-    18.059333333333,
-    1.7300000190735,
-    -66.853833333333,
-    63.158,
-    113.8
+    -155.59182739258,
+    19.554832458496,
+    6.1599998474121,
+    -117.81333333333,
+    62.308,
+    27.6
   ]
 }
