@@ -1,141 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769756935000,
+    "generated": 1769842714000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 3
+    "api": "2.3.0",
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.28,
-        "place": "30 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1769754446040,
-        "updated": 1769754661610,
+        "mag": 0.8,
+        "place": "13 km NE of Little Lake, CA",
+        "time": 1769841957120,
+        "updated": 1769842176700,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74889192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74889192.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177095",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177095.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 80,
-        "net": "hv",
-        "code": "74889192",
-        "ids": ",hv74889192,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.05108,
-        "rms": 0.239999995,
-        "gap": 170,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 30 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.591827392578,
-          19.5548324584961,
-          6.15999984741211
-        ]
-      },
-      "id": "hv74889192"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1769754082020,
-        "updated": 1769754297379,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176151",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176151.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
+        "sig": 10,
         "net": "ci",
-        "code": "41176151",
-        "ids": ",ci41176151,",
+        "code": "41177095",
+        "ids": ",ci41177095,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.04134,
-        "rms": 0.16,
-        "gap": 60,
+        "nst": 16,
+        "dmin": 0.02538,
+        "rms": 0.11,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
+        "title": "M 0.8 - 13 km NE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.813333333333,
-          35.2991666666667,
-          8.37
+          -117.791833333333,
+          36.0038333333333,
+          1.91
         ]
       },
-      "id": "ci41176151"
+      "id": "ci41177095"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "56 km NW of Eureka Roadhouse, Alaska",
-        "time": 1769753700505,
-        "updated": 1769753869942,
+        "mag": 0.65,
+        "place": "19 km NNE of Indio, CA",
+        "time": 1769841371680,
+        "updated": 1769841586382,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cbsmrg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cbsmrg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177087",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177087.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2026cbsmrg",
-        "ids": ",ak2026cbsmrg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 98,
+        "sig": 6,
+        "net": "ci",
+        "code": "41177087",
+        "ids": ",ci41177087,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.03974,
+        "rms": 0.17,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 56 km NW of Eureka Roadhouse, Alaska"
+        "title": "M 0.7 - 19 km NNE of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.902,
-          62.308,
-          27.6
+          -116.170833333333,
+          33.8856666666667,
+          5.04
         ]
       },
-      "id": "ak2026cbsmrg"
+      "id": "ci41177087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "3 km SSW of Redlands, CA",
+        "time": 1769840848090,
+        "updated": 1769841058653,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177079",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177079.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41177079",
+        "ids": ",ci41177079,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.07457,
+        "rms": 0.15,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 3 km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.201833333333,
+          34.0286666666667,
+          10.88
+        ]
+      },
+      "id": "ci41177079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.13,
+        "place": "16 km ESE of Anza, CA",
+        "time": 1769840726790,
+        "updated": 1769840937631,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177071",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177071.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "ci",
+        "code": "41177071",
+        "ids": ",ci41177071,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 65,
+        "dmin": 0.07766,
+        "rms": 0.19,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 16 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5095,
+          33.5003333333333,
+          11.34
+        ]
+      },
+      "id": "ci41177071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "26 km WNW of Petersville, Alaska",
+        "time": 1769840617258,
+        "updated": 1769840701555,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cdomzk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cdomzk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "2026cdomzk",
+        "ids": ",ak2026cdomzk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.2,
+        "rms": 0.4,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 26 km WNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.26,
+          62.551,
+          88.6
+        ]
+      },
+      "id": "ak2026cdomzk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1769840500916,
+        "updated": 1769841499040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5pv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5pv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000s5pv",
+        "ids": ",us6000s5pv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 7.187,
+        "rms": 0.8,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.4265,
+          -57.9427,
+          89.186
+        ]
+      },
+      "id": "us6000s5pv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1769840003280,
+        "updated": 1769840098457,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75304566",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75304566.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75304566",
+        "ids": ",nc75304566,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.006507,
+        "rms": 0.01,
+        "gap": 93,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.782997131348,
+          38.835334777832,
+          1.62000000476837
+        ]
+      },
+      "id": "nc75304566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1769839965780,
+        "updated": 1769840063638,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75304561",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75304561.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75304561",
+        "ids": ",nc75304561,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.006012,
+        "rms": 0.01,
+        "gap": 87,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80249786377,
+          38.8223342895508,
+          0.46000000834465
+        ]
+      },
+      "id": "nc75304561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "16 km NE of Coso Junction, CA",
+        "time": 1769839791700,
+        "updated": 1769840005507,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177055",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177055.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "ci",
+        "code": "41177055",
+        "ids": ",ci41177055,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.03918,
+        "rms": 0.12,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 16 km NE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8075,
+          36.1256666666667,
+          5.35
+        ]
+      },
+      "id": "ci41177055"
     }
   ],
   "bbox": [
-    -155.59182739258,
-    19.554832458496,
-    6.1599998474121,
-    -117.81333333333,
-    62.308,
-    27.6
+    -151.26,
+    -57.9427,
+    0.46000000834465,
+    -25.4265,
+    62.551,
+    89.186
   ]
 }
