@@ -1,304 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770275810000,
+    "generated": 1770362015000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.16,
-        "place": "4 km SW of Anderson Springs, CA",
-        "time": 1770275592030,
-        "updated": 1770275685760,
+        "mag": 1.22,
+        "place": "6 km W of Cobb, CA",
+        "time": 1770361840210,
+        "updated": 1770361934968,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308807",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308807.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75309397",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75309397.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 21,
+        "sig": 23,
         "net": "nc",
-        "code": "75308807",
-        "ids": ",nc75308807,",
+        "code": "75309397",
+        "ids": ",nc75309397,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01459,
-        "rms": 0.01,
-        "gap": 125,
+        "nst": 17,
+        "dmin": 0.006136,
+        "rms": 0.02,
+        "gap": 65,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 4 km SW of Anderson Springs, CA"
+        "title": "M 1.2 - 6 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.723831176758,
-          38.7470016479492,
-          1.16999995708466
+          -122.792503356934,
+          38.8325004577637,
+          1.79999995231628
         ]
       },
-      "id": "nc75308807"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "33 km E of Balmorhea, Texas",
-        "time": 1770275489892,
-        "updated": 1770275667902,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cmusim",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cmusim.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026cmusim",
-        "ids": ",tx2026cmusim,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.1,
-        "rms": 1.2,
-        "gap": 105,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 33 km E of Balmorhea, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.402,
-          31.033,
-          5.4557
-        ]
-      },
-      "id": "tx2026cmusim"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.22,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1770275407960,
-        "updated": 1770275506737,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308802",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308802.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75308802",
-        "ids": ",nc75308802,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.007392,
-        "rms": 0.04,
-        "gap": 81,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.2 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818664550781,
-          38.8264999389648,
-          5.48000001907349
-        ]
-      },
-      "id": "nc75308802"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "8 km W of Cobb, CA",
-        "time": 1770274921860,
-        "updated": 1770275015622,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308797",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308797.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75308797",
-        "ids": ",nc75308797,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.008456,
-        "rms": 0.01,
-        "gap": 69,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 8 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.810997009277,
-          38.8318328857422,
-          1.88999998569489
-        ]
-      },
-      "id": "nc75308797"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.26,
-        "place": "12 km N of Borrego Springs, CA",
-        "time": 1770274807830,
-        "updated": 1770275182763,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41392128",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41392128.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41392128",
-        "ids": ",ci41392128,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 65,
-        "dmin": 0.04511,
-        "rms": 0.19,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 12 km N of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.393166666667,
-          33.3663333333333,
-          10.96
-        ]
-      },
-      "id": "ci41392128"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.39,
-        "place": "3 km SE of San Ramon, CA",
-        "time": 1770274739610,
-        "updated": 1770275155785,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308792.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "nc",
-        "code": "75308792",
-        "ids": ",nc75308792,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 3 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.951667785645,
-          37.7616653442383,
-          6.36999988555908
-        ]
-      },
-      "id": "nc75308792"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "3 km NW of Loma Linda, CA",
-        "time": 1770274363750,
-        "updated": 1770274583427,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41392120",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41392120.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41392120",
-        "ids": ",ci41392120,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.03507,
-        "rms": 0.17,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 3 km NW of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.279666666667,
-          34.0703333333333,
-          3.98
-        ]
-      },
-      "id": "ci41392120"
+      "id": "nc75309397"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.36,
-        "place": "4 km ESE of San Ramon, CA",
-        "time": 1770273177510,
-        "updated": 1770273276576,
+        "place": "13 km SSW of Arvin, CA",
+        "time": 1770360879530,
+        "updated": 1770361100080,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308772",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308772.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41392680",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41392680.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -306,36 +66,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 28,
-        "net": "nc",
-        "code": "75308772",
-        "ids": ",nc75308772,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.07,
-        "gap": 86,
-        "magType": "md",
+        "net": "ci",
+        "code": "41392680",
+        "ids": ",ci41392680,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.1399,
+        "rms": 0.23,
+        "gap": 23,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 4 km ESE of San Ramon, CA"
+        "title": "M 1.4 - 13 km SSW of Arvin, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.931831359863,
-          37.7646675109863,
-          4
+          -118.889333333333,
+          35.1001666666667,
+          15.11
         ]
       },
-      "id": "nc75308772"
+      "id": "ci41392680"
     }
   ],
   "bbox": [
-    -122.81866455078,
-    31.033,
-    1.1699999570847,
-    -103.402,
-    38.831832885742,
-    10.96
+    -122.79250335693,
+    35.100166666667,
+    1.7999999523163,
+    -118.88933333333,
+    38.832500457764,
+    15.11
   ]
 }
