@@ -1,341 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770534500000,
+    "generated": 1770622352000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
-    "count": 8
+    "api": "1.14.1",
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1770534151590,
-        "updated": 1770534248299,
+        "mag": 1.6,
+        "place": "57 km W of Petersville, Alaska",
+        "time": 1770620591258,
+        "updated": 1770620779783,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310487",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310487.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cudizu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cudizu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75310487",
-        "ids": ",nc75310487,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.008349,
-        "rms": 0.04,
-        "gap": 67,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 5 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.804336547852,
-          38.8035011291504,
-          1.3400000333786
-        ]
-      },
-      "id": "nc75310487"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "8 km S of Glacier View, Alaska",
-        "time": 1770533535354,
-        "updated": 1770533629217,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cshgrw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cshgrw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
+        "sig": 39,
         "net": "ak",
-        "code": "2026cshgrw",
-        "ids": ",ak2026cshgrw,",
+        "code": "2026cudizu",
+        "ids": ",ak2026cudizu,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1,
-        "rms": 0.8,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 8 km S of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.65,
-          61.731,
-          29.4
-        ]
-      },
-      "id": "ak2026cshgrw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.46,
-        "place": "12 km ESE of Anza, CA",
-        "time": 1770533462200,
-        "updated": 1770533681266,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41393760",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41393760.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41393760",
-        "ids": ",ci41393760,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 15,
-        "dmin": 0.04042,
-        "rms": 0.12,
-        "gap": 143,
+        "dmin": 0.4,
+        "rms": 0.3,
+        "gap": 140,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 12 km ESE of Anza, CA"
+        "title": "M 1.6 - 57 km W of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.559666666667,
-          33.514,
-          11.88
+          -151.875,
+          62.514,
+          99.4
         ]
       },
-      "id": "ci41393760"
+      "id": "ak2026cudizu"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "24 km SW of Snyder, Texas",
-        "time": 1770532829601,
-        "updated": 1770534014513,
+        "mag": 2.46,
+        "place": "19 km ENE of Honaunau-Napoopoo, Hawaii",
+        "time": 1770620385200,
+        "updated": 1770620699300,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026csgwog",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026csgwog.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74896797",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74896797.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2026csgwog",
-        "ids": ",tx2026csgwog,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 24 km SW of Snyder, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.104,
-          32.566,
-          1.7925
-        ]
-      },
-      "id": "tx2026csgwog"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.83,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1770532282170,
-        "updated": 1770532379225,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310482",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310482.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "nc",
-        "code": "75310482",
-        "ids": ",nc75310482,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01466,
-        "rms": 0.09,
-        "gap": 164,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.771003723145,
-          38.7868347167969,
-          15.2700004577637
-        ]
-      },
-      "id": "nc75310482"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "18 km ESE of Leilani Estates, Hawaii",
-        "time": 1770532048330,
-        "updated": 1770532290400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74896417",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74896417.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 76,
+        "sig": 93,
         "net": "hv",
-        "code": "74896417",
-        "ids": ",hv74896417,",
+        "code": "74896797",
+        "ids": ",hv74896797,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.1631,
-        "rms": 0.140000001,
-        "gap": 283,
-        "magType": "md",
+        "nst": 49,
+        "dmin": 0.02663,
+        "rms": 0.319999993,
+        "gap": 101,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 18 km ESE of Leilani Estates, Hawaii"
+        "title": "M 2.5 - 19 km ENE of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.76350402832,
-          19.3831672668457,
-          41.5900001525879
+          -155.698837280273,
+          19.530834197998,
+          6.55000019073486
         ]
       },
-      "id": "hv74896417"
+      "id": "hv74896797"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "16 km ESE of Julian, CA",
-        "time": 1770531723150,
-        "updated": 1770531949592,
+        "mag": 1.53,
+        "place": "6 km ENE of San Simeon, CA",
+        "time": 1770619951380,
+        "updated": 1770620050235,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41393752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41393752.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75311137",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75311137.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ci",
-        "code": "41393752",
-        "ids": ",ci41393752,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 52,
-        "dmin": 0.03859,
-        "rms": 0.19,
-        "gap": 40,
-        "magType": "ml",
+        "sig": 36,
+        "net": "nc",
+        "code": "75311137",
+        "ids": ",nc75311137,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.02649,
+        "rms": 0.07,
+        "gap": 133,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 16 km ESE of Julian, CA"
+        "title": "M 1.5 - 6 km ENE of San Simeon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.440833333333,
-          33.0386666666667,
-          10.47
+          -121.129333496094,
+          35.664665222168,
+          5.19999980926514
         ]
       },
-      "id": "ci41393752"
+      "id": "nc75311137"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.24,
-        "place": "3 km SSE of Redwood Valley, CA",
-        "time": 1770531259330,
-        "updated": 1770532641795,
+        "mag": 2,
+        "place": "62 km N of Petersville, Alaska",
+        "time": 1770619904693,
+        "updated": 1770620024717,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310472.geojson",
-        "felt": 1,
-        "cdi": 0,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cuczdj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cuczdj.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 77,
-        "net": "nc",
-        "code": "75310472",
-        "ids": ",nc75310472,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.06268,
-        "rms": 0.09,
-        "gap": 40,
-        "magType": "md",
+        "sig": 62,
+        "net": "ak",
+        "code": "2026cuczdj",
+        "ids": ",ak2026cuczdj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 28,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 3 km SSE of Redwood Valley, CA"
+        "title": "M 2.0 - 62 km N of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.19750213623,
-          39.242000579834,
-          6.34000015258789
+          -150.873,
+          63.054,
+          121
         ]
       },
-      "id": "nc75310472"
+      "id": "ak2026cuczdj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "38 km WNW of Mentone, Texas",
+        "time": 1770618868227,
+        "updated": 1770620510095,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cucgyh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cucgyh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "tx",
+        "code": "2026cucgyh",
+        "ids": ",tx2026cucgyh,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.1,
+        "rms": 0.8,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 38 km WNW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.979,
+          31.838,
+          0
+        ]
+      },
+      "id": "tx2026cucgyh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "12 km WSW of Stanton, Texas",
+        "time": 1770618813273,
+        "updated": 1770619790571,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cucjlr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cucjlr.geojson",
+        "felt": 2,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "tx",
+        "code": "2026cucjlr",
+        "ids": ",tx2026cucjlr,us6000s7eb,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 12 km WSW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.913,
+          32.107,
+          7.1045
+        ]
+      },
+      "id": "tx2026cucjlr"
     }
   ],
   "bbox": [
-    -154.76350402832,
-    19.383167266846,
-    1.3400000333786,
-    -101.104,
-    61.731,
-    41.590000152588
+    -155.69883728027,
+    19.530834197998,
+    0,
+    -101.913,
+    63.054,
+    121
   ]
 }
