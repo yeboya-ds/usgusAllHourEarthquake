@@ -1,184 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770966990000,
+    "generated": 1771052650000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 7
+    "api": "2.3.0",
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.86,
-        "place": "14 km NE of Pāhala, Hawaii",
-        "time": 1770966102600,
-        "updated": 1770966332110,
+        "mag": 0.79,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1771051978950,
+        "updated": 1771052073213,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74898482",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74898482.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "hv",
-        "code": "74898482",
-        "ids": ",hv74898482,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.04165,
-        "rms": 0.150000006,
-        "gap": 103,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 14 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.38200378418,
-          19.2916660308838,
-          2.73000001907349
-        ]
-      },
-      "id": "hv74898482"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.71,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1770965017810,
-        "updated": 1770965114901,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313112",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313112.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75313112",
-        "ids": ",nc75313112,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.007441,
-        "rms": 0.02,
-        "gap": 78,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.801002502441,
-          38.8256683349609,
-          2.63000011444092
-        ]
-      },
-      "id": "nc75313112"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "20 km SE of Pāhala, Hawaii",
-        "time": 1770964328370,
-        "updated": 1770964541220,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74898457",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74898457.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "hv",
-        "code": "74898457",
-        "ids": ",hv74898457,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.1397,
-        "rms": 0.119999997,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 20 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.343994140625,
-          19.0709991455078,
-          35.6100006103516
-        ]
-      },
-      "id": "hv74898457"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "79 km NE of Khuzdar, Pakistan",
-        "time": 1770964222360,
-        "updated": 1770965754367,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8pw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s8pw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 6.665,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000s8pw",
-        "ids": ",us6000s8pw,",
-        "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 83,
-        "dmin": 6.397,
-        "rms": 0.84,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.5 - 79 km NE of Khuzdar, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          67.1802,
-          28.3204,
-          10
-        ]
-      },
-      "id": "us6000s8pw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "20 km NE of Coachella, CA",
-        "time": 1770963721630,
-        "updated": 1770963930570,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41396960",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41396960.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313562",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313562.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,116 +26,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "ci",
-        "code": "41396960",
-        "ids": ",ci41396960,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.1257,
-        "rms": 0.19,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 20 km NE of Coachella, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.994833333333,
-          33.7811666666667,
-          3.02
-        ]
-      },
-      "id": "ci41396960"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.99,
-        "place": "4 km W of Cobb, CA",
-        "time": 1770963483790,
-        "updated": 1770963580806,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313097",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313097.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
         "net": "nc",
-        "code": "75313097",
-        "ids": ",nc75313097,",
+        "code": "75313562",
+        "ids": ",nc75313562,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.005779,
+        "nst": 20,
+        "dmin": 0.005743,
         "rms": 0.02,
-        "gap": 130,
+        "gap": 60,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 4 km W of Cobb, CA"
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.764335632324,
-          38.8266677856445,
-          2.08999991416931
+          -122.804664611816,
+          38.8194999694824,
+          2.25
         ]
       },
-      "id": "nc75313097"
+      "id": "nc75313562"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.02,
-        "place": "20 km ENE of Coachella, CA",
-        "time": 1770963412120,
-        "updated": 1770963617413,
+        "mag": 1.22,
+        "place": "14 km W of Toms Place, CA",
+        "time": 1771051535400,
+        "updated": 1771051633236,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41396952",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41396952.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313557",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313557.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41396952",
-        "ids": ",ci41396952,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.1242,
-        "rms": 0.18,
-        "gap": 61,
-        "magType": "ml",
+        "sig": 23,
+        "net": "nc",
+        "code": "75313557",
+        "ids": ",nc75313557,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.02158,
+        "rms": 0.02,
+        "gap": 189,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 20 km ENE of Coachella, CA"
+        "title": "M 1.2 - 14 km W of Toms Place, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.9945,
-          33.7796666666667,
-          3.36
+          -118.839332580566,
+          37.5699996948242,
+          5.3899998664856
         ]
       },
-      "id": "ci41396952"
+      "id": "nc75313557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "17 km NE of Pāhala, Hawaii",
+        "time": 1771051275970,
+        "updated": 1771051504090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74899162",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74899162.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "hv",
+        "code": "74899162",
+        "ids": ",hv74899162,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.03704,
+        "rms": 0.129999995,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 17 km NE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.346664428711,
+          19.2946662902832,
+          29.4799995422363
+        ]
+      },
+      "id": "hv74899162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.13,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1771049098190,
+        "updated": 1771049192914,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313552.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "nc",
+        "code": "75313552",
+        "ids": ",nc75313552,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.008369,
+        "rms": 0.02,
+        "gap": 57,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816665649414,
+          38.8300018310547,
+          1.77999997138977
+        ]
+      },
+      "id": "nc75313552"
     }
   ],
   "bbox": [
-    -155.38200378418,
-    19.070999145508,
-    2.0899999141693,
-    67.1802,
-    38.826667785645,
-    35.610000610352
+    -155.34666442871,
+    19.294666290283,
+    1.7799999713898,
+    -118.83933258057,
+    38.830001831055,
+    29.479999542236
   ]
 }
