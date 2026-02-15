@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771052650000,
+    "generated": 1771139325000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,170 +12,170 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1771051978950,
-        "updated": 1771052073213,
+        "mag": 1.19,
+        "place": "15 km N of Borrego Springs, CA",
+        "time": 1771138906620,
+        "updated": 1771139109682,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313562",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313562.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41398384",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41398384.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75313562",
-        "ids": ",nc75313562,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.005743,
-        "rms": 0.02,
-        "gap": 60,
-        "magType": "md",
+        "sig": 22,
+        "net": "ci",
+        "code": "41398384",
+        "ids": ",ci41398384,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 72,
+        "dmin": 0.06777,
+        "rms": 0.21,
+        "gap": 20,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
+        "title": "M 1.2 - 15 km N of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.804664611816,
-          38.8194999694824,
-          2.25
+          -116.3875,
+          33.3925,
+          2.51
         ]
       },
-      "id": "nc75313562"
+      "id": "ci41398384"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.22,
-        "place": "14 km W of Toms Place, CA",
-        "time": 1771051535400,
-        "updated": 1771051633236,
+        "mag": 3.36,
+        "place": "70 km N of Culebra, Puerto Rico",
+        "time": 1771137952260,
+        "updated": 1771139127960,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313557",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313557.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508023",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508023.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 23,
-        "net": "nc",
-        "code": "75313557",
-        "ids": ",nc75313557,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.02158,
-        "rms": 0.02,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 14 km W of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.839332580566,
-          37.5699996948242,
-          5.3899998664856
-        ]
-      },
-      "id": "nc75313557"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "17 km NE of Pāhala, Hawaii",
-        "time": 1771051275970,
-        "updated": 1771051504090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74899162",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74899162.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "hv",
-        "code": "74899162",
-        "ids": ",hv74899162,",
-        "sources": ",hv,",
+        "sig": 174,
+        "net": "pr",
+        "code": "71508023",
+        "ids": ",pr71508023,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.03704,
-        "rms": 0.129999995,
-        "gap": 123,
+        "nst": 20,
+        "dmin": 0.6331,
+        "rms": 0.28,
+        "gap": 241,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.4 - 17 km NE of Pāhala, Hawaii"
+        "title": "M 3.4 - 70 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.346664428711,
-          19.2946662902832,
-          29.4799995422363
+          -65.2281666666667,
+          18.9338333333333,
+          34.44
         ]
       },
-      "id": "hv74899162"
+      "id": "pr71508023"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.13,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1771049098190,
-        "updated": 1771049192914,
+        "mag": 1.4,
+        "place": "2 km ENE of The Geysers, CA",
+        "time": 1771137004310,
+        "updated": 1771137100250,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75313552",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75313552.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314107",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314107.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
+        "sig": 30,
         "net": "nc",
-        "code": "75313552",
-        "ids": ",nc75313552,",
+        "code": "75314107",
+        "ids": ",nc75314107,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.008369,
-        "rms": 0.02,
-        "gap": 57,
+        "nst": 14,
+        "dmin": 0.02609,
+        "rms": 0.11,
+        "gap": 84,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km NW of The Geysers, CA"
+        "title": "M 1.4 - 2 km ENE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.816665649414,
-          38.8300018310547,
-          1.77999997138977
+          -122.738670349121,
+          38.7859992980957,
+          0.0299999993294477
         ]
       },
-      "id": "nc75313552"
+      "id": "nc75314107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "62 km SSE of Bengkulu, Indonesia",
+        "time": 1771136082668,
+        "updated": 1771137050040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ci",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9ci.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000s9ci",
+        "ids": ",us6000s9ci,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.568,
+        "rms": 0.76,
+        "gap": 176,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 62 km SSE of Bengkulu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3859,
+          -4.3562,
+          66.131
+        ]
+      },
+      "id": "us6000s9ci"
     }
   ],
   "bbox": [
-    -155.34666442871,
-    19.294666290283,
-    1.7799999713898,
-    -118.83933258057,
-    38.830001831055,
-    29.479999542236
+    -122.73867034912,
+    -4.3562,
+    0.029999999329448,
+    102.3859,
+    38.785999298096,
+    66.131
   ]
 }
