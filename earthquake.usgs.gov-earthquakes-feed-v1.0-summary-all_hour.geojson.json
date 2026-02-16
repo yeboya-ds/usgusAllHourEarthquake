@@ -1,104 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771139325000,
+    "generated": 1771227102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
-    "count": 4
+    "api": "1.14.1",
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.19,
-        "place": "15 km N of Borrego Springs, CA",
-        "time": 1771138906620,
-        "updated": 1771139109682,
+        "mag": 0.75,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1771226977000,
+        "updated": 1771227073702,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41398384",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41398384.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314507",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314507.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "ci",
-        "code": "41398384",
-        "ids": ",ci41398384,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 72,
-        "dmin": 0.06777,
-        "rms": 0.21,
-        "gap": 20,
-        "magType": "ml",
+        "sig": 9,
+        "net": "nc",
+        "code": "75314507",
+        "ids": ",nc75314507,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.01127,
+        "rms": 0.03,
+        "gap": 93,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 15 km N of Borrego Springs, CA"
+        "title": "M 0.8 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3875,
-          33.3925,
-          2.51
+          -122.824996948242,
+          38.8308334350586,
+          3.25
         ]
       },
-      "id": "ci41398384"
+      "id": "nc75314507"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.36,
-        "place": "70 km N of Culebra, Puerto Rico",
-        "time": 1771137952260,
-        "updated": 1771139127960,
+        "mag": 3.4,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1771225521381,
+        "updated": 1771226592353,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508023",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508023.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dgzmvn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dgzmvn.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 4.368,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 174,
-        "net": "pr",
-        "code": "71508023",
-        "ids": ",pr71508023,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.6331,
-        "rms": 0.28,
-        "gap": 241,
-        "magType": "md",
+        "sig": 178,
+        "net": "tx",
+        "code": "2026dgzmvn",
+        "ids": ",us6000s9gr,tx2026dgzmvn,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 19,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 73,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 70 km N of Culebra, Puerto Rico"
+        "title": "M 3.4 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.2281666666667,
-          18.9338333333333,
-          34.44
+          -104.368,
+          31.627,
+          6.7407
         ]
       },
-      "id": "pr71508023"
+      "id": "tx2026dgzmvn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "62 km S of Whites City, New Mexico",
+        "time": 1771225155113,
+        "updated": 1771225442967,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dgzhtw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dgzhtw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "tx",
+        "code": "2026dgzhtw",
+        "ids": ",tx2026dgzhtw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 62 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.379,
+          31.611,
+          4.208
+        ]
+      },
+      "id": "tx2026dgzhtw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "1 km NNW of Pinnacles, CA",
+        "time": 1771224927680,
+        "updated": 1771225023624,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314502",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314502.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "nc",
+        "code": "75314502",
+        "ids": ",nc75314502,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.04318,
+        "rms": 0.13,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km NNW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.147003173828,
+          36.5415000915527,
+          0.920000016689301
+        ]
+      },
+      "id": "nc75314502"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.4,
-        "place": "2 km ENE of The Geysers, CA",
-        "time": 1771137004310,
-        "updated": 1771137100250,
+        "place": "17 km NW of Tatitlek, Alaska",
+        "time": 1771223644615,
+        "updated": 1771223733058,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314107",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314107.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026dgymbs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026dgymbs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,76 +186,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 30,
-        "net": "nc",
-        "code": "75314107",
-        "ids": ",nc75314107,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.02609,
-        "rms": 0.11,
-        "gap": 84,
-        "magType": "md",
+        "net": "ak",
+        "code": "2026dgymbs",
+        "ids": ",ak2026dgymbs,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 62,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 2 km ENE of The Geysers, CA"
+        "title": "M 1.4 - 17 km NW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.738670349121,
-          38.7859992980957,
-          0.0299999993294477
+          -146.897,
+          60.981,
+          27
         ]
       },
-      "id": "nc75314107"
+      "id": "ak2026dgymbs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "62 km SSE of Bengkulu, Indonesia",
-        "time": 1771136082668,
-        "updated": 1771137050040,
+        "mag": 0.97,
+        "place": "2 km N of The Geysers, CA",
+        "time": 1771223644360,
+        "updated": 1771223738231,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9ci.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314492",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314492.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000s9ci",
-        "ids": ",us6000s9ci,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.568,
-        "rms": 0.76,
-        "gap": 176,
-        "magType": "mb",
+        "sig": 14,
+        "net": "nc",
+        "code": "75314492",
+        "ids": ",nc75314492,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.02327,
+        "rms": 0.02,
+        "gap": 108,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 5.0 - 62 km SSE of Bengkulu, Indonesia"
+        "title": "M 1.0 - 2 km N of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          102.3859,
-          -4.3562,
-          66.131
+          -122.758163452148,
+          38.7941665649414,
+          0.129999995231628
         ]
       },
-      "id": "us6000s9ci"
+      "id": "nc75314492"
     }
   ],
   "bbox": [
-    -122.73867034912,
-    -4.3562,
-    0.029999999329448,
-    102.3859,
-    38.785999298096,
-    66.131
+    -146.897,
+    31.611,
+    0.12999999523163,
+    -104.368,
+    60.981,
+    27
   ]
 }
