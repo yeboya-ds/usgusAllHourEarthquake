@@ -1,221 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771571749000,
+    "generated": 1771657314000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
-    "count": 5
+    "api": "1.14.1",
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "8 km SSE of Coahoma, Texas",
-        "time": 1771570549083,
-        "updated": 1771570758490,
+        "mag": 0.51,
+        "place": "12 km ESE of Anza, CA",
+        "time": 1771656766990,
+        "updated": 1771656976416,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026doichu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026doichu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41400952",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41400952.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
+        "sig": 4,
+        "net": "ci",
+        "code": "41400952",
+        "ids": ",ci41400952,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.059,
+        "rms": 0.14,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 12 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.543166666667,
+          33.5271666666667,
+          14.65
+        ]
+      },
+      "id": "ci41400952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.43,
+        "place": "18 km W of Delta, B.C., MX",
+        "time": 1771654952660,
+        "updated": 1771655162550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41400944",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41400944.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "ci",
+        "code": "41400944",
+        "ids": ",ci41400944,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.1152,
+        "rms": 0.27,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 18 km W of Delta, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.383,
+          32.3248333333333,
+          7.81
+        ]
+      },
+      "id": "ci41400944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "17 km SSE of Madang, Papua New Guinea",
+        "time": 1771654723942,
+        "updated": 1771656008590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000saks",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000saks.geojson",
+        "felt": 3,
+        "cdi": 3.4,
+        "mmi": 4.345,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 501,
+        "net": "us",
+        "code": "6000saks",
+        "ids": ",us6000saks,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 45,
+        "dmin": 3.639,
+        "rms": 1.01,
+        "gap": 54,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 17 km SSE of Madang, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8345,
+          -5.3681,
+          71.612
+        ]
+      },
+      "id": "us6000saks"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "3 km NNW of Tyonek, Alaska",
+        "time": 1771653919259,
+        "updated": 1771654985040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dqcdrt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dqcdrt.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "ak",
+        "code": "a2026dqcdrt",
+        "ids": ",aka2026dqcdrt,us6000sakp,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 82,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 3 km NNW of Tyonek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.148,
+          61.095,
+          62.8
+        ]
+      },
+      "id": "aka2026dqcdrt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16,
+        "place": "1 km SSW of Indios, Puerto Rico",
+        "time": 1771653899370,
+        "updated": 1771654452710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508388",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508388.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "pr",
+        "code": "71508388",
+        "ids": ",pr71508388,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.04199,
+        "rms": 0.16,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 1 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.826,
+          17.9843333333333,
+          17.45
+        ]
+      },
+      "id": "pr71508388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.26,
+        "place": "6 km ESE of Ontario, CA",
+        "time": 1771653830660,
+        "updated": 1771654032432,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41400928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41400928.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "ci",
+        "code": "41400928",
+        "ids": ",ci41400928,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.0894,
+        "rms": 0.14,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 6 km ESE of Ontario, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.570166666667,
+          34.0316666666667,
+          4.68
+        ]
+      },
+      "id": "ci41400928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "35 km ENE of McKinney Acres, Texas",
+        "time": 1771653799768,
+        "updated": 1771654308171,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dqcbyh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dqcbyh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
         "net": "tx",
-        "code": "2026doichu",
-        "ids": ",tx2026doichu,",
+        "code": "2026dqcbyh",
+        "ids": ",tx2026dqcbyh,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 61,
+        "nst": 12,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 92,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 8 km SSE of Coahoma, Texas"
+        "title": "M 1.1 - 35 km ENE of McKinney Acres, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.287,
-          32.219,
-          3.8333
+          -102.18,
+          32.412,
+          4.8099
         ]
       },
-      "id": "tx2026doichu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.99,
-        "place": "8 km W of Cobb, CA",
-        "time": 1771569658450,
-        "updated": 1771569997668,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75316197",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75316197.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "nc",
-        "code": "75316197",
-        "ids": ",nc75316197,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.02021,
-        "rms": 0.01,
-        "gap": 231,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 8 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81233215332,
-          38.8328323364258,
-          2.01999998092651
-        ]
-      },
-      "id": "nc75316197"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "4 km ENE of Anchor Point, Alaska",
-        "time": 1771569041162,
-        "updated": 1771569319790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dohgrd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dohgrd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026dohgrd",
-        "ids": ",aka2026dohgrd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km ENE of Anchor Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.764,
-          59.796,
-          59.5
-        ]
-      },
-      "id": "aka2026dohgrd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.64,
-        "place": "29 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1771568673330,
-        "updated": 1771570297290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74903641",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74903641.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 41,
-        "net": "hv",
-        "code": "74903641",
-        "ids": ",hv74903641,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.02515,
-        "rms": 0.14,
-        "gap": 145,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 29 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.598166666667,
-          19.5505,
-          5.62
-        ]
-      },
-      "id": "hv74903641"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.89,
-        "place": "30 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1771568417410,
-        "updated": 1771571708920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74903616",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74903616.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "hv",
-        "code": "74903616",
-        "ids": ",hv74903616,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.0244,
-        "rms": 0.1,
-        "gap": 120,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 30 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.593666666667,
-          19.5541666666667,
-          7.77
-        ]
-      },
-      "id": "hv74903616"
+      "id": "tx2026dqcbyh"
     }
   ],
   "bbox": [
-    -155.59816666667,
-    19.5505,
-    2.0199999809265,
-    -101.287,
-    59.796,
-    59.5
+    -151.148,
+    -5.3681,
+    4.68,
+    145.8345,
+    61.095,
+    71.612
   ]
 }
