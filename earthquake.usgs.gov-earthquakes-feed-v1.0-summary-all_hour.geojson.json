@@ -1,24 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771917453000,
+    "generated": 1772003877000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
-    "count": 6
+    "api": "1.14.1",
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.12,
-        "place": "5 km WNW of The Geysers, CA",
-        "time": 1771916861630,
-        "updated": 1771916956285,
+        "mag": 2.06,
+        "place": "13 km ENE of Pāhala, Hawaii",
+        "time": 1772003371660,
+        "updated": 1772003587160,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75318317",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75318317.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74908291",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74908291.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "hv",
+        "code": "74908291",
+        "ids": ",hv74908291,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.04115,
+        "rms": 0.100000001,
+        "gap": 206,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 13 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.357330322266,
+          19.2534999847412,
+          29.25
+        ]
+      },
+      "id": "hv74908291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "3 km WNW of Tyonek, Alaska",
+        "time": 1772003364271,
+        "updated": 1772003486294,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dxnelm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dxnelm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026dxnelm",
+        "ids": ",aka2026dxnelm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 3 km WNW of Tyonek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.196,
+          61.079,
+          9.4
+        ]
+      },
+      "id": "aka2026dxnelm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "49 km NW of Toyah, Texas",
+        "time": 1772002394928,
+        "updated": 1772002835188,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dxmqne",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dxmqne.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026dxmqne",
+        "ids": ",tx2026dxmqne,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 49 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.132,
+          31.658,
+          3.8777
+        ]
+      },
+      "id": "tx2026dxmqne"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "9 km NNE of Midland, Texas",
+        "time": 1772000410787,
+        "updated": 1772002812513,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dxlnuf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dxlnuf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,236 +146,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 19,
-        "net": "nc",
-        "code": "75318317",
-        "ids": ",nc75318317,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01087,
-        "rms": 0.02,
-        "gap": 97,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 5 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.808334350586,
-          38.8041648864746,
-          1.0900000333786
-        ]
-      },
-      "id": "nc75318317"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "31 km E of McKinney Acres, Texas",
-        "time": 1771916701014,
-        "updated": 1771916928746,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dvrhsa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dvrhsa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
         "net": "tx",
-        "code": "2026dvrhsa",
-        "ids": ",tx2026dvrhsa,",
+        "code": "2026dxlnuf",
+        "ids": ",tx2026dxlnuf,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
         "nst": 22,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 85,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 31 km E of McKinney Acres, Texas"
+        "title": "M 1.1 - 9 km NNE of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.195,
-          32.35,
-          3.7474
+          -102.045,
+          32.077,
+          4.6593
         ]
       },
-      "id": "tx2026dvrhsa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "25 km SW of Maricopa, CA",
-        "time": 1771916697800,
-        "updated": 1771917348540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41402464",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41402464.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "ci",
-        "code": "41402464",
-        "ids": ",ci41402464,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.06553,
-        "rms": 0.27,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 25 km SW of Maricopa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.603666666667,
-          34.9116666666667,
-          8.2
-        ]
-      },
-      "id": "ci41402464"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1771916679760,
-        "updated": 1771916776661,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75318307",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75318307.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "nc",
-        "code": "75318307",
-        "ids": ",nc75318307,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.01032,
-        "rms": 0.02,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 5 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.807502746582,
-          38.8040008544922,
-          1.07000005245209
-        ]
-      },
-      "id": "nc75318307"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "42 km NW of Toyah, Texas",
-        "time": 1771915757927,
-        "updated": 1771916420570,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dvqudl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dvqudl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026dvqudl",
-        "ids": ",tx2026dvqudl,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 42 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.16,
-          31.528,
-          4.1112
-        ]
-      },
-      "id": "tx2026dvqudl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.98,
-        "place": "12 km E of Pāhala, Hawaii",
-        "time": 1771914211790,
-        "updated": 1771914437620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74907291",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74907291.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "hv",
-        "code": "74907291",
-        "ids": ",hv74907291,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.04776,
-        "rms": 0.119999997,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 12 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.361999511719,
-          19.203332901001,
-          31.1100006103516
-        ]
-      },
-      "id": "hv74907291"
+      "id": "tx2026dxlnuf"
     }
   ],
   "bbox": [
-    -155.36199951172,
-    19.203332901001,
-    1.0700000524521,
-    -102.195,
-    38.804164886475,
-    31.110000610352
+    -155.35733032227,
+    19.253499984741,
+    3.8777,
+    -102.045,
+    61.079,
+    29.25
   ]
 }
