@@ -1,181 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772003877000,
+    "generated": 1772090258000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 4
+    "api": "2.3.0",
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.06,
-        "place": "13 km ENE of Pāhala, Hawaii",
-        "time": 1772003371660,
-        "updated": 1772003587160,
+        "mag": 1.77,
+        "place": "1 km S of Pāhala, Hawaii",
+        "time": 1772089723440,
+        "updated": 1772089942850,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74908291",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74908291.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74909111",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74909111.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 65,
+        "sig": 48,
         "net": "hv",
-        "code": "74908291",
-        "ids": ",hv74908291,",
+        "code": "74909111",
+        "ids": ",hv74909111,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.04115,
-        "rms": 0.100000001,
-        "gap": 206,
-        "magType": "ml",
+        "nst": 36,
+        "dmin": 0.03693,
+        "rms": 0.150000006,
+        "gap": 114,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.1 - 13 km ENE of Pāhala, Hawaii"
+        "title": "M 1.8 - 1 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.357330322266,
-          19.2534999847412,
-          29.25
+          -155.480834960938,
+          19.1879997253418,
+          30.9899997711182
         ]
       },
-      "id": "hv74908291"
+      "id": "hv74909111"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "3 km WNW of Tyonek, Alaska",
-        "time": 1772003364271,
-        "updated": 1772003486294,
+        "mag": 3.19,
+        "place": "10 km WSW of Pāhala, Hawaii",
+        "time": 1772088765240,
+        "updated": 1772089915626,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dxnelm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dxnelm.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74909096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74909096.geojson",
+        "felt": 10,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026dxnelm",
-        "ids": ",aka2026dxnelm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 56,
-        "magType": "ml",
+        "sig": 160,
+        "net": "hv",
+        "code": "74909096",
+        "ids": ",hv74909096,us7000s0ei,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.07569,
+        "rms": 0.300000012,
+        "gap": 102,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 3 km WNW of Tyonek, Alaska"
+        "title": "M 3.2 - 10 km WSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.196,
-          61.079,
-          9.4
+          -155.575332641602,
+          19.1800003051758,
+          -0.180000007152557
         ]
       },
-      "id": "aka2026dxnelm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "49 km NW of Toyah, Texas",
-        "time": 1772002394928,
-        "updated": 1772002835188,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dxmqne",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dxmqne.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026dxmqne",
-        "ids": ",tx2026dxmqne,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 49 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.132,
-          31.658,
-          3.8777
-        ]
-      },
-      "id": "tx2026dxmqne"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "9 km NNE of Midland, Texas",
-        "time": 1772000410787,
-        "updated": 1772002812513,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dxlnuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dxlnuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2026dxlnuf",
-        "ids": ",tx2026dxlnuf,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 9 km NNE of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.045,
-          32.077,
-          4.6593
-        ]
-      },
-      "id": "tx2026dxlnuf"
+      "id": "hv74909096"
     }
   ],
   "bbox": [
-    -155.35733032227,
-    19.253499984741,
-    3.8777,
-    -102.045,
-    61.079,
-    29.25
+    -155.5753326416,
+    19.180000305176,
+    -0.18000000715256,
+    -155.48083496094,
+    19.187999725342,
+    30.989999771118
   ]
 }
