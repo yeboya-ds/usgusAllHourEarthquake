@@ -1,421 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772176393000,
+    "generated": 1772261784000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 10
+    "api": "2.3.0",
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "34 km E of Clear, Alaska",
-        "time": 1772175949210,
-        "updated": 1772176026572,
+        "mag": 0.78,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1772261231560,
+        "updated": 1772261326890,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ebencr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ebencr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75320107",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75320107.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026ebencr",
-        "ids": ",aka2026ebencr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2,
-        "rms": 0.2,
-        "gap": 120,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 34 km E of Clear, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.475,
-          64.294,
-          4
-        ]
-      },
-      "id": "aka2026ebencr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.29,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1772175817380,
-        "updated": 1772175911145,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75319632",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75319632.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
+        "sig": 9,
         "net": "nc",
-        "code": "75319632",
-        "ids": ",nc75319632,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.0162,
-        "rms": 0.02,
-        "gap": 53,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.808334350586,
-          38.8303337097168,
-          1.87000000476837
-        ]
-      },
-      "id": "nc75319632"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "53 km WSW of Tatitlek, Alaska",
-        "time": 1772175506952,
-        "updated": 1772175594533,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ebegph",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ebegph.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026ebegph",
-        "ids": ",aka2026ebegph,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 91,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 53 km WSW of Tatitlek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.562,
-          60.664,
-          21.8
-        ]
-      },
-      "id": "aka2026ebegph"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.18,
-        "place": "26 km NNW of Pāhala, Hawaii",
-        "time": 1772174491460,
-        "updated": 1772174735620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74909971",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74909971.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "hv",
-        "code": "74909971",
-        "ids": ",hv74909971,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.03645,
-        "rms": 0.200000003,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 26 km NNW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.585327148438,
-          19.4168338775635,
-          38.75
-        ]
-      },
-      "id": "hv74909971"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.18,
-        "place": "29 km WNW of Volcano, Hawaii",
-        "time": 1772174487030,
-        "updated": 1772174689330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74909966",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74909966.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "hv",
-        "code": "74909966",
-        "ids": ",hv74909966,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.04893,
-        "rms": 0.300000012,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 29 km WNW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.504165649414,
-          19.5104999542236,
-          3.11999988555908
-        ]
-      },
-      "id": "hv74909966"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1772174302020,
-        "updated": 1772174397034,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75319622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75319622.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "nc",
-        "code": "75319622",
-        "ids": ",nc75319622,",
+        "code": "75320107",
+        "ids": ",nc75320107,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 16,
-        "dmin": 0.01386,
-        "rms": 0.01,
-        "gap": 67,
+        "dmin": 0.004216,
+        "rms": 0.02,
+        "gap": 64,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 8 km NW of The Geysers, CA"
+        "title": "M 0.8 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.81916809082,
-          38.8293342590332,
-          1.61000001430511
+          -122.851669311523,
+          38.8286666870117,
+          1.55999994277954
         ]
       },
-      "id": "nc75319622"
+      "id": "nc75320107"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.4,
-        "place": "59 km ENE of Port Alsworth, Alaska",
-        "time": 1772173964931,
-        "updated": 1772174207427,
+        "mag": 0.951224029130444,
+        "place": "15 km NE of Little Lake, CA",
+        "time": 1772260762820,
+        "updated": 1772260885904,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ebdkps",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ebdkps.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41406152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41406152.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "a2026ebdkps",
-        "ids": ",aka2026ebdkps,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 86,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 42,
+        "sig": 14,
+        "net": "ci",
+        "code": "41406152",
+        "ids": ",ci41406152,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.007352,
+        "rms": 0.129999995,
+        "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 59 km ENE of Port Alsworth, Alaska"
+        "title": "M 1.0 - 15 km NE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.323,
-          60.417,
-          166.7
+          -117.774169921875,
+          36.0238342285156,
+          0.980000019073486
         ]
       },
-      "id": "aka2026ebdkps"
+      "id": "ci41406152"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "11 km E of Happy Valley, Alaska",
-        "time": 1772173477846,
-        "updated": 1772173613375,
+        "mag": 1.1288534544793,
+        "place": "12 km NE of Little Lake, CA",
+        "time": 1772260723530,
+        "updated": 1772260845913,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ebddpx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ebddpx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41406144",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41406144.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026ebddpx",
-        "ids": ",aka2026ebddpx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 127,
+        "sig": 20,
+        "net": "ci",
+        "code": "41406144",
+        "ids": ",ci41406144,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.02398,
+        "rms": 0.159999996,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 11 km E of Happy Valley, Alaska"
+        "title": "M 1.1 - 12 km NE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.524,
-          59.961,
-          51.5
+          -117.805168151855,
+          36.0063323974609,
+          -0.579999983310699
         ]
       },
-      "id": "aka2026ebddpx"
+      "id": "ci41406144"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "87 km NW of Karluk, Alaska",
-        "time": 1772172800376,
-        "updated": 1772173006844,
+        "mag": 5.4,
+        "place": "140 km SSW of Kokopo, Papua New Guinea",
+        "time": 1772259805426,
+        "updated": 1772261417035,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ebctwx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ebctwx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s106",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s106.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.633,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000s106",
+        "ids": ",us7000s106,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 108,
+        "dmin": 1.376,
+        "rms": 0.92,
+        "gap": 25,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 140 km SSW of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8543,
+          -5.5416,
+          35
+        ]
+      },
+      "id": "us7000s106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "34 km NNW of Chickaloon, Alaska",
+        "time": 1772259705804,
+        "updated": 1772259895945,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ecyuar",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ecyuar.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
+        "sig": 22,
         "net": "ak",
-        "code": "a2026ebctwx",
-        "ids": ",aka2026ebctwx,",
+        "code": "a2026ecyuar",
+        "ids": ",aka2026ecyuar,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 7,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 102,
+        "dmin": 0.3,
+        "rms": 0.8,
+        "gap": 150,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 87 km NW of Karluk, Alaska"
+        "title": "M 1.2 - 34 km NNW of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.369,
-          58.181,
-          0.3
+          -148.639,
+          62.093,
+          40.8
         ]
       },
-      "id": "aka2026ebctwx"
+      "id": "aka2026ecyuar"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.35,
-        "place": "2 km E of Bellflower, CA",
-        "time": 1772172797780,
-        "updated": 1772173004938,
+        "mag": 3.41,
+        "place": "42 km N of Punta Cana, Dominican Republic",
+        "time": 1772258677980,
+        "updated": 1772260397180,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41404984",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41404984.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508723",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508723.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41404984",
-        "ids": ",ci41404984,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.03055,
-        "rms": 0.26,
-        "gap": 158,
-        "magType": "ml",
+        "sig": 179,
+        "net": "pr",
+        "code": "71508723",
+        "ids": ",pr71508723,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.4485,
+        "rms": 0.49,
+        "gap": 206,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 2 km E of Bellflower, CA"
+        "title": "M 3.4 - 42 km N of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.097333333333,
-          33.8788333333333,
-          11.14
+          -68.3588333333333,
+          18.9648333333333,
+          17.32
         ]
       },
-      "id": "ci41404984"
+      "id": "pr71508723"
     }
   ],
   "bbox": [
-    -155.58532714844,
-    19.416833877564,
-    0.3,
-    -118.09733333333,
-    64.294,
-    166.7
+    -148.639,
+    -5.5416,
+    -0.5799999833107,
+    151.8543,
+    62.093,
+    40.8
   ]
 }
