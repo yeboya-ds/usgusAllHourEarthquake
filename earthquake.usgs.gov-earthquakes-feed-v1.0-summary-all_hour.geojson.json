@@ -1,24 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772261784000,
+    "generated": 1772348670000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 6
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.78,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1772261231560,
-        "updated": 1772261326890,
+        "mag": 1.9,
+        "place": "4 km S of Big Lake, Alaska",
+        "time": 1772348324572,
+        "updated": 1772348497484,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75320107",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75320107.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eevstu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eevstu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026eevstu",
+        "ids": ",aka2026eevstu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 4 km S of Big Lake, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.955,
+          61.485,
+          28.6
+        ]
+      },
+      "id": "aka2026eevstu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.58,
+        "place": "83 km NE of Tonopah, Nevada",
+        "time": 1772347988646,
+        "updated": 1772348143389,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00911451",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00911451.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 38,
+        "net": "nn",
+        "code": "00911451",
+        "ids": ",nn00911451,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.09,
+        "rms": 0.1558,
+        "gap": 232,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 83 km NE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4364,
+          38.4893,
+          1.1401
+        ]
+      },
+      "id": "nn00911451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.62,
+        "place": "80 km NE of Tonopah, Nevada",
+        "time": 1772347668682,
+        "updated": 1772347841955,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00911450",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00911450.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
+        "net": "nn",
+        "code": "00911450",
+        "ids": ",nn00911450,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.077,
+        "rms": 0.2234,
+        "gap": 199,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 80 km NE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4628,
+          38.4752,
+          1.6441
+        ]
+      },
+      "id": "nn00911450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.43261904907271,
+        "place": "10 km W of Pine Valley, CA",
+        "time": 1772346976570,
+        "updated": 1772347102701,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41406880",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41406880.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "ci",
+        "code": "41406880",
+        "ids": ",ci41406880,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.09124,
+        "rms": 0.0799999982,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 10 km W of Pine Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.635833740234,
+          32.8061676025391,
+          18.0300006866455
+        ]
+      },
+      "id": "ci41406880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.27,
+        "place": "5 km WNW of The Geysers, CA",
+        "time": 1772346359830,
+        "updated": 1772346453668,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75320527",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75320527.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75320527",
+        "ids": ",nc75320527,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01239,
+        "rms": 0.02,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 5 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.813003540039,
+          38.7980003356934,
+          4.15000009536743
+        ]
+      },
+      "id": "nc75320527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "5 km WNW of The Geysers, CA",
+        "time": 1772346332350,
+        "updated": 1772347938562,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75320522",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75320522.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,235 +227,115 @@
         "tsunami": 0,
         "sig": 9,
         "net": "nc",
-        "code": "75320107",
-        "ids": ",nc75320107,",
+        "code": "75320522",
+        "ids": ",nc75320522,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.004216,
-        "rms": 0.02,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.851669311523,
-          38.8286666870117,
-          1.55999994277954
-        ]
-      },
-      "id": "nc75320107"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.951224029130444,
-        "place": "15 km NE of Little Lake, CA",
-        "time": 1772260762820,
-        "updated": 1772260885904,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41406152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41406152.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41406152",
-        "ids": ",ci41406152,",
-        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.007352,
-        "rms": 0.129999995,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 15 km NE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.774169921875,
-          36.0238342285156,
-          0.980000019073486
-        ]
-      },
-      "id": "ci41406152"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1288534544793,
-        "place": "12 km NE of Little Lake, CA",
-        "time": 1772260723530,
-        "updated": 1772260845913,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41406144",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41406144.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "41406144",
-        "ids": ",ci41406144,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.02398,
-        "rms": 0.159999996,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 12 km NE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.805168151855,
-          36.0063323974609,
-          -0.579999983310699
-        ]
-      },
-      "id": "ci41406144"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "140 km SSW of Kokopo, Papua New Guinea",
-        "time": 1772259805426,
-        "updated": 1772261417035,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s106",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s106.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.633,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000s106",
-        "ids": ",us7000s106,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 108,
-        "dmin": 1.376,
-        "rms": 0.92,
-        "gap": 25,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 140 km SSW of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.8543,
-          -5.5416,
-          35
-        ]
-      },
-      "id": "us7000s106"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "34 km NNW of Chickaloon, Alaska",
-        "time": 1772259705804,
-        "updated": 1772259895945,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ecyuar",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ecyuar.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026ecyuar",
-        "ids": ",aka2026ecyuar,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
         "nst": 7,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 150,
-        "magType": "ml",
+        "dmin": 0.01157,
+        "rms": 0.02,
+        "gap": 158,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 34 km NNW of Chickaloon, Alaska"
+        "title": "M 0.8 - 5 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.639,
-          62.093,
-          40.8
+          -122.810165405273,
+          38.7985000610352,
+          3.21000003814697
         ]
       },
-      "id": "aka2026ecyuar"
+      "id": "nc75320522"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.41,
-        "place": "42 km N of Punta Cana, Dominican Republic",
-        "time": 1772258677980,
-        "updated": 1772260397180,
+        "mag": 1.58377602036543,
+        "place": "10 km W of Pine Valley, CA",
+        "time": 1772346313940,
+        "updated": 1772346439390,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508723",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508723.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41406872",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41406872.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71508723",
-        "ids": ",pr71508723,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.4485,
-        "rms": 0.49,
-        "gap": 206,
-        "magType": "md",
+        "sig": 39,
+        "net": "ci",
+        "code": "41406872",
+        "ids": ",ci41406872,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.09327,
+        "rms": 0.109999999,
+        "gap": 52,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 42 km N of Punta Cana, Dominican Republic"
+        "title": "M 1.6 - 10 km W of Pine Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.3588333333333,
-          18.9648333333333,
-          17.32
+          -116.638496398926,
+          32.8071670532227,
+          16.8799991607666
         ]
       },
-      "id": "pr71508723"
+      "id": "ci41406872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "15 km NW of Pinnacles, CA",
+        "time": 1772346150300,
+        "updated": 1772347340489,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75320517",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75320517.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "nc",
+        "code": "75320517",
+        "ids": ",nc75320517,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.03127,
+        "rms": 0.07,
+        "gap": 109,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 15 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.275833129883,
+          36.6096649169922,
+          0.860000014305115
+        ]
+      },
+      "id": "nc75320517"
     }
   ],
   "bbox": [
-    -148.639,
-    -5.5416,
-    -0.5799999833107,
-    151.8543,
-    62.093,
-    40.8
+    -149.955,
+    32.806167602539,
+    0.86000001430511,
+    -116.4364,
+    61.485,
+    28.6
   ]
 }
