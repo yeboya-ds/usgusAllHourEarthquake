@@ -1,181 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773299593000,
+    "generated": 1773385985000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 4
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": -0.12,
-        "place": "12 km SSE of Anza, CA",
-        "time": 1773298969640,
-        "updated": 1773299175402,
+        "mag": 2.67,
+        "place": "13 km NNW of Wai‘ōhinu, Hawaii",
+        "time": 1773384899800,
+        "updated": 1773385552302,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41202927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41202927.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74917032",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74917032.geojson",
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
-        "net": "ci",
-        "code": "41202927",
-        "ids": ",ci41202927,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.03507,
-        "rms": 0.16,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M -0.1 - 12 km SSE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.605833333333,
-          33.4596666666667,
-          4.16
-        ]
-      },
-      "id": "ci41202927"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "8 km ENE of El Centro, CA",
-        "time": 1773298312530,
-        "updated": 1773298525782,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41202919",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41202919.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41202919",
-        "ids": ",ci41202919,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.03196,
-        "rms": 0.29,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 8 km ENE of El Centro, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.478833333333,
-          32.8225,
-          4.81
-        ]
-      },
-      "id": "ci41202919"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.9,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1773297455383,
-        "updated": 1773298861480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ezaabq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ezaabq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "tx",
-        "code": "2026ezaabq",
-        "ids": ",tx2026ezaabq,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1,
-        "rms": 0.1,
+        "sig": 110,
+        "net": "hv",
+        "code": "74917032",
+        "ids": ",hv74917032,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.06697,
+        "rms": 0.280000001,
         "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.7 - 13 km NNW of Wai‘ōhinu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.364,
-          31.659,
-          3.9829
+          -155.678665161133,
+          19.1721668243408,
+          -1.51999998092651
         ]
       },
-      "id": "tx2026ezaabq"
+      "id": "hv74917032"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1773296605555,
-        "updated": 1773298838869,
+        "mag": 1.6,
+        "place": "11 km NE of Yucaipa, CA",
+        "time": 1773384479160,
+        "updated": 1773385126840,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026eyznjh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026eyznjh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41203455",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41203455.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026eyznjh",
-        "ids": ",tx2026eyznjh,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 123,
+        "sig": 39,
+        "net": "ci",
+        "code": "41203455",
+        "ids": ",ci41203455,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 83,
+        "dmin": 0.03165,
+        "rms": 0.18,
+        "gap": 22,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 55 km S of Whites City, New Mexico"
+        "title": "M 1.6 - 11 km NE of Yucaipa, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.375,
-          31.676,
-          4.6649
+          -116.966166666667,
+          34.1128333333333,
+          8.46
         ]
       },
-      "id": "tx2026eyznjh"
+      "id": "ci41203455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "26 km WNW of Ludlow, CA",
+        "time": 1773384469920,
+        "updated": 1773384680527,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41203447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41203447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ci",
+        "code": "41203447",
+        "ids": ",ci41203447,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.06201,
+        "rms": 0.33,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 26 km WNW of Ludlow, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.410333333333,
+          34.8273333333333,
+          4.22
+        ]
+      },
+      "id": "ci41203447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.36,
+        "place": "27 km WNW of Ludlow, CA",
+        "time": 1773384183960,
+        "updated": 1773384824470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41203439",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41203439.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "ci",
+        "code": "41203439",
+        "ids": ",ci41203439,nn00912544,",
+        "sources": ",ci,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.06431,
+        "rms": 0.16,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 27 km WNW of Ludlow, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.411666666667,
+          34.842,
+          1.61
+        ]
+      },
+      "id": "ci41203439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "2 km W of Redwood Valley, CA",
+        "time": 1773383962290,
+        "updated": 1773384655561,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75326787",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75326787.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "nc",
+        "code": "75326787",
+        "ids": ",nc75326787,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.0479,
+        "rms": 0.08,
+        "gap": 43,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km W of Redwood Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.230003356934,
+          39.2639999389648,
+          4
+        ]
+      },
+      "id": "nc75326787"
     }
   ],
   "bbox": [
-    -116.60583333333,
-    31.659,
-    3.9829,
-    -104.364,
-    33.459666666667,
-    4.81
+    -155.67866516113,
+    19.172166824341,
+    -1.5199999809265,
+    -116.41033333333,
+    39.263999938965,
+    8.46
   ]
 }
