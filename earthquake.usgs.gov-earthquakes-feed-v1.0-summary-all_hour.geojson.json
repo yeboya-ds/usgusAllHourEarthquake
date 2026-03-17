@@ -1,224 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773647322000,
+    "generated": 1773732619000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 12
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.85644938808917,
-        "place": "27 km SW of Alberto Oviedo Mota, B.C., MX",
-        "time": 1773647153820,
-        "updated": 1773647279300,
+        "mag": 0.75,
+        "place": "7 km WNW of The Geysers, CA",
+        "time": 1773732211980,
+        "updated": 1773732311022,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41204943",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41204943.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328677",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75328677.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 9,
+        "net": "nc",
+        "code": "75328677",
+        "ids": ",nc75328677,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.005157,
+        "rms": 0.03,
+        "gap": 90,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.830169677734,
+          38.7968330383301,
+          1.0900000333786
+        ]
+      },
+      "id": "nc75328677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.42,
+        "place": "3 km ESE of Monterey Park, CA",
+        "time": 1773731962110,
+        "updated": 1773732588960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41205903",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41205903.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
         "net": "ci",
-        "code": "41204943",
-        "ids": ",ci41204943,",
+        "code": "41205903",
+        "ids": ",ci41205903,",
         "sources": ",ci,",
-        "types": ",origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.1102,
-        "rms": 0.280000001,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 27 km SW of Alberto Oviedo Mota, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.345169067383,
-          32.0373344421387,
-          7.80999994277954
-        ]
-      },
-      "id": "ci41204943"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.96,
-        "place": "8 km ENE of Calumet, Oklahoma",
-        "time": 1773646660421,
-        "updated": 1773646796349,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026ffuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026ffuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 59,
-        "net": "ok",
-        "code": "2026ffuf",
-        "ids": ",ok2026ffuf,",
-        "sources": ",ok,",
-        "types": ",origin,",
-        "nst": 14,
-        "dmin": 0.1597679406,
-        "rms": 0.2834579279,
-        "gap": 66.88010621,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 8 km ENE of Calumet, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.03198242,
-          35.62761307,
-          5.787382126
-        ]
-      },
-      "id": "ok2026ffuf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1773645947593,
-        "updated": 1773646191108,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fgkltm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fgkltm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2026fgkltm",
-        "ids": ",tx2026fgkltm,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 59 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.414,
-          31.641,
-          3.5827
-        ]
-      },
-      "id": "tx2026fgkltm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.29,
-        "place": "20 km E of Little Lake, CA",
-        "time": 1773645914480,
-        "updated": 1773646121148,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41204935",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41204935.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ci",
-        "code": "41204935",
-        "ids": ",ci41204935,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.02729,
-        "rms": 0.15,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 20 km E of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.684,
-          35.9473333333333,
-          3.66
-        ]
-      },
-      "id": "ci41204935"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.92,
-        "place": "3 km S of Mentone, CA",
-        "time": 1773645736700,
-        "updated": 1773645938350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41204927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41204927.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41204927",
-        "ids": ",ci41204927,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 62,
-        "dmin": 0.02261,
-        "rms": 0.18,
-        "gap": 26,
+        "dmin": 0.009273,
+        "rms": 0.21,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 3 km S of Mentone, CA"
+        "title": "M 1.4 - 3 km ESE of Monterey Park, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.139166666667,
-          34.0396666666667,
-          4.92
+          -118.091166666667,
+          34.0541666666667,
+          17.6
         ]
       },
-      "id": "ci41204927"
+      "id": "ci41205903"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.85,
-        "place": "9 km SSW of Salton City, CA",
-        "time": 1773645450040,
-        "updated": 1773645652104,
+        "place": "12 km E of Coso Junction, CA",
+        "time": 1773731100680,
+        "updated": 1773731303746,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41204919",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41204919.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41205895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41205895.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,275 +107,235 @@
         "tsunami": 0,
         "sig": 11,
         "net": "ci",
-        "code": "41204919",
-        "ids": ",ci41204919,",
+        "code": "41205895",
+        "ids": ",ci41205895,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.05659,
-        "rms": 0.21,
-        "gap": 48,
+        "nst": 24,
+        "dmin": 0.04193,
+        "rms": 0.18,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 9 km SSW of Salton City, CA"
+        "title": "M 0.9 - 12 km E of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.981,
-          33.2235,
-          6.45
+          -117.814333333333,
+          36.0385,
+          1.19
         ]
       },
-      "id": "ci41204919"
+      "id": "ci41205895"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.34,
-        "place": "108 km N of San Juan, Puerto Rico",
-        "time": 1773644869420,
-        "updated": 1773645997120,
+        "mag": 4.5,
+        "place": "37 km SW of Mohr, Iran",
+        "time": 1773730781105,
+        "updated": 1773731973040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509938.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgsq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgsq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "71509938",
-        "ids": ",pr71509938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.127,
-        "rms": 0.51,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 108 km N of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.91,
-          19.4303333333333,
-          59.31
-        ]
-      },
-      "id": "pr71509938"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1773644705845,
-        "updated": 1773644959461,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fgjvcc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fgjvcc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2026fgjvcc",
-        "ids": ",tx2026fgjvcc,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.418,
-          31.647,
-          3.1095
-        ]
-      },
-      "id": "tx2026fgjvcc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "37 km SE of Molina, Chile",
-        "time": 1773644353470,
-        "updated": 1773646252040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgjq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgjq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
+        "sig": 312,
         "net": "us",
-        "code": "6000sgjq",
-        "ids": ",us6000sgjq,",
+        "code": "6000sgsq",
+        "ids": ",us6000sgsq,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 103,
-        "dmin": 0.554,
-        "rms": 1.02,
-        "gap": 95,
+        "nst": 57,
+        "dmin": 4.014,
+        "rms": 0.58,
+        "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 37 km SE of Molina, Chile"
+        "title": "M 4.5 - 37 km SW of Mohr, Iran"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.9734,
-          -35.3432,
-          101.669
+          52.6049,
+          27.3316,
+          10
         ]
       },
-      "id": "us6000sgjq"
+      "id": "us6000sgsq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "61 km WNW of Ninilchik, Alaska",
-        "time": 1773644123462,
-        "updated": 1773644205947,
+        "mag": 0.71,
+        "place": "7 km W of Cobb, CA",
+        "time": 1773730591260,
+        "updated": 1773731841373,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fgjncb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fgjncb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75328672.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026fgjncb",
-        "ids": ",aka2026fgjncb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1,
-        "rms": 1,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 61 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.67,
-          60.284,
-          41.8
-        ]
-      },
-      "id": "aka2026fgjncb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.53,
-        "place": "8 km SE of Willits, CA",
-        "time": 1773644041850,
-        "updated": 1773645444635,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328122",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75328122.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
+        "sig": 8,
         "net": "nc",
-        "code": "75328122",
-        "ids": ",nc75328122,",
+        "code": "75328672",
+        "ids": ",nc75328672,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.09255,
-        "rms": 0.03,
-        "gap": 99,
+        "nst": 11,
+        "dmin": 0.01229,
+        "rms": 0.01,
+        "gap": 81,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 8 km SE of Willits, CA"
+        "title": "M 0.7 - 7 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.295166015625,
-          39.3580017089844,
-          0.379999995231628
+          -122.805335998535,
+          38.8346672058105,
+          1.77999997138977
         ]
       },
-      "id": "nc75328122"
+      "id": "nc75328672"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1773643868639,
-        "updated": 1773644317196,
+        "mag": 1.81,
+        "place": "4 km NE of Guerneville, CA",
+        "time": 1773730309400,
+        "updated": 1773731239314,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fgjjld",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fgjjld.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328667",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75328667.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2026fgjjld",
-        "ids": ",tx2026fgjjld,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 73,
-        "magType": "ml",
+        "sig": 50,
+        "net": "nc",
+        "code": "75328667",
+        "ids": ",nc75328667,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.04376,
+        "rms": 0.08,
+        "gap": 85,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 59 km S of Whites City, New Mexico"
+        "title": "M 1.8 - 4 km NE of Guerneville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.415,
-          31.642,
-          4.5818
+          -122.965667724609,
+          38.5328330993652,
+          2.44000005722046
         ]
       },
-      "id": "tx2026fgjjld"
+      "id": "nc75328667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "5 km SSE of Lytle Creek, CA",
+        "time": 1773730274120,
+        "updated": 1773730488611,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41205887",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41205887.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "41205887",
+        "ids": ",ci41205887,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 61,
+        "dmin": 0.0184,
+        "rms": 0.2,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 5 km SSE of Lytle Creek, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.470333333333,
+          34.2185,
+          4.28
+        ]
+      },
+      "id": "ci41205887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "35 km E of Wāngjing, India",
+        "time": 1773729531968,
+        "updated": 1773732097981,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgsp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgsp.geojson",
+        "felt": 3,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000sgsp",
+        "ids": ",us6000sgsp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 64,
+        "dmin": 3.438,
+        "rms": 0.76,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 35 km E of Wāngjing, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.4094,
+          24.628,
+          94.115
+        ]
+      },
+      "id": "us6000sgsp"
     }
   ],
   "bbox": [
-    -152.67,
-    -35.3432,
-    0.37999999523163,
-    -65.91,
-    60.284,
-    101.669
+    -122.96566772461,
+    24.628,
+    1.0900000333786,
+    94.4094,
+    38.83466720581,
+    94.115
   ]
 }
