@@ -1,24 +1,264 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773819034000,
+    "generated": 1773904518000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 9
+    "count": 16
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "8 km W of Cobb, CA",
-        "time": 1773818085430,
-        "updated": 1773818182876,
+        "mag": 0.68,
+        "place": "11 km WSW of Morongo Valley, CA",
+        "time": 1773904272640,
+        "updated": 1773904483700,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329512.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207679",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41207679.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41207679",
+        "ids": ",ci41207679,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.05216,
+        "rms": 0.14,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 11 km WSW of Morongo Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.682166666667,
+          33.9946666666667,
+          15.31
+        ]
+      },
+      "id": "ci41207679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.19,
+        "place": "4 km W of Lake Henshaw, CA",
+        "time": 1773904198600,
+        "updated": 1773904406752,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41207671.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ci",
+        "code": "41207671",
+        "ids": ",ci41207671,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.03962,
+        "rms": 0.14,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.2 - 4 km W of Lake Henshaw, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.804,
+          33.2475,
+          12.66
+        ]
+      },
+      "id": "ci41207671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "16 km SSW of Searles Valley, CA",
+        "time": 1773903481770,
+        "updated": 1773903683116,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41207663.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41207663",
+        "ids": ",ci41207663,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.04383,
+        "rms": 0.15,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 16 km SSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.440333333333,
+          35.6233333333333,
+          5.96
+        ]
+      },
+      "id": "ci41207663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "73 km ENE of McCarthy, Alaska",
+        "time": 1773903385271,
+        "updated": 1773903477581,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026flwsph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026flwsph.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026flwsph",
+        "ids": ",aka2026flwsph,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 167,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 73 km ENE of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.608,
+          61.632,
+          10.3
+        ]
+      },
+      "id": "aka2026flwsph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.06,
+        "place": "6 km WNW of The Geysers, CA",
+        "time": 1773903174540,
+        "updated": 1773903268805,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329927.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75329927",
+        "ids": ",nc75329927,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.01332,
+        "rms": 0.02,
+        "gap": 90,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 6 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81583404541,
+          38.7971649169922,
+          3.22000002861023
+        ]
+      },
+      "id": "nc75329927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "44 km ESE of Denali Park, Alaska",
+        "time": 1773903067222,
+        "updated": 1773903171020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026flwnjh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026flwnjh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026flwnjh",
+        "ids": ",aka2026flwnjh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 44 km ESE of Denali Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.056,
+          63.613,
+          2.1
+        ]
+      },
+      "id": "aka2026flwnjh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.71,
+        "place": "4 km W of Cobb, CA",
+        "time": 1773902650850,
+        "updated": 1773904041632,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329922.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,355 +267,395 @@
         "tsunami": 0,
         "sig": 8,
         "net": "nc",
-        "code": "75329512",
-        "ids": ",nc75329512,",
+        "code": "75329922",
+        "ids": ",nc75329922,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 9,
-        "dmin": 0.01178,
+        "dmin": 0.01018,
         "rms": 0.01,
-        "gap": 109,
+        "gap": 113,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km W of Cobb, CA"
+        "title": "M 0.7 - 4 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815170288086,
-          38.8344993591309,
-          1.73000001907349
+          -122.765663146973,
+          38.8208351135254,
+          2.38000011444092
         ]
       },
-      "id": "nc75329512"
+      "id": "nc75329922"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.08,
-        "place": "8 km W of Cobb, CA",
-        "time": 1773817975830,
-        "updated": 1773818072778,
+        "mag": 2.15,
+        "place": "13 km SE of Waimea, Hawaii",
+        "time": 1773902468250,
+        "updated": 1773902674020,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329507.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74918757",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74918757.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75329507",
-        "ids": ",nc75329507,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.01182,
-        "rms": 0.01,
-        "gap": 58,
+        "sig": 71,
+        "net": "hv",
+        "code": "74918757",
+        "ids": ",hv74918757,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1251,
+        "rms": 0.150000006,
+        "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km W of Cobb, CA"
+        "title": "M 2.2 - 13 km SE of Waimea, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815330505371,
-          38.8344993591309,
-          1.91999995708466
+          -155.571838378906,
+          19.9529991149902,
+          46.2700004577637
         ]
       },
-      "id": "nc75329507"
+      "id": "hv74918757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.12,
+        "place": "4 km W of Lake Henshaw, CA",
+        "time": 1773902186050,
+        "updated": 1773902400973,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207655",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41207655.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 0,
+        "net": "ci",
+        "code": "41207655",
+        "ids": ",ci41207655,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.03762,
+        "rms": 0.14,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.1 - 4 km W of Lake Henshaw, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8015,
+          33.2475,
+          12.68
+        ]
+      },
+      "id": "ci41207655"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.1,
-        "place": "67 km W of Nanwalek, Alaska",
-        "time": 1773817070864,
-        "updated": 1773817224362,
+        "place": "5 km SSE of Lake Murray of Richland, South Carolina",
+        "time": 1773901920997,
+        "updated": 1773904416071,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fkbayr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fkbayr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shby",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shby.geojson",
+        "felt": 40,
+        "cdi": 3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 80,
+        "net": "us",
+        "code": "6000shby",
+        "ids": ",us6000shby,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.21,
+        "rms": 0.37,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 5 km SSE of Lake Murray of Richland, South Carolina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2455,
+          34.0718,
+          8.93
+        ]
+      },
+      "id": "us6000shby"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "3 km WNW of Anderson Springs, CA",
+        "time": 1773901751210,
+        "updated": 1773902845492,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329917",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329917.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026fkbayr",
-        "ids": ",aka2026fkbayr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 67 km W of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.095,
-          59.303,
-          93
-        ]
-      },
-      "id": "aka2026fkbayr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "94 km NNW of Aleneva, Alaska",
-        "time": 1773816782849,
-        "updated": 1773817134616,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fkawuz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fkawuz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026fkawuz",
-        "ids": ",aka2026fkawuz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 206,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 94 km NNW of Aleneva, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.742,
-          58.783,
-          12
-        ]
-      },
-      "id": "aka2026fkawuz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "15 km WNW of Susitna, Alaska",
-        "time": 1773816332620,
-        "updated": 1773817419556,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fkaqiu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fkaqiu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026fkaqiu",
-        "ids": ",aka2026fkaqiu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 86,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 15 km WNW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.763,
-          61.616,
-          48.5
-        ]
-      },
-      "id": "aka2026fkaqiu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "1 km NNW of Kensington, CA",
-        "time": 1773816058010,
-        "updated": 1773818840105,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329502",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329502.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
+        "sig": 17,
         "net": "nc",
-        "code": "75329502",
-        "ids": ",nc75329502,",
+        "code": "75329917",
+        "ids": ",nc75329917,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.05378,
-        "rms": 0.03,
-        "gap": 109,
+        "nst": 9,
+        "dmin": 0.01935,
+        "rms": 0.02,
+        "gap": 86,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 1 km NNW of Kensington, CA"
+        "title": "M 1.1 - 3 km WNW of Anderson Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.28466796875,
-          37.9233322143555,
-          10.3400001525879
+          -122.720497131348,
+          38.7806663513184,
+          1.54999995231628
         ]
       },
-      "id": "nc75329502"
+      "id": "nc75329917"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.09,
-        "place": "2 km NNW of Kensington, CA",
-        "time": 1773815944130,
-        "updated": 1773817639951,
+        "mag": 1.63,
+        "place": "44 km SSE of Campo, CA",
+        "time": 1773901747240,
+        "updated": 1773901959440,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329497",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329497.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 67,
-        "net": "nc",
-        "code": "75329497",
-        "ids": ",nc75329497,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 69,
-        "dmin": 0.05746,
-        "rms": 0.07,
-        "gap": 22,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km NNW of Kensington, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.289329528809,
-          37.9253349304199,
-          10.3599996566772
-        ]
-      },
-      "id": "nc75329497"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.43,
-        "place": "17 km WNW of Progreso, B.C., MX",
-        "time": 1773815730760,
-        "updated": 1773815934274,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41206695",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41206695.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41207647.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 31,
+        "sig": 41,
         "net": "ci",
-        "code": "41206695",
-        "ids": ",ci41206695,",
+        "code": "41207647",
+        "ids": ",ci41207647,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.0479,
-        "rms": 0.18,
-        "gap": 66,
+        "nst": 22,
+        "dmin": 0.3194,
+        "rms": 0.12,
+        "gap": 114,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 17 km WNW of Progreso, B.C., MX"
+        "title": "M 1.6 - 44 km SSE of Campo, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.760333333333,
-          32.6108333333333,
-          7.14
+          -116.217,
+          32.2758333333333,
+          12.47
         ]
       },
-      "id": "ci41206695"
+      "id": "ci41207647"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "73 km W of Salamatof, Alaska",
-        "time": 1773815558652,
-        "updated": 1773816896117,
+        "mag": 1.7,
+        "place": "54 km N of Chase, Alaska",
+        "time": 1773901720964,
+        "updated": 1773901836658,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fkaffg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fkaffg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026flvuso",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026flvuso.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026flvuso",
+        "ids": ",aka2026flvuso,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 119,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 54 km N of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.971,
+          62.932,
+          77.3
+        ]
+      },
+      "id": "aka2026flvuso"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Mid-Indian Ridge",
+        "time": 1773901596673,
+        "updated": 1773902840040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shc0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shc0.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026fkaffg",
-        "ids": ",aka2026fkaffg,",
-        "sources": ",ak,",
+        "sig": 385,
+        "net": "us",
+        "code": "6000shc0",
+        "ids": ",us6000shc0,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 107,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 41,
-        "magType": "ml",
+        "nst": 74,
+        "dmin": 5.407,
+        "rms": 0.78,
+        "gap": 117,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.8 - 73 km W of Salamatof, Alaska"
+        "title": "M 5.0 - Mid-Indian Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.665,
-          60.648,
-          128.7
+          68.8592,
+          -21.4372,
+          10
         ]
       },
-      "id": "aka2026fkaffg"
+      "id": "us6000shc0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "63 km ENE of Christiansted, U.S. Virgin Islands",
+        "time": 1773901281930,
+        "updated": 1773902514850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "pr",
+        "code": "71510233",
+        "ids": ",pr71510233,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.645,
+        "rms": 0.25,
+        "gap": 297,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 63 km ENE of Christiansted, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1255,
+          17.8981666666667,
+          59.91
+        ]
+      },
+      "id": "pr71510233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.68,
+        "place": "15 km S of Freedom, Oklahoma",
+        "time": 1773901261634,
+        "updated": 1773901337321,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026fleh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026fleh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 43,
+        "net": "ok",
+        "code": "2026fleh",
+        "ids": ",ok2026fleh,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0849141106,
+        "rms": 0.05409573373,
+        "gap": 189.0305595,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 15 km S of Freedom, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0849762,
+          36.62800217,
+          5.284351826
+        ]
+      },
+      "id": "ok2026fleh"
     }
   ],
   "bbox": [
-    -153.742,
-    32.610833333333,
-    1.7300000190735,
-    -115.76033333333,
-    61.616,
-    128.7
+    -155.57183837891,
+    -21.4372,
+    1.5499999523163,
+    68.8592,
+    63.613,
+    77.3
   ]
 }
