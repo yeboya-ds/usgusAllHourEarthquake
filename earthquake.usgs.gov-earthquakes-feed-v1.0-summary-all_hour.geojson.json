@@ -1,301 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774337433000,
+    "generated": 1774423737000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 7
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.94,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1774337281450,
-        "updated": 1774337379099,
+        "mag": 1.4,
+        "place": "56 km SSE of Whites City, New Mexico",
+        "time": 1774423367281,
+        "updated": 1774423557373,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332232.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fwxypl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fwxypl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75332232",
-        "ids": ",nc75332232,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.001119,
-        "rms": 0.01,
-        "gap": 111,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.835830688477,
-          38.8375015258789,
-          1.82000005245209
-        ]
-      },
-      "id": "nc75332232"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.89,
-        "place": "7 km E of Puebla, B.C., MX",
-        "time": 1774336803010,
-        "updated": 1774337016850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41423544",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41423544.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 55,
-        "net": "ci",
-        "code": "41423544",
-        "ids": ",ci41423544,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.1477,
-        "rms": 0.22,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 7 km E of Puebla, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.2825,
-          32.5528333333333,
-          22.36
-        ]
-      },
-      "id": "ci41423544"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "63 km E of McCarthy, Alaska",
-        "time": 1774336731395,
-        "updated": 1774336835285,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fvccie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fvccie.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "a2026fvccie",
-        "ids": ",aka2026fvccie,",
-        "sources": ",ak,",
+        "sig": 30,
+        "net": "tx",
+        "code": "2026fwxypl",
+        "ids": ",tx2026fwxypl,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 126,
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 63 km E of McCarthy, Alaska"
+        "title": "M 1.4 - 56 km SSE of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.748,
-          61.339,
-          5
+          -104.239,
+          31.679,
+          4.7447
         ]
       },
-      "id": "aka2026fvccie"
+      "id": "tx2026fwxypl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1774336617040,
-        "updated": 1774336713908,
+        "mag": 1.6,
+        "place": "20 km NNW of Stanton, Texas",
+        "time": 1774422278329,
+        "updated": 1774422502152,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332227",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332227.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fwxipk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fwxipk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75332227",
-        "ids": ",nc75332227,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01431,
-        "rms": 0.01,
-        "gap": 75,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.808670043945,
-          38.8381652832031,
-          1.60000002384186
-        ]
-      },
-      "id": "nc75332227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1774335419610,
-        "updated": 1774336644295,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332222",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332222.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75332222",
-        "ids": ",nc75332222,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.01553,
-        "rms": 0.02,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 10 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.837829589844,
-          38.8440017700195,
-          1.62000000476837
-        ]
-      },
-      "id": "nc75332222"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.65,
-        "place": "2 km SSE of Lake Henshaw, CA",
-        "time": 1774335151630,
-        "updated": 1774335359951,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41423536",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41423536.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41423536",
-        "ids": ",ci41423536,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.01499,
-        "rms": 0.15,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 2 km SSE of Lake Henshaw, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.757333333333,
-          33.221,
-          9.75
-        ]
-      },
-      "id": "ci41423536"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "158 km W of Neiafu, Tonga",
-        "time": 1774334757643,
-        "updated": 1774336146040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s79u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s79u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000s79u",
-        "ids": ",us7000s79u,",
-        "sources": ",us,",
+        "sig": 39,
+        "net": "tx",
+        "code": "2026fwxipk",
+        "ids": ",tx2026fwxipk,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 5.289,
-        "rms": 0.71,
-        "gap": 83,
-        "magType": "mb",
+        "nst": 48,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 31,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.6 - 158 km W of Neiafu, Tonga"
+        "title": "M 1.6 - 20 km NNW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -175.4885,
-          -18.5916,
-          192.935
+          -101.85,
+          32.308,
+          4.487
         ]
       },
-      "id": "us7000s79u"
+      "id": "tx2026fwxipk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.18,
+        "place": "6 km SE of Beaumont, CA",
+        "time": 1774421386760,
+        "updated": 1774422014650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41424360",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41424360.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "ci",
+        "code": "41424360",
+        "ids": ",ci41424360,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.09194,
+        "rms": 0.17,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 6 km SE of Beaumont, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.929166666667,
+          33.8943333333333,
+          12.15
+        ]
+      },
+      "id": "ci41424360"
     }
   ],
   "bbox": [
-    -175.4885,
-    -18.5916,
-    1.6000000238419,
-    -115.2825,
-    61.339,
-    192.935
+    -116.92916666667,
+    31.679,
+    4.487,
+    -101.85,
+    33.894333333333,
+    12.15
   ]
 }
