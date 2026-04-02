@@ -1,421 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775030095000,
+    "generated": 1775115716000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 10
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "68 km WNW of Beluga, Alaska",
-        "time": 1775029864315,
-        "updated": 1775030075287,
+        "mag": 0.8,
+        "place": "112 km SSE of McCarthy, Alaska",
+        "time": 1775115217364,
+        "updated": 1775115416334,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjuzds",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjuzds.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026glqczq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026glqczq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026gjuzds",
-        "ids": ",aka2026gjuzds,",
+        "code": "a2026glqczq",
+        "ids": ",aka2026glqczq,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 1.4,
-        "gap": 229,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 68 km WNW of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.247,
-          61.39,
-          5
-        ]
-      },
-      "id": "aka2026gjuzds"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "26 km NNW of Westbrook, Texas",
-        "time": 1775029041722,
-        "updated": 1775029205390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gjunio",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gjunio.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "tx",
-        "code": "2026gjunio",
-        "ids": ",tx2026gjunio,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 182,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 26 km NNW of Westbrook, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.145,
-          32.567,
-          7.5579
-        ]
-      },
-      "id": "tx2026gjunio"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.27,
-        "place": "3 km W of Cobb, CA",
-        "time": 1775027802510,
-        "updated": 1775028741373,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336852",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75336852.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "nc",
-        "code": "75336852",
-        "ids": ",nc75336852,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.01177,
-        "rms": 0.02,
-        "gap": 125,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 3 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.760665893555,
-          38.8211669921875,
-          1.75
-        ]
-      },
-      "id": "nc75336852"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "79 km SW of Skwentna, Alaska",
-        "time": 1775027684310,
-        "updated": 1775027795735,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjttvl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjttvl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026gjttvl",
-        "ids": ",aka2026gjttvl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
+        "nst": 5,
         "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 158,
+        "rms": 0.1,
+        "gap": 172,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 79 km SW of Skwentna, Alaska"
+        "title": "M 0.8 - 112 km SSE of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.532,
-          61.517,
-          5
+          -142.414,
+          60.456,
+          45.6
         ]
       },
-      "id": "aka2026gjttvl"
+      "id": "aka2026glqczq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "50 km W of Happy Valley, Alaska",
-        "time": 1775027430136,
-        "updated": 1775027710928,
+        "mag": 0.88,
+        "place": "15 km WSW of Ocotillo Wells, CA",
+        "time": 1775115030380,
+        "updated": 1775115233711,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjtqev",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjtqev.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026gjtqev",
-        "ids": ",aka2026gjtqev,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 50 km W of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.62,
-          60.029,
-          99.2
-        ]
-      },
-      "id": "aka2026gjtqev"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "14 km S of Funny River, Alaska",
-        "time": 1775027259464,
-        "updated": 1775027663163,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjtnte",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjtnte.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026gjtnte",
-        "ids": ",aka2026gjtnte,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.3,
-        "rms": 0.3,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 14 km S of Funny River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.724,
-          60.376,
-          49.6
-        ]
-      },
-      "id": "aka2026gjtnte"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": -0.01,
-        "place": "13 km SSE of Anza, CA",
-        "time": 1775027043620,
-        "updated": 1775027249479,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41429928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41429928.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41430904",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41430904.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
+        "sig": 12,
         "net": "ci",
-        "code": "41429928",
-        "ids": ",ci41429928,",
+        "code": "41430904",
+        "ids": ",ci41430904,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.05432,
-        "rms": 0.14,
-        "gap": 38,
+        "nst": 39,
+        "dmin": 0.09199,
+        "rms": 0.21,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.0 - 13 km SSE of Anza, CA"
+        "title": "M 0.9 - 15 km WSW of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.632833333333,
-          33.4466666666667,
-          5.91
+          -116.290333333333,
+          33.1056666666667,
+          11.41
         ]
       },
-      "id": "ci41429928"
+      "id": "ci41430904"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.27,
-        "place": "23 km E of Tonopah, Nevada",
-        "time": 1775026833322,
-        "updated": 1775027066774,
+        "mag": 1.22,
+        "place": "12 km ESE of Coalinga, CA",
+        "time": 1775114586160,
+        "updated": 1775114684362,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913598",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00913598.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75337412",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75337412.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 79,
-        "net": "nn",
-        "code": "00913598",
-        "ids": ",nn00913598,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.209,
-        "rms": 0.3472,
-        "gap": 147,
-        "magType": "ml",
+        "sig": 23,
+        "net": "nc",
+        "code": "75337412",
+        "ids": ",nc75337412,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.02768,
+        "rms": 0.12,
+        "gap": 149,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 23 km E of Tonopah, Nevada"
+        "title": "M 1.2 - 12 km ESE of Coalinga, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9572,
-          38.0647,
-          6.2031
+          -120.224502563477,
+          36.1155014038086,
+          9.21000003814697
         ]
       },
-      "id": "nn00913598"
+      "id": "nc75337412"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "18 km SSE of Chenega, Alaska",
-        "time": 1775026783798,
-        "updated": 1775027594698,
+        "mag": 5.2,
+        "place": "118 km WNW of Ternate, Indonesia",
+        "time": 1775113454816,
+        "updated": 1775114470040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjtgxp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjtgxp.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000slyf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000slyf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026gjtgxp",
-        "ids": ",aka2026gjtgxp,",
-        "sources": ",ak,",
+        "sig": 416,
+        "net": "us",
+        "code": "6000slyf",
+        "ids": ",us6000slyf,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.3,
-        "rms": 1,
-        "gap": 126,
-        "magType": "ml",
+        "nst": 93,
+        "dmin": 5.809,
+        "rms": 0.53,
+        "gap": 79,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.3 - 18 km SSE of Chenega, Alaska"
+        "title": "M 5.2 - 118 km WNW of Ternate, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.88,
-          59.91,
-          14.3
+          126.4449,
+          1.287,
+          35
         ]
       },
-      "id": "aka2026gjtgxp"
+      "id": "us6000slyf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "12 km SSE of Susitna North, Alaska",
-        "time": 1775026634046,
-        "updated": 1775027526054,
+        "mag": 2.4158356189727783,
+        "place": "6 km SW of Packwood, Washington",
+        "time": 1775113070610,
+        "updated": 1775114694040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjtetc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjtetc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230362",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62230362.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 90,
+        "net": "uw",
+        "code": "62230362",
+        "ids": ",uw62230362,us6000slyb,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 73,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 6 km SW of Packwood, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.73916625976562,
+          46.57083511352539,
+          2.84999990463257
+        ]
+      },
+      "id": "uw62230362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.22,
+        "place": "3 km SW of Borrego Springs, CA",
+        "time": 1775112972850,
+        "updated": 1775113618550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41430896",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41430896.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 23,
+        "net": "ci",
+        "code": "41430896",
+        "ids": ",ci41430896,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 59,
+        "dmin": 0.03927,
+        "rms": 0.2,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 3 km SW of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.395,
+          33.2335,
+          4.53
+        ]
+      },
+      "id": "ci41430896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "127 km WNW of Ternate, Indonesia",
+        "time": 1775112695188,
+        "updated": 1775113987040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000slye",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000slye.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026gjtetc",
-        "ids": ",aka2026gjtetc,",
-        "sources": ",ak,",
+        "sig": 326,
+        "net": "us",
+        "code": "6000slye",
+        "ids": ",us6000slye,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 39,
-        "magType": "ml",
+        "nst": 40,
+        "dmin": 6.706,
+        "rms": 1.26,
+        "gap": 91,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.8 - 12 km SSE of Susitna North, Alaska"
+        "title": "M 4.6 - 127 km WNW of Ternate, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.789,
-          62.05,
-          46.7
+          126.2997,
+          1.173,
+          35
         ]
       },
-      "id": "aka2026gjtetc"
+      "id": "us6000slye"
     }
   ],
   "bbox": [
-    -152.62,
-    32.567,
-    1.75,
-    -101.145,
-    62.05,
-    99.2
+    -142.414,
+    1.173,
+    2.8499999046326,
+    126.4449,
+    60.456,
+    45.6
   ]
 }
