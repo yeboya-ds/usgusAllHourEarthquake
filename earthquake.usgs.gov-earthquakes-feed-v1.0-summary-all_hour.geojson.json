@@ -1,301 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775115716000,
+    "generated": 1775201828000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 7
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "112 km SSE of McCarthy, Alaska",
-        "time": 1775115217364,
-        "updated": 1775115416334,
+        "mag": 1.56,
+        "place": "14 km N of Brooktrails, CA",
+        "time": 1775201113520,
+        "updated": 1775201209645,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026glqczq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026glqczq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338092",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75338092.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ak",
-        "code": "a2026glqczq",
-        "ids": ",aka2026glqczq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.2,
-        "rms": 0.1,
-        "gap": 172,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 112 km SSE of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.414,
-          60.456,
-          45.6
-        ]
-      },
-      "id": "aka2026glqczq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.88,
-        "place": "15 km WSW of Ocotillo Wells, CA",
-        "time": 1775115030380,
-        "updated": 1775115233711,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41430904",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41430904.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41430904",
-        "ids": ",ci41430904,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.09199,
-        "rms": 0.21,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 15 km WSW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.290333333333,
-          33.1056666666667,
-          11.41
-        ]
-      },
-      "id": "ci41430904"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.22,
-        "place": "12 km ESE of Coalinga, CA",
-        "time": 1775114586160,
-        "updated": 1775114684362,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75337412",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75337412.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
+        "sig": 37,
         "net": "nc",
-        "code": "75337412",
-        "ids": ",nc75337412,",
+        "code": "75338092",
+        "ids": ",nc75338092,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.02768,
-        "rms": 0.12,
-        "gap": 149,
+        "nst": 8,
+        "dmin": 0.08791,
+        "rms": 0.07,
+        "gap": 129,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 12 km ESE of Coalinga, CA"
+        "title": "M 1.6 - 14 km N of Brooktrails, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.224502563477,
-          36.1155014038086,
-          9.21000003814697
+          -123.355667114258,
+          39.5691680908203,
+          7.40999984741211
         ]
       },
-      "id": "nc75337412"
+      "id": "nc75338092"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "118 km WNW of Ternate, Indonesia",
-        "time": 1775113454816,
-        "updated": 1775114470040,
+        "mag": 1.18,
+        "place": "8 km W of Cobb, CA",
+        "time": 1775200824360,
+        "updated": 1775200987771,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000slyf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000slyf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338087",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75338087.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "nc",
+        "code": "75338087",
+        "ids": ",nc75338087,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.01309,
+        "rms": 0.02,
+        "gap": 63,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.2 - 8 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816497802734,
+          38.8354988098145,
+          1.70000004768372
+        ]
+      },
+      "id": "nc75338087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "12 km NE of Isabela, Puerto Rico",
+        "time": 1775200444410,
+        "updated": 1775201517770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512693",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512693.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000slyf",
-        "ids": ",us6000slyf,",
-        "sources": ",us,",
+        "sig": 118,
+        "net": "pr",
+        "code": "71512693",
+        "ids": ",pr71512693,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 5.809,
-        "rms": 0.53,
-        "gap": 79,
-        "magType": "mb",
+        "nst": 10,
+        "dmin": 0.3065,
+        "rms": 0.13,
+        "gap": 270,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 5.2 - 118 km WNW of Ternate, Indonesia"
+        "title": "M 2.8 - 12 km NE of Isabela, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.4449,
-          1.287,
-          35
+          -66.9486666666667,
+          18.5925,
+          75.99
         ]
       },
-      "id": "us6000slyf"
+      "id": "pr71512693"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.4158356189727783,
-        "place": "6 km SW of Packwood, Washington",
-        "time": 1775113070610,
-        "updated": 1775114694040,
+        "mag": 1.2,
+        "place": "27 km ESE of Skwentna, Alaska",
+        "time": 1775200312917,
+        "updated": 1775200414485,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230362",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62230362.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gnlddg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gnlddg.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 90,
+        "sig": 22,
+        "net": "ak",
+        "code": "a2026gnlddg",
+        "ids": ",aka2026gnlddg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.3,
+        "rms": 0.4,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 27 km ESE of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.93,
+          61.883,
+          69.1
+        ]
+      },
+      "id": "aka2026gnlddg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1984405517578125,
+        "place": "20 km SSW of Ashland, Oregon",
+        "time": 1775200280210,
+        "updated": 1775200439910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230967",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62230967.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
         "net": "uw",
-        "code": "62230362",
-        "ids": ",uw62230362,us6000slyb,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 73,
+        "code": "62230967",
+        "ids": ",uw62230967,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
         "dmin": null,
-        "rms": 0.119999997,
-        "gap": 54,
+        "rms": 0.129999995,
+        "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 6 km SW of Packwood, Washington"
+        "title": "M 2.2 - 20 km SSW of Ashland, Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.73916625976562,
-          46.57083511352539,
-          2.84999990463257
+          -122.84483337402344,
+          42.04050064086914,
+          0.340000003576279
         ]
       },
-      "id": "uw62230362"
+      "id": "uw62230967"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.22,
-        "place": "3 km SW of Borrego Springs, CA",
-        "time": 1775112972850,
-        "updated": 1775113618550,
+        "mag": 2.23,
+        "place": "56 km NE of Valmy, Nevada",
+        "time": 1775200262814,
+        "updated": 1775200461126,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41430896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41430896.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913694",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00913694.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "41430896",
-        "ids": ",ci41430896,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.03927,
-        "rms": 0.2,
-        "gap": 25,
+        "sig": 77,
+        "net": "nn",
+        "code": "00913694",
+        "ids": ",nn00913694,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.327,
+        "rms": 0.5059,
+        "gap": 224,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 3 km SW of Borrego Springs, CA"
+        "title": "M 2.2 - 56 km NE of Valmy, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.395,
-          33.2335,
-          4.53
+          -116.7001,
+          41.19,
+          15.998
         ]
       },
-      "id": "ci41430896"
+      "id": "nn00913694"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "127 km WNW of Ternate, Indonesia",
-        "time": 1775112695188,
-        "updated": 1775113987040,
+        "mag": 2.27,
+        "place": "3 km W of Cobb, CA",
+        "time": 1775200229570,
+        "updated": 1775201539492,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000slye",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000slye.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75338072.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000slye",
-        "ids": ",us6000slye,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 6.706,
-        "rms": 1.26,
-        "gap": 91,
-        "magType": "mb",
+        "sig": 79,
+        "net": "nc",
+        "code": "75338072",
+        "ids": ",nc75338072,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.01277,
+        "rms": 0.07,
+        "gap": 57,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.6 - 127 km WNW of Ternate, Indonesia"
+        "title": "M 2.3 - 3 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.2997,
-          1.173,
-          35
+          -122.761169433594,
+          38.8196678161621,
+          1.75
         ]
       },
-      "id": "us6000slye"
+      "id": "nc75338072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.51,
+        "place": "15 km N of Warner Springs, CA",
+        "time": 1775199703590,
+        "updated": 1775199917179,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431704",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41431704.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41431704",
+        "ids": ",ci41431704,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.07622,
+        "rms": 0.17,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 15 km N of Warner Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.611166666667,
+          33.4156666666667,
+          4.6
+        ]
+      },
+      "id": "ci41431704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.93,
+        "place": "25 km W of Volcano, Hawaii",
+        "time": 1775199637490,
+        "updated": 1775199857110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74929732",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74929732.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "hv",
+        "code": "74929732",
+        "ids": ",hv74929732,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.04944,
+        "rms": 0.189999998,
+        "gap": 42,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 25 km W of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.473495483398,
+          19.4411659240723,
+          7.09000015258789
+        ]
+      },
+      "id": "hv74929732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "41 km N of Karluk, Alaska",
+        "time": 1775198641775,
+        "updated": 1775198750010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gnkfda",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gnkfda.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026gnkfda",
+        "ids": ",aka2026gnkfda,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 138,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 41 km N of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.435,
+          57.944,
+          62
+        ]
+      },
+      "id": "aka2026gnkfda"
     }
   ],
   "bbox": [
-    -142.414,
-    1.173,
-    2.8499999046326,
-    126.4449,
-    60.456,
-    45.6
+    -155.4734954834,
+    18.5925,
+    0.34000000357628,
+    -66.948666666667,
+    61.883,
+    75.99
   ]
 }
