@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775462555000,
+    "generated": 1775548207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,13 +12,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "60 km WNW of Toyah, Texas",
-        "time": 1775462011892,
-        "updated": 1775462211909,
+        "mag": 1.4,
+        "place": "51 km W of Mentone, Texas",
+        "time": 1775547759843,
+        "updated": 1775548069925,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gszqoz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gszqoz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026guvbeq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026guvbeq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "tx",
+        "code": "2026guvbeq",
+        "ids": ",tx2026guvbeq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 51 km W of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.146,
+          31.703,
+          3.8963
+        ]
+      },
+      "id": "tx2026guvbeq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "19 km N of Skwentna, Alaska",
+        "time": 1775547683164,
+        "updated": 1775547804086,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026guuzzf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026guuzzf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,356 +66,316 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "tx",
-        "code": "2026gszqoz",
-        "ids": ",tx2026gszqoz,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "a2026guuzzf",
+        "ids": ",aka2026guuzzf,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1,
-        "rms": 0.9,
-        "gap": 135,
+        "nst": 46,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 60 km WNW of Toyah, Texas"
+        "title": "M 1.6 - 19 km N of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.355,
-          31.567,
-          0
+          -151.371,
+          62.162,
+          85.1
         ]
       },
-      "id": "tx2026gszqoz"
+      "id": "aka2026guuzzf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.55,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1775461711820,
-        "updated": 1775461809225,
+        "mag": 1.05,
+        "place": "2 km NW of The Geysers, CA",
+        "time": 1775547587560,
+        "updated": 1775547681986,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339717",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75339717.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340332",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75340332.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 37,
+        "sig": 17,
         "net": "nc",
-        "code": "75339717",
-        "ids": ",nc75339717,",
+        "code": "75340332",
+        "ids": ",nc75340332,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.01366,
-        "rms": 0.03,
-        "gap": 56,
+        "nst": 13,
+        "dmin": 0.01515,
+        "rms": 0.04,
+        "gap": 81,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.6 - 6 km WNW of Cobb, CA"
+        "title": "M 1.1 - 2 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.790000915527,
-          38.8339996337891,
-          1.74000000953674
+          -122.768669128418,
+          38.787166595459,
+          0.5
         ]
       },
-      "id": "nc75339717"
+      "id": "nc75340332"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.01,
-        "place": "5 km SSW of Indios, Puerto Rico",
-        "time": 1775461193830,
-        "updated": 1775462144280,
+        "mag": 1.56769960580806,
+        "place": "14 km W of Johannesburg, CA",
+        "time": 1775547502650,
+        "updated": 1775547710177,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513023",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513023.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71513023",
-        "ids": ",pr71513023,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.04137,
-        "rms": 0.07,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 5 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8416666666667,
-          17.9541666666667,
-          11.99
-        ]
-      },
-      "id": "pr71513023"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.01,
-        "place": "5 km SSW of Indios, Puerto Rico",
-        "time": 1775461193830,
-        "updated": 1775461889970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513028",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513028.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71513028",
-        "ids": ",pr71513028,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.04137,
-        "rms": 0.07,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 5 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8416666666667,
-          17.9541666666667,
-          11.99
-        ]
-      },
-      "id": "pr71513028"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "66 km W of Karluk, Alaska",
-        "time": 1775461069303,
-        "updated": 1775461203918,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gszecf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gszecf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41434112",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41434112.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026gszecf",
-        "ids": ",aka2026gszecf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 158,
+        "sig": 38,
+        "net": "ci",
+        "code": "41434112",
+        "ids": ",ci41434112,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.0957,
+        "rms": 0.209999993,
+        "gap": 77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 66 km W of Karluk, Alaska"
+        "title": "M 1.6 - 14 km W of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.552,
-          57.498,
-          73.7
+          -117.789497375488,
+          35.3515014648438,
+          6.44000005722046
         ]
       },
-      "id": "aka2026gszecf"
+      "id": "ci41434112"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.19,
-        "place": "13 km E of Cambria, CA",
-        "time": 1775460826950,
-        "updated": 1775462241212,
+        "mag": 3,
+        "place": "28 km SSE of Port Graham, Alaska",
+        "time": 1775546588034,
+        "updated": 1775546711938,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339707",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75339707.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026guukir",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026guukir.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "nc",
-        "code": "75339707",
-        "ids": ",nc75339707,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1122,
-        "rms": 0.07,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 13 km E of Cambria, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.938499450684,
-          35.5703315734863,
-          4.15999984741211
-        ]
-      },
-      "id": "nc75339707"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "23 km SSE of Larsen Bay, Alaska",
-        "time": 1775460785611,
-        "updated": 1775460931800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gszabz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gszabz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
+        "sig": 138,
         "net": "ak",
-        "code": "a2026gszabz",
-        "ids": ",aka2026gszabz,",
+        "code": "a2026guukir",
+        "ids": ",aka2026guukir,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 68,
+        "nst": 115,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 115,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 28 km SSE of Port Graham, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.713,
+          59.1,
+          46.4
+        ]
+      },
+      "id": "aka2026guukir"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "34 km N of Sutton-Alpine, Alaska",
+        "time": 1775545175246,
+        "updated": 1775545289009,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gutqbg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gutqbg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026gutqbg",
+        "ids": ",aka2026gutqbg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
         "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 141,
+        "rms": 0.9,
+        "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 23 km SSE of Larsen Bay, Alaska"
+        "title": "M 1.6 - 34 km N of Sutton-Alpine, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.9,
-          57.33,
-          65.1
+          -148.743,
+          62.087,
+          20.1
         ]
       },
-      "id": "aka2026gszabz"
+      "id": "aka2026gutqbg"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.82,
-        "place": "5 km SSW of Pāhala, Hawaii",
-        "time": 1775460194190,
-        "updated": 1775460404250,
+        "mag": 2.08,
+        "place": "17 km W of Union City, Oklahoma",
+        "time": 1775545127737,
+        "updated": 1775545860360,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74932282",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74932282.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026gtyc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026gtyc.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 67,
+        "net": "ok",
+        "code": "2026gtyc",
+        "ids": ",ok2026gtyc,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.08290084451,
+        "rms": 0.6168432215,
+        "gap": 56.89231873,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 17 km W of Union City, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.13050079,
+          35.41794586,
+          3.701010227
+        ]
+      },
+      "id": "ok2026gtyc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "14 km NE of Milford, Utah",
+        "time": 1775544961800,
+        "updated": 1775547021140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80134951.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "uu",
+        "code": "80134951",
+        "ids": ",uu80134951,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.008548,
+        "rms": 0.08,
+        "gap": 140,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 14 km NE of Milford, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9075,
+          38.5043333333333,
+          -0.38
+        ]
+      },
+      "id": "uu80134951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.63,
+        "place": "1 km ESE of The Geysers, CA",
+        "time": 1775544848410,
+        "updated": 1775544945640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340322",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75340322.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 51,
-        "net": "hv",
-        "code": "74932282",
-        "ids": ",hv74932282,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.038,
-        "rms": 0.129999995,
-        "gap": 127,
+        "sig": 6,
+        "net": "nc",
+        "code": "75340322",
+        "ids": ",nc75340322,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.01123,
+        "rms": 0.05,
+        "gap": 80,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 5 km SSW of Pāhala, Hawaii"
+        "title": "M 0.6 - 1 km ESE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.502166748047,
-          19.1586666107178,
-          30.9200000762939
+          -122.740997314453,
+          38.7724990844727,
+          0.319999992847443
         ]
       },
-      "id": "hv74932282"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "0 km S of Tabonok, Philippines",
-        "time": 1775460162142,
-        "updated": 1775462546253,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sn00",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sn00.geojson",
-        "felt": 21,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 424,
-        "net": "us",
-        "code": "6000sn00",
-        "ids": ",us6000sn00,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 87,
-        "dmin": 4.11,
-        "rms": 0.88,
-        "gap": 51,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 0 km S of Tabonok, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.8752,
-          10.8435,
-          10
-        ]
-      },
-      "id": "us6000sn00"
+      "id": "nc75340322"
     }
   ],
   "bbox": [
-    -155.552,
-    10.8435,
-    0,
-    123.8752,
-    57.498,
-    73.7
+    -151.713,
+    31.703,
+    -0.38,
+    -98.13050079,
+    62.162,
+    85.1
   ]
 }
