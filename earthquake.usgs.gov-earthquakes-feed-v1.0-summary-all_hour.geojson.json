@@ -1,181 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776845275000,
+    "generated": 1776931911000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 4
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "81 km N of Aleneva, Alaska",
-        "time": 1776844232813,
-        "updated": 1776844354602,
+        "mag": 0.67,
+        "place": "16 km W of Searles Valley, CA",
+        "time": 1776931444640,
+        "updated": 1776931655437,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwjctf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwjctf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447032",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41447032.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026hwjctf",
-        "ids": ",aka2026hwjctf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 68,
+        "sig": 7,
+        "net": "ci",
+        "code": "41447032",
+        "ids": ",ci41447032,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.05425,
+        "rms": 0.18,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 81 km N of Aleneva, Alaska"
+        "title": "M 0.7 - 16 km W of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.801,
-          58.785,
-          68.4
+          -117.577666666667,
+          35.7638333333333,
+          6.36
         ]
       },
-      "id": "aka2026hwjctf"
+      "id": "ci41447032"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "36 km E of Denali National Park, Alaska",
-        "time": 1776843608091,
-        "updated": 1776843704201,
+        "mag": 1.79,
+        "place": "11 km SSW of Tres Pinos, CA",
+        "time": 1776930808980,
+        "updated": 1776931091040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwiwfh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwiwfh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349982",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75349982.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026hwiwfh",
-        "ids": ",aka2026hwiwfh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 36 km E of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.996,
-          63.538,
-          0.2
-        ]
-      },
-      "id": "aka2026hwiwfh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.25,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1776842726790,
-        "updated": 1776842823182,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349427",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75349427.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
+        "sig": 49,
         "net": "nc",
-        "code": "75349427",
-        "ids": ",nc75349427,",
+        "code": "75349982",
+        "ids": ",nc75349982,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01197,
-        "rms": 0.03,
-        "gap": 110,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.01838,
+        "rms": 0.18,
+        "gap": 45,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.3 - 6 km NW of The Geysers, CA"
+        "title": "M 1.8 - 11 km SSW of Tres Pinos, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.799499511719,
-          38.8194999694824,
-          3.42000007629395
+          -121.365333557129,
+          36.6969985961914,
+          1.20000004768372
         ]
       },
-      "id": "nc75349427"
+      "id": "nc75349982"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "26 km SW of Manley Hot Springs, Alaska",
-        "time": 1776842561398,
-        "updated": 1776842663882,
+        "mag": 0.8,
+        "place": "38 km E of Minto, Alaska",
+        "time": 1776930170436,
+        "updated": 1776930244846,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwihey",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwihey.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hyerkp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hyerkp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026hwihey",
-        "ids": ",aka2026hwihey,",
+        "code": "a2026hyerkp",
+        "ids": ",aka2026hyerkp,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.6,
-        "rms": 1,
-        "gap": 100,
+        "nst": 12,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 112,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 26 km SW of Manley Hot Springs, Alaska"
+        "title": "M 0.8 - 38 km E of Minto, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.001,
-          64.822,
-          5
+          -148.533,
+          65.155,
+          7.9
         ]
       },
-      "id": "aka2026hwihey"
+      "id": "aka2026hyerkp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "10 km SE of Petersville, Alaska",
+        "time": 1776929677746,
+        "updated": 1776930198589,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hyekik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hyekik.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "a2026hyekik",
+        "ids": ",aka2026hyekik,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 10 km SE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.647,
+          62.425,
+          67.1
+        ]
+      },
+      "id": "aka2026hyekik"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "11 km S of Idyllwild, CA",
+        "time": 1776929668160,
+        "updated": 1776929876573,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447024",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41447024.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "41447024",
+        "ids": ",ci41447024,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 50,
+        "dmin": 0.07087,
+        "rms": 0.17,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 11 km S of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7245,
+          33.6438333333333,
+          13.8
+        ]
+      },
+      "id": "ci41447024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.55,
+        "place": "12 km S of Anza, CA",
+        "time": 1776929087370,
+        "updated": 1776929293915,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447016",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41447016.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41447016",
+        "ids": ",ci41447016,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.06916,
+        "rms": 0.16,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 12 km S of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.663,
+          33.4476666666667,
+          3.78
+        ]
+      },
+      "id": "ci41447016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "8 km NNE of Old Harbor, Alaska",
+        "time": 1776928375378,
+        "updated": 1776931904955,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hydrzg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hydrzg.geojson",
+        "felt": 33,
+        "cdi": 3.8,
+        "mmi": 3.528,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "ak",
+        "code": "a2026hydrzg",
+        "ids": ",aka2026hydrzg,us6000ss94,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 203,
+        "dmin": 0.1,
+        "rms": 0.9,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 8 km NNE of Old Harbor, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.26,
+          57.275,
+          39.3
+        ]
+      },
+      "id": "aka2026hydrzg"
     }
   ],
   "bbox": [
-    -152.801,
-    38.819499969482,
-    0.2,
-    -122.79949951172,
-    64.822,
-    68.4
+    -153.26,
+    33.447666666667,
+    1.2000000476837,
+    -116.663,
+    65.155,
+    67.1
   ]
 }
