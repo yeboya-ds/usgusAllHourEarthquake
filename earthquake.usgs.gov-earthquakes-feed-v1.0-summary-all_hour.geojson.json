@@ -1,141 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777190046000,
+    "generated": 1777279264000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 3
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.13,
-        "place": "19 km WNW of Kalaoa, Hawaii",
-        "time": 1777189691290,
-        "updated": 1777189898040,
+        "mag": 2.3,
+        "place": "33 km ESE of Red Dog Mine, Alaska",
+        "time": 1777278506382,
+        "updated": 1777279177226,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74945077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74945077.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ifpcfw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ifpcfw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 70,
-        "net": "hv",
-        "code": "74945077",
-        "ids": ",hv74945077,",
-        "sources": ",hv,",
+        "sig": 81,
+        "net": "ak",
+        "code": "a2026ifpcfw",
+        "ids": ",aka2026ifpcfw,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.3199,
-        "rms": 0.25,
-        "gap": 317,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 19 km WNW of Kalaoa, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.142837524414,
-          19.8218326568604,
-          35.7700004577637
-        ]
-      },
-      "id": "hv74945077"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "21 km ESE of Silver Springs, Nevada",
-        "time": 1777187721897,
-        "updated": 1777189821574,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916474",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00916474.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "nn",
-        "code": "00916474",
-        "ids": ",nn00916474,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.057,
-        "rms": 0.1834,
-        "gap": 62,
+        "nst": 8,
+        "dmin": 0.4,
+        "rms": 2.3,
+        "gap": 131,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 21 km ESE of Silver Springs, Nevada"
+        "title": "M 2.3 - 33 km ESE of Red Dog Mine, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.9892,
-          39.349,
-          6.4276
+          -162.162,
+          67.907,
+          498.3
         ]
       },
-      "id": "nn00916474"
+      "id": "aka2026ifpcfw"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "8 km W of Cobb, CA",
-        "time": 1777186985860,
-        "updated": 1777187081922,
+        "mag": 0.71,
+        "place": "4 km N of Lake Henshaw, CA",
+        "time": 1777278312710,
+        "updated": 1777278526521,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75351807",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75351807.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41234839",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41234839.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75351807",
-        "ids": ",nc75351807,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01263,
-        "rms": 0.01,
-        "gap": 61,
-        "magType": "md",
+        "sig": 8,
+        "net": "ci",
+        "code": "41234839",
+        "ids": ",ci41234839,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.03725,
+        "rms": 0.16,
+        "gap": 38,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 8 km W of Cobb, CA"
+        "title": "M 0.7 - 4 km N of Lake Henshaw, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.816497802734,
-          38.8349990844727,
-          1.46000003814697
+          -116.758666666667,
+          33.2733333333333,
+          5.98
         ]
       },
-      "id": "nc75351807"
+      "id": "ci41234839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.03,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1777277627610,
+        "updated": 1777277721803,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75352417",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75352417.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75352417",
+        "ids": ",nc75352417,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.009418,
+        "rms": 0.02,
+        "gap": 49,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.818000793457,
+          38.8305015563965,
+          1.80999994277954
+        ]
+      },
+      "id": "nc75352417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "10 km WNW of The Geysers, CA",
+        "time": 1777276448250,
+        "updated": 1777276546431,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75352412",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75352412.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75352412",
+        "ids": ",nc75352412,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.007017,
+        "rms": 0.02,
+        "gap": 158,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 10 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.852668762207,
+          38.8213348388672,
+          2.45000004768372
+        ]
+      },
+      "id": "nc75352412"
     }
   ],
   "bbox": [
-    -156.14283752441,
-    19.82183265686,
-    1.460000038147,
-    -118.9892,
-    39.349,
-    35.770000457764
+    -162.162,
+    33.273333333333,
+    1.8099999427795,
+    -116.75866666667,
+    67.907,
+    498.3
   ]
 }
