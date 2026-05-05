@@ -1,224 +1,304 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777884067000,
+    "generated": 1777969677000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 7
+    "count": 14
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
-        "place": "19 km SE of Silver Springs, Nevada",
-        "time": 1777883834780,
-        "updated": 1777883952810,
+        "mag": 2.29,
+        "place": "11 km NE of Pāhala, Hawaii",
+        "time": 1777969227310,
+        "updated": 1777969495220,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00917567",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00917567.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74952607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74952607.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
-        "net": "nn",
-        "code": "00917567",
-        "ids": ",nn00917567,",
-        "sources": ",nn,",
+        "sig": 81,
+        "net": "hv",
+        "code": "74952607",
+        "ids": ",hv74952607,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.038,
-        "rms": 0.3293,
-        "gap": 79,
-        "magType": "ml",
+        "nst": 43,
+        "dmin": 0.04031,
+        "rms": 0.150000006,
+        "gap": 89,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 19 km SE of Silver Springs, Nevada"
+        "title": "M 2.3 - 11 km NE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.076,
-          39.2784,
-          9.8831
+          -155.399002075195,
+          19.2779998779297,
+          30.3899993896484
         ]
       },
-      "id": "nn00917567"
+      "id": "hv74952607"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.81,
-        "place": "11 km NNW of Cholame, CA",
-        "time": 1777883788730,
-        "updated": 1777883885716,
+        "mag": 0.36,
+        "place": "8 km W of Cobb, CA",
+        "time": 1777969224430,
+        "updated": 1777969318615,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75356622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75356622.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357317",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75357317.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
+        "sig": 2,
         "net": "nc",
-        "code": "75356622",
-        "ids": ",nc75356622,",
+        "code": "75357317",
+        "ids": ",nc75357317,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.008481,
+        "rms": 0.01,
+        "gap": 67,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 8 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80883026123,
+          38.8318328857422,
+          2.09999990463257
+        ]
+      },
+      "id": "nc75357317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.54,
+        "place": "4 km SE of Loma Linda, CA",
+        "time": 1777969029910,
+        "updated": 1777969246415,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41241511",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41241511.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "ci",
+        "code": "41241511",
+        "ids": ",ci41241511,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 93,
+        "dmin": 0.0876,
+        "rms": 0.18,
+        "gap": 18,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 4 km SE of Loma Linda, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.231166666667,
+          34.0205,
+          17.26
+        ]
+      },
+      "id": "ci41241511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.04,
+        "place": "5 km NNE of Avenal, CA",
+        "time": 1777968682350,
+        "updated": 1777968779551,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75357312.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 64,
+        "net": "nc",
+        "code": "75357312",
+        "ids": ",nc75357312,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 12,
-        "dmin": 0.01905,
-        "rms": 0.04,
-        "gap": 142,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 11 km NNW of Cholame, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.345169067383,
-          35.8129997253418,
-          5.05999994277954
-        ]
-      },
-      "id": "nc75356622"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.18,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1777883700960,
-        "updated": 1777883795944,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75356617",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75356617.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "nc",
-        "code": "75356617",
-        "ids": ",nc75356617,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.005231,
-        "rms": 0.02,
-        "gap": 80,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 9 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.829170227051,
-          38.84033203125,
-          1.97000002861023
-        ]
-      },
-      "id": "nc75356617"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "5 km NW of Runge, Texas",
-        "time": 1777883017277,
-        "updated": 1777883148202,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026islagu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026islagu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2026islagu",
-        "ids": ",tx2026islagu,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.2,
-        "rms": 0.2,
-        "gap": 242,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 5 km NW of Runge, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.745,
-          28.923,
-          1.2076
-        ]
-      },
-      "id": "tx2026islagu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.27,
-        "place": "16 km N of Yucca Valley, CA",
-        "time": 1777882684700,
-        "updated": 1777883312420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41240863",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41240863.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "41240863",
-        "ids": ",ci41240863,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.06159,
+        "dmin": 0.0368,
         "rms": 0.11,
-        "gap": 68,
-        "magType": "ml",
+        "gap": 167,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 16 km N of Yucca Valley, CA"
+        "title": "M 2.0 - 5 km NNE of Avenal, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.446666666667,
-          34.2601666666667,
-          8.36
+          -120.106330871582,
+          36.0456657409668,
+          12.8199996948242
         ]
       },
-      "id": "ci41240863"
+      "id": "nc75357312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "127 km ENE of Pauanui, New Zealand",
+        "time": 1777968043579,
+        "updated": 1777969584998,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sidq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sidq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.748,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "7000sidq",
+        "ids": ",us7000sidq,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": 58,
+        "dmin": 1.715,
+        "rms": 0.79,
+        "gap": 63,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - 127 km ENE of Pauanui, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.2617,
+          -36.7452,
+          10
+        ]
+      },
+      "id": "us7000sidq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "82 km NE of Tonopah, Nevada",
+        "time": 1777967976597,
+        "updated": 1777968124435,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00917723",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00917723.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "nn",
+        "code": "00917723",
+        "ids": ",nn00917723,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.734,
+        "rms": 0.2526,
+        "gap": 201,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 82 km NE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4682,
+          38.5092,
+          8.5873
+        ]
+      },
+      "id": "nn00917723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.92,
+        "place": "7 km NNW of Rancho Cucamonga, CA",
+        "time": 1777967371310,
+        "updated": 1777967577267,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41241503",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41241503.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41241503",
+        "ids": ",ci41241503,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.05822,
+        "rms": 0.19,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 7 km NNW of Rancho Cucamonga, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.620333333333,
+          34.1771666666667,
+          6.69
+        ]
+      },
+      "id": "ci41241503"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1777882309294,
-        "updated": 1777882547924,
+        "place": "43 km S of Caliente, Nevada",
+        "time": 1777967203468,
+        "updated": 1777967434913,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026iskqay",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026iskqay.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00917721",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00917721.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,76 +306,276 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "tx",
-        "code": "2026iskqay",
-        "ids": ",tx2026iskqay,",
-        "sources": ",tx,",
+        "net": "nn",
+        "code": "00917721",
+        "ids": ",nn00917721,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 69,
+        "nst": 13,
+        "dmin": 1.125,
+        "rms": 0.3618,
+        "gap": 331,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 54 km NW of Toyah, Texas"
+        "title": "M 1.6 - 43 km S of Caliente, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.248,
-          31.619,
-          4.2779
+          -114.5973,
+          37.2278,
+          10.6727
         ]
       },
-      "id": "tx2026iskqay"
+      "id": "nn00917721"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.81,
-        "place": "20 km ESE of Little Lake, CA",
-        "time": 1777880772040,
-        "updated": 1777880982932,
+        "mag": 1.53,
+        "place": "80 km NE of Tonopah, Nevada",
+        "time": 1777967058083,
+        "updated": 1777967215316,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41240855",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41240855.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00917720",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00917720.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41240855",
-        "ids": ",ci41240855,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.07117,
-        "rms": 0.11,
-        "gap": 58,
+        "sig": 36,
+        "net": "nn",
+        "code": "00917720",
+        "ids": ",nn00917720,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 1.059,
+        "rms": 0.2418,
+        "gap": 199,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 20 km ESE of Little Lake, CA"
+        "title": "M 1.5 - 80 km NE of Tonopah, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.695333333333,
-          35.8866666666667,
-          4.1
+          -116.4811,
+          38.4872,
+          0.0215
         ]
       },
-      "id": "ci41240855"
+      "id": "nn00917720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "28 km NE of Beluga, Alaska",
+        "time": 1777967012950,
+        "updated": 1777967124181,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ivqekp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ivqekp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026ivqekp",
+        "ids": ",aka2026ivqekp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 28 km NE of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.68,
+          61.302,
+          54.2
+        ]
+      },
+      "id": "aka2026ivqekp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.96,
+        "place": "8 km S of Volcano, Hawaii",
+        "time": 1777967003890,
+        "updated": 1777967211740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74952582",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74952582.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 59,
+        "net": "hv",
+        "code": "74952582",
+        "ids": ",hv74952582,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.01129,
+        "rms": 0.0900000036,
+        "gap": 145,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 8 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.229507446289,
+          19.3693332672119,
+          27.4899997711182
+        ]
+      },
+      "id": "hv74952582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "41 km SE of Denali National Park, Alaska",
+        "time": 1777966870478,
+        "updated": 1777966996103,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ivqcir",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ivqcir.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026ivqcir",
+        "ids": ",aka2026ivqcir,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 41 km SE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.121,
+          63.287,
+          5
+        ]
+      },
+      "id": "aka2026ivqcir"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.03,
+        "place": "4 km W of Cobb, CA",
+        "time": 1777966516390,
+        "updated": 1777966614421,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357292",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75357292.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75357292",
+        "ids": ",nc75357292,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01422,
+        "rms": 0.02,
+        "gap": 108,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 4 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.764663696289,
+          38.8168334960938,
+          1.77999997138977
+        ]
+      },
+      "id": "nc75357292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.09,
+        "place": "2 km SW of Pāhala, Hawaii",
+        "time": 1777966504360,
+        "updated": 1777966745740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74952572",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74952572.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 67,
+        "net": "hv",
+        "code": "74952572",
+        "ids": ",hv74952572,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.04661,
+        "rms": 0.119999997,
+        "gap": 83,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.496673583984,
+          19.1888332366943,
+          30.7299995422363
+        ]
+      },
+      "id": "hv74952572"
     }
   ],
   "bbox": [
-    -122.82917022705,
-    28.923,
-    1.2076,
-    -97.745,
-    39.2784,
-    9.8831
+    -155.49667358398,
+    -36.7452,
+    0.0215,
+    177.2617,
+    63.287,
+    54.2
   ]
 }
