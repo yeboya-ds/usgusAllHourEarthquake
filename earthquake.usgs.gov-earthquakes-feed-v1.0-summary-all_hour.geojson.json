@@ -1,1424 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778401280000,
+    "generated": 1778493563000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 46
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.18,
-        "place": "3 km WSW of Brawley, CA",
-        "time": 1778401042870,
-        "updated": 1778401258069,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462072",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462072.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "ci",
-        "code": "41462072",
-        "ids": ",ci41462072,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.06877,
-        "rms": 0.3,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.556333333333,
-          32.9703333333333,
-          3.45
-        ]
-      },
-      "id": "ci41462072"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.56,
-        "place": "3 km WSW of Brawley, CA",
-        "time": 1778400976420,
-        "updated": 1778401190130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462064",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462064.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "ci",
-        "code": "41462064",
-        "ids": ",ci41462064,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.06453,
-        "rms": 0.25,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 3 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.562,
-          32.9661666666667,
-          10.63
-        ]
-      },
-      "id": "ci41462064"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.69,
-        "place": "3 km SW of Brawley, CA",
-        "time": 1778400911060,
-        "updated": 1778401119024,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462056",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462056.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ci",
-        "code": "41462056",
-        "ids": ",ci41462056,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.05439,
-        "rms": 0.25,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 3 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5555,
-          32.9558333333333,
-          4.73
-        ]
-      },
-      "id": "ci41462056"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.47,
-        "place": "0 km WSW of Brawley, CA",
-        "time": 1778400858480,
-        "updated": 1778401069888,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462048",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462048.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 33,
-        "net": "ci",
-        "code": "41462048",
-        "ids": ",ci41462048,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.07876,
-        "rms": 0.25,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 0 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.534666666667,
-          32.9773333333333,
-          7.9
-        ]
-      },
-      "id": "ci41462048"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.96,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1778400808200,
-        "updated": 1778400905416,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358181",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358181.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75358181",
-        "ids": ",nc75358181,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01026,
-        "rms": 0.02,
-        "gap": 100,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818336486816,
-          38.8146667480469,
-          2.5
-        ]
-      },
-      "id": "nc75358181"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.91,
-        "place": "2 km SW of Brawley, CA",
-        "time": 1778400807130,
-        "updated": 1778401020566,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462040",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462040.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ci",
-        "code": "41462040",
-        "ids": ",ci41462040,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.06398,
-        "rms": 0.21,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 2 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5455,
-          32.9643333333333,
-          5.71
-        ]
-      },
-      "id": "ci41462040"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.77,
-        "place": "1 km SW of Brawley, CA",
-        "time": 1778400772550,
-        "updated": 1778401254020,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462032",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462032.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "ci",
-        "code": "41462032",
-        "ids": ",ci41462032,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.07681,
-        "rms": 0.29,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 1 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5335,
-          32.975,
-          10.98
-        ]
-      },
-      "id": "ci41462032"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "3 km SW of Brawley, CA",
-        "time": 1778400696000,
-        "updated": 1778400902000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462024",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462024.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ci",
-        "code": "41462024",
-        "ids": ",ci41462024,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.05823,
-        "rms": 0.29,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 3 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.553,
-          32.9595,
-          5.56
-        ]
-      },
-      "id": "ci41462024"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "16 km SE of Ocotillo Wells, CA",
-        "time": 1778400663670,
-        "updated": 1778400872868,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462016.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41462016",
-        "ids": ",ci41462016,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.1345,
-        "rms": 0.19,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 16 km SE of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0115,
-          33.0416666666667,
-          8.43
-        ]
-      },
-      "id": "ci41462016"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778400532860,
-        "updated": 1778400745570,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "ci",
-        "code": "41462008",
-        "ids": ",ci41462008,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.06031,
-        "rms": 0.27,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 4 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.565166666667,
-          32.9618333333333,
-          9.44
-        ]
-      },
-      "id": "ci41462008"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1778400485330,
-        "updated": 1778400580143,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358176",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358176.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75358176",
-        "ids": ",nc75358176,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.009449,
-        "rms": 0.07,
-        "gap": 76,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.804496765137,
-          38.814998626709,
-          1.89999997615814
-        ]
-      },
-      "id": "nc75358176"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.66,
-        "place": "1 km SW of Brawley, CA",
-        "time": 1778400440800,
-        "updated": 1778400653276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 42,
-        "net": "ci",
-        "code": "41462000",
-        "ids": ",ci41462000,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.06972,
-        "rms": 0.29,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 1 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.54,
-          32.9691666666667,
-          9.97
-        ]
-      },
-      "id": "ci41462000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "5 km SW of Brawley, CA",
-        "time": 1778400408830,
-        "updated": 1778400649226,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461992",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461992.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41461992",
-        "ids": ",ci41461992,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.05126,
-        "rms": 0.24,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 5 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.568,
-          32.9525,
-          4.06
-        ]
-      },
-      "id": "ci41461992"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16,
-        "place": "4 km SE of Campo, CA",
-        "time": 1778400376880,
-        "updated": 1778400587329,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461984",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461984.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41461984",
-        "ids": ",ci41461984,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.3616,
-        "rms": 0.05,
-        "gap": 254,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 4 km SE of Campo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.442166666667,
-          32.579,
-          4.54
-        ]
-      },
-      "id": "ci41461984"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "4 km SW of Brawley, CA",
-        "time": 1778400257010,
-        "updated": 1778400467540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461976",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461976.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "ci",
-        "code": "41461976",
-        "ids": ",ci41461976,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.05092,
-        "rms": 0.27,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.562833333333,
-          32.9525,
-          7.1
-        ]
-      },
-      "id": "ci41461976"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.88,
-        "place": "1 km NE of Brawley, CA",
-        "time": 1778400222020,
-        "updated": 1778400468541,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461968.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "ci",
-        "code": "41461968",
-        "ids": ",ci41461968,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.09093,
-        "rms": 0.26,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 1 km NE of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.521666666667,
-          32.9865,
-          10.38
-        ]
-      },
-      "id": "ci41461968"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "3 km SW of Brawley, CA",
-        "time": 1778400200420,
-        "updated": 1778400404822,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461960",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461960.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ci",
-        "code": "41461960",
-        "ids": ",ci41461960,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.05931,
-        "rms": 0.28,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 3 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.548166666667,
-          32.96,
-          3.63
-        ]
-      },
-      "id": "ci41461960"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.31,
-        "place": "5 km SW of Brawley, CA",
-        "time": 1778400027130,
-        "updated": 1778400235809,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461952",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461952.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ci",
-        "code": "41461952",
-        "ids": ",ci41461952,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.05368,
-        "rms": 0.3,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 5 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.571666666667,
-          32.9545,
-          6.88
-        ]
-      },
-      "id": "ci41461952"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "4 km SW of Brawley, CA",
-        "time": 1778399886070,
-        "updated": 1778400100508,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461944",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461944.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ci",
-        "code": "41461944",
-        "ids": ",ci41461944,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.05278,
-        "rms": 0.27,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 4 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.563666666667,
-          32.9543333333333,
-          8.56
-        ]
-      },
-      "id": "ci41461944"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778399612390,
-        "updated": 1778399825547,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461936.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "ci",
-        "code": "41461936",
-        "ids": ",ci41461936,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.06776,
-        "rms": 0.27,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 4 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.567666666667,
-          32.9691666666667,
-          10.57
-        ]
-      },
-      "id": "ci41461936"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "4 km SW of Brawley, CA",
-        "time": 1778399435800,
-        "updated": 1778399653753,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461928.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "ci",
-        "code": "41461928",
-        "ids": ",ci41461928,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.05489,
-        "rms": 0.21,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 4 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.562166666667,
-          32.9565,
-          5.59
-        ]
-      },
-      "id": "ci41461928"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "5 km WSW of Brawley, CA",
-        "time": 1778399378430,
-        "updated": 1778399588457,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461920",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461920.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ci",
-        "code": "41461920",
-        "ids": ",ci41461920,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.05789,
-        "rms": 0.29,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 5 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5725,
-          32.9586666666667,
-          4.88
-        ]
-      },
-      "id": "ci41461920"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.90869105460852,
-        "place": "3 km SSE of Brawley, CA",
-        "time": 1778399373480,
-        "updated": 1778399941046,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461912.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ci",
-        "code": "41461912",
-        "ids": ",ci41461912,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.06612,
-        "rms": 0.219999999,
-        "gap": 219,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 3 km SSE of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.515998840332,
-          32.9560012817383,
-          9.23999977111816
-        ]
-      },
-      "id": "ci41461912"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778399304190,
-        "updated": 1778400462855,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461904",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461904.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "ci",
-        "code": "41461904",
-        "ids": ",ci41461904,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 55,
-        "dmin": 0.06635,
-        "rms": 0.29,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.574333333333,
-          32.967,
-          11.04
-        ]
-      },
-      "id": "ci41461904"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.83,
-        "place": "8 km ESE of Brawley, CA",
-        "time": 1778399261970,
-        "updated": 1778399478446,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461896.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 52,
-        "net": "ci",
-        "code": "41461896",
-        "ids": ",ci41461896,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.1065,
-        "rms": 0.28,
-        "gap": 233,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 8 km ESE of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.451666666667,
-          32.9558333333333,
-          13.27
-        ]
-      },
-      "id": "ci41461896"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.47,
-        "place": "4 km SE of Brawley, CA",
-        "time": 1778399164100,
-        "updated": 1778399381730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461888.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 33,
-        "net": "ci",
-        "code": "41461888",
-        "ids": ",ci41461888,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.07148,
-        "rms": 0.24,
-        "gap": 222,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 4 km SE of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.500833333333,
-          32.9523333333333,
-          10.28
-        ]
-      },
-      "id": "ci41461888"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.15,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778398981510,
-        "updated": 1778399676351,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461880",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461880.geojson",
-        "felt": 2,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "ci",
-        "code": "41461880",
-        "ids": ",ci41461880,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.06403,
-        "rms": 0.29,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.573,
-          32.9648333333333,
-          3.36
-        ]
-      },
-      "id": "ci41461880"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23249255980468,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778398885850,
-        "updated": 1778399023328,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461872",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461872.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "ci",
-        "code": "41461872",
-        "ids": ",ci41461872,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.06022,
-        "rms": 0.319999993,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 4 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.562835693359,
-          32.9618339538574,
-          13.6400003433228
-        ]
-      },
-      "id": "ci41461872"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.43,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778398843250,
-        "updated": 1778399054699,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461864",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461864.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 91,
-        "net": "ci",
-        "code": "41461864",
-        "ids": ",ci41461864,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.0614,
-        "rms": 0.27,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 4 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5635,
-          32.963,
-          9.85
-        ]
-      },
-      "id": "ci41461864"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.61,
-        "place": "4 km SW of Brawley, CA",
-        "time": 1778398753540,
-        "updated": 1778398974690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461856.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 40,
-        "net": "ci",
-        "code": "41461856",
-        "ids": ",ci41461856,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.05181,
-        "rms": 0.3,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 4 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.566833333333,
-          32.9531666666667,
-          6.29
-        ]
-      },
-      "id": "ci41461856"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.95,
-        "place": "4 km SW of Brawley, CA",
-        "time": 1778398588500,
-        "updated": 1778398852364,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461848",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461848.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 58,
-        "net": "ci",
-        "code": "41461848",
-        "ids": ",ci41461848,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.0553,
-        "rms": 0.3,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 4 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.568833333333,
-          32.9565,
-          6.97
-        ]
-      },
-      "id": "ci41461848"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "20 km ESE of Ninilchik, Alaska",
-        "time": 1778398561545,
-        "updated": 1778398699285,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jewasi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jewasi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026jewasi",
-        "ids": ",aka2026jewasi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 20 km ESE of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.314,
-          59.998,
-          37.8
-        ]
-      },
-      "id": "aka2026jewasi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "2 km SW of Brawley, CA",
-        "time": 1778398549520,
-        "updated": 1778400010664,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461840",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461840.geojson",
-        "felt": 2,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ci",
-        "code": "41461840",
-        "ids": ",ci41461840,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.0677,
-        "rms": 0.27,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.544666666667,
-          32.968,
-          5.32
-        ]
-      },
-      "id": "ci41461840"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "5 km WSW of Brawley, CA",
-        "time": 1778398537410,
-        "updated": 1778400528251,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461832.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ci",
-        "code": "41461832",
-        "ids": ",ci41461832,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.06157,
-        "rms": 0.22,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 5 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.580833333333,
-          32.9608333333333,
-          2.11
-        ]
-      },
-      "id": "ci41461832"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "3 km WSW of Brawley, CA",
-        "time": 1778398508730,
-        "updated": 1778400335038,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461824",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461824.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "ci",
-        "code": "41461824",
-        "ids": ",ci41461824,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.06554,
-        "rms": 0.29,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 3 km WSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.554833333333,
-          32.967,
-          3.44
-        ]
-      },
-      "id": "ci41461824"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.26,
-        "place": "10 km NNW of Imperial, CA",
-        "time": 1778398476090,
-        "updated": 1778398798958,
+        "place": "4 km WSW of Brawley, CA",
+        "time": 1778493281600,
+        "updated": 1778493489469,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461816",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461816.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463792",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463792.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -1427,435 +27,435 @@
         "tsunami": 0,
         "sig": 24,
         "net": "ci",
-        "code": "41461816",
-        "ids": ",ci41461816,",
+        "code": "41463792",
+        "ids": ",ci41463792,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.05974,
-        "rms": 0.32,
-        "gap": 123,
+        "nst": 29,
+        "dmin": 0.06045,
+        "rms": 0.27,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 10 km NNW of Imperial, CA"
+        "title": "M 1.3 - 4 km WSW of Brawley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.626833333333,
-          32.9233333333333,
-          12.37
+          -115.5645,
+          32.962,
+          7.11
         ]
       },
-      "id": "ci41461816"
+      "id": "ci41463792"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "3 km ESE of Brawley, CA",
-        "time": 1778398432780,
-        "updated": 1778398642661,
+        "mag": 1.3,
+        "place": "39 km W of Clear, Alaska",
+        "time": 1778493078877,
+        "updated": 1778493272604,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461808",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461808.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jgwopd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jgwopd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026jgwopd",
+        "ids": ",aka2026jgwopd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.6,
+        "rms": 0.4,
+        "gap": 145,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 39 km W of Clear, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.995,
+          64.209,
+          12.8
+        ]
+      },
+      "id": "aka2026jgwopd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1778492614270,
+        "updated": 1778492710440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358696",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358696.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75358696",
+        "ids": ",nc75358696,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.01332,
+        "rms": 0.02,
+        "gap": 72,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 4 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.775665283203,
+          38.8053321838379,
+          3.15000009536743
+        ]
+      },
+      "id": "nc75358696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "58 km WNW of Akhiok, Alaska",
+        "time": 1778492609369,
+        "updated": 1778492691043,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jgwhzz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jgwhzz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026jgwhzz",
+        "ids": ",aka2026jgwhzz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.7,
+        "rms": 0.6,
+        "gap": 125,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 58 km WNW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.09,
+          57.11,
+          64.5
+        ]
+      },
+      "id": "aka2026jgwhzz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "4 km SSW of Brawley, CA",
+        "time": 1778492579190,
+        "updated": 1778493199610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463784",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463784.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
         "net": "ci",
-        "code": "41461808",
-        "ids": ",ci41461808,",
+        "code": "41463784",
+        "ids": ",ci41463784,",
         "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.04901,
+        "rms": 0.33,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 4 km SSW of Brawley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5515,
+          32.95,
+          8.64
+        ]
+      },
+      "id": "ci41463784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.92,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1778491987720,
+        "updated": 1778493142186,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358691",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358691.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "nc",
+        "code": "75358691",
+        "ids": ",nc75358691,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 14,
-        "dmin": 0.08287,
-        "rms": 0.19,
-        "gap": 213,
-        "magType": "ml",
+        "dmin": 0.003498,
+        "rms": 0.01,
+        "gap": 76,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 3 km ESE of Brawley, CA"
+        "title": "M 0.9 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.503,
-          32.9688333333333,
-          9.37
+          -122.8056640625,
+          38.8240013122559,
+          2.55999994277954
         ]
       },
-      "id": "ci41461808"
+      "id": "nc75358691"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.83,
-        "place": "2 km SW of Brawley, CA",
-        "time": 1778398368700,
-        "updated": 1778398578969,
+        "mag": 0.55,
+        "place": "9 km SW of Idyllwild, CA",
+        "time": 1778491805710,
+        "updated": 1778492010172,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461800",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461800.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463776",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463776.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 52,
+        "sig": 5,
         "net": "ci",
-        "code": "41461800",
-        "ids": ",ci41461800,",
+        "code": "41463776",
+        "ids": ",ci41463776,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.07034,
-        "rms": 0.28,
-        "gap": 39,
+        "nst": 23,
+        "dmin": 0.08394,
+        "rms": 0.09,
+        "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 2 km SW of Brawley, CA"
+        "title": "M 0.6 - 9 km SW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.5435,
-          32.9705,
-          7.89
+          -116.781333333333,
+          33.6828333333333,
+          16.87
         ]
       },
-      "id": "ci41461800"
+      "id": "ci41463776"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "2 km S of Brawley, CA",
-        "time": 1778398292010,
-        "updated": 1778398505966,
+        "mag": 1.39,
+        "place": "20 km NW of Grapevine, CA",
+        "time": 1778491085970,
+        "updated": 1778491294128,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461792.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463768.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 30,
         "net": "ci",
-        "code": "41461792",
-        "ids": ",ci41461792,",
+        "code": "41463768",
+        "ids": ",ci41463768,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.06143,
-        "rms": 0.23,
-        "gap": 122,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km S of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5295,
-          32.9571666666667,
-          6.11
-        ]
-      },
-      "id": "ci41461792"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.14,
-        "place": "1 km WSW of Brawley, CA",
-        "time": 1778398264700,
-        "updated": 1778399445653,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461784",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461784.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "ci",
-        "code": "41461784",
-        "ids": ",ci41461784,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 51,
-        "dmin": 0.07753,
-        "rms": 0.29,
-        "gap": 40,
+        "dmin": 0.008735,
+        "rms": 0.25,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 1 km WSW of Brawley, CA"
+        "title": "M 1.4 - 20 km NW of Grapevine, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.535833333333,
-          32.9763333333333,
-          9.64
+          -119.086,
+          35.0671666666667,
+          11.89
         ]
       },
-      "id": "ci41461784"
+      "id": "ci41463768"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.87,
-        "place": "3 km SW of Brawley, CA",
-        "time": 1778398179350,
-        "updated": 1778399422308,
+        "mag": 2.52,
+        "place": "4 km S of Brawley, CA",
+        "time": 1778490806720,
+        "updated": 1778492701040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461776.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463760",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463760.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 54,
+        "sig": 98,
         "net": "ci",
-        "code": "41461776",
-        "ids": ",ci41461776,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.05999,
-        "rms": 0.29,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 3 km SW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.553666666667,
-          32.9613333333333,
-          4.6
-        ]
-      },
-      "id": "ci41461776"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26849923512091,
-        "place": "2 km NNW of Brawley, CA",
-        "time": 1778398072050,
-        "updated": 1778399596040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461760",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461760.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 165,
-        "net": "ci",
-        "code": "41461760",
-        "ids": ",ci41461760,us6000swn8,",
+        "code": "41463760",
+        "ids": ",ci41463760,us6000swvj,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.09825,
-        "rms": 0.370000005,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 2 km NNW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.539329528809,
-          32.9983329772949,
-          7.48999977111816
-        ]
-      },
-      "id": "ci41461760"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
-        "place": "3 km SSW of Brawley, CA",
-        "time": 1778397994100,
-        "updated": 1778398194876,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461744",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461744.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "41461744",
-        "ids": ",ci41461744,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.05393,
-        "rms": 0.3,
+        "nst": 55,
+        "dmin": 0.04897,
+        "rms": 0.28,
         "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 3 km SSW of Brawley, CA"
+        "title": "M 2.5 - 4 km S of Brawley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.548166666667,
-          32.9545,
-          4.83
+          -115.5375,
+          32.9465,
+          14.18
         ]
       },
-      "id": "ci41461744"
+      "id": "ci41463760"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.69,
-        "place": "3 km SSW of Brawley, CA",
-        "time": 1778397843840,
-        "updated": 1778398056131,
+        "mag": 1.21,
+        "place": "5 km S of Brawley, CA",
+        "time": 1778490751530,
+        "updated": 1778490961099,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461736",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461736.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463752",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463752.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 23,
         "net": "ci",
-        "code": "41461736",
-        "ids": ",ci41461736,",
+        "code": "41463752",
+        "ids": ",ci41463752,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.05347,
-        "rms": 0.29,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 3 km SSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.543833333333,
-          32.9531666666667,
-          6.98
-        ]
-      },
-      "id": "ci41461736"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.06,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778397791280,
-        "updated": 1778398004310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461728",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461728.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "ci",
-        "code": "41461728",
-        "ids": ",ci41461728,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.06005,
+        "nst": 31,
+        "dmin": 0.04138,
         "rms": 0.33,
-        "gap": 38,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 4 km WSW of Brawley, CA"
+        "title": "M 1.2 - 5 km S of Brawley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.562666666667,
-          32.9616666666667,
-          7.47
+          -115.536666666667,
+          32.9376666666667,
+          7.55
         ]
       },
-      "id": "ci41461728"
+      "id": "ci41463752"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.86,
-        "place": "3 km SW of Brawley, CA",
-        "time": 1778397738580,
-        "updated": 1778397954605,
+        "mag": 1.8,
+        "place": "26 km WSW of Salcha, Alaska",
+        "time": 1778490033892,
+        "updated": 1778490114018,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461720",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461720.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jguwpc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jguwpc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 53,
-        "net": "ci",
-        "code": "41461720",
-        "ids": ",ci41461720,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.0583,
-        "rms": 0.33,
-        "gap": 38,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026jguwpc",
+        "ids": ",aka2026jguwpc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 3 km SW of Brawley, CA"
+        "title": "M 1.8 - 26 km WSW of Salcha, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.556666666667,
-          32.9598333333333,
-          6.25
+          -147.43,
+          64.448,
+          4.5
         ]
       },
-      "id": "ci41461720"
+      "id": "aka2026jguwpc"
     }
   ],
   "bbox": [
-    -151.314,
-    32.579,
-    1.8999999761581,
-    -115.45166666667,
-    59.998,
-    37.8
+    -155.09,
+    32.937666666667,
+    2.5599999427795,
+    -115.53666666667,
+    64.448,
+    64.5
   ]
 }
