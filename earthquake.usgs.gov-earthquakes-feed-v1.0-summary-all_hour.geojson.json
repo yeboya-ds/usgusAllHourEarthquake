@@ -1,301 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778663964000,
+    "generated": 1778749717000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 7
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "34 km NW of Susitna, Alaska",
-        "time": 1778662562720,
-        "updated": 1778662656887,
+        "mag": 0.34,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1778746671260,
+        "updated": 1778748143051,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jkmtvr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jkmtvr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75360336",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75360336.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026jkmtvr",
-        "ids": ",aka2026jkmtvr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 34 km NW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.014,
-          61.738,
-          76.9
-        ]
-      },
-      "id": "aka2026jkmtvr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.22,
-        "place": "8 km NNW of Anza, CA",
-        "time": 1778662414240,
-        "updated": 1778662629023,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466064",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466064.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "ci",
-        "code": "41466064",
-        "ids": ",ci41466064,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.06892,
-        "rms": 0.09,
-        "gap": 279,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.2 - 8 km NNW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7,
-          33.627,
-          14.47
-        ]
-      },
-      "id": "ci41466064"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.09,
-        "place": "3 km WNW of Anderson Springs, CA",
-        "time": 1778661933780,
-        "updated": 1778662029532,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
+        "sig": 2,
         "net": "nc",
-        "code": "75359871",
-        "ids": ",nc75359871,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.0119,
-        "rms": 0.02,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 3 km WNW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.721496582031,
-          38.7831649780273,
-          1.5
-        ]
-      },
-      "id": "nc75359871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.27,
-        "place": "5 km SW of Idyllwild, CA",
-        "time": 1778661724300,
-        "updated": 1778661934610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466056",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466056.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "ci",
-        "code": "41466056",
-        "ids": ",ci41466056,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.1252,
-        "rms": 0.13,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.3 - 5 km SW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.755833333333,
-          33.713,
-          15.71
-        ]
-      },
-      "id": "ci41466056"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1778661375630,
-        "updated": 1778663842979,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359866",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359866.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75359866",
-        "ids": ",nc75359866,",
+        "code": "75360336",
+        "ids": ",nc75360336,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.01038,
+        "nst": 8,
+        "dmin": 0.006008,
         "rms": 0.01,
-        "gap": 120,
+        "gap": 161,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 8 km NW of The Geysers, CA"
+        "title": "M 0.3 - 5 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.820503234863,
-          38.829833984375,
-          1.57000005245209
+          -122.782669067383,
+          38.8380012512207,
+          1.6599999666214
         ]
       },
-      "id": "nc75359866"
+      "id": "nc75360336"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "8 km W of Cobb, CA",
-        "time": 1778661043600,
-        "updated": 1778663240910,
+        "mag": 2.51,
+        "place": "5 km S of Guánica, Puerto Rico",
+        "time": 1778746151830,
+        "updated": 1778749576180,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359861",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359861.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516593",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516593.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75359861",
-        "ids": ",nc75359861,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.01304,
-        "rms": 0.02,
-        "gap": 95,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 8 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.819000244141,
-          38.836498260498,
-          1.87000000476837
-        ]
-      },
-      "id": "nc75359861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "5 km SW of Easington, Jamaica",
-        "time": 1778660412866,
-        "updated": 1778662725270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxdg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxdg.geojson",
-        "felt": 5,
-        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 286,
-        "net": "us",
-        "code": "6000sxdg",
-        "ids": ",us6000sxdg,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.929,
-        "rms": 0.92,
-        "gap": 145,
-        "magType": "mb",
+        "sig": 97,
+        "net": "pr",
+        "code": "71516593",
+        "ids": ",pr71516593,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.0591,
+        "rms": 0.17,
+        "gap": 226,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.3 - 5 km SW of Easington, Jamaica"
+        "title": "M 2.5 - 5 km S of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.6236,
-          17.8902,
-          10
+          -66.9121666666667,
+          17.9246666666667,
+          13.95
         ]
       },
-      "id": "us6000sxdg"
+      "id": "pr71516593"
     }
   ],
   "bbox": [
-    -151.014,
-    17.8902,
-    1.5,
-    -76.6236,
-    61.738,
-    76.9
+    -122.78266906738,
+    17.924666666667,
+    1.6599999666214,
+    -66.912166666667,
+    38.838001251221,
+    13.95
   ]
 }
