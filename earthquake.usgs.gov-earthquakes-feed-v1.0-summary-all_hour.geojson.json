@@ -1,64 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779006767000,
+    "generated": 1779100908000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 9
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.44,
-        "place": "3 km NW of Hercules, CA",
-        "time": 1779006449410,
-        "updated": 1779006546426,
+        "mag": 2,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1779100690636,
+        "updated": 1779100905856,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361676",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75361676.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jshoix",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jshoix.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 32,
-        "net": "nc",
-        "code": "75361676",
-        "ids": ",nc75361676,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.0414,
-        "rms": 0.08,
-        "gap": 66,
-        "magType": "md",
+        "sig": 62,
+        "net": "tx",
+        "code": "2026jshoix",
+        "ids": ",tx2026jshoix,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 74,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 3 km NW of Hercules, CA"
+        "title": "M 2.0 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.311164855957,
-          38.03466796875,
-          6.46000003814697
+          -104.439,
+          31.63,
+          3.9819
         ]
       },
-      "id": "nc75361676"
+      "id": "tx2026jshoix"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1779100562773,
+        "updated": 1779100896965,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jshorq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jshorq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026jshorq",
+        "ids": ",tx2026jshorq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.446,
+          31.631,
+          3.6674
+        ]
+      },
+      "id": "tx2026jshorq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.48,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779099801010,
+        "updated": 1779100429950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469568",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469568.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 34,
+        "net": "ci",
+        "code": "41469568",
+        "ids": ",ci41469568,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.1063,
+        "rms": 0.25,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 22 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.922,
+          33.0503333333333,
+          1.19
+        ]
+      },
+      "id": "ci41469568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.33,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779099352380,
+        "updated": 1779099557950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469560",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469560.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "ci",
+        "code": "41469560",
+        "ids": ",ci41469560,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.1028,
+        "rms": 0.25,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 22 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.918833333333,
+          33.0526666666667,
+          1.33
+        ]
+      },
+      "id": "ci41469560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "23 km ESE of Ocotillo Wells, CA",
+        "time": 1779099194350,
+        "updated": 1779099406700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469552.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41469552",
+        "ids": ",ci41469552,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.09792,
+        "rms": 0.25,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 23 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.912666666667,
+          33.054,
+          1.95
+        ]
+      },
+      "id": "ci41469552"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "3 km E of Pearsall, Texas",
-        "time": 1779005967744,
-        "updated": 1779006074294,
+        "place": "18 km SE of Naalehu, Hawaii",
+        "time": 1779098449470,
+        "updated": 1779098674020,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jqhicx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jqhicx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74963007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74963007.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,316 +226,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "tx",
-        "code": "2026jqhicx",
-        "ids": ",tx2026jqhicx,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 221,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 3 km E of Pearsall, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.062,
-          28.888,
-          4.9242
-        ]
-      },
-      "id": "tx2026jqhicx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.81,
-        "place": "8 km SSE of Pāhala, Hawaii",
-        "time": 1779005644110,
-        "updated": 1779006066840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74962307",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74962307.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
         "net": "hv",
-        "code": "74962307",
-        "ids": ",hv74962307,",
+        "code": "74963007",
+        "ids": ",hv74963007,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.1221,
-        "rms": 0.310000002,
-        "gap": 177,
+        "nst": 23,
+        "dmin": 0.2047,
+        "rms": 0.170000002,
+        "gap": 236,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 8 km SSE of Pāhala, Hawaii"
+        "title": "M 1.9 - 18 km SE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.462661743164,
-          19.1315002441406,
-          30.1200008392334
+          -155.453994750977,
+          18.9489994049072,
+          33.6599998474121
         ]
       },
-      "id": "hv74962307"
+      "id": "hv74963007"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.39,
-        "place": "18 km NNE of Pāhala, Hawaii",
-        "time": 1779005480000,
-        "updated": 1779005687990,
+        "mag": 1.19,
+        "place": "23 km ESE of Ocotillo Wells, CA",
+        "time": 1779098310390,
+        "updated": 1779098516598,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74962297",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74962297.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469544",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469544.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 88,
-        "net": "hv",
-        "code": "74962297",
-        "ids": ",hv74962297,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.03895,
-        "rms": 0.0799999982,
-        "gap": 136,
+        "sig": 22,
+        "net": "ci",
+        "code": "41469544",
+        "ids": ",ci41469544,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.09676,
+        "rms": 0.26,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 18 km NNE of Pāhala, Hawaii"
+        "title": "M 1.2 - 23 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.417007446289,
-          19.3588333129883,
-          7.69000005722046
+          -115.9095,
+          33.0526666666667,
+          3.47
         ]
       },
-      "id": "hv74962297"
+      "id": "ci41469544"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.7,
-        "place": "86 km ENE of Severo-Kuril’sk, Russia",
-        "time": 1779005058719,
-        "updated": 1779006627252,
+        "mag": 2.18,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779098232300,
+        "updated": 1779098860250,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syc2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syc2.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469536",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469536.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.248,
+        "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "6000syc2",
-        "ids": ",us6000syc2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 91,
-        "dmin": 2.28,
-        "rms": 0.67,
-        "gap": 115,
-        "magType": "mb",
+        "sig": 73,
+        "net": "ci",
+        "code": "41469536",
+        "ids": ",ci41469536,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.1032,
+        "rms": 0.24,
+        "gap": 27,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.7 - 86 km ENE of Severo-Kuril’sk, Russia"
+        "title": "M 2.2 - 22 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          157.3229,
-          50.8432,
-          56.032
+          -115.919666666667,
+          33.0528333333333,
+          2.02
         ]
       },
-      "id": "us6000syc2"
+      "id": "ci41469536"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "109 km SSE of Lorengau, Papua New Guinea",
-        "time": 1779004316627,
-        "updated": 1779005230040,
+        "mag": 3.31,
+        "place": "76 km N of Culebra, Puerto Rico",
+        "time": 1779098040030,
+        "updated": 1779099630670,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syby",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syby.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71517003.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000syby",
-        "ids": ",us6000syby,",
-        "sources": ",us,",
+        "sig": 169,
+        "net": "pr",
+        "code": "71517003",
+        "ids": ",pr71517003,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.93,
-        "rms": 1.25,
-        "gap": 64,
-        "magType": "mb",
+        "nst": 17,
+        "dmin": 0.6808,
+        "rms": 0.34,
+        "gap": 226,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 5.1 - 109 km SSE of Lorengau, Papua New Guinea"
+        "title": "M 3.3 - 76 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.7681,
-          -2.8876,
-          10
+          -65.295,
+          18.9918333333333,
+          67.73
         ]
       },
-      "id": "us6000syby"
+      "id": "pr71517003"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.26,
-        "place": "6 km WSW of Mammoth Lakes, CA",
-        "time": 1779003859730,
-        "updated": 1779005543943,
+        "mag": 2.59,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779097668030,
+        "updated": 1779098314450,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361661",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75361661.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469528",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469528.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75361661",
-        "ids": ",nc75361661,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.01032,
-        "rms": 0.09,
-        "gap": 95,
-        "magType": "md",
+        "sig": 103,
+        "net": "ci",
+        "code": "41469528",
+        "ids": ",ci41469528,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 71,
+        "dmin": 0.1037,
+        "rms": 0.26,
+        "gap": 22,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 6 km WSW of Mammoth Lakes, CA"
+        "title": "M 2.6 - 22 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.039169311523,
-          37.6158332824707,
-          -2.02999997138977
+          -115.9245,
+          33.0575,
+          1.47
         ]
       },
-      "id": "nc75361661"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.36,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1779003403220,
-        "updated": 1779005239901,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361656",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75361656.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75361656",
-        "ids": ",nc75361656,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.007001,
-        "rms": 0.02,
-        "gap": 99,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.4 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.816833496094,
-          38.8279991149902,
-          1.75999999046326
-        ]
-      },
-      "id": "nc75361656"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.24,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1779003193750,
-        "updated": 1779004342792,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361651",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75361651.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "nc",
-        "code": "75361651",
-        "ids": ",nc75361651,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.008058,
-        "rms": 0.03,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 2 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.77766418457,
-          38.7923316955566,
-          1.54999995231628
-        ]
-      },
-      "id": "nc75361651"
+      "id": "ci41469528"
     }
   ],
   "bbox": [
-    -155.46266174316,
-    -2.8876,
-    -2.0299999713898,
-    157.3229,
-    50.8432,
-    56.032
+    -155.45399475098,
+    18.948999404907,
+    1.19,
+    -65.295,
+    33.0575,
+    67.73
   ]
 }
