@@ -1,181 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779185287000,
+    "generated": 1779270843000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 4
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "23 km NNE of Four Mile Road, Alaska",
-        "time": 1779184766992,
-        "updated": 1779184844401,
+        "mag": 1.7,
+        "place": "49 km W of Nanwalek, Alaska",
+        "time": 1779269647196,
+        "updated": 1779269821713,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jvraev",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jvraev.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxmfao",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxmfao.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
+        "sig": 44,
         "net": "ak",
-        "code": "a2026jvraev",
-        "ids": ",aka2026jvraev,",
+        "code": "a2026jxmfao",
+        "ids": ",aka2026jxmfao,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.2,
+        "nst": 31,
+        "dmin": 0.3,
         "rms": 0.3,
-        "gap": 179,
+        "gap": 139,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 23 km NNE of Four Mile Road, Alaska"
+        "title": "M 1.7 - 49 km W of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.86,
-          64.779,
-          18.2
+          -152.791,
+          59.4,
+          79.7
         ]
       },
-      "id": "aka2026jvraev"
+      "id": "aka2026jxmfao"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "55 km SW of Cantwell, Alaska",
-        "time": 1779182802308,
-        "updated": 1779182908049,
+        "mag": 2,
+        "place": "61 km SSW of Whites City, New Mexico",
+        "time": 1779269456602,
+        "updated": 1779269692809,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jvpxun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jvpxun.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jvwwim",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jvwwim.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
+        "sig": 62,
+        "net": "tx",
+        "code": "2026jvwwim",
+        "ids": ",tx2026jvwwim,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 61 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.521,
+          31.635,
+          2.3756
+        ]
+      },
+      "id": "tx2026jvwwim"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.87,
+        "place": "16 km NNE of Pine Valley, CA",
+        "time": 1779269303340,
+        "updated": 1779269515442,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41470752",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41470752.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41470752",
+        "ids": ",ci41470752,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.04815,
+        "rms": 0.15,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 16 km NNE of Pine Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.461333333333,
+          32.9493333333333,
+          8.2
+        ]
+      },
+      "id": "ci41470752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "49 km NW of Toyah, Texas",
+        "time": 1779268567300,
+        "updated": 1779269384662,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jvwjml",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jvwjml.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2026jvwjml",
+        "ids": ",tx2026jvwjml,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.1,
+        "rms": 1.1,
+        "gap": 125,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 49 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.173,
+          31.618,
+          0
+        ]
+      },
+      "id": "tx2026jvwjml"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "51 km S of Cantwell, Alaska",
+        "time": 1779268335012,
+        "updated": 1779268541969,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxllvg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxllvg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
         "net": "ak",
-        "code": "a2026jvpxun",
-        "ids": ",aka2026jvpxun,",
+        "code": "a2026jxllvg",
+        "ids": ",aka2026jxllvg,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 41,
+        "nst": 40,
         "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 46,
+        "rms": 0.9,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 55 km SW of Cantwell, Alaska"
+        "title": "M 2.0 - 51 km S of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.688,
-          63.022,
-          89.9
+          -148.811,
+          62.935,
+          62
         ]
       },
-      "id": "aka2026jvpxun"
+      "id": "aka2026jxllvg"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.59,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1779182082590,
-        "updated": 1779183141837,
+        "mag": 0.45,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1779268039280,
+        "updated": 1779269243550,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75365512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75365512.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366032",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366032.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
+        "sig": 3,
         "net": "nc",
-        "code": "75365512",
-        "ids": ",nc75365512,",
+        "code": "75366032",
+        "ids": ",nc75366032,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.00436,
-        "rms": 0.05,
-        "gap": 101,
+        "nst": 9,
+        "dmin": 0.009489,
+        "rms": 0.01,
+        "gap": 82,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.6 - 6 km WNW of Cobb, CA"
+        "title": "M 0.5 - 9 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.785835266113,
-          38.8358345031738,
-          2.15000009536743
+          -122.825500488281,
+          38.8440017700195,
+          2.14000010490417
         ]
       },
-      "id": "nc75365512"
+      "id": "nc75366032"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.31,
-        "place": "44 km ESE of Naalehu, Hawaii",
-        "time": 1779181819250,
-        "updated": 1779182958440,
+        "mag": 2.1,
+        "place": "39 km NNW of Aleneva, Alaska",
+        "time": 1779267785613,
+        "updated": 1779267913377,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74963752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74963752.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxldwx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxldwx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 169,
-        "net": "hv",
-        "code": "74963752",
-        "ids": ",us6000sypv,hv74963752,",
-        "sources": ",us,hv,",
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026jxldwx",
+        "ids": ",aka2026jxldwx,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.404,
-        "rms": 0.15,
-        "gap": 258,
+        "nst": 50,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 44 km ESE of Naalehu, Hawaii"
+        "title": "M 2.1 - 39 km NNW of Aleneva, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.205666666667,
-          18.8746666666667,
-          10.37
+          -153.281,
+          58.356,
+          61.5
         ]
       },
-      "id": "hv74963752"
+      "id": "aka2026jxldwx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.53,
+        "place": "14 km NE of Coachella, CA",
+        "time": 1779267654280,
+        "updated": 1779268282480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41470736",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41470736.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "ci",
+        "code": "41470736",
+        "ids": ",ci41470736,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.1127,
+        "rms": 0.21,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 14 km NE of Coachella, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.054166666667,
+          33.762,
+          2.26
+        ]
+      },
+      "id": "ci41470736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "26 km ENE of Susitna North, Alaska",
+        "time": 1779267571632,
+        "updated": 1779267658276,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxlaui",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxlaui.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026jxlaui",
+        "ids": ",aka2026jxlaui,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 127,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 26 km ENE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.353,
+          62.214,
+          50.5
+        ]
+      },
+      "id": "aka2026jxlaui"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.83,
+        "place": "14 km NE of Coachella, CA",
+        "time": 1779267459550,
+        "updated": 1779268097950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41470728",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41470728.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "ci",
+        "code": "41470728",
+        "ids": ",ci41470728,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.1146,
+        "rms": 0.2,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 14 km NE of Coachella, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.054666666667,
+          33.764,
+          1.89
+        ]
+      },
+      "id": "ci41470728"
     }
   ],
   "bbox": [
-    -155.20566666667,
-    18.874666666667,
-    2.1500000953674,
-    -122.78583526611,
-    64.779,
-    89.9
+    -153.281,
+    31.618,
+    0,
+    -104.173,
+    62.935,
+    79.7
   ]
 }
