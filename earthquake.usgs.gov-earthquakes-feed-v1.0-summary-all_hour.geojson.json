@@ -1,301 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779357816000,
+    "generated": 1779443390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "15 km WSW of Stanton, Texas",
-        "time": 1779357429496,
-        "updated": 1779357678927,
+        "mag": 1.21,
+        "place": "7 km SSW of Idyllwild, CA",
+        "time": 1779441981080,
+        "updated": 1779442187532,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jxtlsg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jxtlsg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472208",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472208.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "tx",
-        "code": "2026jxtlsg",
-        "ids": ",tx2026jxtlsg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 47,
+        "sig": 23,
+        "net": "ci",
+        "code": "41472208",
+        "ids": ",ci41472208,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 71,
+        "dmin": 0.05161,
+        "rms": 0.19,
+        "gap": 25,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 15 km WSW of Stanton, Texas"
+        "title": "M 1.2 - 7 km SSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.952,
-          32.097,
-          3.3886
+          -116.7345,
+          33.679,
+          15.03
         ]
       },
-      "id": "tx2026jxtlsg"
+      "id": "ci41472208"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.08940924266998,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1779357213760,
-        "updated": 1779357340074,
+        "mag": 0.66,
+        "place": "7 km S of Idyllwild, CA",
+        "time": 1779441798450,
+        "updated": 1779442003440,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41471512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41471512.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472200",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472200.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 7,
         "net": "ci",
-        "code": "41471512",
-        "ids": ",ci41471512,",
+        "code": "41472200",
+        "ids": ",ci41472200,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.05344,
+        "nst": 44,
+        "dmin": 0.04866,
+        "rms": 0.17,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 7 km S of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.730166666667,
+          33.6815,
+          15
+        ]
+      },
+      "id": "ci41472200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.57,
+        "place": "19 km NNE of Indio, CA",
+        "time": 1779441158200,
+        "updated": 1779441366650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472192.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41472192",
+        "ids": ",ci41472192,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.03697,
+        "rms": 0.19,
+        "gap": 97,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 19 km NNE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.164333333333,
+          33.8891666666667,
+          6.35
+        ]
+      },
+      "id": "ci41472192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.93,
+        "place": "12 km NE of Ridgecrest, CA",
+        "time": 1779441140360,
+        "updated": 1779441349967,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472184",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472184.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41472184",
+        "ids": ",ci41472184,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.1211,
+        "rms": 0.14,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 12 km NE of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.571,
+          35.6821666666667,
+          1.83
+        ]
+      },
+      "id": "ci41472184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1779440369980,
+        "updated": 1779440611540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74965817",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74965817.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "hv",
+        "code": "74965817",
+        "ids": ",hv74965817,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.08481,
         "rms": 0.159999996,
-        "gap": 125,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 17 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.806999206543,
-          35.3105010986328,
-          9.32999992370605
-        ]
-      },
-      "id": "ci41471512"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1779357069410,
-        "updated": 1779357166371,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366472.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75366472",
-        "ids": ",nc75366472,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.003292,
-        "rms": 0.01,
-        "gap": 88,
+        "gap": 157,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km NW of The Geysers, CA"
+        "title": "M 2.3 - 4 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.83699798584,
-          38.841667175293,
-          1.83000004291534
+          -155.496002197266,
+          19.1631660461426,
+          30.0400009155273
         ]
       },
-      "id": "nc75366472"
+      "id": "hv74965817"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "2 km NE of The Geysers, CA",
-        "time": 1779356581900,
-        "updated": 1779356676189,
+        "mag": 2.2,
+        "place": "38 km SW of Dry Creek, Alaska",
+        "time": 1779440030307,
+        "updated": 1779440104196,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366467",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366467.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kbcwzz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kbcwzz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75366467",
-        "ids": ",nc75366467,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.007743,
-        "rms": 0.05,
-        "gap": 101,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 2 km NE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.745002746582,
-          38.7874984741211,
-          0.5
-        ]
-      },
-      "id": "nc75366467"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1424636759314,
-        "place": "21 km N of Indio, CA",
-        "time": 1779356331280,
-        "updated": 1779356457623,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41471504",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41471504.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "41471504",
-        "ids": ",ci41471504,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.02193,
-        "rms": 0.150000006,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 21 km N of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.178169250488,
-          33.9038314819336,
-          3.16000008583069
-        ]
-      },
-      "id": "ci41471504"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "11 km SW of Cooper Landing, Alaska",
-        "time": 1779355854382,
-        "updated": 1779356089431,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jzicpa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jzicpa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
+        "sig": 74,
         "net": "ak",
-        "code": "a2026jzicpa",
-        "ids": ",aka2026jzicpa,",
+        "code": "a2026kbcwzz",
+        "ids": ",aka2026kbcwzz,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 120,
+        "nst": 26,
+        "dmin": 0.3,
+        "rms": 0.9,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 11 km SW of Cooper Landing, Alaska"
+        "title": "M 2.2 - 38 km SW of Dry Creek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.992,
-          60.432,
-          43
+          -145.106,
+          63.372,
+          7.5
         ]
       },
-      "id": "aka2026jzicpa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "23 km WSW of Four Mile Road, Alaska",
-        "time": 1779355692628,
-        "updated": 1779355791510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jziafp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jziafp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026jziafp",
-        "ids": ",aka2026jziafp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 23 km WSW of Four Mile Road, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.603,
-          64.551,
-          5
-        ]
-      },
-      "id": "aka2026jziafp"
+      "id": "aka2026kbcwzz"
     }
   ],
   "bbox": [
-    -149.992,
-    32.097,
-    0.5,
-    -101.952,
-    64.551,
-    43
+    -155.49600219727,
+    19.163166046143,
+    1.83,
+    -116.16433333333,
+    63.372,
+    30.040000915527
   ]
 }
