@@ -1,261 +1,621 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779443390000,
+    "generated": 1779525095000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 15
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.21,
-        "place": "7 km SSW of Idyllwild, CA",
-        "time": 1779441981080,
-        "updated": 1779442187532,
+        "mag": 1.45,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1779524763290,
+        "updated": 1779524971316,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472208",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472208.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472936",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472936.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
+        "sig": 32,
         "net": "ci",
-        "code": "41472208",
-        "ids": ",ci41472208,",
+        "code": "41472936",
+        "ids": ",ci41472936,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 71,
-        "dmin": 0.05161,
-        "rms": 0.19,
-        "gap": 25,
+        "nst": 47,
+        "dmin": 0.0491,
+        "rms": 0.18,
+        "gap": 32,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 7 km SSW of Idyllwild, CA"
+        "title": "M 1.5 - 18 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7345,
-          33.679,
-          15.03
+          -117.812166666667,
+          35.3081666666667,
+          7.38
         ]
       },
-      "id": "ci41472208"
+      "id": "ci41472936"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.66,
-        "place": "7 km S of Idyllwild, CA",
-        "time": 1779441798450,
-        "updated": 1779442003440,
+        "mag": 1.96,
+        "place": "17 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1779524542160,
+        "updated": 1779524995154,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472200",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472200.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966487.geojson",
+        "felt": 2,
+        "cdi": 0,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41472200",
-        "ids": ",ci41472200,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.04866,
-        "rms": 0.17,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km S of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.730166666667,
-          33.6815,
-          15
-        ]
-      },
-      "id": "ci41472200"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.57,
-        "place": "19 km NNE of Indio, CA",
-        "time": 1779441158200,
-        "updated": 1779441366650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472192.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41472192",
-        "ids": ",ci41472192,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.03697,
-        "rms": 0.19,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 19 km NNE of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.164333333333,
-          33.8891666666667,
-          6.35
-        ]
-      },
-      "id": "ci41472192"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "12 km NE of Ridgecrest, CA",
-        "time": 1779441140360,
-        "updated": 1779441349967,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472184",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472184.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41472184",
-        "ids": ",ci41472184,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.1211,
-        "rms": 0.14,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 12 km NE of Ridgecrest, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.571,
-          35.6821666666667,
-          1.83
-        ]
-      },
-      "id": "ci41472184"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.25,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1779440369980,
-        "updated": 1779440611540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74965817",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74965817.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 78,
+        "sig": 59,
         "net": "hv",
-        "code": "74965817",
-        "ids": ",hv74965817,",
+        "code": "74966487",
+        "ids": ",hv74966487,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.08481,
-        "rms": 0.159999996,
-        "gap": 157,
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1703,
+        "rms": 0.200000003,
+        "gap": 298,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 4 km SSW of Pāhala, Hawaii"
+        "title": "M 2.0 - 17 km S of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.496002197266,
-          19.1631660461426,
-          30.0400009155273
+          -155.862167358398,
+          19.2978324890137,
+          14.5200004577637
         ]
       },
-      "id": "hv74965817"
+      "id": "hv74966487"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "38 km SW of Dry Creek, Alaska",
-        "time": 1779440030307,
-        "updated": 1779440104196,
+        "mag": 1.87,
+        "place": "19 km SE of Silver Springs, Nevada",
+        "time": 1779524394142,
+        "updated": 1779524505720,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kbcwzz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kbcwzz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919119",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00919119.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026kbcwzz",
-        "ids": ",aka2026kbcwzz,",
-        "sources": ",ak,",
+        "sig": 54,
+        "net": "nn",
+        "code": "00919119",
+        "ids": ",nn00919119,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 76,
+        "nst": 23,
+        "dmin": 0.046,
+        "rms": 0.2231,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 38 km SW of Dry Creek, Alaska"
+        "title": "M 1.9 - 19 km SE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.106,
-          63.372,
-          7.5
+          -119.0957,
+          39.2691,
+          8.1955
         ]
       },
-      "id": "aka2026kbcwzz"
+      "id": "nn00919119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "31 km ESE of Balmorhea, Texas",
+        "time": 1779524138962,
+        "updated": 1779524610776,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kbhmzq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kbhmzq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2026kbhmzq",
+        "ids": ",tx2026kbhmzq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 129,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 31 km ESE of Balmorhea, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.466,
+          30.838,
+          0
+        ]
+      },
+      "id": "tx2026kbhmzq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1779524107618,
+        "updated": 1779524317462,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kbhnqr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kbhnqr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "tx",
+        "code": "2026kbhnqr",
+        "ids": ",tx2026kbhnqr,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.413,
+          31.669,
+          6.1691
+        ]
+      },
+      "id": "tx2026kbhnqr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.01,
+        "place": "12 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1779523631730,
+        "updated": 1779524084610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966477",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966477.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "hv",
+        "code": "74966477",
+        "ids": ",hv74966477,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.2067,
+        "rms": 0.140000001,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 12 km S of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.855834960938,
+          19.345832824707,
+          23.4500007629395
+        ]
+      },
+      "id": "hv74966477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.28,
+        "place": "14 km SSE of Honaunau-Napoopoo, Hawaii",
+        "time": 1779523269910,
+        "updated": 1779523487470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 80,
+        "net": "hv",
+        "code": "74966447",
+        "ids": ",hv74966447,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.1804,
+        "rms": 0.340000004,
+        "gap": 205,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 14 km SSE of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.834671020508,
+          19.3266658782959,
+          4.44999980926514
+        ]
+      },
+      "id": "hv74966447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.84,
+        "place": "16 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1779523063350,
+        "updated": 1779523273840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966442",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966442.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "hv",
+        "code": "74966442",
+        "ids": ",hv74966442,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1954,
+        "rms": 0.129999995,
+        "gap": 220,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 16 km S of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.888336181641,
+          19.3096675872803,
+          16.6000003814697
+        ]
+      },
+      "id": "hv74966442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.07,
+        "place": "10 km SSE of Pāhala, Hawaii",
+        "time": 1779522991050,
+        "updated": 1779523197150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966437",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966437.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 66,
+        "net": "hv",
+        "code": "74966437",
+        "ids": ",hv74966437,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1352,
+        "rms": 0.129999995,
+        "gap": 185,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 10 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.450668334961,
+          19.1113338470459,
+          29.9400005340576
+        ]
+      },
+      "id": "hv74966437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "10 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1779522748450,
+        "updated": 1779524361568,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966432",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966432.geojson",
+        "felt": 27,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "hv",
+        "code": "74966432",
+        "ids": ",hv74966432,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.207,
+        "rms": 0.12,
+        "gap": 180,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 10 km S of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.8595,
+          19.3588333333333,
+          21.26
+        ]
+      },
+      "id": "hv74966432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1779522617750,
+        "updated": 1779522824932,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472920",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472920.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "ci",
+        "code": "41472920",
+        "ids": ",ci41472920,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.05462,
+        "rms": 0.17,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.808833333333,
+          35.313,
+          7.46
+        ]
+      },
+      "id": "ci41472920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "8 km W of Delta, B.C., MX",
+        "time": 1779522403650,
+        "updated": 1779522614938,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472912",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472912.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ci",
+        "code": "41472912",
+        "ids": ",ci41472912,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.06043,
+        "rms": 0.31,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km W of Delta, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.274166666667,
+          32.3648333333333,
+          4.24
+        ]
+      },
+      "id": "ci41472912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.61,
+        "place": "17 km ESE of Little Lake, CA",
+        "time": 1779522398360,
+        "updated": 1779522611763,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472904",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472904.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41472904",
+        "ids": ",ci41472904,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.08167,
+        "rms": 0.07,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 17 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.731166666667,
+          35.8856666666667,
+          9.66
+        ]
+      },
+      "id": "ci41472904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "12 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1779522361450,
+        "updated": 1779525050154,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966427",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966427.geojson",
+        "felt": 2662,
+        "cdi": 7.2,
+        "mmi": 7.09,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 1370,
+        "net": "hv",
+        "code": "74966427",
+        "ids": ",pt26143000,us6000sznj,hv74966427,",
+        "sources": ",pt,us,hv,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 61,
+        "dmin": 0.1713,
+        "rms": 0.14,
+        "gap": 179,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 6.0 - 12 km S of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.845333333333,
+          19.3413333333333,
+          22.39
+        ]
+      },
+      "id": "hv74966427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1779521784960,
+        "updated": 1779521878764,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75367472",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75367472.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75367472",
+        "ids": ",nc75367472,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.006351,
+        "rms": 0.02,
+        "gap": 43,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80233001709,
+          38.8253326416016,
+          2.4300000667572
+        ]
+      },
+      "id": "nc75367472"
     }
   ],
   "bbox": [
-    -155.49600219727,
-    19.163166046143,
-    1.83,
-    -116.16433333333,
-    63.372,
-    30.040000915527
+    -155.88833618164,
+    19.111333847046,
+    0,
+    -103.466,
+    39.2691,
+    29.940000534058
   ]
 }
