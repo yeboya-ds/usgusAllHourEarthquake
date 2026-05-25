@@ -1,184 +1,264 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779612276000,
+    "generated": 1779706202000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 8
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.27,
-        "place": "7 km W of Cobb, CA",
-        "time": 1779612136820,
-        "updated": 1779612230146,
+        "mag": 0.8,
+        "place": "11 km WNW of Salcha, Alaska",
+        "time": 1779706024692,
+        "updated": 1779706103212,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75368007.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kgusxe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kgusxe.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75368007",
-        "ids": ",nc75368007,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01139,
-        "rms": 0.01,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 7 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.807830810547,
-          38.8346672058105,
-          2.76999998092651
-        ]
-      },
-      "id": "nc75368007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "51 km S of Whites City, New Mexico",
-        "time": 1779612109511,
-        "updated": 1779612265790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kdednp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kdednp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026kdednp",
-        "ids": ",tx2026kdednp,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 51 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.345,
-          31.713,
-          5.6693
-        ]
-      },
-      "id": "tx2026kdednp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1779611584340,
-        "updated": 1779611680228,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75367997",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75367997.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75367997",
-        "ids": ",nc75367997,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.005747,
-        "rms": 0.02,
-        "gap": 143,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 5 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.78133392334,
-          38.8383331298828,
-          1.94000005722046
-        ]
-      },
-      "id": "nc75367997"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "23 km WSW of Susitna North, Alaska",
-        "time": 1779611448807,
-        "updated": 1779611945733,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026keueej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026keueej.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026keueej",
-        "ids": ",aka2026keueej,",
+        "code": "a2026kgusxe",
+        "ids": ",aka2026kgusxe,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 98,
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 23 km WSW of Susitna North, Alaska"
+        "title": "M 0.8 - 11 km WNW of Salcha, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.282,
-          62.093,
-          55.3
+          -147.125,
+          64.553,
+          3.4
         ]
       },
-      "id": "aka2026keueej"
+      "id": "aka2026kgusxe"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.81,
-        "place": "6 km SE of Ratliff City, Oklahoma",
-        "time": 1779611373165,
-        "updated": 1779611439884,
+        "mag": 1.4,
+        "place": "28 km NW of Toyah, Texas",
+        "time": 1779705899790,
+        "updated": 1779706135582,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026kbxt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026kbxt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kfdymw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kfdymw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "tx",
+        "code": "2026kfdymw",
+        "ids": ",tx2026kfdymw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 28 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.991,
+          31.511,
+          7.3111
+        ]
+      },
+      "id": "tx2026kfdymw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "64 km E of McCarthy, Alaska",
+        "time": 1779705690910,
+        "updated": 1779705784932,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kguobm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kguobm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026kguobm",
+        "ids": ",aka2026kguobm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.4,
+        "rms": 0.3,
+        "gap": 302,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 64 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.719,
+          61.4,
+          5
+        ]
+      },
+      "id": "aka2026kguobm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1779705418140,
+        "updated": 1779705626823,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41474344",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41474344.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41474344",
+        "ids": ",ci41474344,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.05246,
+        "rms": 0.17,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8135,
+          35.3128333333333,
+          7.95
+        ]
+      },
+      "id": "ci41474344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.02,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1779705405210,
+        "updated": 1779705502135,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368642",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75368642.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75368642",
+        "ids": ",nc75368642,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.005036,
+        "rms": 0.01,
+        "gap": 70,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.805168151855,
+          38.8266677856445,
+          2.63000011444092
+        ]
+      },
+      "id": "nc75368642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.92,
+        "place": "16 km ENE of Pāhala, Hawaii",
+        "time": 1779705356760,
+        "updated": 1779705629490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74968252",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74968252.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "hv",
+        "code": "74968252",
+        "ids": ",hv74968252,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.04179,
+        "rms": 0.140000001,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 16 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.344329833984,
+          19.2730007171631,
+          30.0100002288818
+        ]
+      },
+      "id": "hv74968252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "54 km S of Whites City, New Mexico",
+        "time": 1779705136146,
+        "updated": 1779705373875,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kfdnoy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kfdnoy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,156 +266,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 50,
-        "net": "ok",
-        "code": "2026kbxt",
-        "ids": ",ok2026kbxt,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.04742971063,
-        "rms": 0.5970125297,
-        "gap": 138.6267509,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 6 km SE of Ratliff City, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.4528656,
-          34.40794754,
-          4.819709778
-        ]
-      },
-      "id": "ok2026kbxt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.23,
-        "place": "25 km ESE of Julian, CA",
-        "time": 1779610433440,
-        "updated": 1779611059910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41473640",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41473640.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "ci",
-        "code": "41473640",
-        "ids": ",ci41473640,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 82,
-        "dmin": 0.05423,
-        "rms": 0.21,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 25 km ESE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.355833333333,
-          33.0005,
-          11.5
-        ]
-      },
-      "id": "ci41473640"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "32 km WSW of Ackerly, Texas",
-        "time": 1779610211940,
-        "updated": 1779610463336,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kddchj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kddchj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
         "net": "tx",
-        "code": "2026kddchj",
-        "ids": ",tx2026kddchj,",
+        "code": "2026kfdnoy",
+        "ids": ",tx2026kfdnoy,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.1,
+        "nst": 29,
+        "dmin": 0,
         "rms": 0.4,
-        "gap": 46,
+        "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 32 km WSW of Ackerly, Texas"
+        "title": "M 1.8 - 54 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.043,
-          32.426,
-          5.9754
+          -104.419,
+          31.682,
+          4.697
         ]
       },
-      "id": "tx2026kddchj"
+      "id": "tx2026kfdnoy"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.67,
-        "place": "2 km S of Redlands, CA",
-        "time": 1779609975620,
-        "updated": 1779610181698,
+        "mag": 1.7,
+        "place": "45 km NW of Toyah, Texas",
+        "time": 1779704961657,
+        "updated": 1779705375614,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41473632",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41473632.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kfdlbg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kfdlbg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41473632",
-        "ids": ",ci41473632,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.05795,
-        "rms": 0.14,
-        "gap": 54,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026kfdlbg",
+        "ids": ",tx2026kfdlbg,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 2 km S of Redlands, CA"
+        "title": "M 1.7 - 45 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.182166666667,
-          34.034,
-          16.5
+          -104.117,
+          31.618,
+          4.6163
         ]
       },
-      "id": "ci41473632"
+      "id": "tx2026kfdlbg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "30 km NW of Toyah, Texas",
+        "time": 1779704546082,
+        "updated": 1779704790753,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kfdchm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kfdchm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "tx",
+        "code": "2026kfdchm",
+        "ids": ",tx2026kfdchm,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 30 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.008,
+          31.522,
+          4.9158
+        ]
+      },
+      "id": "tx2026kfdchm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.15,
+        "place": "57 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1779704379430,
+        "updated": 1779705855420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517758",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71517758.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "pr",
+        "code": "71517758",
+        "ids": ",pr71517758,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.5016,
+        "rms": 0.39,
+        "gap": 229,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 57 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.976,
+          18.8563333333333,
+          30.3
+        ]
+      },
+      "id": "pr71517758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1779703669810,
+        "updated": 1779703878952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41474336",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41474336.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "ci",
+        "code": "41474336",
+        "ids": ",ci41474336,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.05722,
+        "rms": 0.16,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.805,
+          35.314,
+          7.44
+        ]
+      },
+      "id": "ci41474336"
     }
   ],
   "bbox": [
-    -150.282,
-    31.713,
-    1.9400000572205,
-    -97.4528656,
-    62.093,
-    55.3
+    -155.34432983398,
+    18.856333333333,
+    2.6300001144409,
+    -64.976,
+    64.553,
+    30.3
   ]
 }
