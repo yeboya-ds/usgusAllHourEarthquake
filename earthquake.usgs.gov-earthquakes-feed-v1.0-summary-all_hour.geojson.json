@@ -1,184 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779964418000,
+    "generated": 1780049617000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 10
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "65 km WNW of Rampart, Alaska",
-        "time": 1779963765559,
-        "updated": 1779963948710,
+        "mag": 2.01619968134657,
+        "place": "26 km WNW of Ludlow, CA",
+        "time": 1780049444950,
+        "updated": 1780049570540,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kmhznk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kmhznk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41476384",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41476384.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "a2026kmhznk",
-        "ids": ",aka2026kmhznk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.7,
-        "rms": 0.4,
-        "gap": 95,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 65 km WNW of Rampart, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.353,
-          65.837,
-          7.2
-        ]
-      },
-      "id": "aka2026kmhznk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "22 km ENE of Four Mile Road, Alaska",
-        "time": 1779963480067,
-        "updated": 1779963567858,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kmhvjt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kmhvjt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026kmhvjt",
-        "ids": ",aka2026kmhvjt,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 110,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 22 km ENE of Four Mile Road, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.697,
-          64.688,
-          6
-        ]
-      },
-      "id": "aka2026kmhvjt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "32 km W of Petersville, Alaska",
-        "time": 1779963412227,
-        "updated": 1779963544771,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kmhupa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kmhupa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026kmhupa",
-        "ids": ",aka2026kmhupa,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 132,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 32 km W of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.38,
-          62.553,
-          5
-        ]
-      },
-      "id": "aka2026kmhupa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.89,
-        "place": "6 km SSW of Redlands, CA",
-        "time": 1779963110450,
-        "updated": 1779963321046,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41475904",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41475904.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
+        "sig": 63,
         "net": "ci",
-        "code": "41475904",
-        "ids": ",ci41475904,",
+        "code": "41476384",
+        "ids": ",ci41476384,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.06511,
-        "rms": 0.19,
-        "gap": 46,
+        "nst": 36,
+        "dmin": 0.05917,
+        "rms": 0.189999998,
+        "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 6 km SSW of Redlands, CA"
+        "title": "M 2.0 - 26 km WNW of Ludlow, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.210333333333,
-          34.0046666666667,
-          6.05
+          -116.40633392334,
+          34.8370018005371,
+          -0.319999992847443
         ]
       },
-      "id": "ci41475904"
+      "id": "ci41476384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.77,
+        "place": "1 km E of Winchester, CA",
+        "time": 1780049149820,
+        "updated": 1780049404295,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41476368",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41476368.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "ci",
+        "code": "41476368",
+        "ids": ",ci41476368,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 100,
+        "dmin": 0.05744,
+        "rms": 0.21,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 1 km E of Winchester, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.070333333333,
+          33.705,
+          12.26
+        ]
+      },
+      "id": "ci41476368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.03,
+        "place": "4 km W of Cobb, CA",
+        "time": 1780049072070,
+        "updated": 1780049166839,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75367936",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75367936.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75367936",
+        "ids": ",nc75367936,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.006554,
+        "rms": 0.02,
+        "gap": 126,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 4 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.765998840332,
+          38.8246650695801,
+          2.30999994277954
+        ]
+      },
+      "id": "nc75367936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.01,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1780049037130,
+        "updated": 1780049272282,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41476360",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41476360.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "ci",
+        "code": "41476360",
+        "ids": ",ci41476360,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.04229,
+        "rms": 0.17,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 18 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.814,
+          35.3008333333333,
+          9.1
+        ]
+      },
+      "id": "ci41476360"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.1,
-        "place": "26 km NNW of Toyah, Texas",
-        "time": 1779963040095,
-        "updated": 1779963264044,
+        "place": "78 km WNW of Karluk, Alaska",
+        "time": 1780048634932,
+        "updated": 1780048735230,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kkpzhp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kkpzhp.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026koddyv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026koddyv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,236 +186,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 68,
-        "net": "tx",
-        "code": "2026kkpzhp",
-        "ids": ",tx2026kkpzhp,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 176,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 26 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.929,
-          31.521,
-          9.9419
-        ]
-      },
-      "id": "tx2026kkpzhp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1779961475790,
-        "updated": 1779962839945,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370302",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370302.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75370302",
-        "ids": ",nc75370302,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.007139,
-        "rms": 0.01,
-        "gap": 73,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.797996520996,
-          38.8344993591309,
-          1.96000003814697
-        ]
-      },
-      "id": "nc75370302"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "17 km WNW of Ivanof Bay, Alaska",
-        "time": 1779961378845,
-        "updated": 1779961569439,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kmgqye",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kmgqye.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
         "net": "ak",
-        "code": "a2026kmgqye",
-        "ids": ",aka2026kmgqye,",
+        "code": "a2026koddyv",
+        "ids": ",aka2026koddyv,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 10,
+        "nst": 37,
         "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 195,
+        "rms": 0.7,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 17 km WNW of Ivanof Bay, Alaska"
+        "title": "M 2.1 - 78 km WNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.758,
-          55.934,
-          14.4
+          -155.674,
+          57.833,
+          2.7
         ]
       },
-      "id": "aka2026kmgqye"
+      "id": "aka2026koddyv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.27772911098238,
-        "place": "9 km WNW of Primo Tapia, B.C., MX",
-        "time": 1779961265440,
-        "updated": 1779963198042,
+        "mag": 2.4,
+        "place": "51 km NW of Rampart, Alaska",
+        "time": 1780048345210,
+        "updated": 1780048453649,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41475896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41475896.geojson",
-        "felt": 6,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ci",
-        "code": "41475896",
-        "ids": ",ci41475896,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 57,
-        "dmin": 0.2593,
-        "rms": 0.25999999,
-        "gap": 153,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 9 km WNW of Primo Tapia, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.00016784668,
-          32.2541656494141,
-          17.6000003814697
-        ]
-      },
-      "id": "ci41475896"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "27 km WSW of Jal, New Mexico",
-        "time": 1779961043235,
-        "updated": 1779962487562,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kkowwl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kkowwl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026koczui",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026koczui.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026kkowwl",
-        "ids": ",tx2026kkowwl,",
-        "sources": ",tx,",
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026koczui",
+        "ids": ",aka2026koczui,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 1,
-        "gap": 93,
+        "nst": 28,
+        "dmin": 0.6,
+        "rms": 0.8,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 27 km WSW of Jal, New Mexico"
+        "title": "M 2.4 - 51 km NW of Rampart, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.476,
-          32.062,
-          0
+          -150.953,
+          65.836,
+          13.3
         ]
       },
-      "id": "tx2026kkowwl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "38 km ENE of McKinney Acres, Texas",
-        "time": 1779961001402,
-        "updated": 1779961274264,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kkowhv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kkowhv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026kkowhv",
-        "ids": ",tx2026kkowhv,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 38 km ENE of McKinney Acres, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.139,
-          32.397,
-          3.8215
-        ]
-      },
-      "id": "tx2026kkowhv"
+      "id": "aka2026koczui"
     }
   ],
   "bbox": [
-    -159.758,
-    31.521,
-    0,
-    -102.139,
-    65.837,
-    17.60000038147
+    -155.674,
+    33.705,
+    -0.31999999284744,
+    -116.40633392334,
+    65.836,
+    13.3
   ]
 }
