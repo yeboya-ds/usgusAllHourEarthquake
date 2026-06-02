@@ -1,421 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780315795000,
+    "generated": 1780397680000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 10
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "130 km SE of McCarthy, Alaska",
-        "time": 1780315121392,
-        "updated": 1780315223456,
+        "mag": 1.8,
+        "place": "27 km ESE of Susitna North, Alaska",
+        "time": 1780397016824,
+        "updated": 1780397167431,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ktvgzo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ktvgzo.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kvoulg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kvoulg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 50,
         "net": "ak",
-        "code": "a2026ktvgzo",
-        "ids": ",aka2026ktvgzo,",
+        "code": "a2026kvoulg",
+        "ids": ",aka2026kvoulg,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 103,
+        "nst": 32,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 130 km SE of McCarthy, Alaska"
+        "title": "M 1.8 - 27 km ESE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.534,
-          60.473,
-          5.5
+          -149.352,
+          62.07,
+          20.4
         ]
       },
-      "id": "aka2026ktvgzo"
+      "id": "aka2026kvoulg"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "23 km SSW of Hope, Alaska",
-        "time": 1780314582992,
-        "updated": 1780314682779,
+        "mag": 0.43,
+        "place": "15 km NNW of Aguanga, CA",
+        "time": 1780396012490,
+        "updated": 1780396224157,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ktuzee",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ktuzee.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478584",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41478584.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026ktuzee",
-        "ids": ",aka2026ktuzee,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 47,
+        "sig": 3,
+        "net": "ci",
+        "code": "41478584",
+        "ids": ",ci41478584,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.08005,
+        "rms": 0.13,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 23 km SSW of Hope, Alaska"
+        "title": "M 0.4 - 15 km NNW of Aguanga, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.728,
-          60.707,
-          29.2
+          -116.952,
+          33.5545,
+          11.72
         ]
       },
-      "id": "aka2026ktuzee"
+      "id": "ci41478584"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.02,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1780314405910,
-        "updated": 1780314502402,
+        "mag": 1.9,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1780395913580,
+        "updated": 1780397204593,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369246",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75369246.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ktvckl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ktvckl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 16,
-        "net": "nc",
-        "code": "75369246",
-        "ids": ",nc75369246,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.004943,
-        "rms": 0.01,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.815002441406,
-          38.8264999389648,
-          2.23000001907349
-        ]
-      },
-      "id": "nc75369246"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1780314029544,
-        "updated": 1780314618320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ksbwku",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ksbwku.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
+        "sig": 56,
         "net": "tx",
-        "code": "2026ksbwku",
-        "ids": ",tx2026ksbwku,",
+        "code": "2026ktvckl",
+        "ids": ",tx2026ktvckl,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.1,
-        "rms": 0.9,
-        "gap": 139,
+        "nst": 30,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 59 km S of Whites City, New Mexico"
+        "title": "M 1.9 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.339,
-          31.64,
-          0
+          -104.442,
+          31.655,
+          5.6897
         ]
       },
-      "id": "tx2026ksbwku"
+      "id": "tx2026ktvckl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.02,
+        "mag": 1.04,
         "place": "17 km WSW of Johannesburg, CA",
-        "time": 1780313730590,
-        "updated": 1780313943226,
+        "time": 1780395809590,
+        "updated": 1780396028259,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41477872",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41477872.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478576",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41478576.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 63,
+        "sig": 17,
         "net": "ci",
-        "code": "41477872",
-        "ids": ",ci41477872,",
+        "code": "41478576",
+        "ids": ",ci41478576,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 57,
-        "dmin": 0.05186,
-        "rms": 0.18,
-        "gap": 33,
+        "nst": 35,
+        "dmin": 0.05416,
+        "rms": 0.25,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 17 km WSW of Johannesburg, CA"
+        "title": "M 1.0 - 17 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.803333333333,
-          35.306,
-          6.79
+          -117.801833333333,
+          35.308,
+          6.56
         ]
       },
-      "id": "ci41477872"
+      "id": "ci41478576"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.82,
-        "place": "6 km WNW of The Geysers, CA",
-        "time": 1780313007300,
-        "updated": 1780315640926,
+        "mag": 1.8,
+        "place": "51 km NE of Chase, Alaska",
+        "time": 1780395166133,
+        "updated": 1780395268069,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369236",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75369236.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kvntru",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kvntru.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 51,
-        "net": "nc",
-        "code": "75369236",
-        "ids": ",nc75369236,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.01683,
-        "rms": 0.05,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 6 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.816833496094,
-          38.8073348999023,
-          2.84999990463257
-        ]
-      },
-      "id": "nc75369236"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.25,
-        "place": "23 km SSW of La Quinta, CA",
-        "time": 1780312738670,
-        "updated": 1780313382970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41477864",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41477864.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41477864",
-        "ids": ",ci41477864,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 72,
-        "dmin": 0.1443,
-        "rms": 0.19,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 23 km SSW of La Quinta, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.414833333333,
-          33.477,
-          9.88
-        ]
-      },
-      "id": "ci41477864"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.94,
-        "place": "11 km E of Pāhala, Hawaii",
-        "time": 1780312383430,
-        "updated": 1780312653930,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74973457",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74973457.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 58,
-        "net": "hv",
-        "code": "74973457",
-        "ids": ",hv74973457,",
-        "sources": ",hv,",
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026kvntru",
+        "ids": ",aka2026kvntru,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 29,
-        "dmin": 0.05287,
-        "rms": 0.140000001,
-        "gap": 208,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 11 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.369171142578,
-          19.1916675567627,
-          31.4799995422363
-        ]
-      },
-      "id": "hv74973457"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "5 km NNW of The Geysers, CA",
-        "time": 1780312367070,
-        "updated": 1780314739829,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75369231.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75369231",
-        "ids": ",nc75369231,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.01504,
-        "rms": 0.05,
-        "gap": 100,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 5 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.78133392334,
-          38.8183326721191,
-          -0.140000000596046
-        ]
-      },
-      "id": "nc75369231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "19 km SSE of Westbrook, Texas",
-        "time": 1780312207472,
-        "updated": 1780312824040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ksaweu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ksaweu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2026ksaweu",
-        "ids": ",us7000sptp,tx2026ksaweu,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 78,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 19 km SSE of Westbrook, Texas"
+        "title": "M 1.8 - 51 km NE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.959,
-          32.19,
-          0.1779
+          -149.482,
+          62.813,
+          77.9
         ]
       },
-      "id": "tx2026ksaweu"
+      "id": "aka2026kvntru"
     }
   ],
   "bbox": [
-    -155.36917114258,
-    19.191667556763,
-    -0.14000000059605,
-    -100.959,
-    60.707,
-    31.479999542236
+    -149.482,
+    31.655,
+    5.6897,
+    -104.442,
+    62.813,
+    77.9
   ]
 }
