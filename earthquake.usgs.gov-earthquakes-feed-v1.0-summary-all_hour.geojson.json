@@ -1,24 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780397680000,
+    "generated": 1780485718000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "27 km ESE of Susitna North, Alaska",
-        "time": 1780397016824,
-        "updated": 1780397167431,
+        "mag": 2.6,
+        "place": "58 km NW of Toyah, Texas",
+        "time": 1780485058770,
+        "updated": 1780485424555,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kvoulg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kvoulg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kvsiwg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kvsiwg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2026kvsiwg",
+        "ids": ",tx2026kvsiwg,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 58 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.294,
+          31.615,
+          4.1191
+        ]
+      },
+      "id": "tx2026kvsiwg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.12,
+        "place": "20 km SW of Ocotillo Wells, CA",
+        "time": 1780484732130,
+        "updated": 1780484937488,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479272.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "41479272",
+        "ids": ",ci41479272,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.07653,
+        "rms": 0.18,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 20 km SW of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.294833333333,
+          33.031,
+          6.84
+        ]
+      },
+      "id": "ci41479272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "6 km ESE of Dilley, Texas",
+        "time": 1780484636604,
+        "updated": 1780484821844,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kvscuo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kvscuo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "tx",
+        "code": "2026kvscuo",
+        "ids": ",tx2026kvscuo,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.4,
+        "rms": 0.2,
+        "gap": 204,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 6 km ESE of Dilley, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.108,
+          28.653,
+          9.8813
+        ]
+      },
+      "id": "tx2026kvscuo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "57 km NW of Toyah, Texas",
+        "time": 1780484577126,
+        "updated": 1780484808862,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kvsaon",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kvsaon.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,196 +146,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 50,
-        "net": "ak",
-        "code": "a2026kvoulg",
-        "ids": ",aka2026kvoulg,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2026kvsaon",
+        "ids": ",tx2026kvsaon,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 58,
+        "nst": 34,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 27 km ESE of Susitna North, Alaska"
+        "title": "M 1.8 - 57 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.352,
-          62.07,
-          20.4
+          -104.295,
+          31.611,
+          3.8547
         ]
       },
-      "id": "aka2026kvoulg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.43,
-        "place": "15 km NNW of Aguanga, CA",
-        "time": 1780396012490,
-        "updated": 1780396224157,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478584",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41478584.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41478584",
-        "ids": ",ci41478584,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.08005,
-        "rms": 0.13,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 15 km NNW of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.952,
-          33.5545,
-          11.72
-        ]
-      },
-      "id": "ci41478584"
+      "id": "tx2026kvsaon"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1780395913580,
-        "updated": 1780397204593,
+        "place": "4 km SSW of Cabazon, CA",
+        "time": 1780484434850,
+        "updated": 1780485056020,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ktvckl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ktvckl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479264",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479264.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "tx",
-        "code": "2026ktvckl",
-        "ids": ",tx2026ktvckl,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.442,
-          31.655,
-          5.6897
-        ]
-      },
-      "id": "tx2026ktvckl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1780395809590,
-        "updated": 1780396028259,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478576",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41478576.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
         "net": "ci",
-        "code": "41478576",
-        "ids": ",ci41478576,",
+        "code": "41479264",
+        "ids": ",ci41479264,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.05416,
-        "rms": 0.25,
-        "gap": 66,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 98,
+        "dmin": 0.03674,
+        "rms": 0.18,
+        "gap": 21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 17 km WSW of Johannesburg, CA"
+        "title": "M 1.9 - 4 km SSW of Cabazon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.801833333333,
-          35.308,
-          6.56
+          -116.812666666667,
+          33.8856666666667,
+          17.13
         ]
       },
-      "id": "ci41478576"
+      "id": "ci41479264"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "51 km NE of Chase, Alaska",
-        "time": 1780395166133,
-        "updated": 1780395268069,
+        "mag": 5.7,
+        "place": "159 km WSW of Pistol River, Oregon",
+        "time": 1780484032722,
+        "updated": 1780485440286,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kvntru",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kvntru.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq93",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sq93.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": 3.828,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000sq93",
+        "ids": ",attg1y9x,us7000sq93,ew1780484060,",
+        "sources": ",at,us,ew,",
+        "types": ",dyfi,event-sequence,losspager,moment-tensor,oaf,origin,phase-data,shake-alert,shakemap,",
+        "nst": 31,
+        "dmin": 1.477,
+        "rms": 0.51,
+        "gap": 256,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 159 km WSW of Pistol River, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.2531,
+          41.8956,
+          10
+        ]
+      },
+      "id": "us7000sq93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.61,
+        "place": "18 km SE of Silver Springs, Nevada",
+        "time": 1780483799001,
+        "updated": 1780483913827,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919654",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00919654.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026kvntru",
-        "ids": ",aka2026kvntru,",
-        "sources": ",ak,",
+        "sig": 40,
+        "net": "nn",
+        "code": "00919654",
+        "ids": ",nn00919654,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.5,
-        "rms": 0.7,
-        "gap": 50,
+        "nst": 24,
+        "dmin": 0.052,
+        "rms": 0.1896,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 51 km NE of Chase, Alaska"
+        "title": "M 1.6 - 18 km SE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.482,
-          62.813,
-          77.9
+          -119.101,
+          39.274,
+          8.2199
         ]
       },
-      "id": "aka2026kvntru"
+      "id": "nn00919654"
     }
   ],
   "bbox": [
-    -149.482,
-    31.655,
-    5.6897,
-    -104.442,
-    62.813,
-    77.9
+    -126.2531,
+    28.653,
+    3.8547,
+    -99.108,
+    41.8956,
+    17.13
   ]
 }
