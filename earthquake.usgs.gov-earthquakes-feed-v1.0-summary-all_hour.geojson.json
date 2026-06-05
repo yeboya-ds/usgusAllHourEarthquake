@@ -1,264 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780567931000,
+    "generated": 1780654573000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 10
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "19 km NW of Westbrook, Texas",
-        "time": 1780567655819,
-        "updated": 1780567857895,
+        "mag": 1.2,
+        "place": "13 km NNW of Hollister, CA",
+        "time": 1780652866980,
+        "updated": 1780654044458,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kxlzap",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kxlzap.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75371201",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75371201.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "tx",
-        "code": "2026kxlzap",
-        "ids": ",tx2026kxlzap,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 94,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 19 km NW of Westbrook, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.165,
-          32.474,
-          1.4262
-        ]
-      },
-      "id": "tx2026kxlzap"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.17,
-        "place": "1 km E of The Geysers, CA",
-        "time": 1780567572990,
-        "updated": 1780567667407,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370681",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370681.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
+        "sig": 22,
         "net": "nc",
-        "code": "75370681",
-        "ids": ",nc75370681,",
+        "code": "75371201",
+        "ids": ",nc75371201,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.009662,
-        "rms": 0.02,
-        "gap": 63,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 1 km E of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.745162963867,
-          38.7761650085449,
-          2.30999994277954
-        ]
-      },
-      "id": "nc75370681"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1780567243170,
-        "updated": 1780567341073,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370676",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370676.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75370676",
-        "ids": ",nc75370676,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01208,
-        "rms": 0.02,
-        "gap": 86,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.820503234863,
-          38.832332611084,
-          1.41999995708466
-        ]
-      },
-      "id": "nc75370676"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.49,
-        "place": "6 km SSW of Redlands, CA",
-        "time": 1780567118120,
-        "updated": 1780567780270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479968.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 34,
-        "net": "ci",
-        "code": "41479968",
-        "ids": ",ci41479968,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 83,
-        "dmin": 0.06376,
-        "rms": 0.18,
-        "gap": 22,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 6 km SSW of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.205166666667,
-          34.0053333333333,
-          5.92
-        ]
-      },
-      "id": "ci41479968"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "28 km W of Denali Park, Alaska",
-        "time": 1780566737036,
-        "updated": 1780566934131,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kzfdbu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kzfdbu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026kzfdbu",
-        "ids": ",aka2026kzfdbu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 28 km W of Denali Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.481,
-          63.701,
-          116.5
-        ]
-      },
-      "id": "aka2026kzfdbu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.67,
-        "place": "23 km N of Borrego Springs, CA",
-        "time": 1780566462490,
-        "updated": 1780566668515,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479960",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479960.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41479960",
-        "ids": ",ci41479960,",
-        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.1348,
-        "rms": 0.21,
-        "gap": 42,
-        "magType": "ml",
+        "nst": 9,
+        "dmin": 0.08277,
+        "rms": 0.08,
+        "gap": 118,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 23 km N of Borrego Springs, CA"
+        "title": "M 1.2 - 13 km NNW of Hollister, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.420666666667,
-          33.4603333333333,
-          2.57
+          -121.439163208008,
+          36.9553337097168,
+          12.5200004577637
         ]
       },
-      "id": "ci41479960"
+      "id": "nc75371201"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "53 km S of Whites City, New Mexico",
-        "time": 1780566176038,
-        "updated": 1780566414136,
+        "place": "26 km S of Mina, Nevada",
+        "time": 1780652650879,
+        "updated": 1780652813252,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kxldwl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kxldwl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919775",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00919775.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,156 +66,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "tx",
-        "code": "2026kxldwl",
-        "ids": ",tx2026kxldwl,",
-        "sources": ",tx,",
+        "net": "nn",
+        "code": "00919775",
+        "ids": ",nn00919775,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 65,
+        "nst": 19,
+        "dmin": 0.284,
+        "rms": 0.4212,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 53 km S of Whites City, New Mexico"
+        "title": "M 1.6 - 26 km S of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.42,
-          31.693,
-          4.2576
+          -118.1644,
+          38.1566,
+          1.769
         ]
       },
-      "id": "tx2026kxldwl"
+      "id": "nn00919775"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.32231705538291,
-        "place": "6 km SSW of Redlands, CA",
-        "time": 1780565654210,
-        "updated": 1780566332010,
+        "mag": 1.4,
+        "place": "10 km ESE of North Shore, CA",
+        "time": 1780651658480,
+        "updated": 1780651866985,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479952",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479952.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41480752",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41480752.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 27,
+        "sig": 30,
         "net": "ci",
-        "code": "41479952",
-        "ids": ",ci41479952,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.06325,
-        "rms": 0.170000002,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 6 km SSW of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.205001831055,
-          34.0048332214355,
-          5.53999996185303
-        ]
-      },
-      "id": "ci41479952"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "12 km N of Morongo Valley, CA",
-        "time": 1780565468710,
-        "updated": 1780565681548,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479936.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41479936",
-        "ids": ",ci41479936,",
+        "code": "41480752",
+        "ids": ",ci41480752,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.1222,
-        "rms": 0.14,
-        "gap": 47,
+        "nst": 48,
+        "dmin": 0.03146,
+        "rms": 0.21,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 12 km N of Morongo Valley, CA"
+        "title": "M 1.4 - 10 km ESE of North Shore, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.597166666667,
-          34.1535,
-          1.71
+          -115.834333333333,
+          33.5016666666667,
+          6.98
         ]
       },
-      "id": "ci41479936"
+      "id": "ci41480752"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.92,
-        "place": "8 km NE of Coso Junction, CA",
-        "time": 1780564651530,
-        "updated": 1780564896568,
+        "mag": 1.9,
+        "place": "53 km E of Denali National Park, Alaska",
+        "time": 1780651612826,
+        "updated": 1780651710284,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479928.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lbahqa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lbahqa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41479928",
-        "ids": ",ci41479928,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.2986,
-        "rms": 0.17,
-        "gap": 71,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026lbahqa",
+        "ids": ",aka2026lbahqa,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.7,
+        "rms": 0.9,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 8 km NE of Coso Junction, CA"
+        "title": "M 1.9 - 53 km E of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.896,
-          36.1016666666667,
-          3.04
+          -150.664,
+          63.617,
+          2
         ]
       },
-      "id": "ci41479928"
+      "id": "aka2026lbahqa"
     }
   ],
   "bbox": [
-    -149.481,
-    31.693,
-    1.4199999570847,
-    -101.165,
-    63.701,
-    116.5
+    -150.664,
+    33.501666666667,
+    1.769,
+    -115.83433333333,
+    63.617,
+    12.520000457764
   ]
 }
