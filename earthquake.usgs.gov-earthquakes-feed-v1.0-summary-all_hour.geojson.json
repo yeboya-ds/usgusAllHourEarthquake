@@ -1,64 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780825241000,
+    "generated": 1780917626000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 3
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.96,
-        "place": "1 km ENE of Redlands, CA",
-        "time": 1780823632380,
-        "updated": 1780823844050,
+        "mag": 0.65,
+        "place": "13 km NNE of Banning, CA",
+        "time": 1780916825920,
+        "updated": 1780917027930,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481936.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41482328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41482328.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
+        "sig": 6,
         "net": "ci",
-        "code": "41481936",
-        "ids": ",ci41481936,",
+        "code": "41482328",
+        "ids": ",ci41482328,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.07385,
-        "rms": 0.2,
-        "gap": 146,
+        "nst": 32,
+        "dmin": 0.02111,
+        "rms": 0.14,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 1 km ENE of Redlands, CA"
+        "title": "M 0.7 - 13 km NNE of Banning, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.167166666667,
-          34.0596666666667,
-          3.77
+          -116.833166666667,
+          34.034,
+          14.11
         ]
       },
-      "id": "ci41481936"
+      "id": "ci41482328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.23,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1780916752840,
+        "updated": 1780916846523,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75372986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75372986",
+        "ids": ",nc75372986,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.001114,
+        "rms": 0.02,
+        "gap": 97,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.2 - 10 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.835166931152,
+          38.8375015258789,
+          1.52999997138977
+        ]
+      },
+      "id": "nc75372986"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.62,
-        "place": "9 km NW of The Geysers, CA",
-        "time": 1780822979680,
-        "updated": 1780823073335,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1780915936090,
+        "updated": 1780916031261,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372336",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75372336.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372981",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75372981.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,38 +107,118 @@
         "tsunami": 0,
         "sig": 6,
         "net": "nc",
-        "code": "75372336",
-        "ids": ",nc75372336,",
+        "code": "75372981",
+        "ids": ",nc75372981,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 8,
-        "dmin": 0.00454,
+        "dmin": 0.01913,
         "rms": 0.01,
-        "gap": 148,
+        "gap": 142,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.6 - 9 km NW of The Geysers, CA"
+        "title": "M 0.6 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.840835571289,
-          38.8233337402344,
-          1.49000000953674
+          -122.835334777832,
+          38.8366661071777,
+          1.75
         ]
       },
-      "id": "nc75372336"
+      "id": "nc75372981"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "61 km ENE of Chignik, Alaska",
-        "time": 1780822478233,
-        "updated": 1780822603250,
+        "mag": 2,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1780915517520,
+        "updated": 1780915942121,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lerguc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lerguc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372966",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75372966.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "nc",
+        "code": "75372966",
+        "ids": ",nc75372966,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.003857,
+        "rms": 0.05,
+        "gap": 56,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 9 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.83366394043,
+          38.8349990844727,
+          1.51999998092651
+        ]
+      },
+      "id": "nc75372966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "57 km SW of Nanwalek, Alaska",
+        "time": 1780914769761,
+        "updated": 1780914941289,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lgqond",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lgqond.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "a2026lgqond",
+        "ids": ",aka2026lgqond,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 176,
+        "dmin": 0.4,
+        "rms": 1,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 57 km SW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.613,
+          58.978,
+          62.6
+        ]
+      },
+      "id": "aka2026lgqond"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "12 km SE of Pāhala, Hawaii",
+        "time": 1780914452340,
+        "updated": 1780914660850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74978017",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74978017.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,36 +226,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 50,
-        "net": "ak",
-        "code": "a2026lerguc",
-        "ids": ",aka2026lerguc,",
-        "sources": ",ak,",
+        "net": "hv",
+        "code": "74978017",
+        "ids": ",hv74978017,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.5,
-        "rms": 0.3,
-        "gap": 211,
-        "magType": "ml",
+        "nst": 11,
+        "dmin": 0.1166,
+        "rms": 0.0799999982,
+        "gap": 288,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 61 km ENE of Chignik, Alaska"
+        "title": "M 1.8 - 12 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.458,
-          56.463,
-          59.4
+          -155.402160644531,
+          19.1203327178955,
+          41.3699989318848
         ]
       },
-      "id": "aka2026lerguc"
+      "id": "hv74978017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "24 km ESE of Larsen Bay, Alaska",
+        "time": 1780914232217,
+        "updated": 1780914352907,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lgqgsy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lgqgsy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026lgqgsy",
+        "ids": ",aka2026lgqgsy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 142,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 24 km ESE of Larsen Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.629,
+          57.433,
+          26.7
+        ]
+      },
+      "id": "aka2026lgqgsy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.74,
+        "place": "12 km SSE of Pāhala, Hawaii",
+        "time": 1780914122610,
+        "updated": 1780914327420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74978007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74978007.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "hv",
+        "code": "74978007",
+        "ids": ",hv74978007,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1421,
+        "rms": 0.129999995,
+        "gap": 264,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 12 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.427505493164,
+          19.0974998474121,
+          35.7000007629395
+        ]
+      },
+      "id": "hv74978007"
     }
   ],
   "bbox": [
-    -157.458,
-    34.059666666667,
-    1.4900000095367,
-    -117.16716666667,
-    56.463,
-    59.4
+    -155.42750549316,
+    19.097499847412,
+    1.5199999809265,
+    -116.83316666667,
+    58.978,
+    62.6
   ]
 }
