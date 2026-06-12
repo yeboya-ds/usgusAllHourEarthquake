@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781175474000,
+    "generated": 1781260791000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 9
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1781175074222,
-        "updated": 1781175379713,
+        "mag": 1.3,
+        "place": "100 km W of Akhiok, Alaska",
+        "time": 1781260297897,
+        "updated": 1781260392087,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lkjmwy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026lkjmwy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026loapsy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026loapsy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026loapsy",
+        "ids": ",aka2026loapsy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.7,
+        "rms": 0.3,
+        "gap": 254,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 100 km W of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.816,
+          56.961,
+          50.1
+        ]
+      },
+      "id": "aka2026loapsy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.74,
+        "place": "5 km SW of Pāhala, Hawaii",
+        "time": 1781259628590,
+        "updated": 1781259843680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74979992",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74979992.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "hv",
+        "code": "74979992",
+        "ids": ",hv74979992,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.1126,
+        "rms": 0.150000006,
+        "gap": 155,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 5 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.522994995117,
+          19.174165725708,
+          29.0100002288818
+        ]
+      },
+      "id": "hv74979992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "2 km SE of Pacifica, CA",
+        "time": 1781259507960,
+        "updated": 1781260640857,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75375236",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75375236.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,356 +106,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 50,
-        "net": "tx",
-        "code": "2026lkjmwy",
-        "ids": ",tx2026lkjmwy,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.353,
-          31.657,
-          3.4343
-        ]
-      },
-      "id": "tx2026lkjmwy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.36,
-        "place": "8 km W of Cobb, CA",
-        "time": 1781175056680,
-        "updated": 1781175152531,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374766",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374766.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
         "net": "nc",
-        "code": "75374766",
-        "ids": ",nc75374766,",
+        "code": "75375236",
+        "ids": ",nc75375236,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01193,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.03111,
         "rms": 0.02,
-        "gap": 106,
+        "gap": 116,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 8 km W of Cobb, CA"
+        "title": "M 1.8 - 2 km SE of Pacifica, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.810501098633,
-          38.835334777832,
-          2.02999997138977
+          -122.469665527344,
+          37.603832244873,
+          8.84000015258789
         ]
       },
-      "id": "nc75374766"
+      "id": "nc75375236"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "25 km N of Four Mile Road, Alaska",
-        "time": 1781173694186,
-        "updated": 1781173778170,
+        "mag": 0.17,
+        "place": "6 km WSW of Anza, CA",
+        "time": 1781259471190,
+        "updated": 1781259682970,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lmemfr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lmemfr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484976",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484976.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
+        "sig": 0,
+        "net": "ci",
+        "code": "41484976",
+        "ids": ",ci41484976,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.03438,
+        "rms": 0.09,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.2 - 6 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.727,
+          33.532,
+          6.19
+        ]
+      },
+      "id": "ci41484976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "18 km SW of Tyonek, Alaska",
+        "time": 1781257808783,
+        "updated": 1781257894612,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnzftm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnzftm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
         "net": "ak",
-        "code": "a2026lmemfr",
-        "ids": ",aka2026lmemfr,",
+        "code": "a2026lnzftm",
+        "ids": ",aka2026lnzftm,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 13,
+        "nst": 30,
         "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 176,
+        "rms": 0.6,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 25 km N of Four Mile Road, Alaska"
+        "title": "M 1.3 - 18 km SW of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.155,
-          64.834,
-          5
+          -151.414,
+          60.973,
+          70.1
         ]
       },
-      "id": "aka2026lmemfr"
+      "id": "aka2026lnzftm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.48,
-        "place": "9 km WNW of The Geysers, CA",
-        "time": 1781173631350,
-        "updated": 1781173728391,
+        "mag": 1.6,
+        "place": "48 km NNE of Chickaloon, Alaska",
+        "time": 1781257734520,
+        "updated": 1781257819800,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374761",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374761.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnzepb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnzepb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "nc",
-        "code": "75374761",
-        "ids": ",nc75374761,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01198,
-        "rms": 0.1,
-        "gap": 178,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.5 - 9 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.847831726074,
-          38.8165016174316,
-          8.92000007629395
-        ]
-      },
-      "id": "nc75374761"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "26 km N of Four Mile Road, Alaska",
-        "time": 1781173500817,
-        "updated": 1781173573263,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lmejkn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lmejkn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
+        "sig": 39,
         "net": "ak",
-        "code": "a2026lmejkn",
-        "ids": ",aka2026lmejkn,",
+        "code": "a2026lnzepb",
+        "ids": ",aka2026lnzepb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 17,
-        "dmin": 0.3,
-        "rms": 1.1,
-        "gap": 92,
+        "dmin": 0.4,
+        "rms": 0.9,
+        "gap": 73,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 26 km N of Four Mile Road, Alaska"
+        "title": "M 1.6 - 48 km NNE of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.19,
-          64.843,
-          7.4
+          -148.241,
+          62.222,
+          5
         ]
       },
-      "id": "aka2026lmejkn"
+      "id": "aka2026lnzepb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.11,
-        "place": "8 km W of Okarche, Oklahoma",
-        "time": 1781173339838,
-        "updated": 1781173451448,
+        "mag": 1.51,
+        "place": "20 km ESE of Silver Springs, Nevada",
+        "time": 1781257537462,
+        "updated": 1781257680189,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026liyn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026liyn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920120",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920120.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "ok",
-        "code": "2026liyn",
-        "ids": ",ok2026liyn,",
-        "sources": ",ok,",
+        "sig": 35,
+        "net": "nn",
+        "code": "00920120",
+        "ids": ",nn00920120,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1064492688,
-        "rms": 0.7640930759,
-        "gap": 79.44564819,
+        "nst": 20,
+        "dmin": 0.066,
+        "rms": 0.1851,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 8 km W of Okarche, Oklahoma"
+        "title": "M 1.5 - 20 km ESE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.068573,
-          35.73403931,
-          2.375338554
+          -119.0132,
+          39.341,
+          5.4344
         ]
       },
-      "id": "ok2026liyn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "72 km W of Petrolia, CA",
-        "time": 1781172855950,
-        "updated": 1781173941703,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374756",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374756.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "nc",
-        "code": "75374756",
-        "ids": ",nc75374756,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.604,
-        "rms": 0.25,
-        "gap": 286,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 72 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.13166809082,
-          40.3146667480469,
-          4.40000009536743
-        ]
-      },
-      "id": "nc75374756"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "8 km SE of Ocotillo Wells, CA",
-        "time": 1781172204650,
-        "updated": 1781172837380,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484464",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484464.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ci",
-        "code": "41484464",
-        "ids": ",ci41484464,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 62,
-        "dmin": 0.1004,
-        "rms": 0.2,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 8 km SE of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0605,
-          33.1008333333333,
-          2.66
-        ]
-      },
-      "id": "ci41484464"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "170 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1781172036638,
-        "updated": 1781174249040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss75",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ss75.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000ss75",
-        "ids": ",us7000ss75,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 2.053,
-        "rms": 1.02,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 170 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7476,
-          52.2327,
-          35.358
-        ]
-      },
-      "id": "us7000ss75"
+      "id": "nn00920120"
     }
   ],
   "bbox": [
-    -149.19,
-    31.657,
-    2.0299999713898,
-    160.7476,
-    64.843,
-    35.358
+    -155.816,
+    19.174165725708,
+    5,
+    -116.727,
+    62.222,
+    70.1
   ]
 }
