@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781260791000,
+    "generated": 1781343441000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,290 +12,290 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "100 km W of Akhiok, Alaska",
-        "time": 1781260297897,
-        "updated": 1781260392087,
+        "mag": 0.8,
+        "place": "8 km E of Coso Junction, CA",
+        "time": 1781343100860,
+        "updated": 1781343314331,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026loapsy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026loapsy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41485744",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41485744.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026loapsy",
-        "ids": ",aka2026loapsy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.7,
-        "rms": 0.3,
-        "gap": 254,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 100 km W of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.816,
-          56.961,
-          50.1
-        ]
-      },
-      "id": "aka2026loapsy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "5 km SW of Pāhala, Hawaii",
-        "time": 1781259628590,
-        "updated": 1781259843680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74979992",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74979992.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "hv",
-        "code": "74979992",
-        "ids": ",hv74979992,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.1126,
-        "rms": 0.150000006,
-        "gap": 155,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 5 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.522994995117,
-          19.174165725708,
-          29.0100002288818
-        ]
-      },
-      "id": "hv74979992"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "2 km SE of Pacifica, CA",
-        "time": 1781259507960,
-        "updated": 1781260640857,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75375236",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75375236.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "nc",
-        "code": "75375236",
-        "ids": ",nc75375236,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.03111,
-        "rms": 0.02,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 2 km SE of Pacifica, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.469665527344,
-          37.603832244873,
-          8.84000015258789
-        ]
-      },
-      "id": "nc75375236"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.17,
-        "place": "6 km WSW of Anza, CA",
-        "time": 1781259471190,
-        "updated": 1781259682970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484976",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484976.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 0,
+        "sig": 10,
         "net": "ci",
-        "code": "41484976",
-        "ids": ",ci41484976,",
+        "code": "41485744",
+        "ids": ",ci41485744,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.03438,
-        "rms": 0.09,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.2 - 6 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.727,
-          33.532,
-          6.19
-        ]
-      },
-      "id": "ci41484976"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "18 km SW of Tyonek, Alaska",
-        "time": 1781257808783,
-        "updated": 1781257894612,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnzftm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnzftm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026lnzftm",
-        "ids": ",aka2026lnzftm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 18 km SW of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.414,
-          60.973,
-          70.1
-        ]
-      },
-      "id": "aka2026lnzftm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "48 km NNE of Chickaloon, Alaska",
-        "time": 1781257734520,
-        "updated": 1781257819800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnzepb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnzepb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026lnzepb",
-        "ids": ",aka2026lnzepb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
         "nst": 17,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 73,
+        "dmin": 0.03783,
+        "rms": 0.1,
+        "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 48 km NNE of Chickaloon, Alaska"
+        "title": "M 0.8 - 8 km E of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.241,
-          62.222,
+          -117.86,
+          36.0365,
+          2.23
+        ]
+      },
+      "id": "ci41485744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "86 km E of Cantwell, Alaska",
+        "time": 1781343049431,
+        "updated": 1781343137773,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lpupot",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lpupot.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026lpupot",
+        "ids": ",aka2026lpupot,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.7,
+        "rms": 0.5,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 86 km E of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.233,
+          63.469,
+          76.1
+        ]
+      },
+      "id": "aka2026lpupot"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.49,
+        "place": "3 km SSW of Carpinteria, CA",
+        "time": 1781342156660,
+        "updated": 1781342364764,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41485736",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41485736.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 34,
+        "net": "ci",
+        "code": "41485736",
+        "ids": ",ci41485736,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.02916,
+        "rms": 0.16,
+        "gap": 204,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 3 km SSW of Carpinteria, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.533833333333,
+          34.3741666666667,
+          12.51
+        ]
+      },
+      "id": "ci41485736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.6,
+        "place": "24 km NNE of Four Mile Road, Alaska",
+        "time": 1781341693395,
+        "updated": 1781341811794,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lptvzj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lptvzj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ak",
+        "code": "a2026lptvzj",
+        "ids": ",aka2026lptvzj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.2,
+        "rms": 0.4,
+        "gap": 198,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 24 km NNE of Four Mile Road, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.962,
+          64.812,
           5
         ]
       },
-      "id": "aka2026lnzepb"
+      "id": "aka2026lptvzj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.51,
-        "place": "20 km ESE of Silver Springs, Nevada",
-        "time": 1781257537462,
-        "updated": 1781257680189,
+        "mag": 1.72,
+        "place": "20 km SE of Hawthorne, Nevada",
+        "time": 1781340711418,
+        "updated": 1781340829390,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920120",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920120.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920193",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920193.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
+        "sig": 46,
         "net": "nn",
-        "code": "00920120",
-        "ids": ",nn00920120,",
+        "code": "00920193",
+        "ids": ",nn00920193,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.066,
-        "rms": 0.1851,
-        "gap": 55,
+        "nst": 18,
+        "dmin": 0.18,
+        "rms": 0.1779,
+        "gap": 145,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 20 km ESE of Silver Springs, Nevada"
+        "title": "M 1.7 - 20 km SE of Hawthorne, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0132,
-          39.341,
-          5.4344
+          -118.4297,
+          38.4216,
+          0.0234
         ]
       },
-      "id": "nn00920120"
+      "id": "nn00920193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.76,
+        "place": "11 km WSW of Volcano, Hawaii",
+        "time": 1781340674230,
+        "updated": 1781340892080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74980697",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74980697.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "hv",
+        "code": "74980697",
+        "ids": ",hv74980697,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.03529,
+        "rms": 0.189999998,
+        "gap": 45,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 11 km WSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.337326049805,
+          19.4044990539551,
+          2.26999998092651
+        ]
+      },
+      "id": "hv74980697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "28 km SW of Sarangani, Philippines",
+        "time": 1781340518875,
+        "updated": 1781341758040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssnf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ssnf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000ssnf",
+        "ids": ",us7000ssnf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 1.87,
+        "rms": 0.97,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 28 km SW of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2939,
+          5.2088,
+          59.01
+        ]
+      },
+      "id": "us7000ssnf"
     }
   ],
   "bbox": [
-    -155.816,
-    19.174165725708,
-    5,
-    -116.727,
-    62.222,
-    70.1
+    -155.33732604981,
+    5.2088,
+    0.0234,
+    125.2939,
+    64.812,
+    76.1
   ]
 }
