@@ -1,181 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781430948000,
+    "generated": 1781527383000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 4
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "19 km ENE of Willow, Alaska",
-        "time": 1781430106854,
-        "updated": 1781430213386,
+        "mag": 0.69,
+        "place": "12 km WNW of The Geysers, CA",
+        "time": 1781525843750,
+        "updated": 1781525937388,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lrqzqk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lrqzqk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376926",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75376926.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026lrqzqk",
-        "ids": ",aka2026lrqzqk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 121,
-        "magType": "ml",
+        "sig": 7,
+        "net": "nc",
+        "code": "75376926",
+        "ids": ",nc75376926,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.008884,
+        "rms": 0.03,
+        "gap": 117,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 19 km ENE of Willow, Alaska"
+        "title": "M 0.7 - 12 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.684,
-          61.795,
-          39.4
+          -122.870002746582,
+          38.8311653137207,
+          2.73000001907349
         ]
       },
-      "id": "aka2026lrqzqk"
+      "id": "nc75376926"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "27 km NW of San Simeon, CA",
-        "time": 1781428724070,
-        "updated": 1781429842819,
+        "mag": 1.17,
+        "place": "11 km WNW of Cobb, CA",
+        "time": 1781525786100,
+        "updated": 1781526742978,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376346",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75376346.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376921",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75376921.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
+        "sig": 21,
         "net": "nc",
-        "code": "75376346",
-        "ids": ",nc75376346,",
+        "code": "75376921",
+        "ids": ",nc75376921,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
-        "dmin": 0.139,
-        "rms": 0.08,
-        "gap": 204,
+        "dmin": 0.01466,
+        "rms": 0.02,
+        "gap": 110,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 27 km NW of San Simeon, CA"
+        "title": "M 1.2 - 11 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.43049621582,
-          35.7903327941895,
-          2.8199999332428
+          -122.848503112793,
+          38.8491668701172,
+          1.62999999523163
         ]
       },
-      "id": "nc75376346"
+      "id": "nc75376921"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.49,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1781427600420,
-        "updated": 1781427808046,
+        "mag": 0.76,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1781525367190,
+        "updated": 1781525462498,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41486200",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41486200.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376916",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75376916.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41486200",
-        "ids": ",ci41486200,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.08494,
-        "rms": 0.08,
-        "gap": 169,
+        "sig": 9,
+        "net": "nc",
+        "code": "75376916",
+        "ids": ",nc75376916,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.009641,
+        "rms": 0.01,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81950378418,
+          38.8171653747559,
+          2.29999995231628
+        ]
+      },
+      "id": "nc75376916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "20 km W of Willow, Alaska",
+        "time": 1781525075422,
+        "updated": 1781525176096,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ltruax",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ltruax.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026ltruax",
+        "ids": ",aka2026ltruax,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.6,
+        "rms": 0.3,
+        "gap": 131,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 14 km SW of Searles Valley, CA"
+        "title": "M 1.6 - 20 km W of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.525,
-          35.6855,
-          10.09
+          -150.434,
+          61.752,
+          41.9
         ]
       },
-      "id": "ci41486200"
+      "id": "aka2026ltruax"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.01,
-        "place": "18 km ENE of Thousand Palms, CA",
-        "time": 1781427543760,
-        "updated": 1781427746287,
+        "mag": 1.9,
+        "place": "20 km ESE of Chase, Alaska",
+        "time": 1781524939093,
+        "updated": 1781525038173,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41486192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41486192.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ltrsbl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ltrsbl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026ltrsbl",
+        "ids": ",aka2026ltrsbl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.3,
+        "rms": 0.8,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 20 km ESE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.722,
+          62.394,
+          71.3
+        ]
+      },
+      "id": "aka2026ltrsbl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "12 km SE of Anza, CA",
+        "time": 1781524458570,
+        "updated": 1781524668377,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41486976",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41486976.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
         "net": "ci",
-        "code": "41486192",
-        "ids": ",ci41486192,",
+        "code": "41486976",
+        "ids": ",ci41486976,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
-        "dmin": 0.04645,
+        "dmin": 0.02425,
         "rms": 0.16,
-        "gap": 63,
+        "gap": 43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 18 km ENE of Thousand Palms, CA"
+        "title": "M 0.8 - 12 km SE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.212666666667,
-          33.8923333333333,
-          7.8
+          -116.5935,
+          33.4715,
+          10.13
         ]
       },
-      "id": "ci41486192"
+      "id": "ci41486976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1781524429970,
+        "updated": 1781526741978,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376906",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75376906.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "nc",
+        "code": "75376906",
+        "ids": ",nc75376906,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.009945,
+        "rms": 0.03,
+        "gap": 50,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.817832946777,
+          38.8154983520508,
+          2.5
+        ]
+      },
+      "id": "nc75376906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.86,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1781524027130,
+        "updated": 1781524308430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74982342",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74982342.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "hv",
+        "code": "74982342",
+        "ids": ",hv74982342,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1168,
+        "rms": 0.140000001,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.495162963867,
+          19.1655006408691,
+          29.0799999237061
+        ]
+      },
+      "id": "hv74982342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "50 km S of Glacier View, Alaska",
+        "time": 1781524024919,
+        "updated": 1781524102917,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ltrevu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ltrevu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026ltrevu",
+        "ids": ",aka2026ltrevu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 121,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 50 km S of Glacier View, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.534,
+          61.362,
+          40
+        ]
+      },
+      "id": "aka2026ltrevu"
     }
   ],
   "bbox": [
-    -149.684,
-    33.892333333333,
-    2.8199999332428,
-    -116.21266666667,
-    61.795,
-    39.4
+    -155.49516296387,
+    19.165500640869,
+    1.6299999952316,
+    -116.5935,
+    62.394,
+    71.3
   ]
 }
