@@ -1,144 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781948606000,
+    "generated": 1782036326000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "15 km W of Ivanof Bay, Alaska",
-        "time": 1781946852790,
-        "updated": 1781946926609,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mcsfev",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mcsfev.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "a2026mcsfev",
-        "ids": ",aka2026mcsfev,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 184,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 15 km W of Ivanof Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.735,
-          55.908,
-          11.7
-        ]
-      },
-      "id": "aka2026mcsfev"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "26 km SW of Old Harbor, Alaska",
-        "time": 1781946680385,
-        "updated": 1781946805409,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mcscqz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mcscqz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026mcscqz",
-        "ids": ",aka2026mcscqz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 181,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 26 km SW of Old Harbor, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.569,
-          57.012,
-          19.2
-        ]
-      },
-      "id": "aka2026mcscqz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1781946304260,
-        "updated": 1781946399859,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380036",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75380036.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75380036",
-        "ids": ",nc75380036,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.007095,
-        "rms": 0.02,
-        "gap": 75,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.763496398926,
-          38.7941665649414,
-          1.5
-        ]
-      },
-      "id": "nc75380036"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.7,
-        "place": "12 km SSE of Fern Forest, Hawaii",
-        "time": 1781946129120,
-        "updated": 1781946343690,
+        "place": "12 km SE of Lindsay, Texas",
+        "time": 1782034364453,
+        "updated": 1782034582621,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74987117",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74987117.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mcqdya",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mcqdya.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,116 +26,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 44,
-        "net": "hv",
-        "code": "74987117",
-        "ids": ",hv74987117,",
-        "sources": ",hv,",
+        "net": "tx",
+        "code": "2026mcqdya",
+        "ids": ",tx2026mcqdya,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1075,
-        "rms": 0.109999999,
-        "gap": 303,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 12 km SSE of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.102828979492,
-          19.3579998016357,
-          31.2199993133545
-        ]
-      },
-      "id": "hv74987117"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.02,
-        "place": "21 km ESE of Naalehu, Hawaii",
-        "time": 1781945883190,
-        "updated": 1781946084980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74987112",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74987112.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "hv",
-        "code": "74987112",
-        "ids": ",hv74987112,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.2072,
-        "rms": 0.189999998,
-        "gap": 212,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 21 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.383666992188,
-          19.0296669006348,
-          29.0900001525879
-        ]
-      },
-      "id": "hv74987112"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "31 km WSW of Nanwalek, Alaska",
-        "time": 1781945643523,
-        "updated": 1781945726087,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mcrnqu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mcrnqu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026mcrnqu",
-        "ids": ",aka2026mcrnqu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 120,
+        "nst": 30,
+        "dmin": 0,
+        "rms": 0.8,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 31 km WSW of Nanwalek, Alaska"
+        "title": "M 1.7 - 12 km SE of Lindsay, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.387,
-          59.199,
-          62.8
+          -103.427,
+          31.304,
+          7.2882
         ]
       },
-      "id": "aka2026mcrnqu"
+      "id": "tx2026mcqdya"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.88,
+        "place": "3 km N of Fontana, CA",
+        "time": 1782033849370,
+        "updated": 1782034061916,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491672.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41491672",
+        "ids": ",ci41491672,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.06889,
+        "rms": 0.17,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 3 km N of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.456833333333,
+          34.1258333333333,
+          9.09
+        ]
+      },
+      "id": "ci41491672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.24,
+        "place": "11 km S of Anza, CA",
+        "time": 1782033816020,
+        "updated": 1782034078355,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491664",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491664.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ci",
+        "code": "41491664",
+        "ids": ",ci41491664,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.06641,
+        "rms": 0.09,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.2 - 11 km S of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.663166666667,
+          33.452,
+          4.2
+        ]
+      },
+      "id": "ci41491664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "22 km NNW of Toyah, Texas",
+        "time": 1782033126591,
+        "updated": 1782033378797,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mcpmeq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mcpmeq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2026mcpmeq",
+        "ids": ",tx2026mcpmeq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 94,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 22 km NNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.874,
+          31.508,
+          5.0711
+        ]
+      },
+      "id": "tx2026mcpmeq"
     }
   ],
   "bbox": [
-    -159.735,
-    19.029666900635,
-    1.5,
-    -122.76349639893,
-    59.199,
-    62.8
+    -117.45683333333,
+    31.304,
+    4.2,
+    -103.427,
+    34.125833333333,
+    9.09
   ]
 }
