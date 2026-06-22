@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782036326000,
+    "generated": 1782131186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "12 km SE of Lindsay, Texas",
-        "time": 1782034364453,
-        "updated": 1782034582621,
+        "mag": 0.65,
+        "place": "5 km NW of The Geysers, CA",
+        "time": 1782130307150,
+        "updated": 1782130403745,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mcqdya",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mcqdya.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75381216",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75381216.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "nc",
+        "code": "75381216",
+        "ids": ",nc75381216,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.007899,
+        "rms": 0.01,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 5 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.787170410156,
+          38.8126678466797,
+          3.01999998092651
+        ]
+      },
+      "id": "nc75381216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "31 km WSW of Ackerly, Texas",
+        "time": 1782129952273,
+        "updated": 1782130192870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026meqyvm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026meqyvm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,78 +67,78 @@
         "tsunami": 0,
         "sig": 44,
         "net": "tx",
-        "code": "2026mcqdya",
-        "ids": ",tx2026mcqdya,",
+        "code": "2026meqyvm",
+        "ids": ",tx2026meqyvm,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0,
-        "rms": 0.8,
-        "gap": 56,
+        "nst": 55,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 12 km SE of Lindsay, Texas"
+        "title": "M 1.7 - 31 km WSW of Ackerly, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.427,
-          31.304,
-          7.2882
+          -102.028,
+          32.431,
+          3.7992
         ]
       },
-      "id": "tx2026mcqdya"
+      "id": "tx2026meqyvm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.88,
-        "place": "3 km N of Fontana, CA",
-        "time": 1782033849370,
-        "updated": 1782034061916,
+        "mag": 1.55,
+        "place": "3 km N of Colton, CA",
+        "time": 1782129448120,
+        "updated": 1782130126210,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491672.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41492200",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41492200.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
+        "sig": 37,
         "net": "ci",
-        "code": "41491672",
-        "ids": ",ci41491672,",
+        "code": "41492200",
+        "ids": ",ci41492200,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.06889,
-        "rms": 0.17,
-        "gap": 50,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 89,
+        "dmin": 0.008544,
+        "rms": 0.19,
+        "gap": 18,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 3 km N of Fontana, CA"
+        "title": "M 1.6 - 3 km N of Colton, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.456833333333,
-          34.1258333333333,
-          9.09
+          -117.32,
+          34.101,
+          16.6
         ]
       },
-      "id": "ci41491672"
+      "id": "ci41492200"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.24,
-        "place": "11 km S of Anza, CA",
-        "time": 1782033816020,
-        "updated": 1782034078355,
+        "mag": 0.28,
+        "place": "11 km WNW of Cobb, CA",
+        "time": 1782129355790,
+        "updated": 1782129453644,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491664",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491664.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75381211",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75381211.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,76 +146,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 1,
-        "net": "ci",
-        "code": "41491664",
-        "ids": ",ci41491664,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75381211",
+        "ids": ",nc75381211,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.06641,
-        "rms": 0.09,
-        "gap": 89,
-        "magType": "ml",
+        "nst": 6,
+        "dmin": 0.01341,
+        "rms": 0.01,
+        "gap": 137,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.2 - 11 km S of Anza, CA"
+        "title": "M 0.3 - 11 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.663166666667,
-          33.452,
-          4.2
+          -122.846832275391,
+          38.8486671447754,
+          1.80999994277954
         ]
       },
-      "id": "ci41491664"
+      "id": "nc75381211"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "22 km NNW of Toyah, Texas",
-        "time": 1782033126591,
-        "updated": 1782033378797,
+        "mag": 0.9,
+        "place": "70 km WNW of Tyonek, Alaska",
+        "time": 1782129220022,
+        "updated": 1782129283027,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mcpmeq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mcpmeq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mgpomt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mgpomt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026mcpmeq",
-        "ids": ",tx2026mcpmeq,",
-        "sources": ",tx,",
+        "sig": 12,
+        "net": "ak",
+        "code": "a2026mgpomt",
+        "ids": ",aka2026mgpomt,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 94,
+        "nst": 5,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 186,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 22 km NNW of Toyah, Texas"
+        "title": "M 0.9 - 70 km WNW of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.874,
-          31.508,
-          5.0711
+          -152.368,
+          61.282,
+          5
         ]
       },
-      "id": "tx2026mcpmeq"
+      "id": "aka2026mgpomt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "6 km WSW of Fox River, Alaska",
+        "time": 1782127688393,
+        "updated": 1782127869983,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mgoskn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mgoskn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ak",
+        "code": "a2026mgoskn",
+        "ids": ",aka2026mgoskn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 207,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 6 km WSW of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.056,
+          59.826,
+          62.3
+        ]
+      },
+      "id": "aka2026mgoskn"
     }
   ],
   "bbox": [
-    -117.45683333333,
-    31.304,
-    4.2,
-    -103.427,
-    34.125833333333,
-    9.09
+    -152.368,
+    32.431,
+    1.8099999427795,
+    -102.028,
+    61.282,
+    62.3
   ]
 }
