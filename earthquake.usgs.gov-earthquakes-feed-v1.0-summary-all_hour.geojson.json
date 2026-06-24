@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782209004000,
+    "generated": 1782294646000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,410 +12,410 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "57 km E of McCarthy, Alaska",
-        "time": 1782208537576,
-        "updated": 1782208618886,
+        "mag": 1.6,
+        "place": "28 km WSW of Ivanof Bay, Alaska",
+        "time": 1782294479457,
+        "updated": 1782294614697,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mihqts",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mihqts.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mkdksk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mkdksk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
+        "sig": 39,
         "net": "ak",
-        "code": "a2026mihqts",
-        "ids": ",aka2026mihqts,",
+        "code": "a2026mkdksk",
+        "ids": ",aka2026mkdksk,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 143,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 57 km E of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.855,
-          61.368,
-          5
-        ]
-      },
-      "id": "aka2026mihqts"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.31,
-        "place": "8 km N of Coalinga, CA",
-        "time": 1782208527360,
-        "updated": 1782208623087,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382036",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382036.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "nc",
-        "code": "75382036",
-        "ids": ",nc75382036,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04523,
-        "rms": 0.04,
-        "gap": 129,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 8 km N of Coalinga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.374000549316,
-          36.2111663818359,
-          10.5900001525879
-        ]
-      },
-      "id": "nc75382036"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "5 km SE of Pinnacles, CA",
-        "time": 1782208296280,
-        "updated": 1782208393204,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382031",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382031.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "nc",
-        "code": "75382031",
-        "ids": ",nc75382031,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.06145,
-        "rms": 0.2,
-        "gap": 102,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 5 km SE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.110168457031,
-          36.5001678466797,
-          -0.0299999993294477
-        ]
-      },
-      "id": "nc75382031"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.37,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1782207260620,
-        "updated": 1782207357172,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382021",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382021.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75382021",
-        "ids": ",nc75382021,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01412,
-        "rms": 0.01,
-        "gap": 96,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.4 - 8 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.80883026123,
-          38.8375015258789,
-          2.16000008583069
-        ]
-      },
-      "id": "nc75382021"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.73,
-        "place": "17 km NE of Olancha, CA",
-        "time": 1782207083210,
-        "updated": 1782207299690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41493184",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41493184.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "ci",
-        "code": "41493184",
-        "ids": ",ci41493184,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.1925,
-        "rms": 0.19,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 17 km NE of Olancha, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.855833333333,
-          36.3741666666667,
-          1.96
-        ]
-      },
-      "id": "ci41493184"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "45 km ESE of Ugashik, Alaska",
-        "time": 1782206257206,
-        "updated": 1782206335348,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026migjuy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026migjuy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026migjuy",
-        "ids": ",aka2026migjuy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
+        "nst": 16,
         "dmin": 0.4,
-        "rms": 0.2,
-        "gap": 209,
+        "rms": 0.7,
+        "gap": 186,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 45 km ESE of Ugashik, Alaska"
+        "title": "M 1.6 - 28 km WSW of Ivanof Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.745,
-          57.303,
-          5
+          -159.898,
+          55.801,
+          1.6
         ]
       },
-      "id": "aka2026migjuy"
+      "id": "aka2026mkdksk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1782205511510,
-        "updated": 1782205607723,
+        "mag": 1.8,
+        "place": "28 km NW of Susitna, Alaska",
+        "time": 1782294391520,
+        "updated": 1782294485128,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75381996",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75381996.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mkdjlo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mkdjlo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75381996",
-        "ids": ",nc75381996,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.01105,
-        "rms": 0.03,
-        "gap": 49,
-        "magType": "md",
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026mkdjlo",
+        "ids": ",aka2026mkdjlo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 70,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+        "title": "M 1.8 - 28 km NW of Susitna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.80916595459,
-          38.8101654052734,
-          2.75999999046326
+          -150.94,
+          61.696,
+          59.8
         ]
       },
-      "id": "nc75381996"
+      "id": "aka2026mkdjlo"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.72,
-        "place": "5 km SW of Ridgemark, CA",
-        "time": 1782205497650,
-        "updated": 1782208639810,
+        "mag": 1.18,
+        "place": "16 km W of Simmler, CA",
+        "time": 1782294311470,
+        "updated": 1782294518068,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382006",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382006.geojson",
-        "felt": 1,
-        "cdi": 3.4,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494256.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 114,
-        "net": "nc",
-        "code": "75382006",
-        "ids": ",nc75382006,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.06705,
-        "rms": 0.13,
-        "gap": 43,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 5 km SW of Ridgemark, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.404335021973,
-          36.7804985046387,
-          7.36999988555908
-        ]
-      },
-      "id": "nc75382006"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.56,
-        "place": "5 km SW of Ridgemark, CA",
-        "time": 1782205429370,
-        "updated": 1782207748715,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382001.geojson",
-        "felt": 28,
-        "cdi": 4.7,
-        "mmi": 3.536,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 208,
-        "net": "nc",
-        "code": "75382001",
-        "ids": ",nc75382001,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 67,
-        "dmin": 0.04047,
-        "rms": 0.08,
-        "gap": 44,
+        "sig": 21,
+        "net": "ci",
+        "code": "41494256",
+        "ids": ",ci41494256,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.05905,
+        "rms": 0.19,
+        "gap": 102,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 5 km SW of Ridgemark, CA"
+        "title": "M 1.2 - 16 km W of Simmler, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.401168823242,
-          36.7804985046387,
-          6.94999980926514
+          -120.180166666667,
+          35.355,
+          7.26
         ]
       },
-      "id": "nc75382001"
+      "id": "ci41494256"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.17,
-        "place": "5 km SW of Ridgemark, CA",
-        "time": 1782205408230,
-        "updated": 1782206841620,
+        "mag": 1.01,
+        "place": "7 km NNW of Mira Loma, CA",
+        "time": 1782293997370,
+        "updated": 1782294198734,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75381991",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75381991.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494248.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "ci",
+        "code": "41494248",
+        "ids": ",ci41494248,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.0794,
+        "rms": 0.14,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 7 km NNW of Mira Loma, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5525,
+          34.044,
+          10.89
+        ]
+      },
+      "id": "ci41494248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "2 km N of The Geysers, CA",
+        "time": 1782293367340,
+        "updated": 1782293462716,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382781",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382781.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75382781",
+        "ids": ",nc75382781,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.006668,
+        "rms": 0.01,
+        "gap": 90,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 2 km N of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.753997802734,
+          38.7956657409668,
+          1.27999997138977
+        ]
+      },
+      "id": "nc75382781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "11 km WSW of Stanton, Texas",
+        "time": 1782292656961,
+        "updated": 1782292925404,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026micvfg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026micvfg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026micvfg",
+        "ids": ",tx2026micvfg,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 11 km WSW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.906,
+          32.101,
+          3.1154
+        ]
+      },
+      "id": "tx2026micvfg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.41,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1782291977790,
+        "updated": 1782294552669,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494240",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494240.geojson",
         "felt": 1,
         "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 155,
-        "net": "nc",
-        "code": "75381991",
-        "ids": ",nc75381991,",
-        "sources": ",nc,",
+        "sig": 89,
+        "net": "ci",
+        "code": "41494240",
+        "ids": ",ci41494240,",
+        "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.0392,
-        "rms": 0.1,
-        "gap": 44,
+        "nst": 59,
+        "dmin": 0.04038,
+        "rms": 0.18,
+        "gap": 32,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 5 km SW of Ridgemark, CA"
+        "title": "M 2.4 - 18 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.402168273926,
-          36.779167175293,
-          7.09999990463257
+          -117.8095,
+          35.2948333333333,
+          7.69
         ]
       },
-      "id": "nc75381991"
+      "id": "ci41494240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.27,
+        "place": "28 km WSW of Olancha, CA",
+        "time": 1782291870980,
+        "updated": 1782292081782,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494232",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494232.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 25,
+        "net": "ci",
+        "code": "41494232",
+        "ids": ",ci41494232,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.02846,
+        "rms": 0.21,
+        "gap": 77,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 28 km WSW of Olancha, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.278666666667,
+          36.1575,
+          7.94
+        ]
+      },
+      "id": "ci41494232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "17 km SSE of El Hoyo, Argentina",
+        "time": 1782291420388,
+        "updated": 1782292468040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7tg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t7tg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000t7tg",
+        "ids": ",us6000t7tg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 5.261,
+        "rms": 0.62,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 17 km SSE of El Hoyo, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1861,
+          -27.1825,
+          587.411
+        ]
+      },
+      "id": "us6000t7tg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "19 km SW of Ocotillo Wells, CA",
+        "time": 1782291386290,
+        "updated": 1782291593875,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494224",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494224.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41494224",
+        "ids": ",ci41494224,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.0771,
+        "rms": 0.2,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 19 km SW of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.292166666667,
+          33.0313333333333,
+          6.53
+        ]
+      },
+      "id": "ci41494224"
     }
   ],
   "bbox": [
-    -156.745,
-    36.211166381836,
-    -0.029999999329448,
-    -117.85583333333,
-    61.368,
-    10.590000152588
+    -159.898,
+    -27.1825,
+    1.2799999713898,
+    -63.1861,
+    61.696,
+    587.411
   ]
 }
