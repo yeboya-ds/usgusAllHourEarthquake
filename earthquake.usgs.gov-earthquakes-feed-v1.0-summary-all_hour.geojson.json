@@ -1,224 +1,464 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782294646000,
+    "generated": 1782380687000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 10
+    "count": 13
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "28 km WSW of Ivanof Bay, Alaska",
-        "time": 1782294479457,
-        "updated": 1782294614697,
+        "mag": 0.87,
+        "place": "20 km NNE of Indio, CA",
+        "time": 1782380096260,
+        "updated": 1782380302622,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mkdksk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mkdksk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494968",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494968.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026mkdksk",
-        "ids": ",aka2026mkdksk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 186,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 28 km WSW of Ivanof Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.898,
-          55.801,
-          1.6
-        ]
-      },
-      "id": "aka2026mkdksk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "28 km NW of Susitna, Alaska",
-        "time": 1782294391520,
-        "updated": 1782294485128,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mkdjlo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mkdjlo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026mkdjlo",
-        "ids": ",aka2026mkdjlo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 28 km NW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.94,
-          61.696,
-          59.8
-        ]
-      },
-      "id": "aka2026mkdjlo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.18,
-        "place": "16 km W of Simmler, CA",
-        "time": 1782294311470,
-        "updated": 1782294518068,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494256",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494256.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
+        "sig": 12,
         "net": "ci",
-        "code": "41494256",
-        "ids": ",ci41494256,",
+        "code": "41494968",
+        "ids": ",ci41494968,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.05905,
-        "rms": 0.19,
-        "gap": 102,
+        "nst": 38,
+        "dmin": 0.02788,
+        "rms": 0.18,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 16 km W of Simmler, CA"
+        "title": "M 0.9 - 20 km NNE of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.180166666667,
-          35.355,
-          7.26
+          -116.163166666667,
+          33.8988333333333,
+          5.09
         ]
       },
-      "id": "ci41494256"
+      "id": "ci41494968"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.01,
-        "place": "7 km NNW of Mira Loma, CA",
-        "time": 1782293997370,
-        "updated": 1782294198734,
+        "mag": 1.82,
+        "place": "24 km SE of Pāhala, Hawaii",
+        "time": 1782379994750,
+        "updated": 1782380210040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494248",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494248.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74990707",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74990707.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41494248",
-        "ids": ",ci41494248,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "sig": 51,
+        "net": "hv",
+        "code": "74990707",
+        "ids": ",hv74990707,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
         "nst": 39,
-        "dmin": 0.0794,
-        "rms": 0.14,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 7 km NNW of Mira Loma, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5525,
-          34.044,
-          10.89
-        ]
-      },
-      "id": "ci41494248"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "2 km N of The Geysers, CA",
-        "time": 1782293367340,
-        "updated": 1782293462716,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382781",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382781.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75382781",
-        "ids": ",nc75382781,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.006668,
-        "rms": 0.01,
-        "gap": 90,
+        "dmin": 0.2159,
+        "rms": 0.330000013,
+        "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 2 km N of The Geysers, CA"
+        "title": "M 1.8 - 24 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.753997802734,
-          38.7956657409668,
-          1.27999997138977
+          -155.346328735352,
+          19.0259990692139,
+          14.4300003051758
         ]
       },
-      "id": "nc75382781"
+      "id": "hv74990707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "11 km N of Redwood Valley, CA",
+        "time": 1782379778800,
+        "updated": 1782380242126,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383881",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383881.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nc",
+        "code": "75383881",
+        "ids": ",nc75383881,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.06108,
+        "rms": 0.09,
+        "gap": 41,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km N of Redwood Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.220169067383,
+          39.3633346557617,
+          7.32999992370605
+        ]
+      },
+      "id": "nc75383881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.91,
+        "place": "12 km SSW of Valencia, CA",
+        "time": 1782379641770,
+        "updated": 1782380300270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494960",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494960.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ci",
+        "code": "41494960",
+        "ids": ",ci41494960,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 92,
+        "dmin": 0.01959,
+        "rms": 0.26,
+        "gap": 13,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 12 km SSW of Valencia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.626833333333,
+          34.3603333333333,
+          9.17
+        ]
+      },
+      "id": "ci41494960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "21 km NNE of Indio, CA",
+        "time": 1782379357620,
+        "updated": 1782379564289,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494952",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494952.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41494952",
+        "ids": ",ci41494952,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.02673,
+        "rms": 0.16,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 21 km NNE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.163333333333,
+          33.9,
+          5.27
+        ]
+      },
+      "id": "ci41494952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.29,
+        "place": "4 km WSW of Anza, CA",
+        "time": 1782378732860,
+        "updated": 1782378945149,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494944",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494944.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ci",
+        "code": "41494944",
+        "ids": ",ci41494944,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.03303,
+        "rms": 0.12,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.3 - 4 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.711,
+          33.5406666666667,
+          5.78
+        ]
+      },
+      "id": "ci41494944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16,
+        "place": "12 km ESE of Willits, CA",
+        "time": 1782378206410,
+        "updated": 1782379644062,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383871.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "nc",
+        "code": "75383871",
+        "ids": ",nc75383871,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.06976,
+        "rms": 0.07,
+        "gap": 43,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 12 km ESE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.232330322266,
+          39.3691673278809,
+          6.76999998092651
+        ]
+      },
+      "id": "nc75383871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.79,
+        "place": "11 km ESE of Willits, CA",
+        "time": 1782378123900,
+        "updated": 1782378218840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383866",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383866.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "nc",
+        "code": "75383866",
+        "ids": ",nc75383866,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.08077,
+        "rms": 0.03,
+        "gap": 130,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 11 km ESE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.23217010498,
+          39.3741683959961,
+          6.46000003814697
+        ]
+      },
+      "id": "nc75383866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "11 km ESE of Willits, CA",
+        "time": 1782378018090,
+        "updated": 1782378113996,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383861",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383861.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "nc",
+        "code": "75383861",
+        "ids": ",nc75383861,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.08089,
+        "rms": 0.03,
+        "gap": 129,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 11 km ESE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.232330322266,
+          39.3733329772949,
+          6.61999988555908
+        ]
+      },
+      "id": "nc75383861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.43,
+        "place": "9 km NNW of Redwood Valley, CA",
+        "time": 1782377550000,
+        "updated": 1782377648729,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383851",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383851.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "nc",
+        "code": "75383851",
+        "ids": ",nc75383851,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.04549,
+        "rms": 0.02,
+        "gap": 98,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 9 km NNW of Redwood Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.235168457031,
+          39.3396682739258,
+          4.69999980926514
+        ]
+      },
+      "id": "nc75383851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.86,
+        "place": "12 km ESE of Willits, CA",
+        "time": 1782377474750,
+        "updated": 1782377568867,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383846",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383846.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "nc",
+        "code": "75383846",
+        "ids": ",nc75383846,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.07094,
+        "rms": 0.04,
+        "gap": 128,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 12 km ESE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.230003356934,
+          39.371166229248,
+          6.32000017166138
+        ]
+      },
+      "id": "nc75383846"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
-        "place": "11 km WSW of Stanton, Texas",
-        "time": 1782292656961,
-        "updated": 1782292925404,
+        "place": "23 km E of Healy, Alaska",
+        "time": 1782377289176,
+        "updated": 1782377448199,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026micvfg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026micvfg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mlxlkh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mlxlkh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,196 +466,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 44,
-        "net": "tx",
-        "code": "2026micvfg",
-        "ids": ",tx2026micvfg,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "a2026mlxlkh",
+        "ids": ",aka2026mlxlkh,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 11 km WSW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.906,
-          32.101,
-          3.1154
-        ]
-      },
-      "id": "tx2026micvfg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.41,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1782291977790,
-        "updated": 1782294552669,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494240",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494240.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ci",
-        "code": "41494240",
-        "ids": ",ci41494240,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.04038,
-        "rms": 0.18,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 18 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8095,
-          35.2948333333333,
-          7.69
-        ]
-      },
-      "id": "ci41494240"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.27,
-        "place": "28 km WSW of Olancha, CA",
-        "time": 1782291870980,
-        "updated": 1782292081782,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494232.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "41494232",
-        "ids": ",ci41494232,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.02846,
-        "rms": 0.21,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 28 km WSW of Olancha, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.278666666667,
-          36.1575,
-          7.94
-        ]
-      },
-      "id": "ci41494232"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "17 km SSE of El Hoyo, Argentina",
-        "time": 1782291420388,
-        "updated": 1782292468040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7tg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t7tg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000t7tg",
-        "ids": ",us6000t7tg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 5.261,
-        "rms": 0.62,
-        "gap": 85,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 17 km SSE of El Hoyo, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.1861,
-          -27.1825,
-          587.411
-        ]
-      },
-      "id": "us6000t7tg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "19 km SW of Ocotillo Wells, CA",
-        "time": 1782291386290,
-        "updated": 1782291593875,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494224",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494224.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41494224",
-        "ids": ",ci41494224,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.0771,
-        "rms": 0.2,
+        "nst": 44,
+        "dmin": 0.2,
+        "rms": 0.7,
         "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 19 km SW of Ocotillo Wells, CA"
+        "title": "M 1.7 - 23 km E of Healy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.292166666667,
-          33.0313333333333,
-          6.53
+          -148.486,
+          63.84,
+          108.5
         ]
       },
-      "id": "ci41494224"
+      "id": "aka2026mlxlkh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "19 km ESE of Susitna North, Alaska",
+        "time": 1782377104674,
+        "updated": 1782377192778,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mlxith",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mlxith.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026mlxith",
+        "ids": ",aka2026mlxith,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 19 km ESE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.487,
+          62.125,
+          14.5
+        ]
+      },
+      "id": "aka2026mlxith"
     }
   ],
   "bbox": [
-    -159.898,
-    -27.1825,
-    1.2799999713898,
-    -63.1861,
-    61.696,
-    587.411
+    -155.34632873535,
+    19.025999069214,
+    4.6999998092651,
+    -116.16316666667,
+    63.84,
+    108.5
   ]
 }
