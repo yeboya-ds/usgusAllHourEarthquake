@@ -1,64 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782551150000,
+    "generated": 1782639172000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 8
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "11 km NE of Trabuco Canyon, CA",
-        "time": 1782550934700,
-        "updated": 1782551135091,
+        "mag": 0.64,
+        "place": "5 km NW of Coso Junction, CA",
+        "time": 1782638778870,
+        "updated": 1782638989506,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41496520",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41496520.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497024",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497024.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
+        "sig": 6,
         "net": "ci",
-        "code": "41496520",
-        "ids": ",ci41496520,",
+        "code": "41497024",
+        "ids": ",ci41497024,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.09378,
-        "rms": 0.17,
-        "gap": 70,
+        "nst": 17,
+        "dmin": 0.1056,
+        "rms": 0.1,
+        "gap": 117,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 11 km NE of Trabuco Canyon, CA"
+        "title": "M 0.6 - 5 km NW of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.506166666667,
-          33.7385,
-          10
+          -117.986166666667,
+          36.0795,
+          6.24
         ]
       },
-      "id": "ci41496520"
+      "id": "ci41497024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "38 km WNW of Nanwalek, Alaska",
+        "time": 1782638700689,
+        "updated": 1782638861945,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrmtbi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrmtbi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "a2026mrmtbi",
+        "ids": ",aka2026mrmtbi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 173,
+        "dmin": 0.4,
+        "rms": 0.9,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 38 km WNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.585,
+          59.426,
+          75.3
+        ]
+      },
+      "id": "aka2026mrmtbi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "5 km WSW of Volcano, Hawaii",
+        "time": 1782638620350,
+        "updated": 1782638837280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74992667",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74992667.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "hv",
+        "code": "74992667",
+        "ids": ",hv74992667,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.006798,
+        "rms": 0.209999993,
+        "gap": 162,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km WSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.278839111328,
+          19.4223327636719,
+          -1.11000001430511
+        ]
+      },
+      "id": "hv74992667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "6 km SW of Funny River, Alaska",
+        "time": 1782638306797,
+        "updated": 1782638397691,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrmnji",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrmnji.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026mrmnji",
+        "ids": ",aka2026mrmnji,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.3,
+        "rms": 0.8,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 6 km SW of Funny River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.858,
+          60.465,
+          61.9
+        ]
+      },
+      "id": "aka2026mrmnji"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "25 km WSW of Healy, Alaska",
-        "time": 1782550908437,
-        "updated": 1782551014598,
+        "place": "20 km NNW of Indian Springs, Nevada",
+        "time": 1782637044824,
+        "updated": 1782637285899,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mppyjn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mppyjn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920859",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920859.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,276 +186,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "ak",
-        "code": "a2026mppyjn",
-        "ids": ",aka2026mppyjn,",
-        "sources": ",ak,",
+        "net": "nn",
+        "code": "00920859",
+        "ids": ",nn00920859,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 50,
+        "nst": 31,
+        "dmin": 0.151,
+        "rms": 0.2917,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 25 km WSW of Healy, Alaska"
+        "title": "M 1.9 - 20 km NNW of Indian Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.437,
-          63.761,
-          5
+          -115.7729,
+          36.7333,
+          1.6792
         ]
       },
-      "id": "aka2026mppyjn"
+      "id": "nn00920859"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "52 km WNW of Beluga, Alaska",
-        "time": 1782550789417,
-        "updated": 1782550846457,
+        "mag": 4.5,
+        "place": "20 km W of Boca de Aroa, Venezuela",
+        "time": 1782636370376,
+        "updated": 1782638435040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mppwqx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mppwqx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8su",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8su.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000t8su",
+        "ids": ",us6000t8su,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 2.766,
+        "rms": 0.83,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 20 km W of Boca de Aroa, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4901,
+          10.6806,
+          10
+        ]
+      },
+      "id": "us6000t8su"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "30 km N of Fishhook, Alaska",
+        "time": 1782636179250,
+        "updated": 1782636288887,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrliqd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrliqd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
+        "sig": 15,
         "net": "ak",
-        "code": "a2026mppwqx",
-        "ids": ",aka2026mppwqx,",
+        "code": "a2026mrliqd",
+        "ids": ",aka2026mrliqd,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 153,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 52 km WNW of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.903,
-          61.404,
-          18.2
-        ]
-      },
-      "id": "aka2026mppwqx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "27 km ENE of Point Possession, Alaska",
-        "time": 1782550589687,
-        "updated": 1782550687715,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mppttp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mppttp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026mppttp",
-        "ids": ",aka2026mppttp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 27 km ENE of Point Possession, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.19,
-          60.978,
-          47.4
-        ]
-      },
-      "id": "aka2026mppttp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "14 km SSE of Fern Forest, Hawaii",
-        "time": 1782550035860,
-        "updated": 1782550243470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74992087",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74992087.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "hv",
-        "code": "74992087",
-        "ids": ",hv74992087,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.05031,
-        "rms": 0.319999993,
-        "gap": 194,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 14 km SSE of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.060333251953,
-          19.3538341522217,
-          1.75
-        ]
-      },
-      "id": "hv74992087"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.52,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1782549933100,
-        "updated": 1782550027262,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385156",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385156.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "nc",
-        "code": "75385156",
-        "ids": ",nc75385156,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.01642,
-        "rms": 0.02,
-        "gap": 41,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.810501098633,
-          38.8193321228027,
-          2.69000005722046
-        ]
-      },
-      "id": "nc75385156"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "77 km WSW of Nanwalek, Alaska",
-        "time": 1782549177620,
-        "updated": 1782549251821,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mpozix",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mpozix.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026mpozix",
-        "ids": ",aka2026mpozix,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
+        "nst": 9,
         "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 76,
+        "rms": 0.8,
+        "gap": 155,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 77 km WSW of Nanwalek, Alaska"
+        "title": "M 1.0 - 30 km N of Fishhook, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.094,
-          59,
-          72.8
+          -149.197,
+          62.015,
+          42.9
         ]
       },
-      "id": "aka2026mpozix"
+      "id": "aka2026mrliqd"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "12 km ENE of Cloverdale, CA",
-        "time": 1782547870200,
-        "updated": 1782547967118,
+        "mag": 4.4,
+        "place": "29 km WSW of Pueblo Rico, Colombia",
+        "time": 1782635965505,
+        "updated": 1782638935668,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385146",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385146.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8sr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8sr.geojson",
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75385146",
-        "ids": ",nc75385146,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.00362,
-        "rms": 0.03,
-        "gap": 67,
-        "magType": "md",
+        "sig": 298,
+        "net": "us",
+        "code": "6000t8sr",
+        "ids": ",us6000t8sr,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 42,
+        "dmin": 4.661,
+        "rms": 0.98,
+        "gap": 115,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.1 - 12 km ENE of Cloverdale, CA"
+        "title": "M 4.4 - 29 km WSW of Pueblo Rico, Colombia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.881332397461,
-          38.8349990844727,
-          2.47000002861023
+          -76.2909,
+          5.1606,
+          94.364
         ]
       },
-      "id": "nc75385146"
+      "id": "us6000t8sr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "south of Africa",
+        "time": 1782635666555,
+        "updated": 1782636887040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8ss",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8ss.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000t8ss",
+        "ids": ",us6000t8ss,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 16.92,
+        "rms": 0.57,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - south of Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5651,
+          -52.7331,
+          10
+        ]
+      },
+      "id": "us6000t8ss"
     }
   ],
   "bbox": [
-    -155.06033325195,
-    19.353834152222,
-    1.75,
-    -117.50616666667,
-    63.761,
-    72.8
+    -155.27883911133,
+    -52.7331,
+    -1.1100000143051,
+    27.5651,
+    62.015,
+    94.364
   ]
 }
