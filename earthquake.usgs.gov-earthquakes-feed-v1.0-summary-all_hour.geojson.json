@@ -1,144 +1,424 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782639172000,
+    "generated": 1782732277000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 9
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.64,
-        "place": "5 km NW of Coso Junction, CA",
-        "time": 1782638778870,
-        "updated": 1782638989506,
+        "mag": 1.09,
+        "place": "1 km NNW of The Geysers, CA",
+        "time": 1782732141470,
+        "updated": 1782732239939,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497024",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497024.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386296",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386296.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
+        "sig": 18,
+        "net": "nc",
+        "code": "75386296",
+        "ids": ",nc75386296,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.0144,
+        "rms": 0.02,
+        "gap": 92,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 1 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.762168884277,
+          38.7863349914551,
+          1.28999996185303
+        ]
+      },
+      "id": "nc75386296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.43,
+        "place": "34 km N of Yucca Valley, CA",
+        "time": 1782732027210,
+        "updated": 1782732238022,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497672.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
         "net": "ci",
-        "code": "41497024",
-        "ids": ",ci41497024,",
+        "code": "41497672",
+        "ids": ",ci41497672,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1056,
-        "rms": 0.1,
-        "gap": 117,
+        "nst": 40,
+        "dmin": 0.137,
+        "rms": 0.15,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 5 km NW of Coso Junction, CA"
+        "title": "M 1.4 - 34 km N of Yucca Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.986166666667,
-          36.0795,
-          6.24
+          -116.461666666667,
+          34.4228333333333,
+          10.13
         ]
       },
-      "id": "ci41497024"
+      "id": "ci41497672"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "38 km WNW of Nanwalek, Alaska",
-        "time": 1782638700689,
-        "updated": 1782638861945,
+        "mag": 0.86,
+        "place": "9 km WNW of Tehachapi, CA",
+        "time": 1782731508080,
+        "updated": 1782731709057,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrmtbi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrmtbi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497664",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497664.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "a2026mrmtbi",
-        "ids": ",aka2026mrmtbi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 173,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 75,
+        "sig": 11,
+        "net": "ci",
+        "code": "41497664",
+        "ids": ",ci41497664,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.139,
+        "rms": 0.11,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 38 km WNW of Nanwalek, Alaska"
+        "title": "M 0.9 - 9 km WNW of Tehachapi, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.585,
-          59.426,
-          75.3
+          -118.5375,
+          35.168,
+          7.81
         ]
       },
-      "id": "aka2026mrmtbi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.81,
-        "place": "5 km WSW of Volcano, Hawaii",
-        "time": 1782638620350,
-        "updated": 1782638837280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74992667",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74992667.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "hv",
-        "code": "74992667",
-        "ids": ",hv74992667,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.006798,
-        "rms": 0.209999993,
-        "gap": 162,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 5 km WSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.278839111328,
-          19.4223327636719,
-          -1.11000001430511
-        ]
-      },
-      "id": "hv74992667"
+      "id": "ci41497664"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "6 km SW of Funny River, Alaska",
-        "time": 1782638306797,
-        "updated": 1782638397691,
+        "place": "18 km NW of Three Rivers, Texas",
+        "time": 1782731291245,
+        "updated": 1782731468473,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrmnji",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrmnji.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mrldjc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mrldjc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2026mrldjc",
+        "ids": ",tx2026mrldjc,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 108,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 18 km NW of Three Rivers, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.332,
+          28.556,
+          14.8219
+        ]
+      },
+      "id": "tx2026mrldjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.34,
+        "place": "17 km W of Searles Valley, CA",
+        "time": 1782730355030,
+        "updated": 1782730563771,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497656",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497656.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "ci",
+        "code": "41497656",
+        "ids": ",ci41497656,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.0466,
+        "rms": 0.13,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 17 km W of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.588166666667,
+          35.7696666666667,
+          5.53
+        ]
+      },
+      "id": "ci41497656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "70 km W of Akhiok, Alaska",
+        "time": 1782730012491,
+        "updated": 1782730125227,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mtlmoz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mtlmoz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026mtlmoz",
+        "ids": ",aka2026mtlmoz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.7,
+        "rms": 0.2,
+        "gap": 274,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 70 km W of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.321,
+          57.056,
+          8.6
+        ]
+      },
+      "id": "aka2026mtlmoz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.79,
+        "place": "10 km NW of Ocotillo Wells, CA",
+        "time": 1782729703270,
+        "updated": 1782729914447,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497648",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497648.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41497648",
+        "ids": ",ci41497648,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.05763,
+        "rms": 0.2,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 10 km NW of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.191,
+          33.2158333333333,
+          9.91
+        ]
+      },
+      "id": "ci41497648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.54,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1782729533590,
+        "updated": 1782729766410,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386286",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386286.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75386286",
+        "ids": ",nc75386286,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.01334,
+        "rms": 0.03,
+        "gap": 49,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 8 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.808166503906,
+          38.8366661071777,
+          1.97000002861023
+        ]
+      },
+      "id": "nc75386286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.89,
+        "place": "143 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1782729064600,
+        "updated": 1782731200379,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026180000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026180000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 233,
+        "net": "pr",
+        "code": "2026180000",
+        "ids": ",pr2026180000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.1923,
+        "rms": 0.29,
+        "gap": 300,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 143 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4973,
+          19.6011,
+          36
+        ]
+      },
+      "id": "pr2026180000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1782728711820,
+        "updated": 1782728810466,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386276",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386276.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75386276",
+        "ids": ",nc75386276,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.003587,
+        "rms": 0.01,
+        "gap": 69,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.813835144043,
+          38.8213348388672,
+          2.76999998092651
+        ]
+      },
+      "id": "nc75386276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "8 km NW of Beluga, Alaska",
+        "time": 1782728683963,
+        "updated": 1782728768147,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mtktkg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mtktkg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -147,235 +427,35 @@
         "tsunami": 0,
         "sig": 39,
         "net": "ak",
-        "code": "a2026mrmnji",
-        "ids": ",aka2026mrmnji,",
+        "code": "a2026mtktkg",
+        "ids": ",aka2026mtktkg,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 59,
+        "nst": 25,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 6 km SW of Funny River, Alaska"
+        "title": "M 1.6 - 8 km NW of Beluga, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.858,
-          60.465,
-          61.9
+          -151.174,
+          61.207,
+          64.6
         ]
       },
-      "id": "aka2026mrmnji"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "20 km NNW of Indian Springs, Nevada",
-        "time": 1782637044824,
-        "updated": 1782637285899,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920859",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920859.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "nn",
-        "code": "00920859",
-        "ids": ",nn00920859,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.151,
-        "rms": 0.2917,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 20 km NNW of Indian Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.7729,
-          36.7333,
-          1.6792
-        ]
-      },
-      "id": "nn00920859"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "20 km W of Boca de Aroa, Venezuela",
-        "time": 1782636370376,
-        "updated": 1782638435040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8su",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8su.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000t8su",
-        "ids": ",us6000t8su,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 2.766,
-        "rms": 0.83,
-        "gap": 174,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 20 km W of Boca de Aroa, Venezuela"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4901,
-          10.6806,
-          10
-        ]
-      },
-      "id": "us6000t8su"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "30 km N of Fishhook, Alaska",
-        "time": 1782636179250,
-        "updated": 1782636288887,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrliqd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrliqd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026mrliqd",
-        "ids": ",aka2026mrliqd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 155,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 30 km N of Fishhook, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.197,
-          62.015,
-          42.9
-        ]
-      },
-      "id": "aka2026mrliqd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "29 km WSW of Pueblo Rico, Colombia",
-        "time": 1782635965505,
-        "updated": 1782638935668,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8sr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8sr.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000t8sr",
-        "ids": ",us6000t8sr,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 42,
-        "dmin": 4.661,
-        "rms": 0.98,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 29 km WSW of Pueblo Rico, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.2909,
-          5.1606,
-          94.364
-        ]
-      },
-      "id": "us6000t8sr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "south of Africa",
-        "time": 1782635666555,
-        "updated": 1782636887040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8ss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8ss.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000t8ss",
-        "ids": ",us6000t8ss,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 16.92,
-        "rms": 0.57,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - south of Africa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.5651,
-          -52.7331,
-          10
-        ]
-      },
-      "id": "us6000t8ss"
+      "id": "aka2026mtktkg"
     }
   ],
   "bbox": [
-    -155.27883911133,
-    -52.7331,
-    -1.1100000143051,
-    27.5651,
-    62.015,
-    94.364
+    -155.321,
+    19.6011,
+    1.289999961853,
+    -64.4973,
+    61.207,
+    64.6
   ]
 }
