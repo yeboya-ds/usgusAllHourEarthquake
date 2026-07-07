@@ -1,301 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783335954000,
+    "generated": 1783418440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "60 km NW of Ninilchik, Alaska",
-        "time": 1783335367958,
-        "updated": 1783335487275,
+        "mag": 0.96,
+        "place": "14 km WSW of Searles Valley, CA",
+        "time": 1783418160110,
+        "updated": 1783418362729,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ngjyqf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ngjyqf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288439",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288439.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026ngjyqf",
-        "ids": ",aka2026ngjyqf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 70,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 60 km NW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.571,
-          60.361,
-          104.7
-        ]
-      },
-      "id": "aka2026ngjyqf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "29 km W of Nikiski, Alaska",
-        "time": 1783334894772,
-        "updated": 1783335060698,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ngjrti",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ngjrti.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026ngjrti",
-        "ids": ",aka2026ngjrti,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 152,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 29 km W of Nikiski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.824,
-          60.72,
-          90.1
-        ]
-      },
-      "id": "aka2026ngjrti"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "22 km NNW of Chickaloon, Alaska",
-        "time": 1783334498398,
-        "updated": 1783334578916,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ngjmav",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ngjmav.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026ngjmav",
-        "ids": ",aka2026ngjmav,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 162,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 22 km NNW of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.651,
-          61.975,
-          6
-        ]
-      },
-      "id": "aka2026ngjmav"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.05,
-        "place": "11 km NE of Cayucos, CA",
-        "time": 1783333602020,
-        "updated": 1783334242335,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75390561",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75390561.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "nc",
-        "code": "75390561",
-        "ids": ",nc75390561,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.08929,
-        "rms": 0.07,
-        "gap": 56,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 11 km NE of Cayucos, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.819999694824,
-          35.5200004577637,
-          5.23999977111816
-        ]
-      },
-      "id": "nc75390561"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1783333205480,
-        "updated": 1783335142438,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75390551",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75390551.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75390551",
-        "ids": ",nc75390551,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.005281,
-        "rms": 0.02,
-        "gap": 34,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.803337097168,
-          38.8238334655762,
-          2.57999992370605
-        ]
-      },
-      "id": "nc75390551"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "20 km S of Leilani Estates, Hawaii",
-        "time": 1783332693300,
-        "updated": 1783332902640,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74997846",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74997846.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "hv",
-        "code": "74997846",
-        "ids": ",hv74997846,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.1092,
-        "rms": 0.140000001,
-        "gap": 238,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 20 km S of Leilani Estates, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.921661376953,
-          19.283332824707,
-          38.2799987792969
-        ]
-      },
-      "id": "hv74997846"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.36,
-        "place": "23 km ESE of Little Lake, CA",
-        "time": 1783332430640,
-        "updated": 1783332632954,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287815",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41287815.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 14,
         "net": "ci",
-        "code": "41287815",
-        "ids": ",ci41287815,",
+        "code": "41288439",
+        "ids": ",ci41288439,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.06968,
-        "rms": 0.12,
-        "gap": 93,
+        "nst": 27,
+        "dmin": 0.08424,
+        "rms": 0.15,
+        "gap": 67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 23 km ESE of Little Lake, CA"
+        "title": "M 1.0 - 14 km WSW of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.664833333333,
-          35.859,
-          9.7
+          -117.554333333333,
+          35.739,
+          9.43
         ]
       },
-      "id": "ci41287815"
+      "id": "ci41288439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "46 km NNE of Chickaloon, Alaska",
+        "time": 1783418073006,
+        "updated": 1783418177211,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nidxtk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nidxtk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026nidxtk",
+        "ids": ",aka2026nidxtk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.4,
+        "rms": 0.9,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 46 km NNE of Chickaloon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.188,
+          62.192,
+          6.3
+        ]
+      },
+      "id": "aka2026nidxtk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.48,
+        "place": "21 km NNW of Borrego Springs, CA",
+        "time": 1783417206840,
+        "updated": 1783417412028,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288431.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41288431",
+        "ids": ",ci41288431,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.1289,
+        "rms": 0.15,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 21 km NNW of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.438666666667,
+          33.433,
+          14.6
+        ]
+      },
+      "id": "ci41288431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.12,
+        "place": "4 km WSW of Anza, CA",
+        "time": 1783415497990,
+        "updated": 1783415707422,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288423.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 0,
+        "net": "ci",
+        "code": "41288423",
+        "ids": ",ci41288423,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.03322,
+        "rms": 0.1,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.1 - 4 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.711333333333,
+          33.5401666666667,
+          6.08
+        ]
+      },
+      "id": "ci41288423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.25,
+        "place": "6 km NE of Ridgemark, CA",
+        "time": 1783415144970,
+        "updated": 1783417943299,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75391246",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75391246.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "nc",
+        "code": "75391246",
+        "ids": ",nc75391246,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.05539,
+        "rms": 0.13,
+        "gap": 86,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 6 km NE of Ridgemark, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.317169189453,
+          36.8488349914551,
+          4.73999977111816
+        ]
+      },
+      "id": "nc75391246"
     }
   ],
   "bbox": [
-    -154.92166137695,
-    19.283332824707,
-    2.579999923706,
-    -117.66483333333,
-    61.975,
-    104.7
+    -148.188,
+    33.433,
+    4.7399997711182,
+    -116.43866666667,
+    62.192,
+    14.6
   ]
 }
