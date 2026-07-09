@@ -1,184 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783500305000,
+    "generated": 1783591099000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "67 km ESE of Denali National Park, Alaska",
-        "time": 1783500108007,
-        "updated": 1783500207603,
+        "mag": 1.07,
+        "place": "2 km SW of San Francisco Zoo, CA",
+        "time": 1783590957540,
+        "updated": 1783591051710,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026njxngx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026njxngx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75392546",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75392546.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026njxngx",
-        "ids": ",aka2026njxngx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.7,
-        "rms": 0.5,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 67 km ESE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.496,
-          63.288,
-          129.7
-        ]
-      },
-      "id": "aka2026njxngx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "18 km ESE of Julian, CA",
-        "time": 1783498980220,
-        "updated": 1783499599760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289151",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289151.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ci",
-        "code": "41289151",
-        "ids": ",ci41289151,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.04537,
-        "rms": 0.19,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 18 km ESE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.411333333333,
-          33.0378333333333,
-          10.54
-        ]
-      },
-      "id": "ci41289151"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1783498861080,
-        "updated": 1783499842636,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75391861",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75391861.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
+        "sig": 18,
         "net": "nc",
-        "code": "75391861",
-        "ids": ",nc75391861,",
+        "code": "75392546",
+        "ids": ",nc75392546,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.01736,
-        "rms": 0.01,
-        "gap": 76,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.08379,
+        "rms": 0.11,
+        "gap": 187,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 8 km NW of The Geysers, CA"
+        "title": "M 1.1 - 2 km SW of San Francisco Zoo, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815002441406,
-          38.8318328857422,
-          2.08999991416931
+          -122.522163391113,
+          37.7201652526855,
+          3.95000004768372
         ]
       },
-      "id": "nc75391861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.11,
-        "place": "14 km SSW of Neenach, CA",
-        "time": 1783498700580,
-        "updated": 1783498911826,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289143",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289143.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ci",
-        "code": "41289143",
-        "ids": ",ci41289143,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.063,
-        "rms": 0.2,
-        "gap": 22,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 14 km SSW of Neenach, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.678166666667,
-          34.6653333333333,
-          10.95
-        ]
-      },
-      "id": "ci41289143"
+      "id": "nc75392546"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "45 km NW of Toyah, Texas",
-        "time": 1783497509138,
-        "updated": 1783497753425,
+        "place": "1 km SE of Big Lake, Alaska",
+        "time": 1783590900519,
+        "updated": 1783590987250,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nhsjtm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nhsjtm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nlvzjf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nlvzjf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,76 +66,396 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "tx",
-        "code": "2026nhsjtm",
-        "ids": ",tx2026nhsjtm,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "a2026nlvzjf",
+        "ids": ",aka2026nlvzjf,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 53,
+        "nst": 27,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 82,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 45 km NW of Toyah, Texas"
+        "title": "M 1.5 - 1 km SE of Big Lake, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.129,
-          31.612,
-          4.2465
+          -149.938,
+          61.514,
+          29.8
         ]
       },
-      "id": "tx2026nhsjtm"
+      "id": "aka2026nlvzjf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1783496887670,
-        "updated": 1783498941540,
+        "mag": 1.17,
+        "place": "15 km NNW of Borrego Springs, CA",
+        "time": 1783590553980,
+        "updated": 1783590761068,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75391856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75391856.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289799",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289799.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75391856",
-        "ids": ",nc75391856,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.009728,
-        "rms": 0.02,
-        "gap": 46,
-        "magType": "md",
+        "sig": 21,
+        "net": "ci",
+        "code": "41289799",
+        "ids": ",ci41289799,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 66,
+        "dmin": 0.07115,
+        "rms": 0.22,
+        "gap": 20,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+        "title": "M 1.2 - 15 km NNW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.796501159668,
-          38.8176651000977,
-          2.26999998092651
+          -116.414166666667,
+          33.3861666666667,
+          11.29
         ]
       },
-      "id": "nc75391856"
+      "id": "ci41289799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "49 km SSW of Pelican, Alaska",
+        "time": 1783590209149,
+        "updated": 1783590305102,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nlvpgd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nlvpgd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026nlvpgd",
+        "ids": ",aka2026nlvpgd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 228,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 49 km SSW of Pelican, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.427,
+          57.526,
+          7.4
+        ]
+      },
+      "id": "aka2026nlvpgd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.15,
+        "place": "13 km SSW of Searles Valley, CA",
+        "time": 1783590108170,
+        "updated": 1783590307287,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289791",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289791.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "ci",
+        "code": "41289791",
+        "ids": ",ci41289791,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.04624,
+        "rms": 0.13,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 13 km SSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.479666666667,
+          35.673,
+          7.42
+        ]
+      },
+      "id": "ci41289791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.93,
+        "place": "12 km WSW of Searles Valley, CA",
+        "time": 1783589839630,
+        "updated": 1783590050315,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289783",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289783.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41289783",
+        "ids": ",ci41289783,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.08531,
+        "rms": 0.14,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 12 km WSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.514,
+          35.7085,
+          4.73
+        ]
+      },
+      "id": "ci41289783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "26 km E of Coso Junction, CA",
+        "time": 1783589320500,
+        "updated": 1783589521034,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289775",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289775.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41289775",
+        "ids": ",ci41289775,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.09251,
+        "rms": 0.11,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 26 km E of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.662166666667,
+          36.065,
+          2.44
+        ]
+      },
+      "id": "ci41289775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.68,
+        "place": "28 km WSW of Olancha, CA",
+        "time": 1783588822760,
+        "updated": 1783589043206,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289767",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289767.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 43,
+        "net": "ci",
+        "code": "41289767",
+        "ids": ",ci41289767,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.02794,
+        "rms": 0.2,
+        "gap": 77,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 28 km WSW of Olancha, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.278666666667,
+          36.1526666666667,
+          7.92
+        ]
+      },
+      "id": "ci41289767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16,
+        "place": "6 km NNW of Beaumont, CA",
+        "time": 1783588140980,
+        "updated": 1783588783620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289759",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289759.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "ci",
+        "code": "41289759",
+        "ids": ",ci41289759,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 113,
+        "dmin": 0.05933,
+        "rms": 0.19,
+        "gap": 19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 6 km NNW of Beaumont, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.990166666667,
+          33.9803333333333,
+          14.04
+        ]
+      },
+      "id": "ci41289759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.69,
+        "place": "3 km ENE of Running Springs, CA",
+        "time": 1783587925200,
+        "updated": 1783588133257,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289751.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41289751",
+        "ids": ",ci41289751,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.0478,
+        "rms": 0.16,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 3 km ENE of Running Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.074333333333,
+          34.2178333333333,
+          3.74
+        ]
+      },
+      "id": "ci41289751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.92,
+        "place": "26 km E of Coso Junction, CA",
+        "time": 1783587683000,
+        "updated": 1783587891570,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289743",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289743.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41289743",
+        "ids": ",ci41289743,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.09122,
+        "rms": 0.14,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 26 km E of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6625,
+          36.0625,
+          2.22
+        ]
+      },
+      "id": "ci41289743"
     }
   ],
   "bbox": [
-    -150.496,
-    31.612,
-    2.0899999141693,
-    -104.129,
-    63.288,
-    129.7
+    -149.938,
+    33.386166666667,
+    2.22,
+    -116.41416666667,
+    61.514,
+    29.8
   ]
 }
