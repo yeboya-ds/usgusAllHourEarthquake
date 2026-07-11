@@ -1,141 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783677199000,
+    "generated": 1783757716000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 3
+    "count": 1
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "52 km NE of Chenega, Alaska",
-        "time": 1783676625065,
-        "updated": 1783676704679,
+        "mag": 0.27,
+        "place": "6 km WNW of The Geysers, CA",
+        "time": 1783755826190,
+        "updated": 1783757244339,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nnrqdh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nnrqdh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393766",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75393766.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026nnrqdh",
-        "ids": ",aka2026nnrqdh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 52 km NE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.425,
-          60.441,
-          18.3
-        ]
-      },
-      "id": "aka2026nnrqdh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1783675434540,
-        "updated": 1783676540000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393146",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75393146.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
+        "sig": 1,
         "net": "nc",
-        "code": "75393146",
-        "ids": ",nc75393146,",
+        "code": "75393766",
+        "ids": ",nc75393766,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.01018,
-        "rms": 0.01,
-        "gap": 75,
+        "nst": 9,
+        "dmin": 0.0106,
+        "rms": 0.02,
+        "gap": 100,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 6 km NW of The Geysers, CA"
+        "title": "M 0.3 - 6 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.794998168945,
-          38.8181648254395,
-          2.44000005722046
+          -122.819831848145,
+          38.8011665344238,
+          3.74000000953674
         ]
       },
-      "id": "nc75393146"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "16 km WSW of Johannesburg, CA",
-        "time": 1783674401600,
-        "updated": 1783674610083,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290359",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41290359.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41290359",
-        "ids": ",ci41290359,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.05863,
-        "rms": 0.13,
-        "gap": 90,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 16 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.796,
-          35.3096666666667,
-          7.28
-        ]
-      },
-      "id": "ci41290359"
+      "id": "nc75393766"
     }
-  ],
-  "bbox": [
-    -147.425,
-    35.309666666667,
-    2.4400000572205,
-    -117.796,
-    60.441,
-    18.3
   ]
 }
