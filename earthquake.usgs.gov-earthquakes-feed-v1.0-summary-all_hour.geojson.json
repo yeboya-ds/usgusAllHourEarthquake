@@ -1,504 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784017730000,
+    "generated": 1784104566000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 13
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.24662703010559,
-        "place": "7 km SSW of Redlands, CA",
-        "time": 1784017595680,
-        "updated": 1784017718180,
+        "mag": 0.77,
+        "place": "13 km ENE of Cloverdale, CA",
+        "time": 1784104095080,
+        "updated": 1784104188275,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293687",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41293687.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75396191",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75396191.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41293687",
-        "ids": ",ci41293687,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1309,
-        "rms": 0.170000002,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 7 km SSW of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.205665588379,
-          33.9928321838379,
-          16.2199993133545
-        ]
-      },
-      "id": "ci41293687"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "50 km E of Noda, Japan",
-        "time": 1784016450199,
-        "updated": 1784017491040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t09z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000t09z",
-        "ids": ",us7000t09z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 1.199,
-        "rms": 0.66,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 50 km E of Noda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.4075,
-          40.1657,
-          44.48
-        ]
-      },
-      "id": "us7000t09z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "76 km W of Akhiok, Alaska",
-        "time": 1784016004534,
-        "updated": 1784016108350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nuygnk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nuygnk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026nuygnk",
-        "ids": ",aka2026nuygnk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.8,
-        "rms": 0.7,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 76 km W of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.436,
-          56.978,
-          0.3
-        ]
-      },
-      "id": "aka2026nuygnk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.23,
-        "place": "17 km SW of La Quinta, CA",
-        "time": 1784015837830,
-        "updated": 1784016454790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293679",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41293679.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "41293679",
-        "ids": ",ci41293679,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 71,
-        "dmin": 0.0971,
-        "rms": 0.19,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 17 km SW of La Quinta, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.452333333333,
-          33.5731666666667,
-          10.8
-        ]
-      },
-      "id": "ci41293679"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "25 km ESE of Naalehu, Hawaii",
-        "time": 1784015649660,
-        "updated": 1784015857710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75002206",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75002206.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "hv",
-        "code": "75002206",
-        "ids": ",hv75002206,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1882,
-        "rms": 0.159999996,
-        "gap": 228,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 25 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.352005004883,
-          18.9978332519531,
-          31.0300006866455
-        ]
-      },
-      "id": "hv75002206"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "15 km W of Johannesburg, CA",
-        "time": 1784015627100,
-        "updated": 1784015837524,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41293671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41293671",
-        "ids": ",ci41293671,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.1027,
-        "rms": 0.16,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 15 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.7945,
-          35.3613333333333,
-          6.02
-        ]
-      },
-      "id": "ci41293671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "80 km W of Akhiok, Alaska",
-        "time": 1784015461013,
-        "updated": 1784015630810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nuxyrh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nuxyrh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.174,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "ak",
-        "code": "a2026nuxyrh",
-        "ids": ",aka2026nuxyrh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 51,
-        "dmin": 0.8,
-        "rms": 0.7,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 80 km W of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.49,
-          56.984,
-          0
-        ]
-      },
-      "id": "aka2026nuxyrh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.25,
-        "place": "9 km S of Idyllwild, CA",
-        "time": 1784015341130,
-        "updated": 1784015551351,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293663",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41293663.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "ci",
-        "code": "41293663",
-        "ids": ",ci41293663,",
-        "sources": ",ci,",
+        "sig": 9,
+        "net": "nc",
+        "code": "75396191",
+        "ids": ",nc75396191,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 13,
-        "dmin": 0.09423,
-        "rms": 0.11,
-        "gap": 169,
-        "magType": "ml",
+        "dmin": 0.00522,
+        "rms": 0.03,
+        "gap": 92,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.3 - 9 km S of Idyllwild, CA"
+        "title": "M 0.8 - 13 km ENE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7075,
-          33.6571666666667,
-          14.97
+          -122.878829956055,
+          38.8419990539551,
+          2.46000003814697
         ]
       },
-      "id": "ci41293663"
+      "id": "nc75396191"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "19 km NW of Girdwood, Alaska",
-        "time": 1784015302024,
-        "updated": 1784015889429,
+        "mag": 0.51,
+        "place": "19 km E of Little Lake, CA",
+        "time": 1784103096620,
+        "updated": 1784103309712,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nuxwjd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nuxwjd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026nuxwjd",
-        "ids": ",aka2026nuxwjd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 19 km NW of Girdwood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.419,
-          61.069,
-          21.2
-        ]
-      },
-      "id": "aka2026nuxwjd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.21,
-        "place": "11 km NNW of Anza, CA",
-        "time": 1784015116280,
-        "updated": 1784015786660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293655",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41293655.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "41293655",
-        "ids": ",ci41293655,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 67,
-        "dmin": 0.04455,
-        "rms": 0.18,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 11 km NNW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.717166666667,
-          33.6428333333333,
-          15.98
-        ]
-      },
-      "id": "ci41293655"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "13 km SSW of Tanana, Alaska",
-        "time": 1784015074671,
-        "updated": 1784015201358,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nuxtcr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nuxtcr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026nuxtcr",
-        "ids": ",aka2026nuxtcr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 110,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 13 km SSW of Tanana, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.223,
-          65.068,
-          9.5
-        ]
-      },
-      "id": "aka2026nuxtcr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "117 km E of Noda, Japan",
-        "time": 1784015049565,
-        "updated": 1784016045040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t09u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t09u",
-        "ids": ",us7000t09u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 1.751,
-        "rms": 0.9,
-        "gap": 96,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 117 km E of Noda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.1932,
-          40.1338,
-          11.338
-        ]
-      },
-      "id": "us7000t09u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.52,
-        "place": "6 km SSE of Redlands, CA",
-        "time": 1784014437930,
-        "updated": 1784014644503,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41293647.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655178",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655178.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -507,35 +67,355 @@
         "tsunami": 0,
         "sig": 4,
         "net": "ci",
-        "code": "41293647",
-        "ids": ",ci41293647,",
+        "code": "40655178",
+        "ids": ",ci40655178,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.04026,
-        "rms": 0.21,
+        "nst": 21,
+        "dmin": 0.04796,
+        "rms": 0.11,
         "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 6 km SSE of Redlands, CA"
+        "title": "M 0.5 - 19 km E of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.150333333333,
-          34.0103333333333,
-          4.53
+          -117.704166666667,
+          35.9678333333333,
+          8.56
         ]
       },
-      "id": "ci41293647"
+      "id": "ci40655178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.89,
+        "place": "18 km E of Little Lake, CA",
+        "time": 1784103002760,
+        "updated": 1784103202679,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655170",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655170.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "40655170",
+        "ids": ",ci40655170,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.04754,
+        "rms": 0.11,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 18 km E of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7045,
+          35.9661666666667,
+          8.33
+        ]
+      },
+      "id": "ci40655170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "68 km SW of Karluk, Alaska",
+        "time": 1784102837545,
+        "updated": 1784104003990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nwuniq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nwuniq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026nwuniq",
+        "ids": ",aka2026nwuniq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.6,
+        "rms": 0.6,
+        "gap": 168,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 68 km SW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.4,
+          57.222,
+          14.7
+        ]
+      },
+      "id": "aka2026nwuniq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1784102734492,
+        "updated": 1784103882867,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nwullv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nwullv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "ak",
+        "code": "a2026nwullv",
+        "ids": ",aka2026nwullv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.2,
+        "rms": 0.4,
+        "gap": 225,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.564,
+          51.723,
+          108
+        ]
+      },
+      "id": "aka2026nwullv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.34,
+        "place": "5 km N of Redwood Valley, CA",
+        "time": 1784102387880,
+        "updated": 1784104342827,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75396181",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75396181.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "nc",
+        "code": "75396181",
+        "ids": ",nc75396181,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.01234,
+        "rms": 0.03,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 5 km N of Redwood Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.212997436523,
+          39.3074989318848,
+          6.05999994277954
+        ]
+      },
+      "id": "nc75396181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "29 km WNW of Karluk, Alaska",
+        "time": 1784102153482,
+        "updated": 1784103822608,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nwudli",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nwudli.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026nwudli",
+        "ids": ",aka2026nwudli,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 159,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 29 km WNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.925,
+          57.657,
+          66.7
+        ]
+      },
+      "id": "aka2026nwudli"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.28,
+        "place": "6 km SSE of Redlands, CA",
+        "time": 1784102152490,
+        "updated": 1784102777050,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655162",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655162.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 25,
+        "net": "ci",
+        "code": "40655162",
+        "ids": ",ci40655162,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 80,
+        "dmin": 0.04313,
+        "rms": 0.18,
+        "gap": 23,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 6 km SSE of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1515,
+          34.007,
+          5.02
+        ]
+      },
+      "id": "ci40655162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.53,
+        "place": "5 km S of Mentone, CA",
+        "time": 1784101937050,
+        "updated": 1784102144995,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655154",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655154.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "40655154",
+        "ids": ",ci40655154,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.01878,
+        "rms": 0.16,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 5 km S of Mentone, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.128,
+          34.0218333333333,
+          8.59
+        ]
+      },
+      "id": "ci40655154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "41 km NW of Toyah, Texas",
+        "time": 1784101552054,
+        "updated": 1784102248320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nuobbt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nuobbt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2026nuobbt",
+        "ids": ",tx2026nuobbt,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 41 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.139,
+          31.543,
+          9.2786
+        ]
+      },
+      "id": "tx2026nuobbt"
     }
   ],
   "bbox": [
-    -155.49,
-    18.997833251953,
-    0,
-    143.1932,
-    65.068,
-    44.48
+    -155.4,
+    31.543,
+    2.460000038147,
+    178.564,
+    57.657,
+    108
   ]
 }
