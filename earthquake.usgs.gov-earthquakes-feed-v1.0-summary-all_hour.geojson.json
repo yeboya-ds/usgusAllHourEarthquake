@@ -1,104 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784104566000,
+    "generated": 1784190924000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 10
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.77,
-        "place": "13 km ENE of Cloverdale, CA",
-        "time": 1784104095080,
-        "updated": 1784104188275,
+        "mag": 1.74,
+        "place": "7 km SE of Pāhala, Hawaii",
+        "time": 1784189596500,
+        "updated": 1784189817400,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75396191",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75396191.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75002592",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75002592.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75396191",
-        "ids": ",nc75396191,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.00522,
-        "rms": 0.03,
-        "gap": 92,
+        "sig": 47,
+        "net": "hv",
+        "code": "75002592",
+        "ids": ",hv75002592,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.08032,
+        "rms": 0.119999997,
+        "gap": 243,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 13 km ENE of Cloverdale, CA"
+        "title": "M 1.7 - 7 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.878829956055,
-          38.8419990539551,
-          2.46000003814697
+          -155.424667358398,
+          19.1609992980957,
+          28.8500003814697
         ]
       },
-      "id": "nc75396191"
+      "id": "hv75002592"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.51,
-        "place": "19 km E of Little Lake, CA",
-        "time": 1784103096620,
-        "updated": 1784103309712,
+        "mag": 1.77,
+        "place": "14 km SE of Pāhala, Hawaii",
+        "time": 1784189232660,
+        "updated": 1784189455720,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655178.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75002582",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75002582.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "40655178",
-        "ids": ",ci40655178,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.04796,
-        "rms": 0.11,
-        "gap": 55,
-        "magType": "ml",
+        "sig": 48,
+        "net": "hv",
+        "code": "75002582",
+        "ids": ",hv75002582,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1387,
+        "rms": 0.109999999,
+        "gap": 262,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.5 - 19 km E of Little Lake, CA"
+        "title": "M 1.8 - 14 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.704166666667,
-          35.9678333333333,
-          8.56
+          -155.404006958008,
+          19.0981674194336,
+          35.7400016784668
         ]
       },
-      "id": "ci40655178"
+      "id": "hv75002582"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.89,
-        "place": "18 km E of Little Lake, CA",
-        "time": 1784103002760,
-        "updated": 1784103202679,
+        "mag": 1.51,
+        "place": "2 km ESE of The Geysers, CA",
+        "time": 1784189222810,
+        "updated": 1784190141740,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655170",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655170.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75396946",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75396946.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "nc",
+        "code": "75396946",
+        "ids": ",nc75396946,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.01205,
+        "rms": 0.05,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 2 km ESE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.736503601074,
+          38.7695007324219,
+          0.860000014305115
+        ]
+      },
+      "id": "nc75396946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "6 km SSE of Redlands, CA",
+        "time": 1784188922780,
+        "updated": 1784189135630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656218",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40656218.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -107,315 +147,155 @@
         "tsunami": 0,
         "sig": 12,
         "net": "ci",
-        "code": "40655170",
-        "ids": ",ci40655170,",
+        "code": "40656218",
+        "ids": ",ci40656218,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.04754,
-        "rms": 0.11,
-        "gap": 46,
+        "nst": 58,
+        "dmin": 0.04271,
+        "rms": 0.19,
+        "gap": 22,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 18 km E of Little Lake, CA"
+        "title": "M 0.9 - 6 km SSE of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.7045,
-          35.9661666666667,
-          8.33
+          -117.152666666667,
+          34.0088333333333,
+          4.12
         ]
       },
-      "id": "ci40655170"
+      "id": "ci40656218"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.4,
-        "place": "68 km SW of Karluk, Alaska",
-        "time": 1784102837545,
-        "updated": 1784104003990,
+        "mag": 1.83,
+        "place": "2 km S of Pāhala, Hawaii",
+        "time": 1784188454190,
+        "updated": 1784188673970,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nwuniq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nwuniq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "a2026nwuniq",
-        "ids": ",aka2026nwuniq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 168,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 68 km SW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.4,
-          57.222,
-          14.7
-        ]
-      },
-      "id": "aka2026nwuniq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1784102734492,
-        "updated": 1784103882867,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nwullv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nwullv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026nwullv",
-        "ids": ",aka2026nwullv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 225,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.564,
-          51.723,
-          108
-        ]
-      },
-      "id": "aka2026nwullv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.34,
-        "place": "5 km N of Redwood Valley, CA",
-        "time": 1784102387880,
-        "updated": 1784104342827,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75396181",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75396181.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75002557",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75002557.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 28,
-        "net": "nc",
-        "code": "75396181",
-        "ids": ",nc75396181,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.01234,
-        "rms": 0.03,
-        "gap": 74,
+        "sig": 52,
+        "net": "hv",
+        "code": "75002557",
+        "ids": ",hv75002557,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.06974,
+        "rms": 0.129999995,
+        "gap": 231,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 5 km N of Redwood Valley, CA"
+        "title": "M 1.8 - 2 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.212997436523,
-          39.3074989318848,
-          6.05999994277954
+          -155.482666015625,
+          19.1800003051758,
+          27.9200000762939
         ]
       },
-      "id": "nc75396181"
+      "id": "hv75002557"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "29 km WNW of Karluk, Alaska",
-        "time": 1784102153482,
-        "updated": 1784103822608,
+        "place": "16 km ESE of Pearsall, Texas",
+        "time": 1784188257633,
+        "updated": 1784188390433,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nwudli",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nwudli.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nwjyix",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nwjyix.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "ak",
-        "code": "a2026nwudli",
-        "ids": ",aka2026nwudli,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.3,
-        "rms": 0.2,
-        "gap": 159,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 29 km WNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.925,
-          57.657,
-          66.7
-        ]
-      },
-      "id": "aka2026nwudli"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.28,
-        "place": "6 km SSE of Redlands, CA",
-        "time": 1784102152490,
-        "updated": 1784102777050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655162",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655162.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "40655162",
-        "ids": ",ci40655162,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 80,
-        "dmin": 0.04313,
-        "rms": 0.18,
-        "gap": 23,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 6 km SSE of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.1515,
-          34.007,
-          5.02
-        ]
-      },
-      "id": "ci40655162"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.53,
-        "place": "5 km S of Mentone, CA",
-        "time": 1784101937050,
-        "updated": 1784102144995,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655154",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40655154.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "40655154",
-        "ids": ",ci40655154,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.01878,
-        "rms": 0.16,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 5 km S of Mentone, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.128,
-          34.0218333333333,
-          8.59
-        ]
-      },
-      "id": "ci40655154"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "41 km NW of Toyah, Texas",
-        "time": 1784101552054,
-        "updated": 1784102248320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nuobbt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nuobbt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
         "net": "tx",
-        "code": "2026nuobbt",
-        "ids": ",tx2026nuobbt,",
+        "code": "2026nwjyix",
+        "ids": ",tx2026nwjyix,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 69,
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 121,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 41 km NW of Toyah, Texas"
+        "title": "M 1.6 - 16 km ESE of Pearsall, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.139,
-          31.543,
-          9.2786
+          -98.939,
+          28.837,
+          6.9331
         ]
       },
-      "id": "tx2026nuobbt"
+      "id": "tx2026nwjyix"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Volcano Islands, Japan region",
+        "time": 1784188149543,
+        "updated": 1784189818416,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0x0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000t0x0",
+        "ids": ",us7000t0x0,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 86,
+        "dmin": 7.699,
+        "rms": 0.88,
+        "gap": 70,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3909,
+          22.8589,
+          12.806
+        ]
+      },
+      "id": "us7000t0x0"
     }
   ],
   "bbox": [
-    -155.4,
-    31.543,
-    2.460000038147,
-    178.564,
-    57.657,
-    108
+    -155.48266601562,
+    19.098167419434,
+    0.86000001430511,
+    144.3909,
+    38.769500732422,
+    35.740001678467
   ]
 }
