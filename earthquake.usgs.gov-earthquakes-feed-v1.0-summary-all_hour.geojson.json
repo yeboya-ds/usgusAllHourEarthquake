@@ -1,341 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784623620000,
+    "generated": 1784709949000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 8
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1784622800670,
-        "updated": 1784622899264,
+        "mag": 1.41,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1784709722570,
+        "updated": 1784709923730,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75402932",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75402932.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659186",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659186.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75402932",
-        "ids": ",nc75402932,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.0123,
-        "rms": 0.02,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.794334411621,
-          38.8238334655762,
-          2.64000010490417
-        ]
-      },
-      "id": "nc75402932"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.31,
-        "place": "4 km WSW of Anza, CA",
-        "time": 1784622500630,
-        "updated": 1784622712070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658698",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40658698.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
+        "sig": 31,
         "net": "ci",
-        "code": "40658698",
-        "ids": ",ci40658698,",
+        "code": "40659186",
+        "ids": ",ci40659186,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.03332,
-        "rms": 0.15,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.3 - 4 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.708833333333,
-          33.542,
-          6.45
-        ]
-      },
-      "id": "ci40658698"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.26,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1784621721000,
-        "updated": 1784622740357,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75402927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75402927.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "nc",
-        "code": "75402927",
-        "ids": ",nc75402927,",
-        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.009627,
-        "rms": 0.03,
-        "gap": 49,
-        "magType": "md",
+        "nst": 49,
+        "dmin": 0.04308,
+        "rms": 0.2,
+        "gap": 35,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 8 km NW of The Geysers, CA"
+        "title": "M 1.4 - 18 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.818168640137,
-          38.8306655883789,
-          1.75999999046326
+          -117.818833333333,
+          35.3045,
+          8.33
         ]
       },
-      "id": "nc75402927"
+      "id": "ci40659186"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.45,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1784621405850,
-        "updated": 1784621609973,
+        "mag": 0.92,
+        "place": "14 km W of Johannesburg, CA",
+        "time": 1784709018500,
+        "updated": 1784709228611,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658690",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40658690.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659178",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659178.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
+        "sig": 13,
         "net": "ci",
-        "code": "40658690",
-        "ids": ",ci40658690,",
+        "code": "40659178",
+        "ids": ",ci40659178,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.08938,
-        "rms": 0.11,
-        "gap": 104,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.1009,
+        "rms": 0.16,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 14 km SW of Searles Valley, CA"
+        "title": "M 0.9 - 14 km W of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.527833333333,
-          35.6935,
-          7
+          -117.7925,
+          35.3586666666667,
+          4.84
         ]
       },
-      "id": "ci40658690"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.11,
-        "place": "2 km W of Frazier Park, CA",
-        "time": 1784621004580,
-        "updated": 1784621216362,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40658682.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ci",
-        "code": "40658682",
-        "ids": ",ci40658682,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.04675,
-        "rms": 0.21,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km W of Frazier Park, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.967,
-          34.822,
-          7.8
-        ]
-      },
-      "id": "ci40658682"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.77,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1784620370820,
-        "updated": 1784620593360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75005472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75005472.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "hv",
-        "code": "75005472",
-        "ids": ",hv75005472,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1121,
-        "rms": 0.150000006,
-        "gap": 205,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 4 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.488006591797,
-          19.1646671295166,
-          30.9799995422363
-        ]
-      },
-      "id": "hv75005472"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "0 km WNW of Pāhala, Hawaii",
-        "time": 1784620219730,
-        "updated": 1784620426970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75005467",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75005467.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "hv",
-        "code": "75005467",
-        "ids": ",hv75005467,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.04286,
-        "rms": 0.129999995,
-        "gap": 206,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 0 km WNW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.486328125,
-          19.2070007324219,
-          33.0299987792969
-        ]
-      },
-      "id": "hv75005467"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.35,
-        "place": "18 km NNW of Indian Springs, Nevada",
-        "time": 1784620111098,
-        "updated": 1784620301080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922075",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00922075.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 85,
-        "net": "nn",
-        "code": "00922075",
-        "ids": ",nn00922075,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.196,
-        "rms": 0.2451,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 18 km NNW of Indian Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.7322,
-          36.7293,
-          0.8257
-        ]
-      },
-      "id": "nn00922075"
+      "id": "ci40659178"
     }
   ],
   "bbox": [
-    -155.4880065918,
-    19.164667129517,
-    0.8257,
-    -115.7322,
-    38.830665588379,
-    33.029998779297
+    -117.81883333333,
+    35.3045,
+    4.84,
+    -117.7925,
+    35.358666666667,
+    8.33
   ]
 }
