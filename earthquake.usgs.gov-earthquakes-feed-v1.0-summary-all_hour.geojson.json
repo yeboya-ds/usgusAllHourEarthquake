@@ -1,221 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785402271000,
+    "generated": 1785489501000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.06,
-        "place": "0 km NNW of Pāhala, Hawaii",
-        "time": 1785400144870,
-        "updated": 1785400355140,
+        "mag": 1.8,
+        "place": "14 km NE of Toyah, Texas",
+        "time": 1785489121636,
+        "updated": 1785489294266,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75010392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75010392.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oyanki",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026oyanki.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 65,
-        "net": "hv",
-        "code": "75010392",
-        "ids": ",hv75010392,",
-        "sources": ",hv,",
+        "sig": 50,
+        "net": "tx",
+        "code": "2026oyanki",
+        "ids": ",tx2026oyanki,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.04123,
-        "rms": 0.170000002,
-        "gap": 88,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 0 km NNW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.481674194336,
-          19.2103328704834,
-          30.1599998474121
-        ]
-      },
-      "id": "hv75010392"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.58292162418365,
-        "place": "1 km W of Artondale, Washington",
-        "time": 1785399939170,
-        "updated": 1785400095360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714065701",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714065701.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "uw",
-        "code": "714065701",
-        "ids": ",uw714065701,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 41,
+        "nst": 4,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 187,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 1 km W of Artondale, Washington"
+        "title": "M 1.8 - 14 km NE of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.637664794922,
-          47.2988319396973,
-          26.3999996185303
+          -103.698,
+          31.419,
+          0
         ]
       },
-      "id": "uw714065701"
+      "id": "tx2026oyanki"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "68 km SW of Mago, Russia",
-        "time": 1785398937512,
-        "updated": 1785399965040,
+        "mag": 1.81,
+        "place": "22 km SE of Pāhala, Hawaii",
+        "time": 1785489120690,
+        "updated": 1785489326450,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgwu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tgwu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75010932",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75010932.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000tgwu",
-        "ids": ",us6000tgwu,",
-        "sources": ",us,",
+        "sig": 50,
+        "net": "hv",
+        "code": "75010932",
+        "ids": ",hv75010932,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 8.908,
-        "rms": 0.66,
-        "gap": 84,
-        "magType": "mb",
+        "nst": 24,
+        "dmin": 0.1534,
+        "rms": 0.170000002,
+        "gap": 268,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.8 - 68 km SW of Mago, Russia"
+        "title": "M 1.8 - 22 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.534,
-          52.7865,
-          13.668
+          -155.340667724609,
+          19.0531673431396,
+          31.2099990844727
         ]
       },
-      "id": "us6000tgwu"
+      "id": "hv75010932"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "24 km ESE of Qarnābād, Iran",
-        "time": 1785398834482,
-        "updated": 1785401372040,
+        "mag": 1.14,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1785488096570,
+        "updated": 1785489445916,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgwt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tgwt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409012",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409012.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "nc",
+        "code": "75409012",
+        "ids": ",nc75409012,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.06054,
+        "rms": 0.02,
+        "gap": 151,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.937835693359,
+          38.7755012512207,
+          3.29999995231628
+        ]
+      },
+      "id": "nc75409012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "287 km SW of Banda Aceh, Indonesia",
+        "time": 1785486688631,
+        "updated": 1785487727040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th68",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000th68.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 369,
         "net": "us",
-        "code": "6000tgwt",
-        "ids": ",us6000tgwt,",
+        "code": "6000th68",
+        "ids": ",us6000th68,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 42,
-        "dmin": 7.577,
-        "rms": 0.75,
-        "gap": 104,
-        "magType": "mb",
+        "dmin": 3.92,
+        "rms": 0.53,
+        "gap": 53,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.8 - 24 km ESE of Qarnābād, Iran"
+        "title": "M 4.9 - 287 km SW of Banda Aceh, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.8451,
-          36.735,
+          93.1811,
+          4.0899,
           10
         ]
       },
-      "id": "us6000tgwt"
+      "id": "us6000th68"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.33,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1785398768000,
-        "updated": 1785398977458,
+        "mag": 1.81,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1785486533080,
+        "updated": 1785489138884,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663570",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663570.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409002.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 27,
-        "net": "ci",
-        "code": "40663570",
-        "ids": ",ci40663570,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.05427,
-        "rms": 0.17,
+        "sig": 50,
+        "net": "nc",
+        "code": "75409002",
+        "ids": ",nc75409002,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.05569,
+        "rms": 0.05,
         "gap": 58,
-        "magType": "ml",
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 17 km WSW of Johannesburg, CA"
+        "title": "M 1.8 - 7 km ESE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.802333333333,
-          35.3085,
-          6.86
+          -122.943832397461,
+          38.7734985351562,
+          6.3600001335144
         ]
       },
-      "id": "ci40663570"
+      "id": "nc75409002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "9 km W of Holtville, CA",
+        "time": 1785486394930,
+        "updated": 1785486594520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664082",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664082.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "40664082",
+        "ids": ",ci40664082,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.02676,
+        "rms": 0.22,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 9 km W of Holtville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.470166666667,
+          32.8235,
+          7.97
+        ]
+      },
+      "id": "ci40664082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "76 km W of Petrolia, CA",
+        "time": 1785486335300,
+        "updated": 1785487643711,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75408997",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75408997.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nc",
+        "code": "75408997",
+        "ids": ",nc75408997,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.6416,
+        "rms": 0.15,
+        "gap": 312,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 76 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.179664611816,
+          40.3321647644043,
+          2.76999998092651
+        ]
+      },
+      "id": "nc75408997"
     }
   ],
   "bbox": [
-    -155.48167419434,
-    19.210332870483,
-    6.86,
-    139.534,
-    52.7865,
-    30.159999847412
+    -155.34066772461,
+    4.0899,
+    0,
+    93.1811,
+    40.332164764404,
+    31.209999084473
   ]
 }
