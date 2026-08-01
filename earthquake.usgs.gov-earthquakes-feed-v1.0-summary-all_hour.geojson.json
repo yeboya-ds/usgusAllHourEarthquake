@@ -1,104 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785489501000,
+    "generated": 1785573279000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 16
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "14 km NE of Toyah, Texas",
-        "time": 1785489121636,
-        "updated": 1785489294266,
+        "mag": 1.07,
+        "place": "8 km SE of Cloverdale, CA",
+        "time": 1785573032580,
+        "updated": 1785573129594,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oyanki",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026oyanki.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409487.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2026oyanki",
-        "ids": ",tx2026oyanki,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 187,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 14 km NE of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.698,
-          31.419,
-          0
-        ]
-      },
-      "id": "tx2026oyanki"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.81,
-        "place": "22 km SE of Pāhala, Hawaii",
-        "time": 1785489120690,
-        "updated": 1785489326450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75010932",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75010932.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "hv",
-        "code": "75010932",
-        "ids": ",hv75010932,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.1534,
-        "rms": 0.170000002,
-        "gap": 268,
+        "sig": 18,
+        "net": "nc",
+        "code": "75409487",
+        "ids": ",nc75409487,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.05452,
+        "rms": 0.04,
+        "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 22 km SE of Pāhala, Hawaii"
+        "title": "M 1.1 - 8 km SE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.340667724609,
-          19.0531673431396,
-          31.2099990844727
+          -122.945167541504,
+          38.7675018310547,
+          2.35999989509583
         ]
       },
-      "id": "hv75010932"
+      "id": "nc75409487"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.14,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1785488096570,
-        "updated": 1785489445916,
+        "mag": 1.15,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1785572590730,
+        "updated": 1785572685536,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409012",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409012.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409482",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409482.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -107,118 +67,158 @@
         "tsunami": 0,
         "sig": 20,
         "net": "nc",
-        "code": "75409012",
-        "ids": ",nc75409012,",
+        "code": "75409482",
+        "ids": ",nc75409482,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.06054,
-        "rms": 0.02,
-        "gap": 151,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.0573,
+        "rms": 0.03,
+        "gap": 150,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+        "title": "M 1.2 - 7 km ESE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.937835693359,
+          -122.942001342773,
           38.7755012512207,
-          3.29999995231628
+          4.82000017166138
         ]
       },
-      "id": "nc75409012"
+      "id": "nc75409482"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "287 km SW of Banda Aceh, Indonesia",
-        "time": 1785486688631,
-        "updated": 1785487727040,
+        "mag": 1.3,
+        "place": "59 km WSW of Ferry, Alaska",
+        "time": 1785572513815,
+        "updated": 1785572627837,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th68",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000th68.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000th68",
-        "ids": ",us6000th68,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 3.92,
-        "rms": 0.53,
-        "gap": 53,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 287 km SW of Banda Aceh, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.1811,
-          4.0899,
-          10
-        ]
-      },
-      "id": "us6000th68"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.81,
-        "place": "7 km ESE of Cloverdale, CA",
-        "time": 1785486533080,
-        "updated": 1785489138884,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409002.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pcfjrd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pcfjrd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "nc",
-        "code": "75409002",
-        "ids": ",nc75409002,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.05569,
-        "rms": 0.05,
-        "gap": 58,
-        "magType": "md",
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026pcfjrd",
+        "ids": ",aka2026pcfjrd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 98,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 7 km ESE of Cloverdale, CA"
+        "title": "M 1.3 - 59 km WSW of Ferry, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.943832397461,
-          38.7734985351562,
-          6.3600001335144
+          -150.202,
+          63.773,
+          5
         ]
       },
-      "id": "nc75409002"
+      "id": "aka2026pcfjrd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1785572138150,
+        "updated": 1785572235372,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409477",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409477.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "nc",
+        "code": "75409477",
+        "ids": ",nc75409477,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05501,
+        "rms": 0.02,
+        "gap": 170,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 7 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.944664001465,
+          38.7729988098145,
+          6.92999982833862
+        ]
+      },
+      "id": "nc75409477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.41,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1785572095930,
+        "updated": 1785572195455,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409472",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409472.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "nc",
+        "code": "75409472",
+        "ids": ",nc75409472,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.04971,
+        "rms": 0.05,
+        "gap": 59,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 7 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.951332092285,
+          38.7713317871094,
+          5.84000015258789
+        ]
+      },
+      "id": "nc75409472"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.07,
-        "place": "9 km W of Holtville, CA",
-        "time": 1785486394930,
-        "updated": 1785486594520,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1785572076800,
+        "updated": 1785572175406,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664082",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664082.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409467",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409467.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,76 +226,436 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 18,
-        "net": "ci",
-        "code": "40664082",
-        "ids": ",ci40664082,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75409467",
+        "ids": ",nc75409467,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.02676,
-        "rms": 0.22,
-        "gap": 80,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.05618,
+        "rms": 0.02,
+        "gap": 171,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 9 km W of Holtville, CA"
+        "title": "M 1.1 - 7 km ESE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.470166666667,
-          32.8235,
-          7.97
+          -122.943336486816,
+          38.7746658325195,
+          6.13000011444092
         ]
       },
-      "id": "ci40664082"
+      "id": "nc75409467"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
-        "place": "76 km W of Petrolia, CA",
-        "time": 1785486335300,
-        "updated": 1785487643711,
+        "mag": 1,
+        "place": "18 km ENE of Willow, Alaska",
+        "time": 1785571511342,
+        "updated": 1785571598866,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75408997",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75408997.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pcevek",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pcevek.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
-        "net": "nc",
-        "code": "75408997",
-        "ids": ",nc75408997,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.6416,
-        "rms": 0.15,
-        "gap": 312,
-        "magType": "md",
+        "sig": 15,
+        "net": "ak",
+        "code": "a2026pcevek",
+        "ids": ",aka2026pcevek,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 155,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 76 km W of Petrolia, CA"
+        "title": "M 1.0 - 18 km ENE of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.179664611816,
-          40.3321647644043,
-          2.76999998092651
+          -149.704,
+          61.804,
+          32.2
         ]
       },
-      "id": "nc75408997"
+      "id": "aka2026pcevek"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1785571358060,
+        "updated": 1785571455215,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409462",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409462.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75409462",
+        "ids": ",nc75409462,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.05973,
+        "rms": 0.05,
+        "gap": 118,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.938835144043,
+          38.7751655578613,
+          4.48999977111816
+        ]
+      },
+      "id": "nc75409462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.83,
+        "place": "8 km SSE of Redlands, CA",
+        "time": 1785571338090,
+        "updated": 1785571540044,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664578",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664578.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "40664578",
+        "ids": ",ci40664578,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.05971,
+        "rms": 0.17,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 8 km SSE of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.153166666667,
+          33.9861666666667,
+          10.49
+        ]
+      },
+      "id": "ci40664578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.4,
+        "place": "64 km ENE of Pedro Bay, Alaska",
+        "time": 1785571330966,
+        "updated": 1785571389194,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pcesoq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pcesoq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ak",
+        "code": "a2026pcesoq",
+        "ids": ",aka2026pcesoq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 64 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.073,
+          60.039,
+          5
+        ]
+      },
+      "id": "aka2026pcesoq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.12,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1785571247230,
+        "updated": 1785572247157,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409457",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409457.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75409457",
+        "ids": ",nc75409457,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.05416,
+        "rms": 0.04,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.945831298828,
+          38.7738342285156,
+          4.67000007629395
+        ]
+      },
+      "id": "nc75409457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.78,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1785571065740,
+        "updated": 1785573098048,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409452",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409452.geojson",
+        "felt": 130,
+        "cdi": 4.9,
+        "mmi": 3.995,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "nc",
+        "code": "75409452",
+        "ids": ",ew1785571060,nc75409452,",
+        "sources": ",ew,nc,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 96,
+        "dmin": 0.06026,
+        "rms": 0.11,
+        "gap": 32,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.8 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.938331604004,
+          38.7765007019043,
+          6.09000015258789
+        ]
+      },
+      "id": "nc75409452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1785570887230,
+        "updated": 1785570984085,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75409447",
+        "ids": ",nc75409447,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.06119,
+        "rms": 0.02,
+        "gap": 118,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.933502197266,
+          38.7761650085449,
+          3.70000004768372
+        ]
+      },
+      "id": "nc75409447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1785570461580,
+        "updated": 1785570665767,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664570",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664570.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ci",
+        "code": "40664570",
+        "ids": ",ci40664570,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 45,
+        "dmin": 0.051,
+        "rms": 0.17,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 18 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.818,
+          35.3131666666667,
+          8.5
+        ]
+      },
+      "id": "ci40664570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "south of the Fiji Islands",
+        "time": 1785570363634,
+        "updated": 1785571323040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thf3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000thf3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000thf3",
+        "ids": ",us6000thf3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 5.32,
+        "rms": 0.84,
+        "gap": 45,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.1255,
+          -22.3815,
+          544.366
+        ]
+      },
+      "id": "us6000thf3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.44,
+        "place": "18 km WNW of Progreso, B.C., MX",
+        "time": 1785569717210,
+        "updated": 1785569924127,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664562",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664562.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "ci",
+        "code": "40664562",
+        "ids": ",ci40664562,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.02176,
+        "rms": 0.19,
+        "gap": 47,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 18 km WNW of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.752166666667,
+          32.6486666666667,
+          5.74
+        ]
+      },
+      "id": "ci40664562"
     }
   ],
   "bbox": [
-    -155.34066772461,
-    4.0899,
-    0,
-    93.1811,
-    40.332164764404,
-    31.209999084473
+    -179.1255,
+    -22.3815,
+    2.3599998950958,
+    -115.75216666667,
+    63.773,
+    544.366
   ]
 }
