@@ -1,384 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785751609000,
+    "generated": 1785834605000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 10
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.34,
-        "place": "8 km WNW of The Geysers, CA",
-        "time": 1785751405810,
-        "updated": 1785751503637,
+        "mag": 0.87,
+        "place": "1 km SSW of View Park-Windsor Hills, CA",
+        "time": 1785834344430,
+        "updated": 1785834544599,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410572",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75410572.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665938",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665938.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75410572",
-        "ids": ",nc75410572,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.0206,
-        "rms": 0.11,
-        "gap": 102,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 8 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.834335327148,
-          38.8168334960938,
-          1.76999998092651
-        ]
-      },
-      "id": "nc75410572"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
-        "place": "3 km SSW of Anderson Springs, CA",
-        "time": 1785750319350,
-        "updated": 1785750417267,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410562",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75410562.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "nc",
-        "code": "75410562",
-        "ids": ",nc75410562,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.0197,
-        "rms": 0.04,
-        "gap": 86,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 3 km SSW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.703002929688,
-          38.748664855957,
-          1.86000001430511
-        ]
-      },
-      "id": "nc75410562"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.97,
-        "place": "3 km SSW of Anderson Springs, CA",
-        "time": 1785750299640,
-        "updated": 1785750397145,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410557",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75410557.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75410557",
-        "ids": ",nc75410557,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.02251,
-        "rms": 0.04,
-        "gap": 141,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km SSW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.700836181641,
-          38.7456665039062,
-          1.35000002384186
-        ]
-      },
-      "id": "nc75410557"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1785748971846,
-        "updated": 1785751442431,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pdobic",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pdobic.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026pdobic",
-        "ids": ",tx2026pdobic,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.385,
-          31.655,
-          4.0072
-        ]
-      },
-      "id": "tx2026pdobic"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "15 km SSW of Toyah, Texas",
-        "time": 1785748889484,
-        "updated": 1785751220140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pdnwzy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pdnwzy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026pdnwzy",
-        "ids": ",tx2026pdnwzy,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.8,
-        "gap": 118,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 15 km SSW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.864,
-          31.192,
-          11.048
-        ]
-      },
-      "id": "tx2026pdnwzy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "54 km E of Denali National Park, Alaska",
-        "time": 1785748834313,
-        "updated": 1785748928034,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pfzjrj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pfzjrj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026pfzjrj",
-        "ids": ",aka2026pfzjrj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 54 km E of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.637,
-          63.595,
-          5
-        ]
-      },
-      "id": "aka2026pfzjrj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.12,
-        "place": "8 km WNW of Camp Pendleton South, CA",
-        "time": 1785748820460,
-        "updated": 1785749030178,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665530",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665530.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
+        "sig": 12,
         "net": "ci",
-        "code": "40665530",
-        "ids": ",ci40665530,",
+        "code": "40665938",
+        "ids": ",ci40665938,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.0829,
-        "rms": 0.16,
-        "gap": 130,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.008337,
+        "rms": 0.24,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km WNW of Camp Pendleton South, CA"
+        "title": "M 0.9 - 1 km SSW of View Park-Windsor Hills, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.454166666667,
-          33.2545,
-          15.37
+          -118.352166666667,
+          33.988,
+          7.01
         ]
       },
-      "id": "ci40665530"
+      "id": "ci40665938"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1785748719503,
-        "updated": 1785751239163,
+        "mag": 1.44,
+        "place": "5 km SSE of Malibu Beach, CA",
+        "time": 1785834239100,
+        "updated": 1785834437468,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pdnxpg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pdnxpg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665930",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665930.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026pdnxpg",
-        "ids": ",tx2026pdnxpg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 70,
+        "sig": 32,
+        "net": "ci",
+        "code": "40665930",
+        "ids": ",ci40665930,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.09267,
+        "rms": 0.25,
+        "gap": 120,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 57 km S of Whites City, New Mexico"
+        "title": "M 1.4 - 5 km SSE of Malibu Beach, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.381,
-          31.658,
-          4.3116
+          -118.6735,
+          33.987,
+          10.19
         ]
       },
-      "id": "tx2026pdnxpg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "152 km S of Hydaburg, Alaska",
-        "time": 1785748666000,
-        "updated": 1785750318737,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/attj6shm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/attj6shm.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "at",
-        "code": "tj6shm",
-        "ids": ",attj6shm,",
-        "sources": ",at,",
-        "types": ",dyfi,origin,",
-        "nst": 12,
-        "dmin": 0.01616968,
-        "rms": 1.71,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 152 km S of Hydaburg, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -132.974,
-          53.837,
-          15
-        ]
-      },
-      "id": "attj6shm"
+      "id": "ci40665930"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1,
-        "place": "33 km NNE of Whittier, Alaska",
-        "time": 1785748586661,
-        "updated": 1785748649654,
+        "place": "15 km NW of Midland, Texas",
+        "time": 1785834127171,
+        "updated": 1785834334694,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pfzgcf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pfzgcf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pfjcdh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pfjcdh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -386,36 +106,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 15,
-        "net": "ak",
-        "code": "a2026pfzgcf",
-        "ids": ",aka2026pfzgcf,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2026pfjcdh",
+        "ids": ",tx2026pfjcdh,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 88,
+        "nst": 27,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 33 km NNE of Whittier, Alaska"
+        "title": "M 1.0 - 15 km NW of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.449,
-          61.055,
-          14.1
+          -102.208,
+          32.084,
+          6.3621
         ]
       },
-      "id": "aka2026pfzgcf"
+      "id": "tx2026pfjcdh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "85 km NNW of Karluk, Alaska",
+        "time": 1785833534275,
+        "updated": 1785833588996,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026phulrk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026phulrk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026phulrk",
+        "ids": ",aka2026phulrk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 113,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 85 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.963,
+          58.285,
+          5
+        ]
+      },
+      "id": "aka2026phulrk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1785833523080,
+        "updated": 1785833619884,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411072.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75411072",
+        "ids": ",nc75411072,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.008381,
+        "rms": 0.02,
+        "gap": 79,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 4 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.772499084473,
+          38.8078346252441,
+          2.09999990463257
+        ]
+      },
+      "id": "nc75411072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.93,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1785833380810,
+        "updated": 1785833592685,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665922.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "40665922",
+        "ids": ",ci40665922,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.04206,
+        "rms": 0.25,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.815833333333,
+          35.3016666666667,
+          7.22
+        ]
+      },
+      "id": "ci40665922"
     }
   ],
   "bbox": [
-    -150.637,
-    31.192,
-    1.3500000238419,
-    -103.864,
-    63.595,
-    15.37
+    -154.963,
+    32.084,
+    2.0999999046326,
+    -102.208,
+    58.285,
+    10.19
   ]
 }
