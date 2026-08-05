@@ -1,24 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785834605000,
+    "generated": 1785920826000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.87,
-        "place": "1 km SSW of View Park-Windsor Hills, CA",
-        "time": 1785834344430,
-        "updated": 1785834544599,
+        "mag": 3.6,
+        "place": "36 km SSW of Lake Minchumina, Alaska",
+        "time": 1785920120084,
+        "updated": 1785920373318,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665938.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pjqoyy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pjqoyy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.866,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "a2026pjqoyy",
+        "ids": ",aka2026pjqoyy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 57,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 36 km SSW of Lake Minchumina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.528,
+          63.569,
+          11
+        ]
+      },
+      "id": "aka2026pjqoyy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.71,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1785919367890,
+        "updated": 1785919466620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411677",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411677.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75411677",
+        "ids": ",nc75411677,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01792,
+        "rms": 0.01,
+        "gap": 65,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.813667297363,
+          38.8296661376953,
+          1.60000002384186
+        ]
+      },
+      "id": "nc75411677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.79,
+        "place": "9 km ESE of Redwood Valley, CA",
+        "time": 1785919269360,
+        "updated": 1785919366900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411672.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "nc",
+        "code": "75411672",
+        "ids": ",nc75411672,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.09859,
+        "rms": 0.08,
+        "gap": 58,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 9 km ESE of Redwood Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.100166320801,
+          39.2413330078125,
+          5.28999996185303
+        ]
+      },
+      "id": "nc75411672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.89,
+        "place": "14 km N of Borrego Springs, CA",
+        "time": 1785919175040,
+        "updated": 1785919382276,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666426",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666426.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,118 +147,38 @@
         "tsunami": 0,
         "sig": 12,
         "net": "ci",
-        "code": "40665938",
-        "ids": ",ci40665938,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.008337,
-        "rms": 0.24,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 1 km SSW of View Park-Windsor Hills, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.352166666667,
-          33.988,
-          7.01
-        ]
-      },
-      "id": "ci40665938"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.44,
-        "place": "5 km SSE of Malibu Beach, CA",
-        "time": 1785834239100,
-        "updated": 1785834437468,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665930",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665930.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 32,
-        "net": "ci",
-        "code": "40665930",
-        "ids": ",ci40665930,",
+        "code": "40666426",
+        "ids": ",ci40666426,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 58,
-        "dmin": 0.09267,
-        "rms": 0.25,
-        "gap": 120,
+        "dmin": 0.05365,
+        "rms": 0.23,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 5 km SSE of Malibu Beach, CA"
+        "title": "M 0.9 - 14 km N of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.6735,
-          33.987,
-          10.19
+          -116.369666666667,
+          33.3811666666667,
+          2.33
         ]
       },
-      "id": "ci40665930"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "15 km NW of Midland, Texas",
-        "time": 1785834127171,
-        "updated": 1785834334694,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pfjcdh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pfjcdh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "tx",
-        "code": "2026pfjcdh",
-        "ids": ",tx2026pfjcdh,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 15 km NW of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.208,
-          32.084,
-          6.3621
-        ]
-      },
-      "id": "tx2026pfjcdh"
+      "id": "ci40666426"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "85 km NNW of Karluk, Alaska",
-        "time": 1785833534275,
-        "updated": 1785833588996,
+        "place": "43 km NW of Toyah, Texas",
+        "time": 1785918440410,
+        "updated": 1785918685413,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026phulrk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026phulrk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026phdrhp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026phdrhp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,116 +186,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "ak",
-        "code": "a2026phulrk",
-        "ids": ",aka2026phulrk,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2026phdrhp",
+        "ids": ",tx2026phdrhp,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1,
+        "nst": 37,
+        "dmin": 0,
         "rms": 0.4,
-        "gap": 113,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 85 km NNW of Karluk, Alaska"
+        "title": "M 1.5 - 43 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.963,
-          58.285,
-          5
+          -104.126,
+          31.587,
+          5.9036
         ]
       },
-      "id": "aka2026phulrk"
+      "id": "tx2026phdrhp"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "4 km NNW of The Geysers, CA",
-        "time": 1785833523080,
-        "updated": 1785833619884,
+        "mag": 0.62,
+        "place": "8 km NNW of Banning, CA",
+        "time": 1785917657440,
+        "updated": 1785917857916,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411072",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411072.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666418.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75411072",
-        "ids": ",nc75411072,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.008381,
-        "rms": 0.02,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 4 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.772499084473,
-          38.8078346252441,
-          2.09999990463257
-        ]
-      },
-      "id": "nc75411072"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1785833380810,
-        "updated": 1785833592685,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665922",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665922.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
+        "sig": 6,
         "net": "ci",
-        "code": "40665922",
-        "ids": ",ci40665922,",
+        "code": "40666418",
+        "ids": ",ci40666418,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 30,
-        "dmin": 0.04206,
-        "rms": 0.25,
-        "gap": 89,
+        "dmin": 0.08949,
+        "rms": 0.12,
+        "gap": 67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
+        "title": "M 0.6 - 8 km NNW of Banning, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.815833333333,
-          35.3016666666667,
-          7.22
+          -116.901333333333,
+          33.9906666666667,
+          9.38
         ]
       },
-      "id": "ci40665922"
+      "id": "ci40666418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.24,
+        "place": "2 km NNW of Pāhala, Hawaii",
+        "time": 1785917497080,
+        "updated": 1785917710120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75013232",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75013232.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "hv",
+        "code": "75013232",
+        "ids": ",hv75013232,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.02868,
+        "rms": 0.180000007,
+        "gap": 97,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 2 km NNW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.486328125,
+          19.2221660614014,
+          34.3300018310547
+        ]
+      },
+      "id": "hv75013232"
     }
   ],
   "bbox": [
-    -154.963,
-    32.084,
-    2.0999999046326,
-    -102.208,
-    58.285,
-    10.19
+    -155.486328125,
+    19.222166061401,
+    1.6000000238419,
+    -104.126,
+    63.569,
+    34.330001831055
   ]
 }
