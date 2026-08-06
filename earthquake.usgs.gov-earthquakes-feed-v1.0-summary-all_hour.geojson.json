@@ -1,301 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785920826000,
+    "generated": 1786007228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "36 km SSW of Lake Minchumina, Alaska",
-        "time": 1785920120084,
-        "updated": 1785920373318,
+        "mag": 1.7,
+        "place": "31 km S of Malaga, New Mexico",
+        "time": 1786006680771,
+        "updated": 1786007134605,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pjqoyy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pjqoyy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.866,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "a2026pjqoyy",
-        "ids": ",aka2026pjqoyy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 57,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 36 km SSW of Lake Minchumina, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.528,
-          63.569,
-          11
-        ]
-      },
-      "id": "aka2026pjqoyy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.71,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1785919367890,
-        "updated": 1785919466620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411677",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411677.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pjahud",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pjahud.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75411677",
-        "ids": ",nc75411677,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01792,
-        "rms": 0.01,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813667297363,
-          38.8296661376953,
-          1.60000002384186
-        ]
-      },
-      "id": "nc75411677"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.79,
-        "place": "9 km ESE of Redwood Valley, CA",
-        "time": 1785919269360,
-        "updated": 1785919366900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411672.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "nc",
-        "code": "75411672",
-        "ids": ",nc75411672,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.09859,
-        "rms": 0.08,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 9 km ESE of Redwood Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.100166320801,
-          39.2413330078125,
-          5.28999996185303
-        ]
-      },
-      "id": "nc75411672"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.89,
-        "place": "14 km N of Borrego Springs, CA",
-        "time": 1785919175040,
-        "updated": 1785919382276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666426.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "40666426",
-        "ids": ",ci40666426,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.05365,
-        "rms": 0.23,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 14 km N of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.369666666667,
-          33.3811666666667,
-          2.33
-        ]
-      },
-      "id": "ci40666426"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "43 km NW of Toyah, Texas",
-        "time": 1785918440410,
-        "updated": 1785918685413,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026phdrhp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026phdrhp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
+        "sig": 44,
         "net": "tx",
-        "code": "2026phdrhp",
-        "ids": ",tx2026phdrhp,",
+        "code": "2026pjahud",
+        "ids": ",tx2026pjahud,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 37,
+        "nst": 33,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 53,
+        "rms": 0.3,
+        "gap": 191,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 43 km NW of Toyah, Texas"
+        "title": "M 1.7 - 31 km S of Malaga, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.126,
-          31.587,
-          5.9036
+          -104.067,
+          31.939,
+          4.8849
         ]
       },
-      "id": "tx2026phdrhp"
+      "id": "tx2026pjahud"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.62,
-        "place": "8 km NNW of Banning, CA",
-        "time": 1785917657440,
-        "updated": 1785917857916,
+        "mag": 1.8,
+        "place": "23 km SE of Lindsay, Texas",
+        "time": 1786006011361,
+        "updated": 1786006134304,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666418",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666418.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pjaazs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pjaazs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "40666418",
-        "ids": ",ci40666418,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.08949,
-        "rms": 0.12,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 8 km NNW of Banning, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.901333333333,
-          33.9906666666667,
-          9.38
-        ]
-      },
-      "id": "ci40666418"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.24,
-        "place": "2 km NNW of Pāhala, Hawaii",
-        "time": 1785917497080,
-        "updated": 1785917710120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75013232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75013232.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "hv",
-        "code": "75013232",
-        "ids": ",hv75013232,",
-        "sources": ",hv,",
+        "sig": 50,
+        "net": "tx",
+        "code": "2026pjaazs",
+        "ids": ",tx2026pjaazs,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.02868,
-        "rms": 0.180000007,
-        "gap": 97,
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 1.1,
+        "gap": 156,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 23 km SE of Lindsay, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.38,
+          31.206,
+          0
+        ]
+      },
+      "id": "tx2026pjaazs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.28,
+        "place": "4 km W of Cobb, CA",
+        "time": 1786004858360,
+        "updated": 1786004953152,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75412447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75412447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75412447",
+        "ids": ",nc75412447,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.01049,
+        "rms": 0.04,
+        "gap": 123,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 2 km NNW of Pāhala, Hawaii"
+        "title": "M 0.3 - 4 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.486328125,
-          19.2221660614014,
-          34.3300018310547
+          -122.763664245605,
+          38.8211669921875,
+          2.45000004768372
         ]
       },
-      "id": "hv75013232"
+      "id": "nc75412447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1786004264545,
+        "updated": 1786004488425,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pizbxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pizbxl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "tx",
+        "code": "2026pizbxl",
+        "ids": ",tx2026pizbxl,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.463,
+          31.631,
+          2.9769
+        ]
+      },
+      "id": "tx2026pizbxl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.61,
+        "place": "16 km NE of Little Lake, CA",
+        "time": 1786003815110,
+        "updated": 1786004028693,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40667050",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40667050.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
+        "net": "ci",
+        "code": "40667050",
+        "ids": ",ci40667050,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.005708,
+        "rms": 0.17,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 16 km NE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.768166666667,
+          36.02,
+          0.92
+        ]
+      },
+      "id": "ci40667050"
     }
   ],
   "bbox": [
-    -155.486328125,
-    19.222166061401,
-    1.6000000238419,
-    -104.126,
-    63.569,
-    34.330001831055
+    -122.7636642456,
+    31.206,
+    0,
+    -103.38,
+    38.821166992188,
+    4.8849
   ]
 }
