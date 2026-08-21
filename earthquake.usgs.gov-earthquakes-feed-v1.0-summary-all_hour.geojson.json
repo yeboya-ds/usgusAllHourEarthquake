@@ -1,224 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787209703000,
+    "generated": 1787296141000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.85,
-        "place": "12 km SW of Searles Valley, CA",
-        "time": 1787209404830,
-        "updated": 1787209607707,
+        "mag": 1.8,
+        "place": "47 km SW of Nanwalek, Alaska",
+        "time": 1787295401016,
+        "updated": 1787295496402,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530960",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41530960.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qnazdn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qnazdn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41530960",
-        "ids": ",ci41530960,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.05408,
-        "rms": 0.15,
-        "gap": 54,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026qnazdn",
+        "ids": ",aka2026qnazdn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.4,
+        "rms": 0.3,
+        "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 12 km SW of Searles Valley, CA"
+        "title": "M 1.8 - 47 km SW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.487333333333,
-          35.6806666666667,
-          4.35
+          -152.509,
+          59.05,
+          68.6
         ]
       },
-      "id": "ci41530960"
+      "id": "aka2026qnazdn"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "16 km W of Searles Valley, CA",
-        "time": 1787209238330,
-        "updated": 1787209441383,
+        "mag": 2.12,
+        "place": "9 km WSW of Progreso, B.C., MX",
+        "time": 1787294962150,
+        "updated": 1787295172885,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530952",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41530952.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41531808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41531808.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
+        "sig": 69,
         "net": "ci",
-        "code": "41530952",
-        "ids": ",ci41530952,",
+        "code": "41531808",
+        "ids": ",ci41531808,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.04502,
-        "rms": 0.16,
-        "gap": 66,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.0714,
+        "rms": 0.27,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 16 km W of Searles Valley, CA"
+        "title": "M 2.1 - 9 km WSW of Progreso, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.586666666667,
-          35.7715,
-          7.87
+          -115.666,
+          32.536,
+          6.85
         ]
       },
-      "id": "ci41530952"
+      "id": "ci41531808"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05195198761216,
-        "place": "10 km NNW of Anza, CA",
-        "time": 1787208786320,
-        "updated": 1787208908780,
+        "mag": 0.27,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1787294308330,
+        "updated": 1787296044563,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530944",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41530944.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422262",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75422262.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41530944",
-        "ids": ",ci41530944,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.06524,
-        "rms": 0.209999993,
-        "gap": 90,
-        "magType": "ml",
+        "sig": 1,
+        "net": "nc",
+        "code": "75422262",
+        "ids": ",nc75422262,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.009402,
+        "rms": 0.01,
+        "gap": 61,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km NNW of Anza, CA"
+        "title": "M 0.3 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.711166381836,
-          33.6418342590332,
-          9.78999996185303
+          -122.817169189453,
+          38.8310012817383,
+          1.75
         ]
       },
-      "id": "ci41530944"
+      "id": "nc75422262"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.58,
-        "place": "8 km N of Borrego Springs, CA",
-        "time": 1787208602500,
-        "updated": 1787209226620,
+        "mag": 2,
+        "place": "34 km WSW of Ackerly, Texas",
+        "time": 1787293563049,
+        "updated": 1787293989091,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41530936.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qkjgvy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qkjgvy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 38,
-        "net": "ci",
-        "code": "41530936",
-        "ids": ",ci41530936,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 82,
-        "dmin": 0.002588,
-        "rms": 0.19,
-        "gap": 17,
+        "sig": 62,
+        "net": "tx",
+        "code": "2026qkjgvy",
+        "ids": ",tx2026qkjgvy,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 8 km N of Borrego Springs, CA"
+        "title": "M 2.0 - 34 km WSW of Ackerly, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.365333333333,
-          33.3288333333333,
-          10.52
+          -102.053,
+          32.395,
+          3.9196
         ]
       },
-      "id": "ci41530936"
+      "id": "tx2026qkjgvy"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "26 km SSW of Ocotillo Wells, CA",
-        "time": 1787206556060,
-        "updated": 1787206757138,
+        "mag": 1.03,
+        "place": "27 km ENE of Pine Valley, CA",
+        "time": 1787293534060,
+        "updated": 1787293741839,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41530928.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41531800",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41531800.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
+        "sig": 16,
         "net": "ci",
-        "code": "41530928",
-        "ids": ",ci41530928,",
+        "code": "41531800",
+        "ids": ",ci41531800,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.02997,
-        "rms": 0.15,
-        "gap": 104,
+        "nst": 46,
+        "dmin": 0.05378,
+        "rms": 0.18,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 26 km SSW of Ocotillo Wells, CA"
+        "title": "M 1.0 - 27 km ENE of Pine Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.2705,
-          32.943,
-          11.83
+          -116.259333333333,
+          32.9155,
+          7.48
         ]
       },
-      "id": "ci41530928"
+      "id": "ci41531800"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.3,
-        "place": "4 km NW of Pinnacles, CA",
-        "time": 1787206296740,
-        "updated": 1787207541717,
+        "place": "14 km ESE of Susitna North, Alaska",
+        "time": 1787293474274,
+        "updated": 1787293552429,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421687",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75421687.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qmzxhq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qmzxhq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,36 +226,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 26,
-        "net": "nc",
-        "code": "75421687",
-        "ids": ",nc75421687,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.01487,
-        "rms": 0.33,
-        "gap": 89,
-        "magType": "md",
+        "net": "ak",
+        "code": "a2026qmzxhq",
+        "ids": ",aka2026qmzxhq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.4,
+        "rms": 0.2,
+        "gap": 173,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 4 km NW of Pinnacles, CA"
+        "title": "M 1.3 - 14 km ESE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.172996520996,
-          36.5606651306152,
-          1.95000004768372
+          -149.608,
+          62.102,
+          66.3
         ]
       },
-      "id": "nc75421687"
+      "id": "aka2026qmzxhq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.26,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1787292657830,
+        "updated": 1787294844423,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422252",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75422252.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "nc",
+        "code": "75422252",
+        "ids": ",nc75422252,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.002751,
+        "rms": 0.03,
+        "gap": 110,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 6 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.790000915527,
+          38.8356666564941,
+          1.89999997615814
+        ]
+      },
+      "id": "nc75422252"
     }
   ],
   "bbox": [
-    -121.172996521,
-    32.943,
-    1.9500000476837,
-    -116.2705,
-    36.560665130615,
-    11.83
+    -152.509,
+    32.395,
+    1.75,
+    -102.053,
+    62.102,
+    68.6
   ]
 }
