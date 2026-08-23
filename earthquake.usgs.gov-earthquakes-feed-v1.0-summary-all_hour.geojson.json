@@ -1,144 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787382060000,
+    "generated": 1787468584000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.43,
-        "place": "13 km SE of Markleeville, CA",
-        "time": 1787381750720,
-        "updated": 1787381848124,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422822",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75422822.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "nc",
-        "code": "75422822",
-        "ids": ",nc75422822,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1257,
-        "rms": 0.05,
-        "gap": 125,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 13 km SE of Markleeville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.678497314453,
-          38.6126670837402,
-          1.66999995708466
-        ]
-      },
-      "id": "nc75422822"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.16,
-        "place": "14 km SE of Markleeville, CA",
-        "time": 1787381674670,
-        "updated": 1787381814946,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422817",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75422817.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "nc",
-        "code": "75422817",
-        "ids": ",nc75422817,nn00923677,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1215,
-        "rms": 0.12,
-        "gap": 89,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 14 km SE of Markleeville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.674667358398,
-          38.6059989929199,
-          1.08000004291534
-        ]
-      },
-      "id": "nc75422817"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.88,
+        "mag": 0.57,
         "place": "10 km ENE of Coso Junction, CA",
-        "time": 1787381437930,
-        "updated": 1787381645654,
+        "time": 1787467325230,
+        "updated": 1787467538420,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41532832.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533360",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41533360.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
+        "sig": 5,
         "net": "ci",
-        "code": "41532832",
-        "ids": ",ci41532832,",
+        "code": "41533360",
+        "ids": ",ci41533360,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.05242,
-        "rms": 0.13,
-        "gap": 60,
+        "nst": 13,
+        "dmin": 0.04933,
+        "rms": 0.09,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 10 km ENE of Coso Junction, CA"
+        "title": "M 0.6 - 10 km ENE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.835333333333,
-          36.0675,
-          2.5
+          -117.838333333333,
+          36.07,
+          2.66
         ]
       },
-      "id": "ci41532832"
+      "id": "ci41533360"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.67,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1787381342190,
-        "updated": 1787381437214,
+        "mag": 1.9,
+        "place": "100 km E of McCarthy, Alaska",
+        "time": 1787466784449,
+        "updated": 1787466851705,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422812",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75422812.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqsfuw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqsfuw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026qqsfuw",
+        "ids": ",aka2026qqsfuw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 100 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.057,
+          61.559,
+          5.4
+        ]
+      },
+      "id": "aka2026qqsfuw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.69,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1787466427330,
+        "updated": 1787467344115,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423397",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75423397.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -147,155 +107,155 @@
         "tsunami": 0,
         "sig": 7,
         "net": "nc",
-        "code": "75422812",
-        "ids": ",nc75422812,",
+        "code": "75423397",
+        "ids": ",nc75423397,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.002839,
-        "rms": 0.01,
-        "gap": 91,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.003743,
+        "rms": 0.02,
+        "gap": 103,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 6 km WNW of Cobb, CA"
+        "title": "M 0.7 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.793502807617,
-          38.8370018005371,
-          2.11999988555908
+          -122.80549621582,
+          38.8245010375977,
+          3.23000001907349
         ]
       },
-      "id": "nc75422812"
+      "id": "nc75423397"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1787379556021,
-        "updated": 1787379901403,
+        "mag": 1.6,
+        "place": "30 km NW of Toyah, Texas",
+        "time": 1787466158446,
+        "updated": 1787466351119,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmethi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qmethi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qoankn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qoankn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 39,
         "net": "tx",
-        "code": "2026qmethi",
-        "ids": ",tx2026qmethi,",
+        "code": "2026qoankn",
+        "ids": ",tx2026qoankn,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 34,
+        "nst": 33,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 13 km WSW of Stanton, Texas"
+        "title": "M 1.6 - 30 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.931,
-          32.102,
-          3.4762
+          -104.003,
+          31.524,
+          5.3693
         ]
       },
-      "id": "tx2026qmethi"
+      "id": "tx2026qoankn"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "14 km W of Stanton, Texas",
-        "time": 1787379555847,
-        "updated": 1787379793168,
+        "mag": 1,
+        "place": "47 km NW of Toyah, Texas",
+        "time": 1787465339200,
+        "updated": 1787468461148,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmetup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qmetup.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qoadpr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qoadpr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 15,
         "net": "tx",
-        "code": "2026qmetup",
-        "ids": ",tx2026qmetup,",
+        "code": "2026qoadpr",
+        "ids": ",tx2026qoadpr,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 122,
+        "nst": 17,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 96,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 14 km W of Stanton, Texas"
+        "title": "M 1.0 - 47 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.935,
-          32.106,
-          4.8329
+          -104.154,
+          31.615,
+          3.1632
         ]
       },
-      "id": "tx2026qmetup"
+      "id": "tx2026qoadpr"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "5 km SSE of Big Lake, Alaska",
-        "time": 1787378968244,
-        "updated": 1787379062045,
+        "mag": 1.2,
+        "place": "4 km S of Salcha, Alaska",
+        "time": 1787465252679,
+        "updated": 1787465319745,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qovkoq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qovkoq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqrjri",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqrjri.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
+        "sig": 22,
         "net": "ak",
-        "code": "a2026qovkoq",
-        "ids": ",aka2026qovkoq,",
+        "code": "a2026qqrjri",
+        "ids": ",aka2026qqrjri,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 94,
+        "nst": 13,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 5 km SSE of Big Lake, Alaska"
+        "title": "M 1.2 - 4 km S of Salcha, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.93,
-          61.471,
-          59
+          -146.917,
+          64.485,
+          7.3
         ]
       },
-      "id": "aka2026qovkoq"
+      "id": "aka2026qqrjri"
     }
   ],
   "bbox": [
-    -149.93,
-    32.102,
-    1.0800000429153,
-    -101.931,
-    61.471,
-    59
+    -146.917,
+    31.524,
+    2.66,
+    -104.003,
+    64.485,
+    7.3
   ]
 }
