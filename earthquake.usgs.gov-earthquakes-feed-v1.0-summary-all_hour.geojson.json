@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787728200000,
+    "generated": 1787852380000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.71,
-        "place": "8 km W of Cobb, CA",
-        "time": 1787727306010,
-        "updated": 1787727402129,
+        "mag": 0.74,
+        "place": "1 km ENE of Palomar Observatory, CA",
+        "time": 1787851685110,
+        "updated": 1787851893226,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425277",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75425277.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537608",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41537608.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,156 +26,436 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 8,
-        "net": "nc",
-        "code": "75425277",
-        "ids": ",nc75425277,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.009311,
-        "rms": 0.02,
-        "gap": 76,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.80883026123,
-          38.8326683044434,
-          0.689999997615814
-        ]
-      },
-      "id": "nc75425277"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.84,
-        "place": "9 km SE of Cloverdale, CA",
-        "time": 1787727141470,
-        "updated": 1787727237118,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425272",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75425272.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "nc",
-        "code": "75425272",
-        "ids": ",nc75425272,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.06616,
-        "rms": 0.03,
-        "gap": 131,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 9 km SE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.930168151855,
-          38.7588348388672,
-          0.790000021457672
-        ]
-      },
-      "id": "nc75425272"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.73,
-        "place": "20 km SE of Pāhala, Hawaii",
-        "time": 1787725599390,
-        "updated": 1787725820600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75024077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75024077.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "hv",
-        "code": "75024077",
-        "ids": ",hv75024077,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.1414,
-        "rms": 0.300000012,
-        "gap": 245,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 20 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.363830566406,
-          19.0483341217041,
-          31
-        ]
-      },
-      "id": "hv75024077"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.55,
-        "place": "15 km NE of Little Lake, CA",
-        "time": 1787725355110,
-        "updated": 1787725566900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536664",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41536664.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
         "net": "ci",
-        "code": "41536664",
-        "ids": ",ci41536664,",
+        "code": "41537608",
+        "ids": ",ci41537608,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.009678,
+        "nst": 29,
+        "dmin": 0.01019,
         "rms": 0.13,
-        "gap": 65,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 15 km NE of Little Lake, CA"
+        "title": "M 0.7 - 1 km ENE of Palomar Observatory, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.777166666667,
-          36.0245,
-          1.65
+          -116.853,
+          33.3598333333333,
+          13.63
         ]
       },
-      "id": "ci41536664"
+      "id": "ci41537608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "37 km WNW of Toyah, Texas",
+        "time": 1787851297032,
+        "updated": 1787851588724,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qwfjbw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qwfjbw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026qwfjbw",
+        "ids": ",tx2026qwfjbw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 37 km WNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.124,
+          31.502,
+          3.2264
+        ]
+      },
+      "id": "tx2026qwfjbw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.74,
+        "place": "8 km SW of Pāhala, Hawaii",
+        "time": 1787851281450,
+        "updated": 1787851497380,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75024967",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75024967.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "hv",
+        "code": "75024967",
+        "ids": ",hv75024967,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.07002,
+        "rms": 0.25999999,
+        "gap": 128,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 8 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.536163330078,
+          19.1538333892822,
+          -0.629999995231628
+        ]
+      },
+      "id": "hv75024967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "29 km NW of Tumbes, Peru",
+        "time": 1787850568808,
+        "updated": 1787852245040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcbz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tcbz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tcbz",
+        "ids": ",us7000tcbz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.604,
+        "rms": 0.87,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 29 km NW of Tumbes, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6517,
+          -3.3927,
+          38.443
+        ]
+      },
+      "id": "us7000tcbz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "3 km N of Sterling, Alaska",
+        "time": 1787850333195,
+        "updated": 1787852125906,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyxkno",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qyxkno.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026qyxkno",
+        "ids": ",aka2026qyxkno,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 65,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km N of Sterling, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.763,
+          60.573,
+          52.4
+        ]
+      },
+      "id": "aka2026qyxkno"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "58 km SSW of Whites City, New Mexico",
+        "time": 1787850137707,
+        "updated": 1787850321311,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qweqnb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qweqnb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026qweqnb",
+        "ids": ",tx2026qweqnb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 91,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 58 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.606,
+          31.688,
+          3.1025
+        ]
+      },
+      "id": "tx2026qweqnb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1787849904889,
+        "updated": 1787851741899,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qweorg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qweorg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026qweorg",
+        "ids": ",tx2026qweorg,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.474,
+          31.639,
+          8.4198
+        ]
+      },
+      "id": "tx2026qweorg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.46,
+        "place": "17 km ESE of Anza, CA",
+        "time": 1787849871650,
+        "updated": 1787850081555,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537576",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41537576.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41537576",
+        "ids": ",ci41537576,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.08555,
+        "rms": 0.14,
+        "gap": 67,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 17 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.502166666667,
+          33.513,
+          12.65
+        ]
+      },
+      "id": "ci41537576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "35 km W of Mentone, Texas",
+        "time": 1787849388636,
+        "updated": 1787850821999,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qwehmx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qwehmx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "tx",
+        "code": "2026qwehmx",
+        "ids": ",tx2026qwehmx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 35 km W of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.972,
+          31.71,
+          7.8302
+        ]
+      },
+      "id": "tx2026qwehmx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.04,
+        "place": "10 km SW of Idyllwild, CA",
+        "time": 1787849314310,
+        "updated": 1787849931620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537560",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41537560.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "ci",
+        "code": "41537560",
+        "ids": ",ci41537560,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.07438,
+        "rms": 0.15,
+        "gap": 27,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 10 km SW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.797333333333,
+          33.6841666666667,
+          15.81
+        ]
+      },
+      "id": "ci41537560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.47,
+        "place": "10 km NW of Oakland, Oregon",
+        "time": 1787848954490,
+        "updated": 1787852031910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714088272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714088272.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 33,
+        "net": "uw",
+        "code": "714088272",
+        "ids": ",uw714088272,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1837,
+        "rms": 0.16,
+        "gap": 95,
+        "magType": "ml",
+        "type": "explosion",
+        "title": "M 1.5 Explosion - 10 km NW of Oakland, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.404833333333,
+          43.4806666666667,
+          -0.42
+        ]
+      },
+      "id": "uw714088272"
     }
   ],
   "bbox": [
-    -155.36383056641,
-    19.048334121704,
-    0.68999999761581,
-    -117.77716666667,
-    38.832668304443,
-    31
+    -155.53616333008,
+    -3.3927,
+    -0.62999999523163,
+    -80.6517,
+    60.573,
+    52.4
   ]
 }
