@@ -1,221 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787942800000,
+    "generated": 1788007348000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.64,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1787942328150,
-        "updated": 1787942422798,
+        "mag": 3.9,
+        "place": "26 km W of Happy Valley, Alaska",
+        "time": 1788004931837,
+        "updated": 1788006155441,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426422",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75426422.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rcfhvc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rcfhvc.geojson",
+        "felt": 13,
+        "cdi": 3.1,
+        "mmi": 2.76,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75426422",
-        "ids": ",nc75426422,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.005453,
-        "rms": 0.01,
-        "gap": 110,
-        "magType": "md",
+        "sig": 238,
+        "net": "ak",
+        "code": "a2026rcfhvc",
+        "ids": ",aka2026rcfhvc,us7000tctn,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 193,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 55,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 8 km NW of The Geysers, CA"
+        "title": "M 3.9 - 26 km W of Happy Valley, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815498352051,
-          38.826831817627,
-          2.59999990463257
+          -152.213,
+          59.926,
+          92.1
         ]
       },
-      "id": "nc75426422"
+      "id": "aka2026rcfhvc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.76,
-        "place": "2 km NNW of Redway, CA",
-        "time": 1787942038520,
-        "updated": 1787942132865,
+        "mag": 4.3,
+        "place": "Mariana Islands region",
+        "time": 1788004074696,
+        "updated": 1788005044040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426417",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75426417.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "nc",
-        "code": "75426417",
-        "ids": ",nc75426417,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.05672,
-        "rms": 0.05,
-        "gap": 63,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 2 km NNW of Redway, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.827835083008,
-          40.1333351135254,
-          22.5200004577637
-        ]
-      },
-      "id": "nc75426417"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
-        "place": "7 km E of Santa Venetia, CA",
-        "time": 1787941907280,
-        "updated": 1787942003002,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426407",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75426407.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "nc",
-        "code": "75426407",
-        "ids": ",nc75426407,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.02499,
-        "rms": 0.05,
-        "gap": 112,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 7 km E of Santa Venetia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.449501037598,
-          37.9868316650391,
-          1.62999999523163
-        ]
-      },
-      "id": "nc75426407"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "4 km SW of Hulbert, Oklahoma",
-        "time": 1787941761120,
-        "updated": 1787942414413,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026qwbv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026qwbv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tctm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tctm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ok",
-        "code": "2026qwbv",
-        "ids": ",ok2026qwbv,",
-        "sources": ",ok,",
+        "sig": 284,
+        "net": "us",
+        "code": "7000tctm",
+        "ids": ",us7000tctm,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.3086394344,
-        "rms": 0.48,
-        "gap": 94,
-        "magType": "ml",
-        "type": "quarry blast",
-        "title": "M 1.3 Quarry Blast - 4 km SW of Hulbert, Oklahoma"
+        "nst": 43,
+        "dmin": 14.51,
+        "rms": 0.61,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Mariana Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.17366667,
-          35.90366667,
-          0
+          142.9231,
+          21.5766,
+          317.525
         ]
       },
-      "id": "ok2026qwbv"
+      "id": "us7000tctm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "14 km NNW of Stanton, Texas",
-        "time": 1787941004270,
-        "updated": 1787941245047,
+        "mag": 2.2,
+        "place": "0 km WSW of Tallaboa Alta, Puerto Rico",
+        "time": 1788003770070,
+        "updated": 1788004419760,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qycwgn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qycwgn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71530248.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2026qycwgn",
-        "ids": ",tx2026qycwgn,",
-        "sources": ",tx,",
+        "sig": 74,
+        "net": "pr",
+        "code": "71530248",
+        "ids": ",pr71530248,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0,
-        "rms": 0.7,
-        "gap": 81,
-        "magType": "ml",
+        "nst": 6,
+        "dmin": 0.1203,
+        "rms": 0.25,
+        "gap": 170,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 14 km NNW of Stanton, Texas"
+        "title": "M 2.2 - 0 km WSW of Tallaboa Alta, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.862,
-          32.246,
-          8.6135
+          -66.7028333333333,
+          18.0495,
+          6.79
         ]
       },
-      "id": "tx2026qycwgn"
+      "id": "pr71530248"
     }
   ],
   "bbox": [
-    -123.82783508301,
-    32.246,
-    0,
-    -95.17366667,
-    40.133335113525,
-    22.520000457764
+    -152.213,
+    18.0495,
+    6.79,
+    142.9231,
+    59.926,
+    317.525
   ]
 }
