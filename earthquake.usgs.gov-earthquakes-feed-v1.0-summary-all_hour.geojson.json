@@ -1,64 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788007348000,
+    "generated": 1788091080000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 3
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
-        "place": "26 km W of Happy Valley, Alaska",
-        "time": 1788004931837,
-        "updated": 1788006155441,
+        "mag": 0.91,
+        "place": "19 km ESE of Little Lake, CA",
+        "time": 1788090351450,
+        "updated": 1788090557600,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rcfhvc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rcfhvc.geojson",
-        "felt": 13,
-        "cdi": 3.1,
-        "mmi": 2.76,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539160",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539160.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 238,
-        "net": "ak",
-        "code": "a2026rcfhvc",
-        "ids": ",aka2026rcfhvc,us7000tctn,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 193,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 55,
+        "sig": 13,
+        "net": "ci",
+        "code": "41539160",
+        "ids": ",ci41539160,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.07676,
+        "rms": 0.15,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 26 km W of Happy Valley, Alaska"
+        "title": "M 0.9 - 19 km ESE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.213,
-          59.926,
-          92.1
+          -117.705666666667,
+          35.8855,
+          3.58
         ]
       },
-      "id": "aka2026rcfhvc"
+      "id": "ci41539160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "17 km NNW of Nikiski, Alaska",
+        "time": 1788089643427,
+        "updated": 1788089702626,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026reaktv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026reaktv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026reaktv",
+        "ids": ",aka2026reaktv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.5,
+        "rms": 0.3,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 17 km NNW of Nikiski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.402,
+          60.838,
+          76.3
+        ]
+      },
+      "id": "aka2026reaktv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "0 km S of Pāhala, Hawaii",
+        "time": 1788089479970,
+        "updated": 1788089696790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75026802",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75026802.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "hv",
+        "code": "75026802",
+        "ids": ",hv75026802,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.04494,
+        "rms": 0.150000006,
+        "gap": 103,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 0 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.477996826172,
+          19.1979999542236,
+          29.8099994659424
+        ]
+      },
+      "id": "hv75026802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1788089053340,
+        "updated": 1788091041864,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75427182",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75427182.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75427182",
+        "ids": ",nc75427182,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.008152,
+        "rms": 0.01,
+        "gap": 63,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.819000244141,
+          38.8106651306152,
+          2.88000011444092
+        ]
+      },
+      "id": "nc75427182"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Mariana Islands region",
-        "time": 1788004074696,
-        "updated": 1788005044040,
+        "place": "90 km SW of Brisas Barra de Suchiate, Mexico",
+        "time": 1788088888783,
+        "updated": 1788090182040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tctm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tctm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcyl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tcyl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,75 +187,195 @@
         "tsunami": 0,
         "sig": 284,
         "net": "us",
-        "code": "7000tctm",
-        "ids": ",us7000tctm,",
+        "code": "7000tcyl",
+        "ids": ",us7000tcyl,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 14.51,
-        "rms": 0.61,
-        "gap": 146,
+        "nst": 38,
+        "dmin": 2.34,
+        "rms": 1.14,
+        "gap": 188,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Mariana Islands region"
+        "title": "M 4.3 - 90 km SW of Brisas Barra de Suchiate, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.9231,
-          21.5766,
-          317.525
+          -92.8925,
+          14.0451,
+          34.44
         ]
       },
-      "id": "us7000tctm"
+      "id": "us7000tcyl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "0 km WSW of Tallaboa Alta, Puerto Rico",
-        "time": 1788003770070,
-        "updated": 1788004419760,
+        "mag": 1.44,
+        "place": "19 km ESE of Little Lake, CA",
+        "time": 1788088499510,
+        "updated": 1788088704531,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530248",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71530248.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539152.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "ci",
+        "code": "41539152",
+        "ids": ",ci41539152,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.07728,
+        "rms": 0.17,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 19 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.702333333333,
+          35.883,
+          3.6
+        ]
+      },
+      "id": "ci41539152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "87 km NNW of Karluk, Alaska",
+        "time": 1788088465718,
+        "updated": 1788088550251,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rdzttb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rdzttb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ak",
+        "code": "a2026rdzttb",
+        "ids": ",aka2026rdzttb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 217,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 87 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.89,
+          58.322,
+          5
+        ]
+      },
+      "id": "aka2026rdzttb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "39 km SSW of Cantwell, Alaska",
+        "time": 1788088439696,
+        "updated": 1788089304040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rdztjd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rdztjd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026rdztjd",
+        "ids": ",us7000tcyi,aka2026rdztjd,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 39 km SSW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.272,
+          63.066,
+          76.1
+        ]
+      },
+      "id": "aka2026rdztjd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "52 km NNE of Ruteng, Indonesia",
+        "time": 1788087783581,
+        "updated": 1788090665040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcyr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tcyr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 74,
-        "net": "pr",
-        "code": "71530248",
-        "ids": ",pr71530248,",
-        "sources": ",pr,",
+        "sig": 326,
+        "net": "us",
+        "code": "7000tcyr",
+        "ids": ",us7000tcyr,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1203,
-        "rms": 0.25,
-        "gap": 170,
-        "magType": "md",
+        "nst": 24,
+        "dmin": 3.247,
+        "rms": 0.79,
+        "gap": 96,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.2 - 0 km WSW of Tallaboa Alta, Puerto Rico"
+        "title": "M 4.6 - 52 km NNE of Ruteng, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.7028333333333,
-          18.0495,
-          6.79
+          120.6265,
+          -8.1634,
+          10
         ]
       },
-      "id": "pr71530248"
+      "id": "us7000tcyr"
     }
   ],
   "bbox": [
-    -152.213,
-    18.0495,
-    6.79,
-    142.9231,
-    59.926,
-    317.525
+    -155.47799682617,
+    -8.1634,
+    2.8800001144409,
+    120.6265,
+    63.066,
+    76.3
   ]
 }
