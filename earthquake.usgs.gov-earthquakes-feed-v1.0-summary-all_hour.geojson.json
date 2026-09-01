@@ -1,261 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788184720000,
+    "generated": 1788262981000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "8 km NNE of Pala, CA",
-        "time": 1788184022790,
-        "updated": 1788184573015,
+        "mag": 1.85,
+        "place": "17 km WNW of Cape Vizcaino, CA",
+        "time": 1788262572310,
+        "updated": 1788262668628,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539728",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539728.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41539728",
-        "ids": ",ci41539728,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.04183,
-        "rms": 0.19,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km NNE of Pala, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.040666666667,
-          33.4303333333333,
-          6.91
-        ]
-      },
-      "id": "ci41539728"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "17 km N of Meadow Lakes, Alaska",
-        "time": 1788183849659,
-        "updated": 1788183922425,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rgaudb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rgaudb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428152.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 53,
+        "net": "nc",
+        "code": "75428152",
+        "ids": ",nc75428152,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.1618,
+        "rms": 0.12,
+        "gap": 187,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 17 km WNW of Cape Vizcaino, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.012001037598,
+          39.7851676940918,
+          0.239999994635582
+        ]
+      },
+      "id": "nc75428152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "89 km ESE of Egegik, Alaska",
+        "time": 1788261829628,
+        "updated": 1788261886092,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhsdak",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rhsdak.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
         "net": "ak",
-        "code": "a2026rgaudb",
-        "ids": ",aka2026rgaudb,",
+        "code": "a2026rhsdak",
+        "ids": ",aka2026rhsdak,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 122,
+        "nst": 32,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 17 km N of Meadow Lakes, Alaska"
+        "title": "M 2.1 - 89 km ESE of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.618,
-          61.786,
-          43.6
+          -156.016,
+          57.863,
+          9.1
         ]
       },
-      "id": "aka2026rgaudb"
+      "id": "aka2026rhsdak"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.36,
-        "place": "10 km ENE of Coso Junction, CA",
-        "time": 1788183665230,
-        "updated": 1788183877508,
+        "mag": 0.62,
+        "place": "2 km W of Aguanga, CA",
+        "time": 1788261444560,
+        "updated": 1788261650148,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539720",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539720.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540120",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540120.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 28,
+        "sig": 6,
         "net": "ci",
-        "code": "41539720",
-        "ids": ",ci41539720,",
+        "code": "41540120",
+        "ids": ",ci41540120,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1947,
-        "rms": 0.11,
-        "gap": 245,
+        "nst": 37,
+        "dmin": 0.04467,
+        "rms": 0.18,
+        "gap": 32,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 10 km ENE of Coso Junction, CA"
+        "title": "M 0.6 - 2 km W of Aguanga, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.839333333333,
-          36.0683333333333,
-          -0.56
+          -116.887666666667,
+          33.4416666666667,
+          13.84
         ]
       },
-      "id": "ci41539720"
+      "id": "ci41540120"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "49 km W of Mentone, Texas",
-        "time": 1788182356699,
-        "updated": 1788182574354,
+        "mag": 0.69,
+        "place": "10 km ENE of Coso Junction, CA",
+        "time": 1788261355940,
+        "updated": 1788261558010,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rdgfto",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rdgfto.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540112",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540112.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2026rdgfto",
-        "ids": ",tx2026rdgfto,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 49 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.12,
-          31.735,
-          4.4267
-        ]
-      },
-      "id": "tx2026rdgfto"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.91,
-        "place": "7 km SW of Volcano, Hawaii",
-        "time": 1788181865510,
-        "updated": 1788182092740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75027247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75027247.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "hv",
-        "code": "75027247",
-        "ids": ",hv75027247,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.003738,
-        "rms": 0.219999999,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 7 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.27799987793,
-          19.3878326416016,
-          1.28999996185303
-        ]
-      },
-      "id": "hv75027247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "7 km SW of Holtville, CA",
-        "time": 1788181130090,
-        "updated": 1788181343630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539688.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
+        "sig": 7,
         "net": "ci",
-        "code": "41539688",
-        "ids": ",ci41539688,",
+        "code": "41540112",
+        "ids": ",ci41540112,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.09916,
-        "rms": 0.28,
-        "gap": 66,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.05354,
+        "rms": 0.12,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 7 km SW of Holtville, CA"
+        "title": "M 0.7 - 10 km ENE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.4275,
-          32.7626666666667,
-          16.7
+          -117.838166666667,
+          36.0656666666667,
+          2.7
         ]
       },
-      "id": "ci41539688"
+      "id": "ci41540112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.98,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1788260009520,
+        "updated": 1788261742043,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428142",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428142.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75428142",
+        "ids": ",nc75428142,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.007867,
+        "rms": 0.01,
+        "gap": 77,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81616973877,
+          38.8296661376953,
+          1.91999995708466
+        ]
+      },
+      "id": "nc75428142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.09,
+        "place": "16 km SE of Anza, CA",
+        "time": 1788259975230,
+        "updated": 1788260184996,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540104",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540104.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 0,
+        "net": "ci",
+        "code": "41540104",
+        "ids": ",ci41540104,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.05985,
+        "rms": 0.09,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.1 - 16 km SE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5435,
+          33.4603333333333,
+          10.7
+        ]
+      },
+      "id": "ci41540104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "21 km ENE of Little Lake, CA",
+        "time": 1788259654230,
+        "updated": 1788259866915,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540096.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41540096",
+        "ids": ",ci41540096,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.04713,
+        "rms": 0.1,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 21 km ENE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.707666666667,
+          36.0316666666667,
+          2.1
+        ]
+      },
+      "id": "ci41540096"
     }
   ],
   "bbox": [
-    -155.27799987793,
-    19.387832641602,
-    -0.56,
-    -104.12,
-    61.786,
-    43.6
+    -156.016,
+    33.441666666667,
+    0.23999999463558,
+    -116.5435,
+    57.863,
+    13.84
   ]
 }
