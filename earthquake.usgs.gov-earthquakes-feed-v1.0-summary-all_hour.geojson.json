@@ -1,144 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788262981000,
+    "generated": 1788348221000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.85,
-        "place": "17 km WNW of Cape Vizcaino, CA",
-        "time": 1788262572310,
-        "updated": 1788262668628,
+        "mag": 1.63,
+        "place": "4 km ESE of Hayward, CA",
+        "time": 1788348083340,
+        "updated": 1788348178155,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428152.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428692",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428692.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 53,
+        "sig": 41,
         "net": "nc",
-        "code": "75428152",
-        "ids": ",nc75428152,",
+        "code": "75428692",
+        "ids": ",nc75428692,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.06149,
+        "rms": 0.13,
+        "gap": 73,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 4 km ESE of Hayward, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035667419434,
+          37.6323318481445,
+          7.53000020980835
+        ]
+      },
+      "id": "nc75428692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.01,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1788346853350,
+        "updated": 1788346948079,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428687.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75428687",
+        "ids": ",nc75428687,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 15,
-        "dmin": 0.1618,
-        "rms": 0.12,
-        "gap": 187,
+        "dmin": 0.001805,
+        "rms": 0.05,
+        "gap": 110,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 17 km WNW of Cape Vizcaino, CA"
+        "title": "M 1.0 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.012001037598,
-          39.7851676940918,
-          0.239999994635582
+          -122.837333679199,
+          38.8375015258789,
+          1.4099999666214
         ]
       },
-      "id": "nc75428152"
+      "id": "nc75428687"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "89 km ESE of Egegik, Alaska",
-        "time": 1788261829628,
-        "updated": 1788261886092,
+        "mag": 1.8,
+        "place": "11 km E of Tyonek, Alaska",
+        "time": 1788346671369,
+        "updated": 1788346790635,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhsdak",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rhsdak.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rjnhbp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rjnhbp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 50,
         "net": "ak",
-        "code": "a2026rhsdak",
-        "ids": ",aka2026rhsdak,",
+        "code": "a2026rjnhbp",
+        "ids": ",aka2026rjnhbp,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 76,
+        "nst": 34,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 89 km ESE of Egegik, Alaska"
+        "title": "M 1.8 - 11 km E of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.016,
-          57.863,
-          9.1
+          -150.925,
+          61.058,
+          57.7
         ]
       },
-      "id": "aka2026rhsdak"
+      "id": "aka2026rjnhbp"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.62,
-        "place": "2 km W of Aguanga, CA",
-        "time": 1788261444560,
-        "updated": 1788261650148,
+        "mag": 0.66,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1788346634150,
+        "updated": 1788348142625,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540120",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540120.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41540120",
-        "ids": ",ci41540120,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.04467,
-        "rms": 0.18,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 2 km W of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.887666666667,
-          33.4416666666667,
-          13.84
-        ]
-      },
-      "id": "ci41540120"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "10 km ENE of Coso Junction, CA",
-        "time": 1788261355940,
-        "updated": 1788261558010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540112",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540112.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428682.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,119 +146,79 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 7,
-        "net": "ci",
-        "code": "41540112",
-        "ids": ",ci41540112,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.05354,
-        "rms": 0.12,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 10 km ENE of Coso Junction, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.838166666667,
-          36.0656666666667,
-          2.7
-        ]
-      },
-      "id": "ci41540112"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.98,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1788260009520,
-        "updated": 1788261742043,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428142",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428142.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
         "net": "nc",
-        "code": "75428142",
-        "ids": ",nc75428142,",
+        "code": "75428682",
+        "ids": ",nc75428682,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.007867,
+        "nst": 11,
+        "dmin": 0.001201,
         "rms": 0.01,
-        "gap": 77,
+        "gap": 112,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+        "title": "M 0.7 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.81616973877,
-          38.8296661376953,
-          1.91999995708466
+          -122.836166381836,
+          38.8396682739258,
+          1.48000001907349
         ]
       },
-      "id": "nc75428142"
+      "id": "nc75428682"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.09,
-        "place": "16 km SE of Anza, CA",
-        "time": 1788259975230,
-        "updated": 1788260184996,
+        "mag": 5.2,
+        "place": "South Sandwich Islands region",
+        "time": 1788346442666,
+        "updated": 1788347566040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540104",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540104.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tdkr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 0,
-        "net": "ci",
-        "code": "41540104",
-        "ids": ",ci41540104,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.05985,
-        "rms": 0.09,
-        "gap": 85,
-        "magType": "ml",
+        "sig": 416,
+        "net": "us",
+        "code": "7000tdkr",
+        "ids": ",us7000tdkr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 5.864,
+        "rms": 0.61,
+        "gap": 68,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 0.1 - 16 km SE of Anza, CA"
+        "title": "M 5.2 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5435,
-          33.4603333333333,
-          10.7
+          -26.904,
+          -56.3968,
+          84.064
         ]
       },
-      "id": "ci41540104"
+      "id": "us7000tdkr"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.8,
-        "place": "21 km ENE of Little Lake, CA",
-        "time": 1788259654230,
-        "updated": 1788259866915,
+        "place": "32 km W of Ester, Alaska",
+        "time": 1788345349287,
+        "updated": 1788345410328,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540096",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540096.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rjmnza",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rjmnza.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,36 +226,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "ci",
-        "code": "41540096",
-        "ids": ",ci41540096,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.04713,
-        "rms": 0.1,
-        "gap": 60,
+        "net": "ak",
+        "code": "a2026rjmnza",
+        "ids": ",aka2026rjmnza,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 175,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 21 km ENE of Little Lake, CA"
+        "title": "M 0.8 - 32 km W of Ester, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.707666666667,
-          36.0316666666667,
-          2.1
+          -148.689,
+          64.903,
+          21
         ]
       },
-      "id": "ci41540096"
+      "id": "aka2026rjmnza"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.37,
+        "place": "12 km W of Anza, CA",
+        "time": 1788345272490,
+        "updated": 1788345474663,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540592",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41540592.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "41540592",
+        "ids": ",ci41540592,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.05036,
+        "rms": 0.12,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 12 km W of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.796666666667,
+          33.5745,
+          7.14
+        ]
+      },
+      "id": "ci41540592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.65,
+        "place": "5 km WNW of Lucien, Oklahoma",
+        "time": 1788345221442,
+        "updated": 1788345333824,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026repq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026repq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 42,
+        "net": "ok",
+        "code": "2026repq",
+        "ids": ",ok2026repq,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.06572131068,
+        "rms": 0.3273285021,
+        "gap": 69.90983582,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 5 km WNW of Lucien, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51078796,
+          36.29497147,
+          4.243603706
+        ]
+      },
+      "id": "ok2026repq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.49,
+        "place": "5 km E of Fremont, CA",
+        "time": 1788345011320,
+        "updated": 1788346045381,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428677",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428677.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 34,
+        "net": "nc",
+        "code": "75428677",
+        "ids": ",nc75428677,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.0793,
+        "rms": 0.05,
+        "gap": 72,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 5 km E of Fremont, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.923164367676,
+          37.5356674194336,
+          4.21000003814697
+        ]
+      },
+      "id": "nc75428677"
     }
   ],
   "bbox": [
-    -156.016,
-    33.441666666667,
-    0.23999999463558,
-    -116.5435,
-    57.863,
-    13.84
+    -150.925,
+    -56.3968,
+    1.4099999666214,
+    -26.904,
+    64.903,
+    84.064
   ]
 }
