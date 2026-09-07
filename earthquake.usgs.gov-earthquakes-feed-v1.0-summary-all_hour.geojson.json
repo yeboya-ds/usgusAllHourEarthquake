@@ -1,341 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788692506000,
+    "generated": 1788784875000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 8
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.18,
-        "place": "16 km WSW of Johannesburg, CA",
-        "time": 1788692173610,
-        "updated": 1788692380501,
+        "mag": 1.38,
+        "place": "4 km NNE of Progreso, B.C., MX",
+        "time": 1788783947230,
+        "updated": 1788784147201,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542072",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542072.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542312.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 21,
+        "sig": 29,
         "net": "ci",
-        "code": "41542072",
-        "ids": ",ci41542072,",
+        "code": "41542312",
+        "ids": ",ci41542312,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.06991,
-        "rms": 0.2,
-        "gap": 36,
+        "nst": 24,
+        "dmin": 0.07883,
+        "rms": 0.25,
+        "gap": 81,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 16 km WSW of Johannesburg, CA"
+        "title": "M 1.4 - 4 km NNE of Progreso, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.801166666667,
-          35.3271666666667,
-          5.64
+          -115.567833333333,
+          32.616,
+          4.07
         ]
       },
-      "id": "ci41542072"
+      "id": "ci41542312"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "3 km SSW of Chenega, Alaska",
-        "time": 1788691800821,
-        "updated": 1788692006386,
+        "mag": 1.44,
+        "place": "5 km NNE of Progreso, B.C., MX",
+        "time": 1788783739630,
+        "updated": 1788783949777,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rqxcnx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rqxcnx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542304",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542304.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026rqxcnx",
-        "ids": ",aka2026rqxcnx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km SSW of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.025,
-          60.038,
-          36.8
-        ]
-      },
-      "id": "aka2026rqxcnx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.95,
-        "place": "3 km W of Dixon Lane-Meadow Creek, CA",
-        "time": 1788690801030,
-        "updated": 1788692244093,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75430567",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75430567.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 58,
-        "net": "nc",
-        "code": "75430567",
-        "ids": ",nc75430567,nn00924216,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.0464,
-        "rms": 0,
-        "gap": 192,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 3 km W of Dixon Lane-Meadow Creek, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.444664001465,
-          37.3844985961914,
-          13.6000003814697
-        ]
-      },
-      "id": "nc75430567"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "southern East Pacific Rise",
-        "time": 1788690748227,
-        "updated": 1788692214040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tep6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tep6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000tep6",
-        "ids": ",us7000tep6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 39.524,
-        "rms": 1.23,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - southern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6112,
-          -24.5304,
-          10
-        ]
-      },
-      "id": "us7000tep6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "33 km NNW of Toyah, Texas",
-        "time": 1788690024402,
-        "updated": 1788692488960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026roapnf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026roapnf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026roapnf",
-        "ids": ",tx2026roapnf,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 33 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.962,
-          31.576,
-          5.483
-        ]
-      },
-      "id": "tx2026roapnf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "32 km NNW of Toyah, Texas",
-        "time": 1788689861307,
-        "updated": 1788692444434,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026roaojv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026roaojv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026roaojv",
-        "ids": ",tx2026roaojv,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 32 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.958,
-          31.573,
-          4.8042
-        ]
-      },
-      "id": "tx2026roaojv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.89,
-        "place": "13 km W of Anza, CA",
-        "time": 1788689847380,
-        "updated": 1788690056318,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542056",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542056.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
+        "sig": 32,
         "net": "ci",
-        "code": "41542056",
-        "ids": ",ci41542056,",
+        "code": "41542304",
+        "ids": ",ci41542304,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.0453,
-        "rms": 0.18,
-        "gap": 21,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.07738,
+        "rms": 0.31,
+        "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 13 km W of Anza, CA"
+        "title": "M 1.4 - 5 km NNE of Progreso, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.808,
-          33.567,
-          5.98
+          -115.557,
+          32.6143333333333,
+          4.24
         ]
       },
-      "id": "ci41542056"
+      "id": "ci41542304"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.73,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1788689376580,
-        "updated": 1788690744917,
+        "mag": 0.94,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1788782759960,
+        "updated": 1788784342574,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75430562",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75430562.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431102",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75431102.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 14,
         "net": "nc",
-        "code": "75430562",
-        "ids": ",nc75430562,",
+        "code": "75431102",
+        "ids": ",nc75431102,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.01706,
-        "rms": 0.04,
-        "gap": 76,
+        "nst": 12,
+        "dmin": 0.005014,
+        "rms": 0.01,
+        "gap": 86,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 5 km NW of The Geysers, CA"
+        "title": "M 0.9 - 9 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.794830322266,
-          38.811164855957,
-          4.55000019073486
+          -122.829330444336,
+          38.8371658325195,
+          2.19000005722046
         ]
       },
-      "id": "nc75430562"
+      "id": "nc75431102"
     }
   ],
   "bbox": [
-    -148.025,
-    -24.5304,
-    4.5500001907349,
-    -103.958,
-    60.038,
-    36.8
+    -122.82933044434,
+    32.614333333333,
+    2.1900000572205,
+    -115.557,
+    38.83716583252,
+    4.24
   ]
 }
