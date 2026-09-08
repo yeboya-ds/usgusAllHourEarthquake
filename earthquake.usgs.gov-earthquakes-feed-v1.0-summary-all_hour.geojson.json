@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788784875000,
+    "generated": 1788866656000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,130 +12,130 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.38,
-        "place": "4 km NNE of Progreso, B.C., MX",
-        "time": 1788783947230,
-        "updated": 1788784147201,
+        "mag": 1.01,
+        "place": "8 km W of Cobb, CA",
+        "time": 1788864703360,
+        "updated": 1788865942589,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542312",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542312.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431652",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75431652.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "41542312",
-        "ids": ",ci41542312,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.07883,
-        "rms": 0.25,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 4 km NNE of Progreso, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.567833333333,
-          32.616,
-          4.07
-        ]
-      },
-      "id": "ci41542312"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.44,
-        "place": "5 km NNE of Progreso, B.C., MX",
-        "time": 1788783739630,
-        "updated": 1788783949777,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542304",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542304.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 32,
-        "net": "ci",
-        "code": "41542304",
-        "ids": ",ci41542304,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.07738,
-        "rms": 0.31,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 5 km NNE of Progreso, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.557,
-          32.6143333333333,
-          4.24
-        ]
-      },
-      "id": "ci41542304"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.94,
-        "place": "9 km NW of The Geysers, CA",
-        "time": 1788782759960,
-        "updated": 1788784342574,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431102",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75431102.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
+        "sig": 16,
         "net": "nc",
-        "code": "75431102",
-        "ids": ",nc75431102,",
+        "code": "75431652",
+        "ids": ",nc75431652,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.005014,
+        "nst": 19,
+        "dmin": 0.01118,
         "rms": 0.01,
-        "gap": 86,
+        "gap": 55,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 9 km NW of The Geysers, CA"
+        "title": "M 1.0 - 8 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.829330444336,
-          38.8371658325195,
-          2.19000005722046
+          -122.814666748047,
+          38.8339996337891,
+          1.82000005245209
         ]
       },
-      "id": "nc75431102"
+      "id": "nc75431652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "105 km SSE of King Cove, Alaska",
+        "time": 1788864542312,
+        "updated": 1788865559040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tft5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tft5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.568,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tft5",
+        "ids": ",us7000tft5,aka2026rupcub,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 24,
+        "dmin": 1.264,
+        "rms": 0.44,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 105 km SSE of King Cove, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.5285,
+          54.2361,
+          35
+        ]
+      },
+      "id": "us7000tft5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "8 km SSW of Idyllwild, CA",
+        "time": 1788863855700,
+        "updated": 1788864063925,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542736",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542736.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41542736",
+        "ids": ",ci41542736,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.06079,
+        "rms": 0.15,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 8 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.746666666667,
+          33.6675,
+          13.34
+        ]
+      },
+      "id": "ci41542736"
     }
   ],
   "bbox": [
-    -122.82933044434,
-    32.614333333333,
-    2.1900000572205,
-    -115.557,
-    38.83716583252,
-    4.24
+    -161.5285,
+    33.6675,
+    1.8200000524521,
+    -116.74666666667,
+    54.2361,
+    35
   ]
 }
