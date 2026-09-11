@@ -1,64 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789039560000,
+    "generated": 1789126070000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "69 km SSE of Kokhanok, Alaska",
-        "time": 1789038629827,
-        "updated": 1789038801009,
+        "mag": 1.4,
+        "place": "31 km NW of Tatitlek, Alaska",
+        "time": 1789125889540,
+        "updated": 1789125992343,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ryhwhm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ryhwhm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026saejor",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026saejor.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 30,
         "net": "ak",
-        "code": "a2026ryhwhm",
-        "ids": ",aka2026ryhwhm,",
+        "code": "a2026saejor",
+        "ids": ",aka2026saejor,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.3,
+        "nst": 26,
+        "dmin": 0.2,
         "rms": 0.8,
-        "gap": 60,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 69 km SSE of Kokhanok, Alaska"
+        "title": "M 1.4 - 31 km NW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.298,
-          58.87,
-          130
+          -147.063,
+          61.076,
+          11.2
         ]
       },
-      "id": "aka2026ryhwhm"
+      "id": "aka2026saejor"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.29,
+        "place": "7 km WSW of Lytle Creek, CA",
+        "time": 1789125642690,
+        "updated": 1789125844679,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41544720",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41544720.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ci",
+        "code": "41544720",
+        "ids": ",ci41544720,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.05678,
+        "rms": 0.2,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 7 km WSW of Lytle Creek, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.565833333333,
+          34.2225,
+          13.56
+        ]
+      },
+      "id": "ci41544720"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.79,
-        "place": "8 km SSW of Idyllwild, CA",
-        "time": 1789038352220,
-        "updated": 1789038563259,
+        "place": "19 km NNE of Pine Valley, CA",
+        "time": 1789123684990,
+        "updated": 1789123885103,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41544056",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41544056.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41544712",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41544712.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,195 +107,115 @@
         "tsunami": 0,
         "sig": 10,
         "net": "ci",
-        "code": "41544056",
-        "ids": ",ci41544056,",
+        "code": "41544712",
+        "ids": ",ci41544712,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.04921,
-        "rms": 0.13,
-        "gap": 60,
+        "nst": 38,
+        "dmin": 0.02093,
+        "rms": 0.18,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 8 km SSW of Idyllwild, CA"
+        "title": "M 0.8 - 19 km NNE of Pine Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7575,
-          33.6776666666667,
-          14.54
+          -116.4355,
+          32.973,
+          11.5
         ]
       },
-      "id": "ci41544056"
+      "id": "ci41544712"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "11 km NNE of Four Mile Road, Alaska",
-        "time": 1789038330769,
-        "updated": 1789038422680,
+        "mag": 5.3,
+        "place": "151 km WSW of Adak, Alaska",
+        "time": 1789123632613,
+        "updated": 1789126039683,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ryhsgp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ryhsgp.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgky",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tgky.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026ryhsgp",
-        "ids": ",aka2026ryhsgp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 11 km NNE of Four Mile Road, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.065,
-          64.707,
-          1.8
-        ]
-      },
-      "id": "aka2026ryhsgp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.02,
-        "place": "11 km S of Volcano, Hawaii",
-        "time": 1789037904070,
-        "updated": 1789038115730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75032307",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75032307.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "hv",
-        "code": "75032307",
-        "ids": ",hv75032307,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.03555,
-        "rms": 0.109999999,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 11 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.232498168945,
-          19.3386669158936,
-          29.6700000762939
-        ]
-      },
-      "id": "hv75032307"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "9 km WNW of The Geysers, CA",
-        "time": 1789037487420,
-        "updated": 1789037585204,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75433077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75433077.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "nc",
-        "code": "75433077",
-        "ids": ",nc75433077,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.0143,
-        "rms": 0.07,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 9 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.853332519531,
-          38.8128318786621,
-          -0.800000011920929
-        ]
-      },
-      "id": "nc75433077"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "116 km WSW of Alianza Cristiana, Peru",
-        "time": 1789036776283,
-        "updated": 1789038708486,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg9q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tg9q.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
+        "mmi": 5.274,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
+        "tsunami": 1,
+        "sig": 432,
         "net": "us",
-        "code": "7000tg9q",
-        "ids": ",us7000tg9q,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.408,
-        "rms": 1.26,
-        "gap": 102,
+        "code": "7000tgky",
+        "ids": ",us7000tgky,attl74mn,aka2026sadcxu,",
+        "sources": ",us,at,ak,",
+        "types": ",event-sequence,impact-link,oaf,origin,phase-data,shakemap,",
+        "nst": 107,
+        "dmin": 0.381,
+        "rms": 1.11,
+        "gap": 127,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 116 km WSW of Alianza Cristiana, Peru"
+        "title": "M 5.3 - 151 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.3635,
-          -3.9669,
-          22.065
+          -178.5429,
+          51.213,
+          40.892
         ]
       },
-      "id": "us7000tg9q"
+      "id": "us7000tgky"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.05,
+        "place": "2 km NW of Honaunau-Napoopoo, Hawaii",
+        "time": 1789123500190,
+        "updated": 1789123713160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75033087",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75033087.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "hv",
+        "code": "75033087",
+        "ids": ",hv75033087,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.1729,
+        "rms": 0.209999993,
+        "gap": 195,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km NW of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.88200378418,
+          19.4681663513184,
+          8.77000045776367
+        ]
+      },
+      "id": "hv75033087"
     }
   ],
   "bbox": [
-    -155.23249816894,
-    -3.9669,
-    -0.80000001192093,
-    -77.3635,
-    64.707,
-    130
+    -178.5429,
+    19.468166351318,
+    8.7700004577637,
+    -116.4355,
+    61.076,
+    40.892
   ]
 }
