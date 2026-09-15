@@ -1,224 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789390582000,
+    "generated": 1789473025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.11999989,
-        "place": "2 km SW of Fall City, Washington",
-        "time": 1789389498490,
-        "updated": 1789389651190,
+        "mag": 0.76,
+        "place": "0 km NW of The Geysers, CA",
+        "time": 1789472583140,
+        "updated": 1789472679920,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714101791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714101791.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75436002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75436002.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 69,
+        "sig": 9,
+        "net": "nc",
+        "code": "75436002",
+        "ids": ",nc75436002,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.0103,
+        "rms": 0.02,
+        "gap": 73,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 0 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.758834838867,
+          38.7794990539551,
+          1.02999997138977
+        ]
+      },
+      "id": "nc75436002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.55522322654724,
+        "place": "12 km WNW of Amboy, Washington",
+        "time": 1789470215820,
+        "updated": 1789470358810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714102521",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714102521.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 37,
         "net": "uw",
-        "code": "714101791",
-        "ids": ",uw714101791,",
+        "code": "714102521",
+        "ids": ",uw714102521,",
         "sources": ",uw,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.1161,
-        "rms": 0.0900000036,
-        "gap": 88,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km SW of Fall City, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.909332275391,
-          47.5504989624023,
-          18.8700008392334
-        ]
-      },
-      "id": "uw714101791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1789389289720,
-        "updated": 1789389386762,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435542",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75435542.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75435542",
-        "ids": ",nc75435542,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.01066,
-        "rms": 0.03,
-        "gap": 50,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 6 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813163757324,
-          38.8129997253418,
-          2.6800000667572
-        ]
-      },
-      "id": "nc75435542"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.52,
-        "place": "18 km E of Julian, CA",
-        "time": 1789389248560,
-        "updated": 1789389457656,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41546976",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41546976.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41546976",
-        "ids": ",ci41546976,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.02943,
-        "rms": 0.17,
-        "gap": 70,
+        "nst": 35,
+        "dmin": 0.1163,
+        "rms": 0.0799999982,
+        "gap": 159,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 18 km E of Julian, CA"
+        "title": "M 1.6 - 12 km WNW of Amboy, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.409666666667,
-          33.0601666666667,
-          5.72
+          -122.578834533691,
+          45.9661674499512,
+          15.1199998855591
         ]
       },
-      "id": "ci41546976"
+      "id": "uw714102521"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "6 km WNW of The Geysers, CA",
-        "time": 1789388073690,
-        "updated": 1789389743225,
+        "mag": 1.79,
+        "place": "14 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1789469643020,
+        "updated": 1789469853880,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435532",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75435532.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75036227",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75036227.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75435532",
-        "ids": ",nc75435532,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.01198,
-        "rms": 0.03,
-        "gap": 84,
-        "magType": "md",
+        "sig": 49,
+        "net": "hv",
+        "code": "75036227",
+        "ids": ",hv75036227,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.06434,
+        "rms": 0.280000001,
+        "gap": 213,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km WNW of The Geysers, CA"
+        "title": "M 1.8 - 14 km S of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.8193359375,
-          38.7996673583984,
-          2.90000009536743
+          -155.867828369141,
+          19.3279991149902,
+          5.07000017166138
         ]
       },
-      "id": "nc75435532"
+      "id": "hv75036227"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.04,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1789387640250,
-        "updated": 1789389744224,
+        "mag": 1.48086109506631,
+        "place": "4 km SE of Loma Linda, CA",
+        "time": 1789469515810,
+        "updated": 1789469641087,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435527",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75435527.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75435527",
-        "ids": ",nc75435527,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.004644,
-        "rms": 0.02,
-        "gap": 61,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.762001037598,
-          38.7963333129883,
-          0.959999978542328
-        ]
-      },
-      "id": "nc75435527"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.48,
-        "place": "16 km NNW of Fillmore, CA",
-        "time": 1789387370410,
-        "updated": 1789387577763,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41546968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41546968.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333071",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41333071.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,75 +147,35 @@
         "tsunami": 0,
         "sig": 34,
         "net": "ci",
-        "code": "41546968",
-        "ids": ",ci41546968,",
+        "code": "41333071",
+        "ids": ",ci41333071,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": 0.08111,
-        "rms": 0.27,
-        "gap": 38,
+        "nst": 56,
+        "dmin": 0.08781,
+        "rms": 0.180000007,
+        "gap": 77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 16 km NNW of Fillmore, CA"
+        "title": "M 1.5 - 4 km SE of Loma Linda, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.990333333333,
-          34.5331666666667,
-          -0.68
+          -117.222999572754,
+          34.0248336791992,
+          15.0600004196167
         ]
       },
-      "id": "ci41546968"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "25 km SE of Minto, Alaska",
-        "time": 1789387285417,
-        "updated": 1789387368882,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sftqzy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sftqzy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ak",
-        "code": "a2026sftqzy",
-        "ids": ",aka2026sftqzy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 25 km SE of Minto, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.957,
-          64.991,
-          4.9
-        ]
-      },
-      "id": "aka2026sftqzy"
+      "id": "ci41333071"
     }
   ],
   "bbox": [
-    -148.957,
-    33.060166666667,
-    -0.68,
-    -116.40966666667,
-    64.991,
-    18.870000839233
+    -155.86782836914,
+    19.32799911499,
+    1.0299999713898,
+    -117.22299957275,
+    45.966167449951,
+    15.119999885559
   ]
 }
