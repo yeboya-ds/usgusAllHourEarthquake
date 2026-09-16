@@ -1,181 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789473025000,
+    "generated": 1789559009000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "0 km NW of The Geysers, CA",
-        "time": 1789472583140,
-        "updated": 1789472679920,
+        "mag": 1.57,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1789558609620,
+        "updated": 1789558820380,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75436002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75436002.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75436512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75436512.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
+        "sig": 38,
         "net": "nc",
-        "code": "75436002",
-        "ids": ",nc75436002,",
+        "code": "75436512",
+        "ids": ",nc75436512,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.0103,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.009434,
         "rms": 0.02,
-        "gap": 73,
+        "gap": 49,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 0 km NW of The Geysers, CA"
+        "title": "M 1.6 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.758834838867,
-          38.7794990539551,
-          1.02999997138977
+          -122.818496704102,
+          38.8301658630371,
+          1.8400000333786
         ]
       },
-      "id": "nc75436002"
+      "id": "nc75436512"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.55522322654724,
-        "place": "12 km WNW of Amboy, Washington",
-        "time": 1789470215820,
-        "updated": 1789470358810,
+        "mag": 1.24779201063864,
+        "place": "10 km NNE of Indio, CA",
+        "time": 1789557590020,
+        "updated": 1789557712579,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714102521",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714102521.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333511",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41333511.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 37,
-        "net": "uw",
-        "code": "714102521",
-        "ids": ",uw714102521,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.1163,
-        "rms": 0.0799999982,
-        "gap": 159,
+        "sig": 24,
+        "net": "ci",
+        "code": "41333511",
+        "ids": ",ci41333511,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.1303,
+        "rms": 0.180000007,
+        "gap": 82,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 12 km WNW of Amboy, Washington"
+        "title": "M 1.2 - 10 km NNE of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.578834533691,
-          45.9661674499512,
-          15.1199998855591
+          -116.161163330078,
+          33.795166015625,
+          7.38000011444092
         ]
       },
-      "id": "uw714102521"
+      "id": "ci41333511"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.79,
-        "place": "14 km S of Honaunau-Napoopoo, Hawaii",
-        "time": 1789469643020,
-        "updated": 1789469853880,
+        "mag": 2.1,
+        "place": "29 km ESE of Balmorhea, Texas",
+        "time": 1789557180471,
+        "updated": 1789557977959,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75036227",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75036227.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sglojd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026sglojd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
+        "sig": 68,
+        "net": "tx",
+        "code": "2026sglojd",
+        "ids": ",tx2026sglojd,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.1,
+        "rms": 1,
+        "gap": 120,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 29 km ESE of Balmorhea, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.455,
+          30.894,
+          3.7111
+        ]
+      },
+      "id": "tx2026sglojd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "16 km ESE of Fox River, Alaska",
+        "time": 1789557091443,
+        "updated": 1789557169150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sjkawq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sjkawq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026sjkawq",
+        "ids": ",aka2026sjkawq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 137,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 16 km ESE of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.688,
+          59.811,
+          53.2
+        ]
+      },
+      "id": "aka2026sjkawq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.02,
+        "place": "10 km SSW of Leilani Estates, Hawaii",
+        "time": 1789556725610,
+        "updated": 1789556934240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75037047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75037047.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 63,
         "net": "hv",
-        "code": "75036227",
-        "ids": ",hv75036227,",
+        "code": "75037047",
+        "ids": ",hv75037047,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.06434,
-        "rms": 0.280000001,
-        "gap": 213,
+        "nst": 42,
+        "dmin": 0.06209,
+        "rms": 0.270000011,
+        "gap": 202,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 14 km S of Honaunau-Napoopoo, Hawaii"
+        "title": "M 2.0 - 10 km SSW of Leilani Estates, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.867828369141,
-          19.3279991149902,
-          5.07000017166138
+          -154.961502075195,
+          19.3863334655762,
+          0.490000009536743
         ]
       },
-      "id": "hv75036227"
+      "id": "hv75037047"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.48086109506631,
-        "place": "4 km SE of Loma Linda, CA",
-        "time": 1789469515810,
-        "updated": 1789469641087,
+        "mag": 1.2,
+        "place": "17 km NNE of Midland, Texas",
+        "time": 1789556434359,
+        "updated": 1789556658132,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333071",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41333071.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sglgeo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026sglgeo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 34,
-        "net": "ci",
-        "code": "41333071",
-        "ids": ",ci41333071,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.08781,
-        "rms": 0.180000007,
-        "gap": 77,
+        "sig": 22,
+        "net": "tx",
+        "code": "2026sglgeo",
+        "ids": ",tx2026sglgeo,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 4 km SE of Loma Linda, CA"
+        "title": "M 1.2 - 17 km NNE of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.222999572754,
-          34.0248336791992,
-          15.0600004196167
+          -101.99,
+          32.136,
+          3.0433
         ]
       },
-      "id": "ci41333071"
+      "id": "tx2026sglgeo"
     }
   ],
   "bbox": [
-    -155.86782836914,
-    19.32799911499,
-    1.0299999713898,
-    -117.22299957275,
-    45.966167449951,
-    15.119999885559
+    -154.96150207519,
+    19.386333465576,
+    0.49000000953674,
+    -101.99,
+    59.811,
+    53.2
   ]
 }
