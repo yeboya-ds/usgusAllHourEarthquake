@@ -1,301 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790337367000,
+    "generated": 1790422207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "6 km S of Redlands, CA",
-        "time": 1790336428680,
-        "updated": 1790336633407,
+        "mag": 1.5,
+        "place": "8 km NW of Harding-Birch Lakes, Alaska",
+        "time": 1790421967224,
+        "updated": 1790422069750,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338911",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338911.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tbwtfi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tbwtfi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41338911",
-        "ids": ",ci41338911,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.07707,
-        "rms": 0.16,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km S of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.194,
-          33.9986666666667,
-          13.82
-        ]
-      },
-      "id": "ci41338911"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.94,
-        "place": "6 km S of Redlands, CA",
-        "time": 1790336315800,
-        "updated": 1790336527197,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338903.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41338903",
-        "ids": ",ci41338903,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.07605,
-        "rms": 0.16,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 6 km S of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.193666666667,
-          34.0003333333333,
-          14.23
-        ]
-      },
-      "id": "ci41338903"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "29 km W of Ester, Alaska",
-        "time": 1790336194241,
-        "updated": 1790336263355,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tabbrw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tabbrw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
+        "sig": 35,
         "net": "ak",
-        "code": "a2026tabbrw",
-        "ids": ",aka2026tabbrw,",
+        "code": "a2026tbwtfi",
+        "ids": ",aka2026tbwtfi,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2,
-        "rms": 0.2,
-        "gap": 96,
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 111,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 29 km W of Ester, Alaska"
+        "title": "M 1.5 - 8 km NW of Harding-Birch Lakes, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.618,
-          64.894,
-          10.5
-        ]
-      },
-      "id": "aka2026tabbrw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "66 km ENE of Pleasant Valley, Alaska",
-        "time": 1790335611774,
-        "updated": 1790335693148,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026taathn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026taathn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026taathn",
-        "ids": ",aka2026taathn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 66 km ENE of Pleasant Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -145.501,
-          65.023,
+          -146.704,
+          64.432,
           5
         ]
       },
-      "id": "aka2026taathn"
+      "id": "aka2026tbwtfi"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.91,
-        "place": "7 km S of Pāhala, Hawaii",
-        "time": 1790334792530,
-        "updated": 1790335005390,
+        "mag": 0.78,
+        "place": "11 km WNW of The Geysers, CA",
+        "time": 1790421736550,
+        "updated": 1790421831516,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043637",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75043637.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442337",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442337.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "hv",
-        "code": "75043637",
-        "ids": ",hv75043637,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.02233,
-        "rms": 0.25,
-        "gap": 219,
+        "sig": 9,
+        "net": "nc",
+        "code": "75442337",
+        "ids": ",nc75442337,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.008766,
+        "rms": 0.02,
+        "gap": 120,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 7 km S of Pāhala, Hawaii"
+        "title": "M 0.8 - 11 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.472671508789,
-          19.1353340148926,
-          10.9499998092651
+          -122.867835998535,
+          38.8256683349609,
+          2.45000004768372
         ]
       },
-      "id": "hv75043637"
+      "id": "nc75442337"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "Vanuatu region",
-        "time": 1790334735838,
-        "updated": 1790335890040,
+        "mag": 4.7,
+        "place": "North Indian Ocean",
+        "time": 1790419995123,
+        "updated": 1790420897040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txjy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txjy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txsh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txsh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 340,
         "net": "us",
-        "code": "6000txjy",
-        "ids": ",us6000txjy,",
+        "code": "6000txsh",
+        "ids": ",us6000txsh,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 5.567,
-        "rms": 1.15,
-        "gap": 88,
-        "magType": "mww",
+        "nst": 42,
+        "dmin": 10.297,
+        "rms": 0.79,
+        "gap": 65,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - Vanuatu region"
+        "title": "M 4.7 - North Indian Ocean"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.0792,
-          -21.8904,
-          23.966
+          89.4977,
+          1.831,
+          10
         ]
       },
-      "id": "us6000txjy"
+      "id": "us6000txsh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.99,
-        "place": "4 km NNW of The Geysers, CA",
-        "time": 1790334585270,
-        "updated": 1790334679614,
+        "mag": 0.24,
+        "place": "9 km WNW of Anza, CA",
+        "time": 1790419661970,
+        "updated": 1790419862963,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75441512.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41339447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41339447.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "nc",
-        "code": "75441512",
-        "ids": ",nc75441512,",
-        "sources": ",nc,",
+        "sig": 1,
+        "net": "ci",
+        "code": "41339447",
+        "ids": ",ci41339447,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01878,
-        "rms": 0.06,
-        "gap": 216,
-        "magType": "md",
+        "nst": 16,
+        "dmin": 0.008782,
+        "rms": 0.08,
+        "gap": 55,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 4 km NNW of The Geysers, CA"
+        "title": "M 0.2 - 9 km WNW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.770500183105,
-          38.8116683959961,
-          14.8299999237061
+          -116.7575,
+          33.5868333333333,
+          12.36
         ]
       },
-      "id": "nc75441512"
+      "id": "ci41339447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "52 km NNW of Petersville, Alaska",
+        "time": 1790419633728,
+        "updated": 1790419799556,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tbvlmd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tbvlmd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026tbvlmd",
+        "ids": ",aka2026tbvlmd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 52 km NNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.244,
+          62.914,
+          116.3
+        ]
+      },
+      "id": "aka2026tbvlmd"
     }
   ],
   "bbox": [
-    -155.47267150879,
-    -21.8904,
-    5,
-    174.0792,
-    65.023,
-    23.966
+    -151.244,
+    1.831,
+    2.4500000476837,
+    89.4977,
+    64.432,
+    116.3
   ]
 }
