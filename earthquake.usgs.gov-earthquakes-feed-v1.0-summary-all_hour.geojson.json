@@ -1,261 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791116836000,
+    "generated": 1791211751000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.72,
-        "place": "49 km SW of Primo Tapia, B.C., MX",
-        "time": 1791116294920,
-        "updated": 1791116514907,
+        "mag": 0.7,
+        "place": "85 km NNW of Karluk, Alaska",
+        "time": 1791211270788,
+        "updated": 1791211310871,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41342975",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41342975.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tstlly",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tstlly.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 114,
-        "net": "ci",
-        "code": "41342975",
-        "ids": ",ci41342975,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.486,
-        "rms": 0.18,
-        "gap": 269,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 49 km SW of Primo Tapia, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.235666666667,
-          31.8703333333333,
-          16.07
-        ]
-      },
-      "id": "ci41342975"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.66,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1791116161080,
-        "updated": 1791116256611,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444126",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75444126.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75444126",
-        "ids": ",nc75444126,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01537,
-        "rms": 0.02,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813667297363,
-          38.8183326721191,
-          3.07999992370605
-        ]
-      },
-      "id": "nc75444126"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.64,
-        "place": "9 km WNW of Anza, CA",
-        "time": 1791114800820,
-        "updated": 1791115008956,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41342967",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41342967.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41342967",
-        "ids": ",ci41342967,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.01065,
-        "rms": 0.13,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 9 km WNW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.761,
-          33.5833333333333,
-          11.63
-        ]
-      },
-      "id": "ci41342967"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "19 km ESE of Feke, Turkey",
-        "time": 1791114203185,
-        "updated": 1791116694444,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzip",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tzip.geojson",
-        "felt": 2,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 417,
-        "net": "us",
-        "code": "6000tzip",
-        "ids": ",us6000tzip,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 114,
-        "dmin": 0.248,
-        "rms": 0.92,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 19 km ESE of Feke, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.1075,
-          37.7409,
-          10
-        ]
-      },
-      "id": "us6000tzip"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "38 km WSW of Tyonek, Alaska",
-        "time": 1791114121084,
-        "updated": 1791114224939,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tqrlpb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tqrlpb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
+        "sig": 8,
         "net": "ak",
-        "code": "a2026tqrlpb",
-        "ids": ",aka2026tqrlpb,",
+        "code": "a2026tstlly",
+        "ids": ",aka2026tstlly,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 83,
+        "nst": 11,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 129,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 38 km WSW of Tyonek, Alaska"
+        "title": "M 0.7 - 85 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.836,
-          60.988,
-          90.6
+          -154.996,
+          58.277,
+          5
         ]
       },
-      "id": "aka2026tqrlpb"
+      "id": "aka2026tstlly"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "23 km SSE of Saimbeyli, Turkey",
-        "time": 1791113786517,
-        "updated": 1791115618040,
+        "mag": 0.99,
+        "place": "13 km SSW of Westmorland, CA",
+        "time": 1791211049250,
+        "updated": 1791211256597,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzil",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tzil.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343535",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343535.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ci",
+        "code": "41343535",
+        "ids": ",ci41343535,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.108,
+        "rms": 0.16,
+        "gap": 140,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 13 km SSW of Westmorland, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6835,
+          32.933,
+          19.31
+        ]
+      },
+      "id": "ci41343535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "39 km E of Livengood, Alaska",
+        "time": 1791209664859,
+        "updated": 1791209768887,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tssogi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tssogi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "a2026tssogi",
+        "ids": ",aka2026tssogi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.3,
+        "rms": 0.4,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 39 km E of Livengood, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.703,
+          65.473,
+          5
+        ]
+      },
+      "id": "aka2026tssogi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "35 km SE of Malaga, New Mexico",
+        "time": 1791208415396,
+        "updated": 1791210927495,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tpnrlm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026tpnrlm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tzil",
-        "ids": ",us6000tzil,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.24,
-        "rms": 0.85,
-        "gap": 35,
-        "magType": "mwr",
+        "sig": 22,
+        "net": "tx",
+        "code": "2026tpnrlm",
+        "ids": ",tx2026tpnrlm,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 74,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.6 - 23 km SSE of Saimbeyli, Turkey"
+        "title": "M 1.2 - 35 km SE of Malaga, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.1844,
-          37.7841,
-          10
+          -103.768,
+          32.037,
+          7.9327
         ]
       },
-      "id": "us6000tzil"
+      "id": "tx2026tpnrlm"
     }
   ],
   "bbox": [
-    -151.836,
-    31.870333333333,
-    3.079999923706,
-    36.1844,
-    60.988,
-    90.6
+    -154.996,
+    32.037,
+    5,
+    -103.768,
+    65.473,
+    19.31
   ]
 }
