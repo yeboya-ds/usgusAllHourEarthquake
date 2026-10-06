@@ -1,181 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791211751000,
+    "generated": 1791292939000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "85 km NNW of Karluk, Alaska",
-        "time": 1791211270788,
-        "updated": 1791211310871,
+        "mag": 0.27,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1791292838850,
+        "updated": 1791292934363,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tstlly",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tstlly.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445426",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75445426.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ak",
-        "code": "a2026tstlly",
-        "ids": ",aka2026tstlly,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 129,
-        "magType": "ml",
+        "sig": 1,
+        "net": "nc",
+        "code": "75445426",
+        "ids": ",nc75445426,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.005132,
+        "rms": 0.01,
+        "gap": 80,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 85 km NNW of Karluk, Alaska"
+        "title": "M 0.3 - 6 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.996,
-          58.277,
-          5
+          -122.784332275391,
+          38.8363342285156,
+          1.85000002384186
         ]
       },
-      "id": "aka2026tstlly"
+      "id": "nc75445426"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.99,
-        "place": "13 km SSW of Westmorland, CA",
-        "time": 1791211049250,
-        "updated": 1791211256597,
+        "mag": 1.7,
+        "place": "74 km ENE of Lime Village, Alaska",
+        "time": 1791292417302,
+        "updated": 1791292499965,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343535",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343535.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tumocv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tumocv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ci",
-        "code": "41343535",
-        "ids": ",ci41343535,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026tumocv",
+        "ids": ",aka2026tumocv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
         "nst": 9,
-        "dmin": 0.108,
-        "rms": 0.16,
-        "gap": 140,
+        "dmin": 0.8,
+        "rms": 0.2,
+        "gap": 306,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 13 km SSW of Westmorland, CA"
+        "title": "M 1.7 - 74 km ENE of Lime Village, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6835,
-          32.933,
-          19.31
+          -154.166,
+          61.639,
+          4.6
         ]
       },
-      "id": "ci41343535"
+      "id": "aka2026tumocv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "39 km E of Livengood, Alaska",
-        "time": 1791209664859,
-        "updated": 1791209768887,
+        "mag": 1.5,
+        "place": "61 km N of Larsen Bay, Alaska",
+        "time": 1791291754616,
+        "updated": 1791291808507,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tssogi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tssogi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tumenp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tumenp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
+        "sig": 35,
         "net": "ak",
-        "code": "a2026tssogi",
-        "ids": ",aka2026tssogi,",
+        "code": "a2026tumenp",
+        "ids": ",aka2026tumenp,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.3,
-        "rms": 0.4,
-        "gap": 82,
+        "nst": 14,
+        "dmin": 0.5,
+        "rms": 0.2,
+        "gap": 296,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 39 km E of Livengood, Alaska"
+        "title": "M 1.5 - 61 km N of Larsen Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.703,
-          65.473,
-          5
+          -153.96,
+          58.093,
+          10.9
         ]
       },
-      "id": "aka2026tssogi"
+      "id": "aka2026tumenp"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "35 km SE of Malaga, New Mexico",
-        "time": 1791208415396,
-        "updated": 1791210927495,
+        "mag": 2.2,
+        "place": "64 km NW of Skwentna, Alaska",
+        "time": 1791291504747,
+        "updated": 1791291690430,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tpnrlm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026tpnrlm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tumayv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tumayv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "tx",
-        "code": "2026tpnrlm",
-        "ids": ",tx2026tpnrlm,",
-        "sources": ",tx,",
+        "sig": 74,
+        "net": "ak",
+        "code": "a2026tumayv",
+        "ids": ",aka2026tumayv,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 74,
+        "nst": 66,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 139,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 35 km SE of Malaga, New Mexico"
+        "title": "M 2.2 - 64 km NW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.768,
-          32.037,
-          7.9327
+          -152.123,
+          62.465,
+          117.5
         ]
       },
-      "id": "tx2026tpnrlm"
+      "id": "aka2026tumayv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "15 km NNW of Ivanof Bay, Alaska",
+        "time": 1791291183791,
+        "updated": 1791291219761,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tulwhi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tulwhi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026tulwhi",
+        "ids": ",aka2026tulwhi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 284,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 15 km NNW of Ivanof Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.548,
+          56.036,
+          5
+        ]
+      },
+      "id": "aka2026tulwhi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.86,
+        "place": "22 km W of Volcano, Hawaii",
+        "time": 1791291114290,
+        "updated": 1791291328470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75050767",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75050767.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "hv",
+        "code": "75050767",
+        "ids": ",hv75050767,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.06032,
+        "rms": 0.25,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 22 km W of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.449996948242,
+          19.4694995880127,
+          -0.860000014305115
+        ]
+      },
+      "id": "hv75050767"
     }
   ],
   "bbox": [
-    -154.996,
-    32.037,
-    5,
-    -103.768,
-    65.473,
-    19.31
+    -159.548,
+    19.469499588013,
+    -0.86000001430511,
+    -122.78433227539,
+    62.465,
+    117.5
   ]
 }
