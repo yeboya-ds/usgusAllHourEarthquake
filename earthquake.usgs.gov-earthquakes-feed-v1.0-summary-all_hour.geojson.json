@@ -1,141 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791379860000,
+    "generated": 1791466609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 3
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "122 km NW of Arctic Village, Alaska",
-        "time": 1791379100038,
-        "updated": 1791379249662,
+        "mag": 1.72648215293884,
+        "place": "6 km NNW of Clatskanie, Oregon",
+        "time": 1791466443050,
+        "updated": 1791466599570,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026twitdr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026twitdr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714117841",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714117841.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026twitdr",
-        "ids": ",aka2026twitdr,",
-        "sources": ",ak,",
+        "sig": 46,
+        "net": "uw",
+        "code": "714117841",
+        "ids": ",uw714117841,",
+        "sources": ",uw,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 75,
+        "nst": 22,
+        "dmin": 0.09851,
+        "rms": 0.119999997,
+        "gap": 116,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 122 km NW of Arctic Village, Alaska"
+        "title": "M 1.7 - 6 km NNW of Clatskanie, Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.597,
-          68.92,
-          2.5
+          -123.238998413086,
+          46.1599998474121,
+          18.3799991607666
         ]
       },
-      "id": "aka2026twitdr"
+      "id": "uw714117841"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.82,
-        "place": "13 km SE of Middletown, CA",
-        "time": 1791378231150,
-        "updated": 1791379646116,
+        "mag": 1.6,
+        "place": "25 km NE of Beluga, Alaska",
+        "time": 1791464989324,
+        "updated": 1791465124126,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445941",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75445941.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tyelyp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tyelyp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 51,
-        "net": "nc",
-        "code": "75445941",
-        "ids": ",nc75445941,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.07181,
-        "rms": 0.1,
-        "gap": 59,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 13 km SE of Middletown, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.495002746582,
-          38.6870002746582,
-          6.42999982833862
-        ]
-      },
-      "id": "nc75445941"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.82,
-        "place": "8 km SE of Pāhala, Hawaii",
-        "time": 1791376424810,
-        "updated": 1791376635600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75051647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75051647.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 51,
-        "net": "hv",
-        "code": "75051647",
-        "ids": ",hv75051647,",
-        "sources": ",hv,",
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026tyelyp",
+        "ids": ",aka2026tyelyp,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.03496,
-        "rms": 0.0900000036,
-        "gap": 225,
-        "magType": "md",
+        "nst": 24,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 42,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 8 km SE of Pāhala, Hawaii"
+        "title": "M 1.6 - 25 km NE of Beluga, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.425659179688,
-          19.1494998931885,
-          31.2399997711182
+          -150.728,
+          61.295,
+          59.4
         ]
       },
-      "id": "hv75051647"
+      "id": "aka2026tyelyp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.69,
+        "place": "8 km S of Las Flores, CA",
+        "time": 1791464539780,
+        "updated": 1791464751683,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41345023",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41345023.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ci",
+        "code": "41345023",
+        "ids": ",ci41345023,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.1202,
+        "rms": 0.23,
+        "gap": 202,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 8 km S of Las Flores, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.647,
+          33.9643333333333,
+          10.51
+        ]
+      },
+      "id": "ci41345023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.6,
+        "place": "18 km SW of Oasis, CA",
+        "time": 1791463088190,
+        "updated": 1791463294099,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41345015",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41345015.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41345015",
+        "ids": ",ci41345015,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.1275,
+        "rms": 0.19,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 18 km SW of Oasis, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.215833333333,
+          33.3415,
+          9.73
+        ]
+      },
+      "id": "ci41345015"
     }
   ],
   "bbox": [
-    -155.42565917969,
-    19.149499893189,
-    2.5,
-    -122.49500274658,
-    68.92,
-    31.239999771118
+    -150.728,
+    33.3415,
+    9.73,
+    -116.21583333333,
+    61.295,
+    59.4
   ]
 }
