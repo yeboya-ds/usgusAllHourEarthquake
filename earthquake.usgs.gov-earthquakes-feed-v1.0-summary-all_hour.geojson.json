@@ -1,221 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791635930000,
+    "generated": 1791723470000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "268 km WNW of Houma, Tonga",
-        "time": 1791634862813,
-        "updated": 1791635857040,
+        "mag": 1.4,
+        "place": "55 km SE of King Salmon, Alaska",
+        "time": 1791722920270,
+        "updated": 1791723009724,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ej.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026udrund",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026udrund.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "a2026udrund",
+        "ids": ",aka2026udrund,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 156,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 55 km SE of King Salmon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.092,
+          58.293,
+          151.9
+        ]
+      },
+      "id": "aka2026udrund"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.94,
+        "place": "11 km SSW of Hāwī, Hawaii",
+        "time": 1791722857570,
+        "updated": 1791723086070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75054002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75054002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "hv",
+        "code": "75054002",
+        "ids": ",hv75054002,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.05152,
+        "rms": 0.209999993,
+        "gap": 279,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 11 km SSW of Hāwī, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.865493774414,
+          20.1446666717529,
+          15.289999961853
+        ]
+      },
+      "id": "hv75054002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "64 km SE of Pedro Bay, Alaska",
+        "time": 1791722507039,
+        "updated": 1791722749691,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026udrplv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026udrplv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026udrplv",
+        "ids": ",aka2026udrplv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 108,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 64 km SE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.186,
+          59.45,
+          99.2
+        ]
+      },
+      "id": "aka2026udrplv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "6 km NNE of Fritz Creek, Alaska",
+        "time": 1791721514494,
+        "updated": 1791721710275,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026udrbax",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026udrbax.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026udrbax",
+        "ids": ",aka2026udrbax,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 6 km NNE of Fritz Creek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.265,
+          59.788,
+          54.2
+        ]
+      },
+      "id": "aka2026udrbax"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.96,
+        "place": "1 km WNW of Maria Antonia, Puerto Rico",
+        "time": 1791721207990,
+        "updated": 1791721990210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536468",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71536468.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000u1ej",
-        "ids": ",us6000u1ej,",
-        "sources": ",us,",
+        "sig": 59,
+        "net": "pr",
+        "code": "71536468",
+        "ids": ",pr71536468,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 4.538,
-        "rms": 0.74,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 268 km WNW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.5258,
-          -19.9451,
-          560.2
-        ]
-      },
-      "id": "us6000u1ej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.17,
-        "place": "17 km N of Borrego Springs, CA",
-        "time": 1791634685400,
-        "updated": 1791635296880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346039",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41346039.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41346039",
-        "ids": ",ci41346039,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 69,
-        "dmin": 0.08264,
-        "rms": 0.18,
-        "gap": 23,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 17 km N of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.351166666667,
-          33.4085,
-          13.6
-        ]
-      },
-      "id": "ci41346039"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "24 km ENE of Knik River, Alaska",
-        "time": 1791633906546,
-        "updated": 1791633967348,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ubuizh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ubuizh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026ubuizh",
-        "ids": ",aka2026ubuizh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 24 km ENE of Knik River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.494,
-          61.554,
-          22.7
-        ]
-      },
-      "id": "aka2026ubuizh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.22,
-        "place": "3 km WSW of Anza, CA",
-        "time": 1791633887500,
-        "updated": 1791634098093,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346031",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41346031.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "ci",
-        "code": "41346031",
-        "ids": ",ci41346031,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.03573,
-        "rms": 0.13,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.2 - 3 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.706166666667,
-          33.5408333333333,
-          6.53
-        ]
-      },
-      "id": "ci41346031"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1791632682490,
-        "updated": 1791632781376,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75447321",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75447321.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75447321",
-        "ids": ",nc75447321,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.003875,
-        "rms": 0.01,
-        "gap": 69,
+        "nst": 5,
+        "dmin": 0.02153,
+        "rms": 0.08,
+        "gap": 156,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 5 km NW of The Geysers, CA"
+        "title": "M 2.0 - 1 km WNW of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.792831420898,
-          38.8113327026367,
-          2.9300000667572
+          -66.9005,
+          17.9825,
+          9.19
         ]
       },
-      "id": "nc75447321"
+      "id": "pr71536468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.83,
+        "place": "25 km NNW of San Simeon, CA",
+        "time": 1791721101780,
+        "updated": 1791722850083,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75447751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75447751.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "nc",
+        "code": "75447751",
+        "ids": ",nc75447751,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.135,
+        "rms": 0.08,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 25 km NNW of San Simeon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.323829650879,
+          35.8375015258789,
+          10.9399995803833
+        ]
+      },
+      "id": "nc75447751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "275 km W of Adak, Alaska",
+        "time": 1791720962144,
+        "updated": 1791722580040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1kb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.885,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000u1kb",
+        "ids": ",us6000u1kb,aka2026udqtaw,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 85,
+        "dmin": 0.298,
+        "rms": 0.52,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 275 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.374,
+          51.7312,
+          95.229
+        ]
+      },
+      "id": "us6000u1kb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "165 km SSE of Miyakojima, Japan",
+        "time": 1791720798599,
+        "updated": 1791721914040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ka",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ka.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000u1ka",
+        "ids": ",us6000u1ka,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 108,
+        "dmin": 1.939,
+        "rms": 0.94,
+        "gap": 47,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 165 km SSE of Miyakojima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.1264,
+          23.5015,
+          10
+        ]
+      },
+      "id": "us6000u1ka"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1791720749800,
+        "updated": 1791722850015,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75447746",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75447746.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75447746",
+        "ids": ",nc75447746,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.004361,
+        "rms": 0.01,
+        "gap": 68,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.808166503906,
+          38.8274993896484,
+          0.109999999403954
+        ]
+      },
+      "id": "nc75447746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.02,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1791720644190,
+        "updated": 1791720740733,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75447741",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75447741.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75447741",
+        "ids": ",nc75447741,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.003658,
+        "rms": 0.02,
+        "gap": 71,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.787498474121,
+          38.8354988098145,
+          1.88999998569489
+        ]
+      },
+      "id": "nc75447741"
     }
   ],
   "bbox": [
-    -177.5258,
-    -19.9451,
-    2.9300000667572,
-    -116.35116666667,
-    61.554,
-    560.2
+    -156.092,
+    17.9825,
+    0.10999999940395,
+    179.374,
+    59.788,
+    151.9
   ]
 }
