@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791979198000,
+    "generated": 1792064178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,170 +12,170 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "14 km ENE of Glacier View, Alaska",
-        "time": 1791978806013,
-        "updated": 1791979080099,
+        "mag": 1.1,
+        "place": "33 km W of Ester, Alaska",
+        "time": 1792063396373,
+        "updated": 1792063579375,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujebcw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ujebcw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukzbod",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ukzbod.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 19,
         "net": "ak",
-        "code": "a2026ujebcw",
-        "ids": ",aka2026ujebcw,",
+        "code": "a2026ukzbod",
+        "ids": ",aka2026ukzbod,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 137,
-        "dmin": 0.1,
-        "rms": 1.2,
-        "gap": 18,
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 0.4,
+        "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 14 km ENE of Glacier View, Alaska"
+        "title": "M 1.1 - 33 km W of Ester, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.425,
-          61.878,
-          16.8
+          -148.713,
+          64.858,
+          17.7
         ]
       },
-      "id": "aka2026ujebcw"
+      "id": "aka2026ukzbod"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.79,
-        "place": "17 km W of Volcano, Hawaii",
-        "time": 1791978462730,
-        "updated": 1791978668960,
+        "mag": 5.6,
+        "place": "43 km NNW of Lake Minchumina, Alaska",
+        "time": 1792062421800,
+        "updated": 1792064015562,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75056027",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75056027.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ukynnb.geojson",
+        "felt": 63,
+        "cdi": 5.8,
+        "mmi": 7.049,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 519,
+        "net": "ak",
+        "code": "a2026ukynnb",
+        "ids": ",aka2026ukynnb,us6000u2g7,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,event-sequence,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 209,
+        "dmin": 0.4,
+        "rms": 1.3,
+        "gap": 22,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.746,
+          64.22,
+          4.5
+        ]
+      },
+      "id": "aka2026ukynnb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.83,
+        "place": "12 km WSW of Rio Dell, CA",
+        "time": 1792061146590,
+        "updated": 1792063943795,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449801",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75449801.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
-        "net": "hv",
-        "code": "75056027",
-        "ids": ",hv75056027,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.07344,
-        "rms": 0.289999992,
-        "gap": 45,
+        "sig": 52,
+        "net": "nc",
+        "code": "75449801",
+        "ids": ",nc75449801,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.1224,
+        "rms": 0.14,
+        "gap": 239,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 17 km W of Volcano, Hawaii"
+        "title": "M 1.8 - 12 km WSW of Rio Dell, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.394836425781,
-          19.416166305542,
-          -0.100000001490116
+          -124.228996276855,
+          40.4370002746582,
+          21.4899997711182
         ]
       },
-      "id": "hv75056027"
+      "id": "nc75449801"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "83 km ESE of McCarthy, Alaska",
-        "time": 1791978312508,
-        "updated": 1791978490072,
+        "mag": 3.16,
+        "place": "74 km W of Petrolia, CA",
+        "time": 1792060677870,
+        "updated": 1792062440604,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujdtzm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ujdtzm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449796",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75449796.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026ujdtzm",
-        "ids": ",aka2026ujdtzm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 147,
-        "magType": "ml",
+        "sig": 154,
+        "net": "nc",
+        "code": "75449796",
+        "ids": ",nc75449796,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 50,
+        "dmin": 0.6225,
+        "rms": 0.48,
+        "gap": 268,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 83 km ESE of McCarthy, Alaska"
+        "title": "M 3.2 - 74 km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.452,
-          61.185,
-          15.8
+          -125.14949798584,
+          40.4165000915527,
+          10.6599998474121
         ]
       },
-      "id": "aka2026ujdtzm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "28 km N of Kernville, CA",
-        "time": 1791977636140,
-        "updated": 1791977839432,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347479",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41347479.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "41347479",
-        "ids": ",ci41347479,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.1598,
-        "rms": 0.19,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 28 km N of Kernville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.3755,
-          36.0001666666667,
-          14.38
-        ]
-      },
-      "id": "ci41347479"
+      "id": "nc75449796"
     }
   ],
   "bbox": [
-    -155.39483642578,
-    19.416166305542,
-    -0.10000000149012,
-    -118.3755,
-    61.878,
-    16.8
+    -152.746,
+    40.416500091553,
+    4.5,
+    -124.22899627685,
+    64.858,
+    21.489999771118
   ]
 }
