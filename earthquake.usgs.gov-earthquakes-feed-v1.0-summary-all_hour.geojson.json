@@ -1,184 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792150218000,
+    "generated": 1792234257000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 9
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.76,
-        "place": "13 km WNW of Bonny Doon, CA",
-        "time": 1792149440880,
-        "updated": 1792149537988,
+        "mag": 0.6,
+        "place": "63 km ENE of Pedro Bay, Alaska",
+        "time": 1792233346934,
+        "updated": 1792233383711,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450421",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75450421.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uopnnb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uopnnb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "nc",
-        "code": "75450421",
-        "ids": ",nc75450421,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1042,
-        "rms": 0.11,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 13 km WNW of Bonny Doon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.292167663574,
-          37.0789985656738,
-          6.09000015258789
-        ]
-      },
-      "id": "nc75450421"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16,
-        "place": "21 km ESE of Little Lake, CA",
-        "time": 1792149310910,
-        "updated": 1792149523737,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348255",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41348255.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41348255",
-        "ids": ",ci41348255,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.07922,
-        "rms": 0.19,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 21 km ESE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.6955,
-          35.8643333333333,
-          7.87
-        ]
-      },
-      "id": "ci41348255"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "62 km NE of Venetie, Alaska",
-        "time": 1792149090488,
-        "updated": 1792149340150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umurxi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026umurxi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
+        "sig": 6,
         "net": "ak",
-        "code": "a2026umurxi",
-        "ids": ",aka2026umurxi,",
+        "code": "a2026uopnnb",
+        "ids": ",aka2026uopnnb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 59,
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 62 km NE of Venetie, Alaska"
+        "title": "M 0.6 - 63 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.31,
-          67.374,
-          6.7
+          -153.113,
+          60.056,
+          5
         ]
       },
-      "id": "aka2026umurxi"
+      "id": "aka2026uopnnb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.51,
-        "place": "1 km NW of The Geysers, CA",
-        "time": 1792149080780,
-        "updated": 1792149177514,
+        "mag": 1.97,
+        "place": "12 km NE of Pāhala, Hawaii",
+        "time": 1792232637610,
+        "updated": 1792232849370,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75450416.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059611",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75059611.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "nc",
-        "code": "75450416",
-        "ids": ",nc75450416,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.01445,
-        "rms": 0.05,
-        "gap": 79,
+        "sig": 60,
+        "net": "hv",
+        "code": "75059611",
+        "ids": ",hv75059611,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.04114,
+        "rms": 0.159999996,
+        "gap": 105,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 1 km NW of The Geysers, CA"
+        "title": "M 2.0 - 12 km NE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.767501831055,
-          38.7874984741211,
-          2.15000009536743
+          -155.39582824707,
+          19.2788333892822,
+          30.2600002288818
         ]
       },
-      "id": "nc75450416"
+      "id": "hv75059611"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "3 km WSW of Cobb, CA",
-        "time": 1792148692630,
-        "updated": 1792148786346,
+        "mag": 2.5,
+        "place": "47 km N of Petersville, Alaska",
+        "time": 1792231665535,
+        "updated": 1792231880322,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450411",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75450411.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uoopfk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uoopfk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026uoopfk",
+        "ids": ",aka2026uoopfk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 47 km N of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.815,
+          62.924,
+          111.4
+        ]
+      },
+      "id": "aka2026uoopfk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.44,
+        "place": "12 km NE of Pāhala, Hawaii",
+        "time": 1792231619710,
+        "updated": 1792231872720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059601",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75059601.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "75059601",
+        "ids": ",hv75059601,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.04844,
+        "rms": 0.140000001,
+        "gap": 94,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 12 km NE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.399337768555,
+          19.2861671447754,
+          28.7800006866455
+        ]
+      },
+      "id": "hv75059601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "4 km SSW of Redlands, CA",
+        "time": 1792231043030,
+        "updated": 1792231244004,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348511",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41348511.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,196 +186,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 8,
-        "net": "nc",
-        "code": "75450411",
-        "ids": ",nc75450411,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01472,
-        "rms": 0.01,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 3 km WSW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.762168884277,
-          38.8160018920898,
-          2
-        ]
-      },
-      "id": "nc75450411"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "24 km N of Sutton-Alpine, Alaska",
-        "time": 1792148665654,
-        "updated": 1792149650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umulqe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026umulqe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026umulqe",
-        "ids": ",us6000u2pe,aka2026umulqe,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 92,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 24 km N of Sutton-Alpine, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.828,
-          62,
-          5
-        ]
-      },
-      "id": "aka2026umulqe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "80 km W of Karluk, Alaska",
-        "time": 1792148493583,
-        "updated": 1792148559412,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umujhm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026umujhm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026umujhm",
-        "ids": ",aka2026umujhm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.3,
-        "rms": 0.1,
-        "gap": 230,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 80 km W of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.793,
-          57.628,
-          19.5
-        ]
-      },
-      "id": "aka2026umujhm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.46,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1792148274870,
-        "updated": 1792148492964,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41348247.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 33,
         "net": "ci",
-        "code": "41348247",
-        "ids": ",ci41348247,",
+        "code": "41348511",
+        "ids": ",ci41348511,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 39,
-        "dmin": 0.05731,
-        "rms": 0.21,
-        "gap": 57,
+        "dmin": 0.0672,
+        "rms": 0.17,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 17 km WSW of Johannesburg, CA"
+        "title": "M 0.7 - 4 km SSW of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.800166666667,
-          35.311,
-          5.95
+          -117.191166666667,
+          34.02,
+          5.12
         ]
       },
-      "id": "ci41348247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "31 km NNE of Banff, Canada",
-        "time": 1792147608569,
-        "updated": 1792149780700,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u2pb.geojson",
-        "felt": 3,
-        "cdi": 2.4,
-        "mmi": 3.782,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 247,
-        "net": "us",
-        "code": "6000u2pb",
-        "ids": ",us6000u2pb,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 42,
-        "dmin": 1.323,
-        "rms": 0.52,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 31 km NNE of Banff, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.4536,
-          51.4534,
-          8.336
-        ]
-      },
-      "id": "us6000u2pb"
+      "id": "ci41348511"
     }
   ],
   "bbox": [
-    -155.793,
-    35.311,
-    2,
-    -115.4536,
-    67.374,
-    19.5
+    -155.39933776856,
+    19.278833389282,
+    5,
+    -117.19116666667,
+    62.924,
+    111.4
   ]
 }
