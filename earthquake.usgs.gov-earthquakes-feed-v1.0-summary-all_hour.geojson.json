@@ -1,24 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792234257000,
+    "generated": 1792322117000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 13
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "63 km ENE of Pedro Bay, Alaska",
-        "time": 1792233346934,
-        "updated": 1792233383711,
+        "mag": 0.47,
+        "place": "7 km ENE of Cabazon, CA",
+        "time": 1792321808730,
+        "updated": 1792322012878,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uopnnb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uopnnb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41348895.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41348895",
+        "ids": ",ci41348895,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.1143,
+        "rms": 0.13,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 7 km ENE of Cabazon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.712166666667,
+          33.9371666666667,
+          8.95
+        ]
+      },
+      "id": "ci41348895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "30 km W of Susitna, Alaska",
+        "time": 1792320985089,
+        "updated": 1792321084183,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqmful",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqmful.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026uqmful",
+        "ids": ",aka2026uqmful,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 30 km W of Susitna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.079,
+          61.562,
+          70.2
+        ]
+      },
+      "id": "aka2026uqmful"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1792320771260,
+        "updated": 1792320866695,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451531",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75451531.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75451531",
+        "ids": ",nc75451531,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01355,
+        "rms": 0.02,
+        "gap": 87,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81950378418,
+          38.8291664123535,
+          1.87000000476837
+        ]
+      },
+      "id": "nc75451531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "46 km NNW of Petersville, Alaska",
+        "time": 1792320610396,
+        "updated": 1792320709545,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqmavp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqmavp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026uqmavp",
+        "ids": ",aka2026uqmavp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 108,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 46 km NNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.098,
+          62.882,
+          99.2
+        ]
+      },
+      "id": "aka2026uqmavp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "48 km ENE of Pedro Bay, Alaska",
+        "time": 1792320537216,
+        "updated": 1792320655823,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqlzmu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqlzmu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026uqlzmu",
+        "ids": ",aka2026uqlzmu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 316,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 48 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.285,
+          59.924,
+          43.2
+        ]
+      },
+      "id": "aka2026uqlzmu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.63,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1792320179280,
+        "updated": 1792320275682,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451526",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75451526.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,196 +226,316 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 6,
-        "net": "ak",
-        "code": "a2026uopnnb",
-        "ids": ",aka2026uopnnb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 119,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 63 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.113,
-          60.056,
-          5
-        ]
-      },
-      "id": "aka2026uopnnb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.97,
-        "place": "12 km NE of Pāhala, Hawaii",
-        "time": 1792232637610,
-        "updated": 1792232849370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059611",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75059611.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "hv",
-        "code": "75059611",
-        "ids": ",hv75059611,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.04114,
-        "rms": 0.159999996,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 12 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.39582824707,
-          19.2788333892822,
-          30.2600002288818
-        ]
-      },
-      "id": "hv75059611"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "47 km N of Petersville, Alaska",
-        "time": 1792231665535,
-        "updated": 1792231880322,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uoopfk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uoopfk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026uoopfk",
-        "ids": ",aka2026uoopfk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 47 km N of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.815,
-          62.924,
-          111.4
-        ]
-      },
-      "id": "aka2026uoopfk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.44,
-        "place": "12 km NE of Pāhala, Hawaii",
-        "time": 1792231619710,
-        "updated": 1792231872720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059601",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75059601.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "hv",
-        "code": "75059601",
-        "ids": ",hv75059601,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.04844,
-        "rms": 0.140000001,
-        "gap": 94,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 12 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.399337768555,
-          19.2861671447754,
-          28.7800006866455
-        ]
-      },
-      "id": "hv75059601"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "4 km SSW of Redlands, CA",
-        "time": 1792231043030,
-        "updated": 1792231244004,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348511",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41348511.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41348511",
-        "ids": ",ci41348511,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75451526",
+        "ids": ",nc75451526,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.0672,
-        "rms": 0.17,
-        "gap": 50,
-        "magType": "ml",
+        "nst": 9,
+        "dmin": 0.01642,
+        "rms": 0.01,
+        "gap": 87,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 4 km SSW of Redlands, CA"
+        "title": "M 0.6 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.191166666667,
-          34.02,
-          5.12
+          -122.817337036133,
+          38.8320007324219,
+          1.45000004768372
         ]
       },
-      "id": "ci41348511"
+      "id": "nc75451526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.28,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1792319740900,
+        "updated": 1792321644561,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451521",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75451521.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 25,
+        "net": "nc",
+        "code": "75451521",
+        "ids": ",nc75451521,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.01674,
+        "rms": 0.02,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81600189209,
+          38.8308334350586,
+          1.71000003814697
+        ]
+      },
+      "id": "nc75451521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.96,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1792319703360,
+        "updated": 1792319800619,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451516",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75451516.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "nc",
+        "code": "75451516",
+        "ids": ",nc75451516,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01495,
+        "rms": 0.01,
+        "gap": 101,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.817169189453,
+          38.828498840332,
+          1.73000001907349
+        ]
+      },
+      "id": "nc75451516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1792319644250,
+        "updated": 1792320743465,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451511",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75451511.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "nc",
+        "code": "75451511",
+        "ids": ",nc75451511,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 58,
+        "dmin": 0.01545,
+        "rms": 0.07,
+        "gap": 37,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816329956055,
+          38.8281669616699,
+          1.17999994754791
+        ]
+      },
+      "id": "nc75451511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.57,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1792319387920,
+        "updated": 1792321643560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451506",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75451506.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 38,
+        "net": "nc",
+        "code": "75451506",
+        "ids": ",nc75451506,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.016,
+        "rms": 0.03,
+        "gap": 46,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816329956055,
+          38.8296661376953,
+          1.69000005722046
+        ]
+      },
+      "id": "nc75451506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "31 km SSE of Minto, Alaska",
+        "time": 1792319195900,
+        "updated": 1792319258766,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqlgcu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqlgcu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ak",
+        "code": "a2026uqlgcu",
+        "ids": ",aka2026uqlgcu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 210,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 31 km SSE of Minto, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.097,
+          64.892,
+          16.2
+        ]
+      },
+      "id": "aka2026uqlgcu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "9 km SE of Talkeetna, Alaska",
+        "time": 1792318812608,
+        "updated": 1792318897022,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqlaoh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqlaoh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026uqlaoh",
+        "ids": ",aka2026uqlaoh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 91,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 9 km SE of Talkeetna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.975,
+          62.27,
+          13.2
+        ]
+      },
+      "id": "aka2026uqlaoh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "81 km SW of Pilot Point, Alaska",
+        "time": 1792318700477,
+        "updated": 1792318878582,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqkyyr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqkyyr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "a2026uqkyyr",
+        "ids": ",aka2026uqkyyr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 325,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 81 km SW of Pilot Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.555,
+          57.05,
+          41.7
+        ]
+      },
+      "id": "aka2026uqkyyr"
     }
   ],
   "bbox": [
-    -155.39933776856,
-    19.278833389282,
-    5,
-    -117.19116666667,
-    62.924,
-    111.4
+    -158.555,
+    33.937166666667,
+    1.1799999475479,
+    -116.71216666667,
+    64.892,
+    99.2
   ]
 }
