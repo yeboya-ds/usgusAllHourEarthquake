@@ -1,261 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792416463000,
+    "generated": 1792496745000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.03,
-        "place": "1 km SW of Pāhala, Hawaii",
-        "time": 1792416048690,
-        "updated": 1792416261440,
+        "mag": 1.41,
+        "place": "17 km SW of Toms Place, CA",
+        "time": 1792495035430,
+        "updated": 1792495209478,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75060801",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75060801.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452481",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452481.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 63,
-        "net": "hv",
-        "code": "75060801",
-        "ids": ",hv75060801,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.04499,
-        "rms": 0.129999995,
-        "gap": 84,
+        "sig": 31,
+        "net": "nc",
+        "code": "75452481",
+        "ids": ",nc75452481,nn00925998,",
+        "sources": ",nc,nn,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1144,
+        "rms": 0.03,
+        "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 1 km SW of Pāhala, Hawaii"
+        "title": "M 1.4 - 17 km SW of Toms Place, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.488327026367,
-          19.1931667327881,
-          29.7399997711182
+          -118.838500976562,
+          37.4756660461426,
+          1.02999997138977
         ]
       },
-      "id": "hv75060801"
+      "id": "nc75452481"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.22,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1792415841260,
-        "updated": 1792415937993,
+        "mag": 1.72,
+        "place": "3 km NW of Cobb, CA",
+        "time": 1792494822720,
+        "updated": 1792496239797,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452136",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452136.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452471.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
+        "sig": 46,
         "net": "nc",
-        "code": "75452136",
-        "ids": ",nc75452136,",
+        "code": "75452471",
+        "ids": ",nc75452471,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.01589,
+        "rms": 0.07,
+        "gap": 135,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 3 km NW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.75316619873,
+          38.8395004272461,
+          0.119999997317791
+        ]
+      },
+      "id": "nc75452471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1792494538610,
+        "updated": 1792494634480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452466",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452466.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75452466",
+        "ids": ",nc75452466,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.007902,
+        "nst": 9,
+        "dmin": 0.0127,
         "rms": 0.01,
-        "gap": 75,
+        "gap": 103,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.2 - 7 km WNW of Cobb, CA"
+        "title": "M 0.7 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.799835205078,
-          38.8356666564941,
-          1.96000003814697
+          -122.816497802734,
+          38.8168334960938,
+          2.74000000953674
         ]
       },
-      "id": "nc75452136"
+      "id": "nc75452466"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "43 km SW of Chenega, Alaska",
-        "time": 1792415091290,
-        "updated": 1792415169073,
+        "mag": 0.49,
+        "place": "10 km SSW of Idyllwild, CA",
+        "time": 1792494172160,
+        "updated": 1792494370731,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usmnxf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026usmnxf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349671.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026usmnxf",
-        "ids": ",aka2026usmnxf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 229,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 43 km SW of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.648,
-          59.838,
-          22.8
-        ]
-      },
-      "id": "aka2026usmnxf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "55 km N of Chickaloon, Alaska",
-        "time": 1792413706295,
-        "updated": 1792413880917,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usltww",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026usltww.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "a2026usltww",
-        "ids": ",aka2026usltww,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.5,
-        "rms": 0.2,
-        "gap": 150,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 55 km N of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.434,
-          62.294,
-          25.8
-        ]
-      },
-      "id": "aka2026usltww"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "9 km WNW of Anza, CA",
-        "time": 1792413315560,
-        "updated": 1792413517947,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349295",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349295.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 4,
         "net": "ci",
-        "code": "41349295",
-        "ids": ",ci41349295,",
+        "code": "41349671",
+        "ids": ",ci41349671,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.03464,
-        "rms": 0.21,
-        "gap": 36,
+        "nst": 33,
+        "dmin": 0.06881,
+        "rms": 0.16,
+        "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 9 km WNW of Anza, CA"
+        "title": "M 0.5 - 10 km SSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.763,
-          33.5926666666667,
-          9.28
+          -116.755,
+          33.6566666666667,
+          13.99
         ]
       },
-      "id": "ci41349295"
+      "id": "ci41349671"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.22,
-        "place": "7 km NW of Crescent, Oklahoma",
-        "time": 1792412866469,
-        "updated": 1792413632763,
+        "mag": 2.35,
+        "place": "6 km N of Redwood Valley, CA",
+        "time": 1792493297140,
+        "updated": 1792493393892,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026umqb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026umqb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452456",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452456.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 76,
-        "net": "ok",
-        "code": "2026umqb",
-        "ids": ",ok2026umqb,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 97,
-        "dmin": 0,
-        "rms": 0.13,
-        "gap": 36,
-        "magType": "ml",
+        "sig": 85,
+        "net": "nc",
+        "code": "75452456",
+        "ids": ",nc75452456,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.02251,
+        "rms": 0.05,
+        "gap": 48,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 7 km NW of Crescent, Oklahoma"
+        "title": "M 2.4 - 6 km N of Redwood Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.66766667,
-          35.99316667,
-          22.63
+          -123.215667724609,
+          39.3223342895508,
+          2.02999997138977
         ]
       },
-      "id": "ok2026umqb"
+      "id": "nc75452456"
     }
   ],
   "bbox": [
-    -155.48832702637,
-    19.193166732788,
-    1.960000038147,
-    -97.66766667,
-    62.294,
-    29.739999771118
+    -123.21566772461,
+    33.656666666667,
+    0.11999999731779,
+    -116.755,
+    39.322334289551,
+    13.99
   ]
 }
