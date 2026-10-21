@@ -1,221 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792496745000,
+    "generated": 1792583862000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.41,
-        "place": "17 km SW of Toms Place, CA",
-        "time": 1792495035430,
-        "updated": 1792495209478,
+        "mag": 2.9,
+        "place": "38 km WNW of Ninilchik, Alaska",
+        "time": 1792582132120,
+        "updated": 1792582371907,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452481",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452481.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uwbjty",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uwbjty.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 31,
-        "net": "nc",
-        "code": "75452481",
-        "ids": ",nc75452481,nn00925998,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1144,
-        "rms": 0.03,
-        "gap": 141,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 17 km SW of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.838500976562,
-          37.4756660461426,
-          1.02999997138977
-        ]
-      },
-      "id": "nc75452481"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.72,
-        "place": "3 km NW of Cobb, CA",
-        "time": 1792494822720,
-        "updated": 1792496239797,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452471",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452471.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "nc",
-        "code": "75452471",
-        "ids": ",nc75452471,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.01589,
-        "rms": 0.07,
-        "gap": 135,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 3 km NW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.75316619873,
-          38.8395004272461,
-          0.119999997317791
-        ]
-      },
-      "id": "nc75452471"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1792494538610,
-        "updated": 1792494634480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452466",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452466.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75452466",
-        "ids": ",nc75452466,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.0127,
-        "rms": 0.01,
-        "gap": 103,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.816497802734,
-          38.8168334960938,
-          2.74000000953674
-        ]
-      },
-      "id": "nc75452466"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.49,
-        "place": "10 km SSW of Idyllwild, CA",
-        "time": 1792494172160,
-        "updated": 1792494370731,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41349671",
-        "ids": ",ci41349671,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.06881,
-        "rms": 0.16,
-        "gap": 40,
+        "sig": 129,
+        "net": "ak",
+        "code": "a2026uwbjty",
+        "ids": ",aka2026uwbjty,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 107,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 10 km SSW of Idyllwild, CA"
+        "title": "M 2.9 - 38 km WNW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.755,
-          33.6566666666667,
-          13.99
+          -152.322,
+          60.15,
+          97.5
         ]
       },
-      "id": "ci41349671"
+      "id": "aka2026uwbjty"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.35,
-        "place": "6 km N of Redwood Valley, CA",
-        "time": 1792493297140,
-        "updated": 1792493393892,
+        "mag": 2.14,
+        "place": "15 km NE of Milford, Utah",
+        "time": 1792581691880,
+        "updated": 1792583065120,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452456",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452456.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161216",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80161216.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 85,
-        "net": "nc",
-        "code": "75452456",
-        "ids": ",nc75452456,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.02251,
-        "rms": 0.05,
-        "gap": 48,
-        "magType": "md",
+        "sig": 70,
+        "net": "uu",
+        "code": "80161216",
+        "ids": ",uu80161216,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.005729,
+        "rms": 0.11,
+        "gap": 77,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 6 km N of Redwood Valley, CA"
+        "title": "M 2.1 - 15 km NE of Milford, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.215667724609,
-          39.3223342895508,
-          2.02999997138977
+          -112.894833333333,
+          38.505,
+          3.44
         ]
       },
-      "id": "nc75452456"
+      "id": "uu80161216"
     }
   ],
   "bbox": [
-    -123.21566772461,
-    33.656666666667,
-    0.11999999731779,
-    -116.755,
-    39.322334289551,
-    13.99
+    -152.322,
+    38.505,
+    3.44,
+    -112.89483333333,
+    60.15,
+    97.5
   ]
 }
