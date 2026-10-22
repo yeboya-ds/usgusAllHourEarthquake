@@ -1,101 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792583862000,
+    "generated": 1792670351000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.7.0",
-    "count": 2
+    "api": "2.8.2",
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "38 km WNW of Ninilchik, Alaska",
-        "time": 1792582132120,
-        "updated": 1792582371907,
+        "mag": 0.6,
+        "place": "36 km NE of Whittier, Alaska",
+        "time": 1792669880648,
+        "updated": 1792669951811,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uwbjty",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uwbjty.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uxydxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uxydxl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 6,
         "net": "ak",
-        "code": "a2026uwbjty",
-        "ids": ",aka2026uwbjty,",
+        "code": "a2026uxydxl",
+        "ids": ",aka2026uxydxl,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 107,
-        "dmin": 0.2,
+        "nst": 7,
+        "dmin": 0.1,
         "rms": 0.6,
-        "gap": 63,
+        "gap": 235,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 38 km WNW of Ninilchik, Alaska"
+        "title": "M 0.6 - 36 km NE of Whittier, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.322,
-          60.15,
-          97.5
+          -148.138,
+          60.961,
+          77.4
         ]
       },
-      "id": "aka2026uwbjty"
+      "id": "aka2026uxydxl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.14,
-        "place": "15 km NE of Milford, Utah",
-        "time": 1792581691880,
-        "updated": 1792583065120,
+        "mag": 1.07,
+        "place": "24 km WNW of Ocotillo, CA",
+        "time": 1792669723490,
+        "updated": 1792669934173,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161216",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80161216.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350447.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 70,
-        "net": "uu",
-        "code": "80161216",
-        "ids": ",uu80161216,",
-        "sources": ",uu,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.005729,
-        "rms": 0.11,
-        "gap": 77,
+        "sig": 18,
+        "net": "ci",
+        "code": "41350447",
+        "ids": ",ci41350447,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.1147,
+        "rms": 0.18,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 15 km NE of Milford, Utah"
+        "title": "M 1.1 - 24 km WNW of Ocotillo, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.894833333333,
-          38.505,
-          3.44
+          -116.218166666667,
+          32.8446666666667,
+          12.87
         ]
       },
-      "id": "uu80161216"
+      "id": "ci41350447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "60 km SE of Kokhanok, Alaska",
+        "time": 1792668877894,
+        "updated": 1792669062464,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uxxous",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uxxous.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "a2026uxxous",
+        "ids": ",aka2026uxxous,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 60 km SE of Kokhanok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.177,
+          58.992,
+          128.3
+        ]
+      },
+      "id": "aka2026uxxous"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.13,
+        "place": "24 km WNW of Ocotillo, CA",
+        "time": 1792668387810,
+        "updated": 1792668592785,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350439",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350439.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "ci",
+        "code": "41350439",
+        "ids": ",ci41350439,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.1143,
+        "rms": 0.2,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 24 km WNW of Ocotillo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.219,
+          32.8425,
+          12.45
+        ]
+      },
+      "id": "ci41350439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.71,
+        "place": "51 km SE of Naalehu, Hawaii",
+        "time": 1792668297730,
+        "updated": 1792668502710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75062116",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75062116.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 45,
+        "net": "hv",
+        "code": "75062116",
+        "ids": ",hv75062116,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.4406,
+        "rms": 0.200000003,
+        "gap": 281,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 51 km SE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.176162719727,
+          18.8058338165283,
+          7.25
+        ]
+      },
+      "id": "hv75062116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1792668182500,
+        "updated": 1792668280625,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453361",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453361.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75453361",
+        "ids": ",nc75453361,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.007271,
+        "rms": 0.01,
+        "gap": 46,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.813499450684,
+          38.8301658630371,
+          2.09999990463257
+        ]
+      },
+      "id": "nc75453361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.65,
+        "place": "10 km SE of Winchester, CA",
+        "time": 1792667976870,
+        "updated": 1792668183438,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350431.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41350431",
+        "ids": ",ci41350431,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.003238,
+        "rms": 0.11,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 10 km SE of Winchester, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.008666666667,
+          33.6468333333333,
+          12.58
+        ]
+      },
+      "id": "ci41350431"
     }
   ],
   "bbox": [
-    -152.322,
-    38.505,
-    3.44,
-    -112.89483333333,
-    60.15,
-    97.5
+    -155.17616271973,
+    18.805833816528,
+    2.0999999046326,
+    -116.21816666667,
+    60.961,
+    128.3
   ]
 }
