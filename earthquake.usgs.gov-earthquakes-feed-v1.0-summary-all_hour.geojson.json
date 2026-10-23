@@ -1,144 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792670351000,
+    "generated": 1792755922000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 7
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "36 km NE of Whittier, Alaska",
-        "time": 1792669880648,
-        "updated": 1792669951811,
+        "mag": 0.7,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1792755405160,
+        "updated": 1792755501731,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uxydxl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uxydxl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453816",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453816.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ak",
-        "code": "a2026uxydxl",
-        "ids": ",aka2026uxydxl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 235,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 36 km NE of Whittier, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.138,
-          60.961,
-          77.4
-        ]
-      },
-      "id": "aka2026uxydxl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.07,
-        "place": "24 km WNW of Ocotillo, CA",
-        "time": 1792669723490,
-        "updated": 1792669934173,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350447",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350447.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "41350447",
-        "ids": ",ci41350447,",
-        "sources": ",ci,",
+        "sig": 8,
+        "net": "nc",
+        "code": "75453816",
+        "ids": ",nc75453816,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.1147,
-        "rms": 0.18,
-        "gap": 59,
-        "magType": "ml",
+        "nst": 15,
+        "dmin": 0.001544,
+        "rms": 0.01,
+        "gap": 54,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 24 km WNW of Ocotillo, CA"
+        "title": "M 0.7 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.218166666667,
-          32.8446666666667,
-          12.87
+          -122.808502197266,
+          38.824333190918,
+          1.61000001430511
         ]
       },
-      "id": "ci41350447"
+      "id": "nc75453816"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "60 km SE of Kokhanok, Alaska",
-        "time": 1792668877894,
-        "updated": 1792669062464,
+        "mag": 1.14,
+        "place": "2 km NW of The Geysers, CA",
+        "time": 1792754861990,
+        "updated": 1792754956494,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uxxous",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uxxous.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026uxxous",
-        "ids": ",aka2026uxxous,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 60 km SE of Kokhanok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.177,
-          58.992,
-          128.3
-        ]
-      },
-      "id": "aka2026uxxous"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.13,
-        "place": "24 km WNW of Ocotillo, CA",
-        "time": 1792668387810,
-        "updated": 1792668592785,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350439",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350439.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453806",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453806.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,156 +66,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 20,
-        "net": "ci",
-        "code": "41350439",
-        "ids": ",ci41350439,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.1143,
-        "rms": 0.2,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 24 km WNW of Ocotillo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.219,
-          32.8425,
-          12.45
-        ]
-      },
-      "id": "ci41350439"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "51 km SE of Naalehu, Hawaii",
-        "time": 1792668297730,
-        "updated": 1792668502710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75062116",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75062116.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "hv",
-        "code": "75062116",
-        "ids": ",hv75062116,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.4406,
-        "rms": 0.200000003,
-        "gap": 281,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 51 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.176162719727,
-          18.8058338165283,
-          7.25
-        ]
-      },
-      "id": "hv75062116"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.07,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1792668182500,
-        "updated": 1792668280625,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453361",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453361.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
         "net": "nc",
-        "code": "75453361",
-        "ids": ",nc75453361,",
+        "code": "75453806",
+        "ids": ",nc75453806,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.007271,
-        "rms": 0.01,
-        "gap": 46,
+        "nst": 13,
+        "dmin": 0.01576,
+        "rms": 0.08,
+        "gap": 100,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km NW of The Geysers, CA"
+        "title": "M 1.1 - 2 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.813499450684,
-          38.8301658630371,
-          2.09999990463257
+          -122.777000427246,
+          38.7924995422363,
+          1.16999995708466
         ]
       },
-      "id": "nc75453361"
+      "id": "nc75453806"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.65,
-        "place": "10 km SE of Winchester, CA",
-        "time": 1792667976870,
-        "updated": 1792668183438,
+        "mag": 0.3,
+        "place": "61 km ENE of Pedro Bay, Alaska",
+        "time": 1792754613309,
+        "updated": 1792754782197,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350431.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uztgis",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uztgis.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41350431",
-        "ids": ",ci41350431,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.003238,
-        "rms": 0.11,
-        "gap": 61,
+        "sig": 1,
+        "net": "ak",
+        "code": "a2026uztgis",
+        "ids": ",aka2026uztgis,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 225,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 10 km SE of Winchester, CA"
+        "title": "M 0.3 - 61 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.008666666667,
-          33.6468333333333,
-          12.58
+          -153.143,
+          60.057,
+          5
         ]
       },
-      "id": "ci41350431"
+      "id": "aka2026uztgis"
     }
   ],
   "bbox": [
-    -155.17616271973,
-    18.805833816528,
-    2.0999999046326,
-    -116.21816666667,
-    60.961,
-    128.3
+    -153.143,
+    38.792499542236,
+    1.1699999570847,
+    -122.77700042725,
+    60.057,
+    5
   ]
 }
