@@ -1,141 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792755922000,
+    "generated": 1792840174000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 3
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1792755405160,
-        "updated": 1792755501731,
+        "mag": 1.73,
+        "place": "18 km SW of Toms Place, CA",
+        "time": 1792839670420,
+        "updated": 1792839765524,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453816",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453816.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454186",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75454186.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 46,
         "net": "nc",
-        "code": "75453816",
-        "ids": ",nc75453816,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.001544,
-        "rms": 0.01,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.808502197266,
-          38.824333190918,
-          1.61000001430511
-        ]
-      },
-      "id": "nc75453816"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.14,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1792754861990,
-        "updated": 1792754956494,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453806",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453806.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "nc",
-        "code": "75453806",
-        "ids": ",nc75453806,",
+        "code": "75454186",
+        "ids": ",nc75454186,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 13,
-        "dmin": 0.01576,
-        "rms": 0.08,
-        "gap": 100,
+        "dmin": 0.1401,
+        "rms": 0.05,
+        "gap": 143,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 2 km NW of The Geysers, CA"
+        "title": "M 1.7 - 18 km SW of Toms Place, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.777000427246,
-          38.7924995422363,
-          1.16999995708466
+          -118.830665588379,
+          37.4496650695801,
+          -1.41999995708466
         ]
       },
-      "id": "nc75453806"
+      "id": "nc75454186"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.3,
-        "place": "61 km ENE of Pedro Bay, Alaska",
-        "time": 1792754613309,
-        "updated": 1792754782197,
+        "mag": 0.96,
+        "place": "2 km NW of Banning, CA",
+        "time": 1792839516140,
+        "updated": 1792839720086,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uztgis",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uztgis.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41351671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41351671.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "ak",
-        "code": "a2026uztgis",
-        "ids": ",aka2026uztgis,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 225,
+        "sig": 14,
+        "net": "ci",
+        "code": "41351671",
+        "ids": ",ci41351671,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.07634,
+        "rms": 0.14,
+        "gap": 30,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 61 km ENE of Pedro Bay, Alaska"
+        "title": "M 1.0 - 2 km NW of Banning, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.143,
-          60.057,
-          5
+          -116.8925,
+          33.943,
+          4.45
         ]
       },
-      "id": "aka2026uztgis"
+      "id": "ci41351671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.89,
+        "place": "19 km SW of Toms Place, CA",
+        "time": 1792839291710,
+        "updated": 1792839725090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454181",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75454181.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "nc",
+        "code": "75454181",
+        "ids": ",nc75454181,nn00926186,",
+        "sources": ",nc,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.143,
+        "rms": 0.09,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 19 km SW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.832664489746,
+          37.446834564209,
+          2.29999995231628
+        ]
+      },
+      "id": "nc75454181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.839999974,
+        "place": "22 km ENE of Ashford, Washington",
+        "time": 1792839141040,
+        "updated": 1792839229070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714127162",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714127162.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "uw",
+        "code": "714127162",
+        "ids": ",uw714127162,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.02196,
+        "rms": 0.0399999991,
+        "gap": 59,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 22 km ENE of Ashford, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.763999938965,
+          46.8409996032715,
+          -0.310000002384186
+        ]
+      },
+      "id": "uw714127162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "9 km NNE of Indio, CA",
+        "time": 1792838169670,
+        "updated": 1792838378143,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41351655",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41351655.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41351655",
+        "ids": ",ci41351655,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.04924,
+        "rms": 0.14,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 9 km NNE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.163166666667,
+          33.7888333333333,
+          8.46
+        ]
+      },
+      "id": "ci41351655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "30 km W of Anderson, Alaska",
+        "time": 1792837227579,
+        "updated": 1792837335862,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vbnefc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vbnefc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026vbnefc",
+        "ids": ",aka2026vbnefc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 30 km W of Anderson, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.799,
+          64.393,
+          12.8
+        ]
+      },
+      "id": "aka2026vbnefc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "8 km WSW of Fishhook, Alaska",
+        "time": 1792836603021,
+        "updated": 1792836712381,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vbmvdv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vbmvdv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026vbmvdv",
+        "ids": ",aka2026vbmvdv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 8 km WSW of Fishhook, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.385,
+          61.726,
+          20.1
+        ]
+      },
+      "id": "aka2026vbmvdv"
     }
   ],
   "bbox": [
-    -153.143,
-    38.792499542236,
-    1.1699999570847,
-    -122.77700042725,
-    60.057,
-    5
+    -149.799,
+    33.788833333333,
+    -1.4199999570847,
+    -116.16316666667,
+    64.393,
+    20.1
   ]
 }
