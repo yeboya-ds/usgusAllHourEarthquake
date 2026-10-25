@@ -1,301 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792840174000,
+    "generated": 1792928361000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 7
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.73,
-        "place": "18 km SW of Toms Place, CA",
-        "time": 1792839670420,
-        "updated": 1792839765524,
+        "mag": 0.11,
+        "place": "4 km WSW of Anza, CA",
+        "time": 1792927803280,
+        "updated": 1792928012622,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454186",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75454186.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41352135",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41352135.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 46,
-        "net": "nc",
-        "code": "75454186",
-        "ids": ",nc75454186,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1401,
-        "rms": 0.05,
-        "gap": 143,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 18 km SW of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.830665588379,
-          37.4496650695801,
-          -1.41999995708466
-        ]
-      },
-      "id": "nc75454186"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.96,
-        "place": "2 km NW of Banning, CA",
-        "time": 1792839516140,
-        "updated": 1792839720086,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41351671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41351671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
+        "sig": 0,
         "net": "ci",
-        "code": "41351671",
-        "ids": ",ci41351671,",
+        "code": "41352135",
+        "ids": ",ci41352135,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.07634,
-        "rms": 0.14,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 2 km NW of Banning, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.8925,
-          33.943,
-          4.45
-        ]
-      },
-      "id": "ci41351671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "19 km SW of Toms Place, CA",
-        "time": 1792839291710,
-        "updated": 1792839725090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454181",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75454181.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "nc",
-        "code": "75454181",
-        "ids": ",nc75454181,nn00926186,",
-        "sources": ",nc,nn,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.143,
-        "rms": 0.09,
-        "gap": 96,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 19 km SW of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.832664489746,
-          37.446834564209,
-          2.29999995231628
-        ]
-      },
-      "id": "nc75454181"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.839999974,
-        "place": "22 km ENE of Ashford, Washington",
-        "time": 1792839141040,
-        "updated": 1792839229070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714127162",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714127162.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "uw",
-        "code": "714127162",
-        "ids": ",uw714127162,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
         "nst": 22,
-        "dmin": 0.02196,
-        "rms": 0.0399999991,
-        "gap": 59,
+        "dmin": 0.03451,
+        "rms": 0.12,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.1 - 4 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.709666666667,
+          33.5396666666667,
+          6.13
+        ]
+      },
+      "id": "ci41352135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "85 km ENE of Christiansted, U.S. Virgin Islands",
+        "time": 1792925736700,
+        "updated": 1792927600040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537633",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71537633.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71537633",
+        "ids": ",us6000u4tu,pr71537633,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.53,
+        "rms": 0.35,
+        "gap": 170,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 22 km ENE of Ashford, Washington"
+        "title": "M 3.4 - 85 km ENE of Christiansted, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.763999938965,
-          46.8409996032715,
-          -0.310000002384186
+          -63.9966666666667,
+          18.1245,
+          12.83
         ]
       },
-      "id": "uw714127162"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "9 km NNE of Indio, CA",
-        "time": 1792838169670,
-        "updated": 1792838378143,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41351655",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41351655.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41351655",
-        "ids": ",ci41351655,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.04924,
-        "rms": 0.14,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 9 km NNE of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.163166666667,
-          33.7888333333333,
-          8.46
-        ]
-      },
-      "id": "ci41351655"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "30 km W of Anderson, Alaska",
-        "time": 1792837227579,
-        "updated": 1792837335862,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vbnefc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vbnefc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026vbnefc",
-        "ids": ",aka2026vbnefc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 30 km W of Anderson, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.799,
-          64.393,
-          12.8
-        ]
-      },
-      "id": "aka2026vbnefc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "8 km WSW of Fishhook, Alaska",
-        "time": 1792836603021,
-        "updated": 1792836712381,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vbmvdv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vbmvdv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026vbmvdv",
-        "ids": ",aka2026vbmvdv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 8 km WSW of Fishhook, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.385,
-          61.726,
-          20.1
-        ]
-      },
-      "id": "aka2026vbmvdv"
+      "id": "pr71537633"
     }
   ],
   "bbox": [
-    -149.799,
-    33.788833333333,
-    -1.4199999570847,
-    -116.16316666667,
-    64.393,
-    20.1
+    -116.70966666667,
+    18.1245,
+    6.13,
+    -63.996666666667,
+    33.539666666667,
+    12.83
   ]
 }
