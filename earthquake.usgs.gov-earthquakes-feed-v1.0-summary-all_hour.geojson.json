@@ -1,184 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793020344000,
+    "generated": 1793103617000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 6
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "4 km SE of Aromas, CA",
-        "time": 1793020233190,
-        "updated": 1793020329940,
+        "mag": 1.56,
+        "place": "15 km NE of Yerington, Nevada",
+        "time": 1793101953304,
+        "updated": 1793102075355,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455061",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75455061.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926305",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00926305.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "75455061",
-        "ids": ",nc75455061,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.02413,
-        "rms": 0.17,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km SE of Aromas, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.605003356934,
-          36.8626670837402,
-          4.82999992370605
-        ]
-      },
-      "id": "nc75455061"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.79,
-        "place": "6 km E of Puebla, B.C., MX",
-        "time": 1793018400110,
-        "updated": 1793018612211,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41352791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41352791.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "ci",
-        "code": "41352791",
-        "ids": ",ci41352791,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.1321,
-        "rms": 0.22,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 6 km E of Puebla, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.284333333333,
-          32.5688333333333,
-          22.14
-        ]
-      },
-      "id": "ci41352791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "16 km N of Chickaloon, Alaska",
-        "time": 1793018093058,
-        "updated": 1793018172273,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vfjrwd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vfjrwd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026vfjrwd",
-        "ids": ",aka2026vfjrwd,",
-        "sources": ",ak,",
+        "sig": 37,
+        "net": "nn",
+        "code": "00926305",
+        "ids": ",nn00926305,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 78,
+        "nst": 19,
+        "dmin": 0.154,
+        "rms": 0.1247,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 16 km N of Chickaloon, Alaska"
+        "title": "M 1.6 - 15 km NE of Yerington, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.444,
-          61.943,
-          34.4
+          -119.0466,
+          39.0969,
+          9.4886
         ]
       },
-      "id": "aka2026vfjrwd"
+      "id": "nn00926305"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.86,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1793017896790,
-        "updated": 1793017995594,
+        "mag": 0.53,
+        "place": "4 km NW of The Geysers, CA",
+        "time": 1793101749180,
+        "updated": 1793101846417,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455051",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75455051.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455591",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75455591.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
+        "sig": 4,
         "net": "nc",
-        "code": "75455051",
-        "ids": ",nc75455051,",
+        "code": "75455591",
+        "ids": ",nc75455591,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.006999,
+        "nst": 7,
+        "dmin": 0.01016,
         "rms": 0.01,
-        "gap": 116,
+        "gap": 97,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 10 km WNW of The Geysers, CA"
+        "title": "M 0.5 - 4 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.853668212891,
-          38.8209991455078,
-          2.6800000667572
+          -122.782997131348,
+          38.8046684265137,
+          3.49000000953674
         ]
       },
-      "id": "nc75455051"
+      "id": "nc75455591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.93,
+        "place": "8 km ENE of Gilroy, CA",
+        "time": 1793101405250,
+        "updated": 1793101797100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455586",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75455586.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "nc",
+        "code": "75455586",
+        "ids": ",nc75455586,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.005931,
+        "rms": 0.15,
+        "gap": 67,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 8 km ENE of Gilroy, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.481163024902,
+          37.0306663513184,
+          5.48000001907349
+        ]
+      },
+      "id": "nc75455586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "100 km W of El Aguilar, Argentina",
+        "time": 1793101282141,
+        "updated": 1793102486040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttfs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ttfs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000ttfs",
+        "ids": ",us7000ttfs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 1.416,
+        "rms": 1.28,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 100 km W of El Aguilar, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6616,
+          -23.1819,
+          206.259
+        ]
+      },
+      "id": "us7000ttfs"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
-        "place": "43 km WNW of Valdez, Alaska",
-        "time": 1793017480126,
-        "updated": 1793017592140,
+        "place": "4 km S of Pāhala, Hawaii",
+        "time": 1793101002960,
+        "updated": 1793101212700,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vfjjan",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vfjjan.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75064391",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75064391.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,76 +186,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 44,
-        "net": "ak",
-        "code": "a2026vfjjan",
-        "ids": ",aka2026vfjjan,",
-        "sources": ",ak,",
+        "net": "hv",
+        "code": "75064391",
+        "ids": ",hv75064391,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 40,
-        "magType": "ml",
+        "nst": 24,
+        "dmin": 0.08424,
+        "rms": 0.100000001,
+        "gap": 165,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 43 km WNW of Valdez, Alaska"
+        "title": "M 1.7 - 4 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.138,
-          61.223,
-          5
+          -155.479827880859,
+          19.1656665802002,
+          32.1599998474121
         ]
       },
-      "id": "aka2026vfjjan"
+      "id": "hv75064391"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "205 km NW of Port-Olry, Vanuatu",
-        "time": 1793016810652,
-        "updated": 1793017859040,
+        "mag": 2,
+        "place": "35 km ESE of Fox River, Alaska",
+        "time": 1793100616451,
+        "updated": 1793100743271,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4zb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u4zb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vhdohp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vhdohp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000u4zb",
-        "ids": ",us6000u4zb,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 45,
-        "dmin": 6.77,
-        "rms": 0.66,
-        "gap": 104,
-        "magType": "mww",
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026vhdohp",
+        "ids": ",aka2026vhdohp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 130,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.2 - 205 km NW of Port-Olry, Vanuatu"
+        "title": "M 2.0 - 35 km ESE of Fox River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.6029,
-          -13.8613,
-          10
+          -150.332,
+          59.793,
+          19.4
         ]
       },
-      "id": "us6000u4zb"
+      "id": "aka2026vhdohp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.96,
+        "place": "16 km S of Searles Valley, CA",
+        "time": 1793100447330,
+        "updated": 1793100651800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41353487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41353487.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41353487",
+        "ids": ",ci41353487,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.03984,
+        "rms": 0.14,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 16 km S of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4345,
+          35.6261666666667,
+          3.5
+        ]
+      },
+      "id": "ci41353487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.27,
+        "place": "4 km SW of Anza, CA",
+        "time": 1793100386340,
+        "updated": 1793101015110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41353471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41353471.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 25,
+        "net": "ci",
+        "code": "41353471",
+        "ids": ",ci41353471,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 72,
+        "dmin": 0.03936,
+        "rms": 0.2,
+        "gap": 19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 4 km SW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.710666666667,
+          33.5328333333333,
+          5.05
+        ]
+      },
+      "id": "ci41353471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "70 km ESE of Denali Park, Alaska",
+        "time": 1793100303870,
+        "updated": 1793100502501,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vhdjxy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vhdjxy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026vhdjxy",
+        "ids": ",aka2026vhdjxy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 70 km ESE of Denali Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.556,
+          63.544,
+          0
+        ]
+      },
+      "id": "aka2026vhdjxy"
     }
   ],
   "bbox": [
-    -148.444,
-    -13.8613,
-    2.6800000667572,
-    165.6029,
-    61.943,
-    34.4
+    -155.47982788086,
+    -23.1819,
+    0,
+    -66.6616,
+    63.544,
+    206.259
   ]
 }
