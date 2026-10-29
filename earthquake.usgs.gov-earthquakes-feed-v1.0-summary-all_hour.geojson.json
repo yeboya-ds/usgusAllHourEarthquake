@@ -1,381 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793192610000,
+    "generated": 1793279435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 9
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.97,
-        "place": "3 km NNE of Pāhala, Hawaii",
-        "time": 1793191850440,
-        "updated": 1793192058350,
+        "mag": 1.2,
+        "place": "28 km NNW of Willow, Alaska",
+        "time": 1793278580031,
+        "updated": 1793278652476,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75064891",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75064891.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vkymey",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vkymey.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 60,
-        "net": "hv",
-        "code": "75064891",
-        "ids": ",hv75064891,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.03466,
-        "rms": 0.119999997,
-        "gap": 97,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 3 km NNE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.46533203125,
-          19.2345008850098,
-          32.7599983215332
-        ]
-      },
-      "id": "hv75064891"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.69,
-        "place": "11 km N of Lake Pillsbury, CA",
-        "time": 1793191747390,
-        "updated": 1793191842165,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75458937",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75458937.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "nc",
-        "code": "75458937",
-        "ids": ",nc75458937,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01197,
-        "rms": 0.04,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 11 km N of Lake Pillsbury, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.943168640137,
-          39.502498626709,
-          11.2799997329712
-        ]
-      },
-      "id": "nc75458937"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "43 km NW of Tatitlek, Alaska",
-        "time": 1793191712634,
-        "updated": 1793191832852,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vjcewp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vjcewp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
+        "sig": 22,
         "net": "ak",
-        "code": "a2026vjcewp",
-        "ids": ",aka2026vjcewp,",
+        "code": "a2026vkymey",
+        "ids": ",aka2026vkymey,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.3,
+        "nst": 8,
+        "dmin": 0.4,
         "rms": 0.6,
-        "gap": 66,
+        "gap": 102,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 43 km NW of Tatitlek, Alaska"
+        "title": "M 1.2 - 28 km NNW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.21,
-          61.161,
-          5
+          -150.289,
+          61.975,
+          29.4
         ]
       },
-      "id": "aka2026vjcewp"
+      "id": "aka2026vkymey"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "Reykjanes Ridge",
-        "time": 1793191628927,
-        "updated": 1793192532040,
+        "mag": 0.4,
+        "place": "77 km NW of Ninilchik, Alaska",
+        "time": 1793277850906,
+        "updated": 1793277886639,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ttnz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000ttnz",
-        "ids": ",us7000ttnz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 87,
-        "dmin": 7.248,
-        "rms": 0.87,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Reykjanes Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -32.3348,
-          58.2153,
-          10
-        ]
-      },
-      "id": "us7000ttnz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "47 km E of Denali National Park, Alaska",
-        "time": 1793191058003,
-        "updated": 1793191138712,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vjbvkn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vjbvkn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vkybqz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vkybqz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 2,
         "net": "ak",
-        "code": "a2026vjbvkn",
-        "ids": ",aka2026vjbvkn,",
+        "code": "a2026vkybqz",
+        "ids": ",aka2026vkybqz,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.6,
-        "rms": 0.4,
-        "gap": 64,
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 95,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 47 km E of Denali National Park, Alaska"
+        "title": "M 0.4 - 77 km NW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.759,
-          63.558,
-          2.6
+          -152.763,
+          60.48,
+          0.5
         ]
       },
-      "id": "aka2026vjbvkn"
+      "id": "aka2026vkybqz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "88 km SE of Hihifo, Tonga",
-        "time": 1793190923786,
-        "updated": 1793192213040,
+        "mag": 2.67,
+        "place": "12 km SW of Ridgemark, CA",
+        "time": 1793277485010,
+        "updated": 1793278343421,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ttnt.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459362",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459362.geojson",
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000ttnt",
-        "ids": ",us7000ttnt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 2.969,
-        "rms": 0.76,
-        "gap": 73,
-        "magType": "mb",
+        "sig": 110,
+        "net": "nc",
+        "code": "75459362",
+        "ids": ",nc75459362,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 69,
+        "dmin": 0.008157,
+        "rms": 0.16,
+        "gap": 32,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.9 - 88 km SE of Hihifo, Tonga"
+        "title": "M 2.7 - 12 km SW of Ridgemark, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.2355,
-          -16.541,
-          10
+          -121.464500427246,
+          36.7411651611328,
+          8.85000038146973
         ]
       },
-      "id": "us7000ttnt"
+      "id": "nc75459362"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.03,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1793190505740,
-        "updated": 1793190602211,
+        "mag": 0.52,
+        "place": "7 km SSW of Borrego Springs, CA",
+        "time": 1793277026490,
+        "updated": 1793277232688,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75458927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75458927.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41568784",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41568784.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "nc",
-        "code": "75458927",
-        "ids": ",nc75458927,",
-        "sources": ",nc,",
+        "sig": 4,
+        "net": "ci",
+        "code": "41568784",
+        "ids": ",ci41568784,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.009504,
-        "rms": 0.01,
-        "gap": 50,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818168640137,
-          38.8305015563965,
-          1.83000004291534
-        ]
-      },
-      "id": "nc75458927"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.18,
-        "place": "9 km N of Lake Pillsbury, CA",
-        "time": 1793189561470,
-        "updated": 1793191650630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75458917",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75458917.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "nc",
-        "code": "75458917",
-        "ids": ",nc75458917,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.02451,
-        "rms": 0.12,
+        "nst": 34,
+        "dmin": 0.07894,
+        "rms": 0.25,
         "gap": 51,
-        "magType": "md",
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 9 km N of Lake Pillsbury, CA"
+        "title": "M 0.5 - 7 km SSW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.950500488281,
-          39.4910011291504,
-          9.34000015258789
+          -116.3955,
+          33.1911666666667,
+          10.95
         ]
       },
-      "id": "nc75458917"
+      "id": "ci41568784"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.75,
-        "place": "8 km NNW of Lake Pillsbury, CA",
-        "time": 1793189518730,
-        "updated": 1793191343683,
+        "mag": 2.6,
+        "place": "5 km WNW of Madera, CA",
+        "time": 1793276044550,
+        "updated": 1793278342422,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75458912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75458912.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459352",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459352.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 47,
+        "sig": 104,
         "net": "nc",
-        "code": "75458912",
-        "ids": ",nc75458912,",
+        "code": "75459352",
+        "ids": ",nc75459352,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.04735,
-        "rms": 0.02,
-        "gap": 112,
+        "nst": 35,
+        "dmin": 0.2172,
+        "rms": 0.39,
+        "gap": 43,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 8 km NNW of Lake Pillsbury, CA"
+        "title": "M 2.6 - 5 km WNW of Madera, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.984169006348,
-          39.4809989929199,
-          6.32999992370605
+          -120.110168457031,
+          36.9845008850098,
+          11.9899997711182
         ]
       },
-      "id": "nc75458912"
+      "id": "nc75459352"
     }
   ],
   "bbox": [
-    -173.2355,
-    -16.541,
-    1.8300000429153,
-    -32.3348,
-    63.558,
-    32.759998321533
+    -152.763,
+    33.191166666667,
+    0.5,
+    -116.3955,
+    61.975,
+    29.4
   ]
 }
