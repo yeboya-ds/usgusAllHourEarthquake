@@ -1,264 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793365393000,
+    "generated": 1793450495000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 7
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1793364501380,
-        "updated": 1793364595664,
+        "mag": 1.45,
+        "place": "15 km NE of Ridgecrest, CA",
+        "time": 1793448007440,
+        "updated": 1793448218594,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459792.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41570328.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75459792",
-        "ids": ",nc75459792,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.005651,
-        "rms": 0.02,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.804496765137,
-          38.8269996643066,
-          1.94000005722046
-        ]
-      },
-      "id": "nc75459792"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "17 km ESE of Clam Gulch, Alaska",
-        "time": 1793364178788,
-        "updated": 1793364432556,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vmubej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vmubej.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026vmubej",
-        "ids": ",aka2026vmubej,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 17 km ESE of Clam Gulch, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.089,
-          60.187,
-          69.5
-        ]
-      },
-      "id": "aka2026vmubej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.36,
-        "place": "10 km N of Lake Pillsbury, CA",
-        "time": 1793363677320,
-        "updated": 1793365042224,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459782",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459782.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "nc",
-        "code": "75459782",
-        "ids": ",nc75459782,",
-        "sources": ",nc,",
+        "sig": 32,
+        "net": "ci",
+        "code": "41570328",
+        "ids": ",ci41570328,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.01872,
-        "rms": 0.08,
-        "gap": 50,
+        "nst": 37,
+        "dmin": 0.1337,
+        "rms": 0.15,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 15 km NE of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.57,
+          35.726,
+          9.29
+        ]
+      },
+      "id": "ci41570328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.79657309734456,
+        "place": "15 km WSW of Searles Valley, CA",
+        "time": 1793448003330,
+        "updated": 1793448134583,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570336",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41570336.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ci",
+        "code": "41570336",
+        "ids": ",ci41570336,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.1318,
+        "rms": 0.140000001,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 15 km WSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.563667297363,
+          35.7314987182617,
+          6.59000015258789
+        ]
+      },
+      "id": "ci41570336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.89,
+        "place": "6 km N of Altadena, CA",
+        "time": 1793447758960,
+        "updated": 1793447972094,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570320",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41570320.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41570320",
+        "ids": ",ci41570320,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.05174,
+        "rms": 0.12,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 6 km N of Altadena, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.130166666667,
+          34.2425,
+          6.97
+        ]
+      },
+      "id": "ci41570320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.17,
+        "place": "21 km SSE of Pāhala, Hawaii",
+        "time": 1793447560270,
+        "updated": 1793447774790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75066756",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75066756.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "hv",
+        "code": "75066756",
+        "ids": ",hv75066756,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.1459,
+        "rms": 0.129999995,
+        "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.4 - 10 km N of Lake Pillsbury, CA"
+        "title": "M 2.2 - 21 km SSE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.949333190918,
-          39.4968338012695,
-          9.72999954223633
+          -155.376159667969,
+          19.0336666107178,
+          29.9099998474121
         ]
       },
-      "id": "nc75459782"
+      "id": "hv75066756"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "19 km ESE of Little Lake, CA",
-        "time": 1793363382190,
-        "updated": 1793363587485,
+        "mag": 2.16,
+        "place": "3 km SSW of Pāhala, Hawaii",
+        "time": 1793447404050,
+        "updated": 1793447608300,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569696",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569696.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75066751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75066751.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41569696",
-        "ids": ",ci41569696,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.062,
-        "rms": 0.14,
-        "gap": 48,
-        "magType": "ml",
+        "sig": 72,
+        "net": "hv",
+        "code": "75066751",
+        "ids": ",hv75066751,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.02762,
+        "rms": 0.109999999,
+        "gap": 106,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 19 km ESE of Little Lake, CA"
+        "title": "M 2.2 - 3 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.6975,
-          35.899,
-          3.53
+          -155.488159179688,
+          19.1679992675781,
+          35.3800010681152
         ]
       },
-      "id": "ci41569696"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.09,
-        "place": "2 km SE of Loma Linda, CA",
-        "time": 1793362730550,
-        "updated": 1793362937449,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569680",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569680.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "41569680",
-        "ids": ",ci41569680,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.08,
-        "rms": 0.17,
-        "gap": 29,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km SE of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.244,
-          34.032,
-          3.83
-        ]
-      },
-      "id": "ci41569680"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "4 km SSW of Redlands, CA",
-        "time": 1793362702330,
-        "updated": 1793362904702,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569672.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41569672",
-        "ids": ",ci41569672,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.07437,
-        "rms": 0.19,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 4 km SSW of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.200333333333,
-          34.0213333333333,
-          3.96
-        ]
-      },
-      "id": "ci41569672"
+      "id": "hv75066751"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "34 km NE of Chase, Alaska",
-        "time": 1793362246669,
-        "updated": 1793362319915,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1793447250320,
+        "updated": 1793448748430,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vmszgs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vmszgs.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460277",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75460277.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,36 +226,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "ak",
-        "code": "a2026vmszgs",
-        "ids": ",aka2026vmszgs,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 79,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75460277",
+        "ids": ",nc75460277,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.004587,
+        "rms": 0.02,
+        "gap": 34,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 34 km NE of Chase, Alaska"
+        "title": "M 1.5 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.614,
-          62.663,
-          16.8
+          -122.804496765137,
+          38.8248329162598,
+          1.48000001907349
         ]
       },
-      "id": "aka2026vmszgs"
+      "id": "nc75460277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.35,
+        "place": "9 km N of Borrego Springs, CA",
+        "time": 1793447024160,
+        "updated": 1793447232212,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41570312.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "41570312",
+        "ids": ",ci41570312,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.08273,
+        "rms": 0.16,
+        "gap": 136,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 9 km N of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.366666666667,
+          33.3395,
+          9.73
+        ]
+      },
+      "id": "ci41570312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.66,
+        "place": "19 km N of Ridgecrest, CA",
+        "time": 1793446909280,
+        "updated": 1793447109930,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570304",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41570304.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41570304",
+        "ids": ",ci41570304,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.1072,
+        "rms": 0.18,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 19 km N of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.635666666667,
+          35.7873333333333,
+          9.79
+        ]
+      },
+      "id": "ci41570304"
     }
   ],
   "bbox": [
-    -151.089,
-    34.021333333333,
-    1.9400000572205,
-    -117.20033333333,
-    62.663,
-    69.5
+    -155.48815917969,
+    19.033666610718,
+    1.4800000190735,
+    -116.36666666667,
+    38.82483291626,
+    35.380001068115
   ]
 }
