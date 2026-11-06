@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793889780000,
+    "generated": 1793974929000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,250 +12,250 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "129 km S of McCarthy, Alaska",
-        "time": 1793889173826,
-        "updated": 1793889236381,
+        "mag": 2.3,
+        "place": "40 km NE of Aleneva, Alaska",
+        "time": 1793974719471,
+        "updated": 1793974805279,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vxzvxg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vxzvxg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzvkcu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzvkcu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
+        "sig": 81,
         "net": "ak",
-        "code": "a2026vxzvxg",
-        "ids": ",aka2026vxzvxg,",
+        "code": "a2026vzvkcu",
+        "ids": ",aka2026vzvkcu,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 194,
+        "nst": 36,
+        "dmin": 0.3,
+        "rms": 0.4,
+        "gap": 161,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 129 km S of McCarthy, Alaska"
+        "title": "M 2.3 - 40 km NE of Aleneva, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -143.354,
-          60.286,
-          5
+          -152.394,
+          58.296,
+          37.3
         ]
       },
-      "id": "aka2026vxzvxg"
+      "id": "aka2026vzvkcu"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.16,
-        "place": "13 km SE of Ocotillo, CA",
-        "time": 1793888379650,
-        "updated": 1793888588715,
+        "mag": 1.1,
+        "place": "5 km SSW of Salcha, Alaska",
+        "time": 1793974048187,
+        "updated": 1793974136488,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358735",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358735.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzvaky",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzvaky.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41358735",
-        "ids": ",ci41358735,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.02296,
-        "rms": 0.14,
-        "gap": 130,
+        "sig": 19,
+        "net": "ak",
+        "code": "a2026vzvaky",
+        "ids": ",aka2026vzvaky,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 81,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 13 km SE of Ocotillo, CA"
+        "title": "M 1.1 - 5 km SSW of Salcha, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.896666666667,
-          32.6553333333333,
-          10.75
+          -146.961,
+          64.484,
+          9.5
         ]
       },
-      "id": "ci41358735"
+      "id": "aka2026vzvaky"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.08,
-        "place": "13 km SE of Ocotillo, CA",
-        "time": 1793888044220,
-        "updated": 1793888255740,
+        "mag": 2.1,
+        "place": "13 km E of Pāhala, Hawaii",
+        "time": 1793973116600,
+        "updated": 1793973331480,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358727",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358727.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75069201",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75069201.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "41358727",
-        "ids": ",ci41358727,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.02605,
-        "rms": 0.16,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 13 km SE of Ocotillo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.891666666667,
-          32.651,
-          11.4
-        ]
-      },
-      "id": "ci41358727"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.27,
-        "place": "14 km NE of Pāhala, Hawaii",
-        "time": 1793887589040,
-        "updated": 1793887794250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068926",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068926.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 79,
+        "sig": 68,
         "net": "hv",
-        "code": "75068926",
-        "ids": ",hv75068926,",
+        "code": "75069201",
+        "ids": ",hv75069201,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.04142,
-        "rms": 0.159999996,
-        "gap": 111,
+        "nst": 38,
+        "dmin": 0.04742,
+        "rms": 0.129999995,
+        "gap": 184,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 14 km NE of Pāhala, Hawaii"
+        "title": "M 2.1 - 13 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.374328613281,
-          19.2931671142578,
-          30.0699996948242
+          -155.354995727539,
+          19.2121658325195,
+          27.7999992370605
         ]
       },
-      "id": "hv75068926"
+      "id": "hv75069201"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.93,
-        "place": "4 km NNE of Beaumont, CA",
-        "time": 1793887366900,
-        "updated": 1793887576415,
+        "mag": 0.8,
+        "place": "33 km SE of Chickaloon, Alaska",
+        "time": 1793973104658,
+        "updated": 1793973170749,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358719",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358719.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzumup",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzumup.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41358719",
-        "ids": ",ci41358719,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.1275,
-        "rms": 0.21,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 4 km NNE of Beaumont, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.9655,
-          33.9681666666667,
-          10.99
-        ]
-      },
-      "id": "ci41358719"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "20 km S of Susitna, Alaska",
-        "time": 1793886909492,
-        "updated": 1793886976052,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vxypem",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vxypem.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026vxypem",
-        "ids": ",aka2026vxypem,",
+        "code": "a2026vzumup",
+        "ids": ",aka2026vzumup,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.5,
-        "rms": 0.2,
-        "gap": 160,
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 131,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 20 km S of Susitna, Alaska"
+        "title": "M 0.8 - 33 km SE of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.553,
-          61.358,
-          29.1
+          -148.083,
+          61.552,
+          11
         ]
       },
-      "id": "aka2026vxypem"
+      "id": "aka2026vzumup"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "56 km SW of Tatitlek, Alaska",
+        "time": 1793972364596,
+        "updated": 1793972466149,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzucbw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzucbw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026vzucbw",
+        "ids": ",aka2026vzucbw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 88,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 56 km SW of Tatitlek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.534,
+          60.584,
+          17.2
+        ]
+      },
+      "id": "aka2026vzucbw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.86,
+        "place": "23 km NNW of Pāhala, Hawaii",
+        "time": 1793971792920,
+        "updated": 1793972010370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75069191",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75069191.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "hv",
+        "code": "75069191",
+        "ids": ",hv75069191,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.07585,
+        "rms": 0.219999999,
+        "gap": 104,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 23 km NNW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.526000976562,
+          19.4115009307861,
+          22.75
+        ]
+      },
+      "id": "hv75069191"
     }
   ],
   "bbox": [
-    -155.37432861328,
-    19.293167114258,
-    5,
-    -115.89166666667,
-    61.358,
-    30.069999694824
+    -155.52600097656,
+    19.212165832519,
+    9.5,
+    -146.961,
+    64.484,
+    37.3
   ]
 }
