@@ -1,64 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793974929000,
+    "generated": 1794057123000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 6
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "40 km NE of Aleneva, Alaska",
-        "time": 1793974719471,
-        "updated": 1793974805279,
+        "mag": 1.11,
+        "place": "15 km ESE of Julian, CA",
+        "time": 1794056586140,
+        "updated": 1794056795467,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzvkcu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzvkcu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026vzvkcu",
-        "ids": ",aka2026vzvkcu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.3,
-        "rms": 0.4,
-        "gap": 161,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 40 km NE of Aleneva, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.394,
-          58.296,
-          37.3
-        ]
-      },
-      "id": "aka2026vzvkcu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "5 km SSW of Salcha, Alaska",
-        "time": 1793974048187,
-        "updated": 1793974136488,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzvaky",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzvaky.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41359663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41359663.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,196 +26,316 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 19,
+        "net": "ci",
+        "code": "41359663",
+        "ids": ",ci41359663,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.02719,
+        "rms": 0.21,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 15 km ESE of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.441333333333,
+          33.0501666666667,
+          14.22
+        ]
+      },
+      "id": "ci41359663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "26 km ESE of Naalehu, Hawaii",
+        "time": 1794056542880,
+        "updated": 1794056763840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068217",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068217.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "hv",
+        "code": "75068217",
+        "ids": ",hv75068217,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.2254,
+        "rms": 0.25,
+        "gap": 240,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 26 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.365325927734,
+          18.9483337402344,
+          16.5100002288818
+        ]
+      },
+      "id": "hv75068217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "86 km S of Kokhanok, Alaska",
+        "time": 1794056392987,
+        "updated": 1794056455684,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wboujt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wboujt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
         "net": "ak",
-        "code": "a2026vzvaky",
-        "ids": ",aka2026vzvaky,",
+        "code": "a2026wboujt",
+        "ids": ",aka2026wboujt,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 81,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 222,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 5 km SSW of Salcha, Alaska"
+        "title": "M 1.3 - 86 km S of Kokhanok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.961,
-          64.484,
-          9.5
+          -154.961,
+          58.67,
+          5
         ]
       },
-      "id": "aka2026vzvaky"
+      "id": "aka2026wboujt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "13 km E of Pāhala, Hawaii",
-        "time": 1793973116600,
-        "updated": 1793973331480,
+        "mag": 1.5,
+        "place": "23 km WNW of Petersville, Alaska",
+        "time": 1794055504210,
+        "updated": 1794055587131,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75069201",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75069201.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wbohnf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wbohnf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "hv",
-        "code": "75069201",
-        "ids": ",hv75069201,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.04742,
-        "rms": 0.129999995,
-        "gap": 184,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 13 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.354995727539,
-          19.2121658325195,
-          27.7999992370605
-        ]
-      },
-      "id": "hv75069201"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "33 km SE of Chickaloon, Alaska",
-        "time": 1793973104658,
-        "updated": 1793973170749,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzumup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzumup.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
+        "sig": 35,
         "net": "ak",
-        "code": "a2026vzumup",
-        "ids": ",aka2026vzumup,",
+        "code": "a2026wbohnf",
+        "ids": ",aka2026wbohnf,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 131,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 33 km SE of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.083,
-          61.552,
-          11
-        ]
-      },
-      "id": "aka2026vzumup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "56 km SW of Tatitlek, Alaska",
-        "time": 1793972364596,
-        "updated": 1793972466149,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzucbw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzucbw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026vzucbw",
-        "ids": ",aka2026vzucbw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 56 km SW of Tatitlek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.534,
-          60.584,
-          17.2
-        ]
-      },
-      "id": "aka2026vzucbw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.86,
-        "place": "23 km NNW of Pāhala, Hawaii",
-        "time": 1793971792920,
-        "updated": 1793972010370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75069191",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75069191.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "hv",
-        "code": "75069191",
-        "ids": ",hv75069191,",
-        "sources": ",hv,",
         "types": ",origin,phase-data,",
         "nst": 8,
-        "dmin": 0.07585,
-        "rms": 0.219999999,
-        "gap": 104,
-        "magType": "md",
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 109,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 23 km NNW of Pāhala, Hawaii"
+        "title": "M 1.5 - 23 km WNW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.526000976562,
-          19.4115009307861,
-          22.75
+          -151.153,
+          62.604,
+          92.7
         ]
       },
-      "id": "hv75069191"
+      "id": "aka2026wbohnf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.36,
+        "place": "1 km S of Chatsworth, CA",
+        "time": 1794055074220,
+        "updated": 1794055273466,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41359655",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41359655.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "ci",
+        "code": "41359655",
+        "ids": ",ci41359655,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 64,
+        "dmin": 0.04359,
+        "rms": 0.24,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 1 km S of Chatsworth, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.603166666667,
+          34.2515,
+          2.59
+        ]
+      },
+      "id": "ci41359655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "13 km NE of Milford, Utah",
+        "time": 1794054909970,
+        "updated": 1794055920370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80163431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80163431.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.321,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "uu",
+        "code": "80163431",
+        "ids": ",uu80163431,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 43,
+        "dmin": 0.0222,
+        "rms": 0.26,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 13 km NE of Milford, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.887,
+          38.476,
+          1.32
+        ]
+      },
+      "id": "uu80163431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "52 km SSE of Cantwell, Alaska",
+        "time": 1794054406503,
+        "updated": 1794054526842,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wbnphi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wbnphi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026wbnphi",
+        "ids": ",aka2026wbnphi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 47,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 52 km SSE of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.406,
+          62.986,
+          75.8
+        ]
+      },
+      "id": "aka2026wbnphi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "32 km WSW of Livengood, Alaska",
+        "time": 1794053798759,
+        "updated": 1794053868540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wbnixf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wbnixf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026wbnixf",
+        "ids": ",aka2026wbnixf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 32 km WSW of Livengood, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.231,
+          65.453,
+          8
+        ]
+      },
+      "id": "aka2026wbnixf"
     }
   ],
   "bbox": [
-    -155.52600097656,
-    19.212165832519,
-    9.5,
-    -146.961,
-    64.484,
-    37.3
+    -155.36532592773,
+    18.948333740234,
+    1.32,
+    -112.887,
+    65.453,
+    92.7
   ]
 }
