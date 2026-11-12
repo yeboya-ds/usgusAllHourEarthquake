@@ -1,224 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794407366000,
+    "generated": 1794496892000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 7
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "70 km E of Port Alsworth, Alaska",
-        "time": 1794407131814,
-        "updated": 1794407185636,
+        "mag": 2.2,
+        "place": "71 km WNW of Happy Valley, Alaska",
+        "time": 1794496612131,
+        "updated": 1794496856035,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wjbsxv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wjbsxv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkzmac",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wkzmac.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 74,
         "net": "ak",
-        "code": "a2026wjbsxv",
-        "ids": ",aka2026wjbsxv,",
+        "code": "a2026wkzmac",
+        "ids": ",aka2026wkzmac,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 1.2,
-        "gap": 176,
+        "nst": 87,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 70 km E of Port Alsworth, Alaska"
+        "title": "M 2.2 - 71 km WNW of Happy Valley, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.048,
-          60.14,
-          12.5
+          -152.977,
+          60.095,
+          126.5
         ]
       },
-      "id": "aka2026wjbsxv"
+      "id": "aka2026wkzmac"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "129 km ESE of Cordova, Alaska",
-        "time": 1794407014941,
-        "updated": 1794407200526,
+        "mag": 1.02,
+        "place": "3 km NW of The Geysers, CA",
+        "time": 1794495795670,
+        "updated": 1794495892621,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wjbrfk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wjbrfk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75465762",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75465762.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 16,
+        "net": "nc",
+        "code": "75465762",
+        "ids": ",nc75465762,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.006841,
+        "rms": 0.01,
+        "gap": 94,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 3 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.779335021973,
+          38.7918319702148,
+          2.27999997138977
+        ]
+      },
+      "id": "nc75465762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "62 km WNW of Petersville, Alaska",
+        "time": 1794495744161,
+        "updated": 1794495835233,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkyzlw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wkyzlw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
         "net": "ak",
-        "code": "a2026wjbrfk",
-        "ids": ",aka2026wjbrfk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 192,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 129 km ESE of Cordova, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -143.47,
-          60.266,
-          6.2
-        ]
-      },
-      "id": "aka2026wjbrfk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.15,
-        "place": "11 km E of Puebla, B.C., MX",
-        "time": 1794405535650,
-        "updated": 1794405747541,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41360967",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41360967.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "ci",
-        "code": "41360967",
-        "ids": ",ci41360967,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.1303,
-        "rms": 0.25,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 11 km E of Puebla, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.2365,
-          32.5551666666667,
-          18.84
-        ]
-      },
-      "id": "ci41360967"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "30 km NNE of Whittier, Alaska",
-        "time": 1794405506082,
-        "updated": 1794405706468,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wjavkr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wjavkr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "a2026wjavkr",
-        "ids": ",aka2026wjavkr,",
+        "code": "a2026wkyzlw",
+        "ids": ",aka2026wkyzlw,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 131,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 30 km NNE of Whittier, Alaska"
+        "title": "M 1.6 - 62 km WNW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.387,
-          61.007,
-          5
+          -151.873,
+          62.718,
+          6.4
         ]
       },
-      "id": "aka2026wjavkr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "3 km NE of Girdwood, Alaska",
-        "time": 1794405212184,
-        "updated": 1794406819350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wjaqsc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wjaqsc.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026wjaqsc",
-        "ids": ",aka2026wjaqsc,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 3 km NE of Girdwood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.119,
-          60.965,
-          18.4
-        ]
-      },
-      "id": "aka2026wjaqsc"
+      "id": "aka2026wkyzlw"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.7,
-        "place": "59 km ENE of Pedro Bay, Alaska",
-        "time": 1794405009643,
-        "updated": 1794405137311,
+        "place": "45 km WNW of Anchor Point, Alaska",
+        "time": 1794495269576,
+        "updated": 1794495355472,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wjaogl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wjaogl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkyssd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wkyssd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,75 +147,195 @@
         "tsunami": 0,
         "sig": 8,
         "net": "ak",
-        "code": "a2026wjaogl",
-        "ids": ",aka2026wjaogl,",
+        "code": "a2026wkyssd",
+        "ids": ",aka2026wkyssd,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 228,
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 0,
+        "gap": 254,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 59 km ENE of Pedro Bay, Alaska"
+        "title": "M 0.7 - 45 km WNW of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.195,
-          60.065,
-          15.3
+          -152.59,
+          59.91,
+          149
         ]
       },
-      "id": "aka2026wjaogl"
+      "id": "aka2026wkyssd"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "77 km W of Arctic Village, Alaska",
-        "time": 1794404888117,
-        "updated": 1794405127085,
+        "mag": 0.8,
+        "place": "54 km E of Port Alsworth, Alaska",
+        "time": 1794494914483,
+        "updated": 1794494960395,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wjamms",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wjamms.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkynmc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wkynmc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026wjamms",
-        "ids": ",aka2026wjamms,",
+        "code": "a2026wkynmc",
+        "ids": ",aka2026wkynmc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.7,
-        "rms": 0.8,
-        "gap": 63,
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 328,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 77 km W of Arctic Village, Alaska"
+        "title": "M 0.8 - 54 km E of Port Alsworth, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.39,
-          68.052,
+          -153.333,
+          60.181,
           5
         ]
       },
-      "id": "aka2026wjamms"
+      "id": "aka2026wkynmc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "74 km NW of Aleneva, Alaska",
+        "time": 1794494405060,
+        "updated": 1794494586440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkygcp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wkygcp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026wkygcp",
+        "ids": ",aka2026wkygcp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 127,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 74 km NW of Aleneva, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.804,
+          58.529,
+          78.1
+        ]
+      },
+      "id": "aka2026wkygcp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "86 km NNW of Karluk, Alaska",
+        "time": 1794494083867,
+        "updated": 1794494196218,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkybma",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wkybma.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ak",
+        "code": "a2026wkybma",
+        "ids": ",aka2026wkybma,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 125,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 86 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.007,
+          58.29,
+          5
+        ]
+      },
+      "id": "aka2026wkybma"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.58,
+        "place": "3 km N of Mira Loma, CA",
+        "time": 1794493324230,
+        "updated": 1794494009120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41361343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41361343.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 38,
+        "net": "ci",
+        "code": "41361343",
+        "ids": ",ci41361343,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 76,
+        "dmin": 0.03761,
+        "rms": 0.18,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 3 km N of Mira Loma, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.52167,
+          34.02233,
+          8.73
+        ]
+      },
+      "id": "ci41361343"
     }
   ],
   "bbox": [
-    -153.195,
-    32.555166666667,
-    5,
-    -115.2365,
-    68.052,
-    18.84
+    -155.007,
+    34.02233,
+    2.2799999713898,
+    -117.52167,
+    62.718,
+    149
   ]
 }
