@@ -1,181 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794580772000,
+    "generated": 1794663407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 4
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.95,
-        "place": "3 km ENE of Fontana, CA",
-        "time": 1794579918410,
-        "updated": 1794580129841,
+        "mag": 1.2,
+        "place": "11 km N of Tatitlek, Alaska",
+        "time": 1794663008776,
+        "updated": 1794663116060,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41361687",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41361687.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wonyis",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wonyis.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41361687",
-        "ids": ",ci41361687,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.07616,
-        "rms": 0.13,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km ENE of Fontana, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4255,
-          34.10333,
-          5.86
-        ]
-      },
-      "id": "ci41361687"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.23,
-        "place": "1 km WNW of Loma Linda, CA",
-        "time": 1794579630460,
-        "updated": 1794579843034,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41361679",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41361679.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "41361679",
-        "ids": ",ci41361679,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.09221,
-        "rms": 0.19,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 1 km WNW of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.26633,
-          34.05083,
-          16.35
-        ]
-      },
-      "id": "ci41361679"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "West Chile Rise",
-        "time": 1794579167843,
-        "updated": 1794580355040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ty0s.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000ty0s",
-        "ids": ",us7000ty0s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 20.403,
-        "rms": 1.02,
-        "gap": 112,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - West Chile Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.9785,
-          -36.4434,
-          10
-        ]
-      },
-      "id": "us7000ty0s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "23 km SW of Anchor Point, Alaska",
-        "time": 1794578230826,
-        "updated": 1794578326087,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wmsvmf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wmsvmf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
+        "sig": 22,
         "net": "ak",
-        "code": "a2026wmsvmf",
-        "ids": ",aka2026wmsvmf,",
+        "code": "a2026wonyis",
+        "ids": ",aka2026wonyis,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 106,
+        "nst": 7,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 146,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 23 km SW of Anchor Point, Alaska"
+        "title": "M 1.2 - 11 km N of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.088,
-          59.608,
-          64.9
+          -146.692,
+          60.968,
+          23
         ]
       },
-      "id": "aka2026wmsvmf"
+      "id": "aka2026wonyis"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.4,
+        "place": "61 km ENE of Pedro Bay, Alaska",
+        "time": 1794662498841,
+        "updated": 1794662665133,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wonrfz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wonrfz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ak",
+        "code": "a2026wonrfz",
+        "ids": ",aka2026wonrfz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.7,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 61 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.132,
+          60.045,
+          5
+        ]
+      },
+      "id": "aka2026wonrfz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "7 km WSW of Holtville, CA",
+        "time": 1794661789910,
+        "updated": 1794662456390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362023",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41362023.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ci",
+        "code": "41362023",
+        "ids": ",ci41362023,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.00819,
+        "rms": 0.3,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 7 km WSW of Holtville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.453,
+          32.799,
+          12.06
+        ]
+      },
+      "id": "ci41362023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "17 km E of Little Lake, CA",
+        "time": 1794661770030,
+        "updated": 1794661996949,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362015",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41362015.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41362015",
+        "ids": ",ci41362015,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.05259,
+        "rms": 0.15,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 17 km E of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.71283,
+          35.93383,
+          3.97
+        ]
+      },
+      "id": "ci41362015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.4,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1794661634480,
+        "updated": 1794661733092,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466377",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466377.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "nc",
+        "code": "75466377",
+        "ids": ",nc75466377,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01417,
+        "rms": 0.01,
+        "gap": 66,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 8 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816497802734,
+          38.8366661071777,
+          1.80999994277954
+        ]
+      },
+      "id": "nc75466377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.25,
+        "place": "5 km WNW of The Geysers, CA",
+        "time": 1794660983400,
+        "updated": 1794661079540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466372",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466372.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75466372",
+        "ids": ",nc75466372,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.009842,
+        "rms": 0.05,
+        "gap": 166,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 5 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.803001403809,
+          38.8001670837402,
+          3.54999995231628
+        ]
+      },
+      "id": "nc75466372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.69,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1794660256970,
+        "updated": 1794662540680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466367.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "nc",
+        "code": "75466367",
+        "ids": ",nc75466367,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.05742,
+        "rms": 0.05,
+        "gap": 117,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.929336547852,
+          38.7781677246094,
+          4.98999977111816
+        ]
+      },
+      "id": "nc75466367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "58 km WNW of Ninilchik, Alaska",
+        "time": 1794660234912,
+        "updated": 1794660415986,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026womkkz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026womkkz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026womkkz",
+        "ids": ",aka2026womkkz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 185,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 58 km WNW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.643,
+          60.248,
+          109
+        ]
+      },
+      "id": "aka2026womkkz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "41 km NW of Valdez, Alaska",
+        "time": 1794659873281,
+        "updated": 1794659953017,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026womfhg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026womfhg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026womfhg",
+        "ids": ",aka2026womfhg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 96,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 41 km NW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.953,
+          61.368,
+          18.9
+        ]
+      },
+      "id": "aka2026womfhg"
     }
   ],
   "bbox": [
-    -152.088,
-    -36.4434,
-    5.86,
-    -97.9785,
-    59.608,
-    64.9
+    -153.132,
+    32.799,
+    1.8099999427795,
+    -115.453,
+    61.368,
+    109
   ]
 }
