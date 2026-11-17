@@ -1,221 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794844650000,
+    "generated": 1794931666000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 5
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.86,
-        "place": "18 km E of Little Lake, CA",
-        "time": 1794844425950,
-        "updated": 1794844628470,
+        "mag": 2.04,
+        "place": "3 km NW of Aguanga, CA",
+        "time": 1794931411740,
+        "updated": 1794931621643,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362759",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41362759.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363047.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
+        "sig": 64,
         "net": "ci",
-        "code": "41362759",
-        "ids": ",ci41362759,",
+        "code": "41363047",
+        "ids": ",ci41363047,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.04402,
-        "rms": 0.13,
-        "gap": 43,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 90,
+        "dmin": 0.0259,
+        "rms": 0.22,
+        "gap": 19,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 18 km E of Little Lake, CA"
+        "title": "M 2.0 - 3 km NW of Aguanga, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.70433,
-          35.9525,
-          4.66
+          -116.88883,
+          33.464,
+          12.61
         ]
       },
-      "id": "ci41362759"
+      "id": "ci41363047"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "11 km SSE of Stonewall Gap, Colorado",
-        "time": 1794843710996,
-        "updated": 1794844109040,
+        "mag": 1.49,
+        "place": "11 km ESE of Alum Rock, CA",
+        "time": 1794930577420,
+        "updated": 1794930671787,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tykc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467562",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75467562.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 34,
+        "net": "nc",
+        "code": "75467562",
+        "ids": ",nc75467562,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.05385,
+        "rms": 0.02,
+        "gap": 110,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 11 km ESE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.709999084473,
+          37.3381652832031,
+          3.39000010490417
+        ]
+      },
+      "id": "nc75467562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "86 km ESE of Egegik, Alaska",
+        "time": 1794930426591,
+        "updated": 1794930676813,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wugpbi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wugpbi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026wugpbi",
+        "ids": ",aka2026wugpbi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 86 km ESE of Egegik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.009,
+          57.938,
+          133.8
+        ]
+      },
+      "id": "aka2026wugpbi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.97,
+        "place": "14 km SW of Westmorland, CA",
+        "time": 1794929245830,
+        "updated": 1794930092467,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363015",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363015.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000tykc",
-        "ids": ",us7000tykc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.168,
-        "rms": 0.55,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 11 km SSE of Stonewall Gap, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.9785,
-          37.0611,
-          5
-        ]
-      },
-      "id": "us7000tykc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "15 km ESE of Anza, CA",
-        "time": 1794843307960,
-        "updated": 1794843947170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362751",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41362751.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
+        "sig": 60,
         "net": "ci",
-        "code": "41362751",
-        "ids": ",ci41362751,",
+        "code": "41363015",
+        "ids": ",ci41363015,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 94,
-        "dmin": 0.06647,
-        "rms": 0.21,
-        "gap": 27,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.06222,
+        "rms": 0.26,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 15 km ESE of Anza, CA"
+        "title": "M 2.0 - 14 km SW of Westmorland, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.52383,
-          33.50617,
-          11.93
+          -115.7265,
+          32.95317,
+          11.23
         ]
       },
-      "id": "ci41362751"
+      "id": "ci41363015"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "47 km NE of Chase, Alaska",
-        "time": 1794842730240,
-        "updated": 1794842865661,
+        "mag": 0.6,
+        "place": "66 km ENE of Pedro Bay, Alaska",
+        "time": 1794928503532,
+        "updated": 1794928675790,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsjvjc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wsjvjc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wufnha",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wufnha.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
+        "sig": 6,
         "net": "ak",
-        "code": "a2026wsjvjc",
-        "ids": ",aka2026wsjvjc,",
+        "code": "a2026wufnha",
+        "ids": ",aka2026wufnha,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 33,
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 150,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 47 km NE of Chase, Alaska"
+        "title": "M 0.6 - 66 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.446,
-          62.753,
-          78.1
+          -153.05,
+          60.056,
+          3.2
         ]
       },
-      "id": "aka2026wsjvjc"
+      "id": "aka2026wufnha"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "2 km WNW of The Geysers, CA",
-        "time": 1794842631390,
-        "updated": 1794844640972,
+        "mag": 1.01,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1794928244020,
+        "updated": 1794928342642,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75467077.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467542",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75467542.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
+        "sig": 16,
         "net": "nc",
-        "code": "75467077",
-        "ids": ",nc75467077,",
+        "code": "75467542",
+        "ids": ",nc75467542,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.01324,
-        "rms": 0.03,
-        "gap": 86,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01017,
+        "rms": 0.01,
+        "gap": 54,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 2 km WNW of The Geysers, CA"
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.775497436523,
-          38.7841682434082,
-          2.50999999046326
+          -122.816329956055,
+          38.832332611084,
+          1.82000005245209
         ]
       },
-      "id": "nc75467077"
+      "id": "nc75467542"
     }
   ],
   "bbox": [
-    -149.446,
-    33.50617,
-    2.5099999904633,
-    -104.9785,
-    62.753,
-    78.1
+    -156.009,
+    32.95317,
+    1.8200000524521,
+    -115.7265,
+    60.056,
+    133.8
   ]
 }
