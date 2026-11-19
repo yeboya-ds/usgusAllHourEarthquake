@@ -1,53 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795016722000,
+    "generated": 1795103430000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 1
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.83,
-        "place": "14 km NNE of Milford, Utah",
-        "time": 1795014447470,
-        "updated": 1795016717430,
+        "mag": 1.76,
+        "place": "24 km E of Pāhala, Hawaii",
+        "time": 1795102697530,
+        "updated": 1795102900690,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80165381",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80165381.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75072812",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75072812.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 52,
-        "net": "uu",
-        "code": "80165381",
-        "ids": ",uu80165381,",
-        "sources": ",uu,",
+        "sig": 48,
+        "net": "hv",
+        "code": "75072812",
+        "ids": ",hv75072812,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.0263,
-        "rms": 0.13,
-        "gap": 50,
-        "magType": "ml",
+        "nst": 15,
+        "dmin": 0.1564,
+        "rms": 0.119999997,
+        "gap": 228,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 14 km NNE of Milford, Utah"
+        "title": "M 1.8 - 24 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.931,
-          38.5145,
-          1.52
+          -155.250671386719,
+          19.1650009155273,
+          40.4300003051758
         ]
       },
-      "id": "uu80165381"
+      "id": "hv75072812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "56 km NNW of Petersville, Alaska",
+        "time": 1795101409648,
+        "updated": 1795101565146,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wxxpls",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wxxpls.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "a2026wxxpls",
+        "ids": ",aka2026wxxpls,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 56 km NNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.28,
+          62.94,
+          113.5
+        ]
+      },
+      "id": "aka2026wxxpls"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "22 km SSE of Pāhala, Hawaii",
+        "time": 1795101290110,
+        "updated": 1795101503640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75072797",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75072797.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "hv",
+        "code": "75072797",
+        "ids": ",hv75072797,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.1532,
+        "rms": 0.189999998,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 22 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.367660522461,
+          19.0303325653076,
+          32.1599998474121
+        ]
+      },
+      "id": "hv75072797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "65 km WNW of Karluk, Alaska",
+        "time": 1795100042402,
+        "updated": 1795100113891,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wxwwex",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wxwwex.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "a2026wxwwex",
+        "ids": ",aka2026wxwwex,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 228,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 65 km WNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.509,
+          57.731,
+          87.6
+        ]
+      },
+      "id": "aka2026wxwwex"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.42,
+        "place": "10 km ENE of North Tustin, CA",
+        "time": 1795100011180,
+        "updated": 1795100214388,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363831",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363831.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "ci",
+        "code": "41363831",
+        "ids": ",ci41363831,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.06865,
+        "rms": 0.22,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 10 km ENE of North Tustin, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.69133,
+          33.791,
+          4.5
+        ]
+      },
+      "id": "ci41363831"
     }
+  ],
+  "bbox": [
+    -155.509,
+    19.030332565308,
+    4.5,
+    -117.69133,
+    62.94,
+    113.5
   ]
 }
