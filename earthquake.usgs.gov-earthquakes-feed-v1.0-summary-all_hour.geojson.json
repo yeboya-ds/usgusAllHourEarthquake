@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795542737000,
+    "generated": 1795627112000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,330 +12,330 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "6 km S of Idyllwild, CA",
-        "time": 1795542399210,
-        "updated": 1795542613250,
+        "mag": 1.37,
+        "place": "4 km NNW of Hollister, CA",
+        "time": 1795626588350,
+        "updated": 1795626687014,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41579936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41579936.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469221",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469221.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41579936",
-        "ids": ",ci41579936,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.02281,
-        "rms": 0.18,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km S of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7105,
-          33.6885,
-          18.22
-        ]
-      },
-      "id": "ci41579936"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "70 km ENE of Pedro Bay, Alaska",
-        "time": 1795541060621,
-        "updated": 1795541124465,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xhhzjg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xhhzjg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ak",
-        "code": "a2026xhhzjg",
-        "ids": ",aka2026xhhzjg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 198,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 70 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.004,
-          60.1,
-          62.5
-        ]
-      },
-      "id": "aka2026xhhzjg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.89,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1795540266840,
-        "updated": 1795540364946,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468796",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468796.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
+        "sig": 29,
         "net": "nc",
-        "code": "75468796",
-        "ids": ",nc75468796,",
+        "code": "75469221",
+        "ids": ",nc75469221,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.002598,
-        "rms": 0.01,
-        "gap": 126,
+        "nst": 13,
+        "dmin": 0.06307,
+        "rms": 0.1,
+        "gap": 99,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 7 km NW of The Geysers, CA"
+        "title": "M 1.4 - 4 km NNW of Hollister, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.810668945312,
-          38.8208351135254,
-          1.82000005245209
+          -121.411834716797,
+          36.882999420166,
+          10.6700000762939
         ]
       },
-      "id": "nc75468796"
+      "id": "nc75469221"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.24,
-        "place": "4 km NW of The Geysers, CA",
-        "time": 1795540194420,
-        "updated": 1795540289999,
+        "mag": 1.21,
+        "place": "18 km SSW of Oasis, CA",
+        "time": 1795626324230,
+        "updated": 1795626524407,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468791.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580192.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75468791",
-        "ids": ",nc75468791,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.01218,
-        "rms": 0.01,
-        "gap": 144,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.2 - 4 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.783332824707,
-          38.8048324584961,
-          2.47000002861023
-        ]
-      },
-      "id": "nc75468791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.26,
-        "place": "2 km SE of Frazier Park, CA",
-        "time": 1795540077560,
-        "updated": 1795540281384,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41579920",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41579920.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
+        "sig": 23,
         "net": "ci",
-        "code": "41579920",
-        "ids": ",ci41579920,",
+        "code": "41580192",
+        "ids": ",ci41580192,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.04924,
-        "rms": 0.23,
-        "gap": 41,
+        "nst": 54,
+        "dmin": 0.1058,
+        "rms": 0.22,
+        "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 2 km SE of Frazier Park, CA"
+        "title": "M 1.2 - 18 km SSW of Oasis, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.93067,
-          34.81283,
-          13.01
+          -116.19017,
+          33.3275,
+          10.89
         ]
       },
-      "id": "ci41579920"
+      "id": "ci41580192"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "39 km NNW of Glacier View, Alaska",
-        "time": 1795539987616,
-        "updated": 1795540135198,
+        "mag": 1.6,
+        "place": "20 km ESE of Little Lake, CA",
+        "time": 1795625949740,
+        "updated": 1795626161127,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xhhjvr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xhhjvr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580184",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580184.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
+        "sig": 39,
+        "net": "ci",
+        "code": "41580184",
+        "ids": ",ci41580184,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.07969,
+        "rms": 0.16,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 20 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.69633,
+          35.87733,
+          4.67
+        ]
+      },
+      "id": "ci41580184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.36,
+        "place": "54 km E of Tonopah, Nevada",
+        "time": 1795625842698,
+        "updated": 1795626010121,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00927431.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 86,
+        "net": "nn",
+        "code": "00927431",
+        "ids": ",nn00927431,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.885,
+        "rms": 0.2749,
+        "gap": 257,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 54 km E of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6101,
+          38.0681,
+          9.4546
+        ]
+      },
+      "id": "nn00927431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "44 km ENE of Pedro Bay, Alaska",
+        "time": 1795625096912,
+        "updated": 1795625275198,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xjcrtr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xjcrtr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
         "net": "ak",
-        "code": "a2026xhhjvr",
-        "ids": ",aka2026xhhjvr,",
+        "code": "a2026xjcrtr",
+        "ids": ",aka2026xjcrtr,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 38,
+        "nst": 11,
+        "dmin": 0.2,
+        "rms": 0.2,
+        "gap": 217,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 39 km NNW of Glacier View, Alaska"
+        "title": "M 1.0 - 44 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.809,
-          62.152,
-          20.6
+          -153.35,
+          59.898,
+          96.5
         ]
       },
-      "id": "aka2026xhhjvr"
+      "id": "aka2026xjcrtr"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.77,
-        "place": "2 km WSW of Pāhala, Hawaii",
-        "time": 1795539596460,
-        "updated": 1795539806600,
+        "mag": 1.5,
+        "place": "67 km NW of Ninilchik, Alaska",
+        "time": 1795624716155,
+        "updated": 1795624804646,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75075952",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75075952.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xjcmbd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xjcmbd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "hv",
-        "code": "75075952",
-        "ids": ",hv75075952,",
-        "sources": ",hv,",
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026xjcmbd",
+        "ids": ",aka2026xjcmbd,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.05194,
-        "rms": 0.140000001,
-        "gap": 77,
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 166,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 67 km NW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.551,
+          60.468,
+          93.1
+        ]
+      },
+      "id": "aka2026xjcmbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "92 km SW of Adak, Alaska",
+        "time": 1795623833838,
+        "updated": 1795625216040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udfu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000udfu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000udfu",
+        "ids": ",aka2026xjbzmv,us6000udfu,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 20,
+        "dmin": 0.478,
+        "rms": 0.38,
+        "gap": 207,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 92 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.6186,
+          51.3121,
+          35
+        ]
+      },
+      "id": "us6000udfu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "63 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1795623646470,
+        "updated": 1795626054720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71539988.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "pr",
+        "code": "71539988",
+        "ids": ",us6000udfs,pr71539988,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.6259,
+        "rms": 0.35,
+        "gap": 225,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 2 km WSW of Pāhala, Hawaii"
+        "title": "M 3.4 - 63 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.498001098633,
-          19.1961669921875,
-          29.6499996185303
+          -65.0438333333333,
+          18.9028333333333,
+          23.89
         ]
       },
-      "id": "hv75075952"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "6 km S of Idyllwild, CA",
-        "time": 1795539543960,
-        "updated": 1795539751953,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41579912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41579912.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41579912",
-        "ids": ",ci41579912,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.02872,
-        "rms": 0.14,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km S of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.72133,
-          33.683,
-          15.35
-        ]
-      },
-      "id": "ci41579912"
+      "id": "pr71539988"
     }
   ],
   "bbox": [
-    -155.49800109863,
-    19.196166992188,
-    1.8200000524521,
-    -116.7105,
-    62.152,
-    62.5
+    -177.6186,
+    18.902833333333,
+    4.67,
+    -65.043833333333,
+    60.468,
+    96.5
   ]
 }
