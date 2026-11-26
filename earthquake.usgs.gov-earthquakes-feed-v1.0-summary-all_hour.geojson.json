@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795627112000,
+    "generated": 1795712388000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,330 +12,330 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.37,
-        "place": "4 km NNW of Hollister, CA",
-        "time": 1795626588350,
-        "updated": 1795626687014,
+        "mag": 2.07,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1795711894790,
+        "updated": 1795712106970,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469221",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469221.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75076842",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75076842.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 29,
+        "sig": 66,
+        "net": "hv",
+        "code": "75076842",
+        "ids": ",hv75076842,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.04038,
+        "rms": 0.109999999,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.502838134766,
+          19.167667388916,
+          33.189998626709
+        ]
+      },
+      "id": "hv75076842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "8 km NW of Pinnacles, CA",
+        "time": 1795711340860,
+        "updated": 1795711437171,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469656",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469656.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
         "net": "nc",
-        "code": "75469221",
-        "ids": ",nc75469221,",
+        "code": "75469656",
+        "ids": ",nc75469656,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.06307,
-        "rms": 0.1,
-        "gap": 99,
+        "nst": 16,
+        "dmin": 0.01919,
+        "rms": 0.18,
+        "gap": 55,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 4 km NNW of Hollister, CA"
+        "title": "M 1.9 - 8 km NW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.411834716797,
-          36.882999420166,
-          10.6700000762939
+          -121.205665588379,
+          36.5818328857422,
+          4.11999988555908
         ]
       },
-      "id": "nc75469221"
+      "id": "nc75469656"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.21,
-        "place": "18 km SSW of Oasis, CA",
-        "time": 1795626324230,
-        "updated": 1795626524407,
+        "mag": 0.95,
+        "place": "12 km NW of The Geysers, CA",
+        "time": 1795710715440,
+        "updated": 1795710812333,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580192.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469651",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469651.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
+        "sig": 14,
+        "net": "nc",
+        "code": "75469651",
+        "ids": ",nc75469651,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.01537,
+        "rms": 0.07,
+        "gap": 139,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 12 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.852500915527,
+          38.8488349914551,
+          3.82999992370605
+        ]
+      },
+      "id": "nc75469651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "11 km WNW of Cobb, CA",
+        "time": 1795710393330,
+        "updated": 1795710491966,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469646",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469646.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75469646",
+        "ids": ",nc75469646,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.01915,
+        "rms": 0.01,
+        "gap": 107,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 11 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.846496582031,
+          38.848331451416,
+          1.11000001430511
+        ]
+      },
+      "id": "nc75469646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "87 km NW of Karluk, Alaska",
+        "time": 1795710240467,
+        "updated": 1795710274319,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkyaej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xkyaej.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ak",
+        "code": "a2026xkyaej",
+        "ids": ",aka2026xkyaej,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 109,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 87 km NW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.352,
+          58.192,
+          5
+        ]
+      },
+      "id": "aka2026xkyaej"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "95 km SSE of Sarangani, Philippines",
+        "time": 1795709880760,
+        "updated": 1795711360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udqa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000udqa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000udqa",
+        "ids": ",us6000udqa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 2.414,
+        "rms": 0.93,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 95 km SSE of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9086,
+          4.6618,
+          173.297
+        ]
+      },
+      "id": "us6000udqa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "5 km S of Pāhala, Hawaii",
+        "time": 1795709834590,
+        "updated": 1795710048120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75076837",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75076837.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "hv",
+        "code": "75076837",
+        "ids": ",hv75076837,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.007331,
+        "rms": 0.119999997,
+        "gap": 167,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.469497680664,
+          19.1531658172607,
+          30.7000007629395
+        ]
+      },
+      "id": "hv75076837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "20 km SW of La Quinta, CA",
+        "time": 1795708901060,
+        "updated": 1795709108896,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580552.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
         "net": "ci",
-        "code": "41580192",
-        "ids": ",ci41580192,",
+        "code": "41580552",
+        "ids": ",ci41580552,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.1058,
+        "nst": 47,
+        "dmin": 0.1373,
         "rms": 0.22,
-        "gap": 46,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 18 km SSW of Oasis, CA"
+        "title": "M 0.8 - 20 km SW of La Quinta, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.19017,
-          33.3275,
-          10.89
+          -116.44033,
+          33.5185,
+          3.5
         ]
       },
-      "id": "ci41580192"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "20 km ESE of Little Lake, CA",
-        "time": 1795625949740,
-        "updated": 1795626161127,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580184",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580184.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ci",
-        "code": "41580184",
-        "ids": ",ci41580184,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.07969,
-        "rms": 0.16,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 20 km ESE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.69633,
-          35.87733,
-          4.67
-        ]
-      },
-      "id": "ci41580184"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.36,
-        "place": "54 km E of Tonopah, Nevada",
-        "time": 1795625842698,
-        "updated": 1795626010121,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00927431.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "nn",
-        "code": "00927431",
-        "ids": ",nn00927431,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.885,
-        "rms": 0.2749,
-        "gap": 257,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 54 km E of Tonopah, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6101,
-          38.0681,
-          9.4546
-        ]
-      },
-      "id": "nn00927431"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "44 km ENE of Pedro Bay, Alaska",
-        "time": 1795625096912,
-        "updated": 1795625275198,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xjcrtr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xjcrtr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026xjcrtr",
-        "ids": ",aka2026xjcrtr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2,
-        "rms": 0.2,
-        "gap": 217,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 44 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.35,
-          59.898,
-          96.5
-        ]
-      },
-      "id": "aka2026xjcrtr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "67 km NW of Ninilchik, Alaska",
-        "time": 1795624716155,
-        "updated": 1795624804646,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xjcmbd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xjcmbd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026xjcmbd",
-        "ids": ",aka2026xjcmbd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 166,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 67 km NW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.551,
-          60.468,
-          93.1
-        ]
-      },
-      "id": "aka2026xjcmbd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "92 km SW of Adak, Alaska",
-        "time": 1795623833838,
-        "updated": 1795625216040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udfu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000udfu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "6000udfu",
-        "ids": ",aka2026xjbzmv,us6000udfu,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 20,
-        "dmin": 0.478,
-        "rms": 0.38,
-        "gap": 207,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 92 km SW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.6186,
-          51.3121,
-          35
-        ]
-      },
-      "id": "us6000udfu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "63 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1795623646470,
-        "updated": 1795626054720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71539988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71539988",
-        "ids": ",us6000udfs,pr71539988,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.6259,
-        "rms": 0.35,
-        "gap": 225,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 63 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0438333333333,
-          18.9028333333333,
-          23.89
-        ]
-      },
-      "id": "pr71539988"
+      "id": "ci41580552"
     }
   ],
   "bbox": [
-    -177.6186,
-    18.902833333333,
-    4.67,
-    -65.043833333333,
-    60.468,
-    96.5
+    -155.50283813477,
+    4.6618,
+    1.1100000143051,
+    125.9086,
+    58.192,
+    173.297
   ]
 }
