@@ -1,461 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795797908000,
+    "generated": 1795880219000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 11
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "66 km WNW of Nikiski, Alaska",
-        "time": 1795797550901,
-        "updated": 1795797744179,
+        "mag": 1.13,
+        "place": "1 km ENE of Universal City, CA",
+        "time": 1795878531230,
+        "updated": 1795878733190,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xmunwo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xmunwo.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41581072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41581072.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026xmunwo",
-        "ids": ",aka2026xmunwo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 66 km WNW of Nikiski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.436,
-          60.882,
-          121.2
-        ]
-      },
-      "id": "aka2026xmunwo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.16,
-        "place": "44 km W of Hawaiian Ocean View, Hawaii",
-        "time": 1795797381440,
-        "updated": 1795797595650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75077177",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75077177.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "hv",
-        "code": "75077177",
-        "ids": ",hv75077177,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.4352,
-        "rms": 0.109999999,
-        "gap": 309,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 44 km W of Hawaiian Ocean View, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.178665161133,
-          19.0076675415039,
-          42.4700012207031
-        ]
-      },
-      "id": "hv75077177"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.83,
-        "place": "2 km WNW of Borrego Springs, CA",
-        "time": 1795796708900,
-        "updated": 1795796915750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580800",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580800.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
+        "sig": 20,
         "net": "ci",
-        "code": "41580800",
-        "ids": ",ci41580800,",
+        "code": "41581072",
+        "ids": ",ci41581072,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.02193,
-        "rms": 0.18,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km WNW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3925,
-          33.26083,
-          6.08
-        ]
-      },
-      "id": "ci41580800"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "85 km NW of Karluk, Alaska",
-        "time": 1795796227033,
-        "updated": 1795796274365,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xmtutu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xmtutu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ak",
-        "code": "a2026xmtutu",
-        "ids": ",aka2026xmtutu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 85 km NW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.366,
-          58.168,
-          5
-        ]
-      },
-      "id": "aka2026xmtutu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.54,
-        "place": "15 km SE of Mammoth Lakes, CA",
-        "time": 1795796155090,
-        "updated": 1795796253237,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470111",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470111.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "nc",
-        "code": "75470111",
-        "ids": ",nc75470111,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.08688,
-        "rms": 0.06,
-        "gap": 88,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 15 km SE of Mammoth Lakes, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.87516784668,
-          37.5325012207031,
-          3.5
-        ]
-      },
-      "id": "nc75470111"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "36 km W of Port Lions, Alaska",
-        "time": 1795796081658,
-        "updated": 1795796153781,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xmtsqg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xmtsqg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026xmtsqg",
-        "ids": ",aka2026xmtsqg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.5,
-        "rms": 0.4,
-        "gap": 168,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 36 km W of Port Lions, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.492,
-          57.837,
-          57.5
-        ]
-      },
-      "id": "aka2026xmtsqg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "22 km SE of Pinnacles, CA",
-        "time": 1795796034270,
-        "updated": 1795796133215,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470106",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470106.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "nc",
-        "code": "75470106",
-        "ids": ",nc75470106,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.09675,
-        "rms": 0.17,
-        "gap": 77,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 22 km SE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.943664550781,
-          36.4168319702148,
-          14.3299999237061
-        ]
-      },
-      "id": "nc75470106"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.07,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1795795721620,
-        "updated": 1795795818008,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470101",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470101.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75470101",
-        "ids": ",nc75470101,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
         "nst": 20,
-        "dmin": 0.007645,
-        "rms": 0.01,
-        "gap": 118,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 5 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.785331726074,
-          38.8318328857422,
-          2.60999989509583
-        ]
-      },
-      "id": "nc75470101"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "20 km SE of Pinnacles, CA",
-        "time": 1795795485450,
-        "updated": 1795797140386,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470091",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470091.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "nc",
-        "code": "75470091",
-        "ids": ",nc75470091,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 57,
-        "dmin": 0.08586,
-        "rms": 0.18,
-        "gap": 57,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 20 km SE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.958000183105,
-          36.425666809082,
-          11.8500003814697
-        ]
-      },
-      "id": "nc75470091"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1795795029430,
-        "updated": 1795795128038,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470086",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470086.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75470086",
-        "ids": ",nc75470086,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.006005,
-        "rms": 0.01,
-        "gap": 137,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.838836669922,
-          38.8440017700195,
-          1.97000002861023
-        ]
-      },
-      "id": "nc75470086"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "1 km SSE of Houston, Alaska",
-        "time": 1795794436873,
-        "updated": 1795794510681,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xmsukh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xmsukh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026xmsukh",
-        "ids": ",aka2026xmsukh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 95,
+        "dmin": 0.04257,
+        "rms": 0.22,
+        "gap": 110,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 1 km SSE of Houston, Alaska"
+        "title": "M 1.1 - 1 km ENE of Universal City, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.805,
-          61.616,
-          62.1
+          -118.34267,
+          34.14217,
+          16.65
         ]
       },
-      "id": "aka2026xmsukh"
+      "id": "ci41581072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.03,
+        "place": "4 km W of Cobb, CA",
+        "time": 1795878456130,
+        "updated": 1795878552158,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470861",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470861.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75470861",
+        "ids": ",nc75470861,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.01047,
+        "rms": 0.02,
+        "gap": 109,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 4 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.766502380371,
+          38.8203315734863,
+          2.0699999332428
+        ]
+      },
+      "id": "nc75470861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "44 km NNW of Petersville, Alaska",
+        "time": 1795877589383,
+        "updated": 1795877755990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xonapp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xonapp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026xonapp",
+        "ids": ",aka2026xonapp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 44 km NNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.062,
+          62.872,
+          112.3
+        ]
+      },
+      "id": "aka2026xonapp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "4 km W of Cobb, CA",
+        "time": 1795877041240,
+        "updated": 1795877136741,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470851",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470851.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75470851",
+        "ids": ",nc75470851,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.007885,
+        "rms": 0.02,
+        "gap": 122,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 4 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.765167236328,
+          38.8235015869141,
+          2.11999988555908
+        ]
+      },
+      "id": "nc75470851"
     }
   ],
   "bbox": [
-    -156.17866516113,
-    19.007667541504,
-    1.9700000286102,
-    -116.3925,
-    61.616,
-    121.2
+    -151.062,
+    34.14217,
+    2.0699999332428,
+    -118.34267,
+    62.872,
+    112.3
   ]
 }
